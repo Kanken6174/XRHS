@@ -22,7 +22,7 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/../Dependencies/KronUI/src/KronUIGL ${CMA
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/../Dependencies/AHRS_core/src ${CMAKE_BINARY_DIR}/ARHS)
 
-set(main_source_files main.cpp)
+set(main_source_files main.cpp Glue.hpp)
 
 add_executable(KronUI ${main_source_files})
 

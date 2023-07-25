@@ -554,6 +554,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/./members/./../../model/windows/../../threadweaver/debugging.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/./members/uiDrawerNode.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/./members/uiMergerNode.hpp \
+ /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/./members/../../ui/support/UiSupport.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/./members/videoCaptureNode.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/./members/pluginNode.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/./../model/windows/windowManager.hpp \

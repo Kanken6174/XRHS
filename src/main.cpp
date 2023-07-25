@@ -1,6 +1,9 @@
 #define PATH_TO_KRONUI "../Dependencies/KronUI/src/"
 
-#include "../Dependencies/KronUI/src/topLevelInclude.hpp"
+#include "Glue.hpp"
+
+#define DEBUG_UI
+//#undef DEBUG_UI
 
 void GLAPIENTRY MessageCallback(GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, const GLchar* message, const void* userParam)
 {
@@ -31,6 +34,7 @@ void GLAPIENTRY MessageCallback(GLenum source, GLenum type, GLuint id, GLenum se
 }
 
 int main(){
+    topLevelManager* tlm = new topLevelManager();
     std::srand(std::time(nullptr));
     Logger::getInstance().info("KronUI started");
 
@@ -129,6 +133,12 @@ int main(){
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         glBindVertexArray(VertexArrayID);
+
+        OpencvToVideoFrame::updateFromNode(backgroundFrame, tlm->localPipeline->getNodes().at(0));
+#ifdef DEBUG_UI
+        OpencvToVideoFrame::updateFromNodeWithTransparency(frontFrame, tlm->localPipeline->getNodes().at(3));
+#endif
+
 
         backgroundFrame->render();
 

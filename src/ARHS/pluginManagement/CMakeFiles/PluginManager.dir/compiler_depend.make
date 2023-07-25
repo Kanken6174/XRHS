@@ -963,6 +963,8 @@ ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o: /home/ka
   /home/kanken/code/XRHS/Dependencies/AHRS_core/src/threadweaver/debugging.hpp \
   /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/members/uiDrawerNode.hpp \
   /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/members/uiMergerNode.hpp \
+  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/ui/support/UiSupport.hpp \
+  /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp \
   /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/members/videoCaptureNode.hpp \
   /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/members/pluginNode.hpp \
   /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/hw/extendables/DeviceTree.hpp \
@@ -970,6 +972,8 @@ ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o: /home/ka
 
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/members/videoCaptureNode.hpp:
+
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/ui/support/UiSupport.hpp:
 
 /usr/include/GL/glut.h:
 
@@ -1654,6 +1658,8 @@ ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o: /home/ka
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnnivlintrin.h:
+
+/usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/cameras/_cam.hpp:
 

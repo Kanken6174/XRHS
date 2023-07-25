@@ -580,6 +580,8 @@ ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o: \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/../pipeline/./members/./../../model/windows/../../threadweaver/debugging.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/../pipeline/./members/uiDrawerNode.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/../pipeline/./members/uiMergerNode.hpp \
+ /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/../pipeline/./members/../../ui/support/UiSupport.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/../pipeline/./members/videoCaptureNode.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/../pipeline/./members/pluginNode.hpp \
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/../model/hardware/hw/extendables/DeviceTree.hpp \

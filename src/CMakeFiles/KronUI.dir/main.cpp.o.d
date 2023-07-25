@@ -1,5 +1,5 @@
 CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
- /usr/include/stdc-predef.h \
+ /usr/include/stdc-predef.h /home/kanken/code/XRHS/src/Glue.hpp \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/topLevelInclude.hpp \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/KronUIGL.hpp \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Window/KronUIWindow.hpp \
@@ -449,4 +449,333 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
- /usr/include/c++/11/bits/this_thread_sleep.h
+ /usr/include/c++/11/bits/this_thread_sleep.h \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/topLevelManager.hpp \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/c++/11/future \
+ /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h \
+ /usr/include/c++/11/condition_variable /usr/include/c++/11/atomic \
+ /usr/include/c++/11/bits/atomic_futex.h \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/pipeline.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/pipelineNode.hpp \
+ /usr/local/include/opencv4/opencv2/core.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvdef.h \
+ /usr/local/include/opencv4/opencv2/core/version.hpp \
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h \
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+ /usr/local/include/opencv4/opencv2/core/base.hpp \
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
+ /usr/local/include/opencv4/opencv2/core/check.hpp \
+ /usr/local/include/opencv4/opencv2/core/traits.hpp \
+ /usr/local/include/opencv4/opencv2/core/matx.hpp \
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp \
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
+ /usr/local/include/opencv4/opencv2/core/types.hpp \
+ /usr/local/include/opencv4/opencv2/core/mat.hpp \
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
+ /usr/local/include/opencv4/opencv2/core/persistence.hpp \
+ /usr/local/include/opencv4/opencv2/core/operations.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
+ /usr/include/c++/11/complex \
+ /usr/local/include/opencv4/opencv2/core/utility.hpp \
+ /usr/local/include/opencv4/opencv2/core/optim.hpp \
+ /usr/local/include/opencv4/opencv2/core/ovx.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvdef.h \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/perfcheckers/framerate.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../threadweaver/threadweaver.hpp \
+ /usr/include/c++/11/filesystem /usr/include/c++/11/bits/fs_fwd.h \
+ /usr/include/c++/11/bits/fs_path.h /usr/include/c++/11/locale \
+ /usr/include/c++/11/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11/bits/locale_conv.h /usr/include/c++/11/iomanip \
+ /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/codecvt \
+ /usr/include/c++/11/bits/fs_dir.h /usr/include/c++/11/bits/fs_ops.h \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../threadweaver/./debugging.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/uiController.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/../../hardware/cameras/_cam.hpp \
+ /usr/include/c++/11/regex /usr/include/c++/11/bitset \
+ /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
+ /usr/include/c++/11/stack /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/bits/stl_stack.h \
+ /usr/include/c++/11/bits/regex_constants.h \
+ /usr/include/c++/11/bits/regex_error.h \
+ /usr/include/c++/11/bits/regex_automaton.h \
+ /usr/include/c++/11/bits/regex_automaton.tcc \
+ /usr/include/c++/11/bits/regex_scanner.h \
+ /usr/include/c++/11/bits/regex_scanner.tcc \
+ /usr/include/c++/11/bits/regex_compiler.h \
+ /usr/include/c++/11/bits/regex_compiler.tcc \
+ /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
+ /usr/include/c++/11/bits/regex_executor.h \
+ /usr/include/c++/11/bits/regex_executor.tcc \
+ /usr/include/c++/11/execution \
+ /usr/include/c++/11/pstl/glue_execution_defs.h \
+ /usr/include/c++/11/pstl/algorithm_impl.h \
+ /usr/include/c++/11/pstl/execution_impl.h \
+ /usr/include/c++/11/pstl/memory_impl.h \
+ /usr/include/c++/11/pstl/unseq_backend_simd.h \
+ /usr/include/c++/11/pstl/utils.h \
+ /usr/include/c++/11/pstl/parallel_backend_utils.h \
+ /usr/include/c++/11/pstl/parallel_backend.h \
+ /usr/include/c++/11/pstl/parallel_backend_tbb.h \
+ /usr/include/tbb/blocked_range.h /usr/include/oneapi/tbb/blocked_range.h \
+ /usr/include/oneapi/tbb/detail/_range_common.h \
+ /usr/include/oneapi/tbb/detail/_config.h \
+ /usr/include/oneapi/tbb/detail/_export.h \
+ /usr/include/oneapi/tbb/detail/_utils.h \
+ /usr/include/oneapi/tbb/detail/_assert.h \
+ /usr/include/oneapi/tbb/detail/_machine.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/ia32intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/adxintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/bmiintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/bmi2intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/cetintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/cldemoteintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/clflushoptintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/clwbintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/clzerointrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/enqcmdintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/fxsrintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/lzcntintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/lwpintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/movdirintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitxintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/pconfigintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/popcntintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/pkuintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/rdseedintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/rtmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/serializeintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/sgxintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/tbmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/tsxldtrkintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/uintrintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/waitpkgintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/wbnoinvdintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/xsavecintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveoptintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/xsavesintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/xtestintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/hresetintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/pmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/tmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/wmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avxintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avxvnniintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512fintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512erintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512pfintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512cdintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512dqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlbwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vldqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmiintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmivlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124fmapsintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2vlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnniintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnnivlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqvlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bitalgintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vp2intersectintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vp2intersectvlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/shaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/fmaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/f16cintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/gfniintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/vaesintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/vpclmulqdqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16vlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/amxtileintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/amxint8intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
+ /usr/include/oneapi/tbb/detail/_namespace_injection.h \
+ /usr/include/oneapi/tbb/version.h \
+ /usr/include/oneapi/tbb/detail/_config.h /usr/include/tbb/parallel_for.h \
+ /usr/include/oneapi/tbb/parallel_for.h \
+ /usr/include/oneapi/tbb/detail/_exception.h \
+ /usr/include/oneapi/tbb/detail/_task.h \
+ /usr/include/oneapi/tbb/detail/_template_helpers.h \
+ /usr/include/oneapi/tbb/detail/_small_object_pool.h \
+ /usr/include/oneapi/tbb/profiling.h \
+ /usr/include/oneapi/tbb/detail/_string_resource.h \
+ /usr/include/oneapi/tbb/detail/_small_object_pool.h \
+ /usr/include/oneapi/tbb/profiling.h \
+ /usr/include/oneapi/tbb/partitioner.h \
+ /usr/include/oneapi/tbb/detail/_aligned_space.h \
+ /usr/include/oneapi/tbb/detail/_utils.h \
+ /usr/include/oneapi/tbb/detail/_template_helpers.h \
+ /usr/include/oneapi/tbb/cache_aligned_allocator.h \
+ /usr/include/c++/11/memory_resource /usr/include/c++/11/shared_mutex \
+ /usr/include/c++/11/bits/uses_allocator_args.h \
+ /usr/include/oneapi/tbb/task_group.h \
+ /usr/include/oneapi/tbb/detail/_assert.h \
+ /usr/include/oneapi/tbb/detail/_intrusive_list_node.h \
+ /usr/include/oneapi/tbb/task_arena.h /usr/include/oneapi/tbb/info.h \
+ /usr/include/oneapi/tbb/blocked_range.h \
+ /usr/include/tbb/parallel_reduce.h \
+ /usr/include/oneapi/tbb/parallel_reduce.h \
+ /usr/include/tbb/parallel_scan.h /usr/include/oneapi/tbb/parallel_scan.h \
+ /usr/include/tbb/parallel_invoke.h \
+ /usr/include/oneapi/tbb/parallel_invoke.h /usr/include/tbb/task_arena.h \
+ /usr/include/oneapi/tbb/task_arena.h /usr/include/tbb/tbb_allocator.h \
+ /usr/include/oneapi/tbb/tbb_allocator.h \
+ /usr/include/oneapi/tbb/detail/_utils.h /usr/include/tbb/task.h \
+ /usr/include/oneapi/tbb/task.h /usr/include/c++/11/pstl/parallel_impl.h \
+ /usr/include/c++/11/pstl/numeric_impl.h /usr/include/c++/11/numeric \
+ /usr/include/c++/11/bits/stl_numeric.h \
+ /usr/include/c++/11/pstl/glue_numeric_defs.h \
+ /usr/include/c++/11/pstl/pstl_config.h \
+ /usr/include/c++/11/pstl/algorithm_fwd.h \
+ /usr/include/c++/11/pstl/glue_algorithm_impl.h \
+ /usr/include/c++/11/pstl/numeric_fwd.h \
+ /usr/include/c++/11/pstl/glue_numeric_impl.h \
+ /usr/include/c++/11/pstl/glue_memory_impl.h \
+ /usr/local/include/opencv4/opencv2/opencv.hpp \
+ /usr/local/include/opencv4/opencv2/calib3d.hpp \
+ /usr/local/include/opencv4/opencv2/features2d.hpp \
+ /usr/local/include/opencv4/opencv2/flann/miniflann.hpp \
+ /usr/local/include/opencv4/opencv2/flann/defines.h \
+ /usr/local/include/opencv4/opencv2/flann/config.h \
+ /usr/local/include/opencv4/opencv2/core/affine.hpp \
+ /usr/local/include/opencv4/opencv2/dnn.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
+ /usr/local/include/opencv4/opencv2/core/async.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/version.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/dict.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/layer.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
+ /usr/local/include/opencv4/opencv2/flann.hpp \
+ /usr/local/include/opencv4/opencv2/flann/flann_base.hpp \
+ /usr/local/include/opencv4/opencv2/flann/general.h \
+ /usr/local/include/opencv4/opencv2/flann/matrix.h \
+ /usr/local/include/opencv4/opencv2/flann/params.h \
+ /usr/local/include/opencv4/opencv2/flann/any.h \
+ /usr/local/include/opencv4/opencv2/flann/defines.h \
+ /usr/local/include/opencv4/opencv2/flann/saving.h \
+ /usr/local/include/opencv4/opencv2/flann/nn_index.h \
+ /usr/local/include/opencv4/opencv2/flann/result_set.h \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
+ /usr/local/include/opencv4/opencv2/flann/all_indices.h \
+ /usr/local/include/opencv4/opencv2/flann/kdtree_index.h \
+ /usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h \
+ /usr/local/include/opencv4/opencv2/flann/dist.h \
+ /usr/local/include/opencv4/opencv2/flann/heap.h \
+ /usr/local/include/opencv4/opencv2/flann/allocator.h \
+ /usr/local/include/opencv4/opencv2/flann/random.h \
+ /usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h \
+ /usr/local/include/opencv4/opencv2/flann/kmeans_index.h \
+ /usr/local/include/opencv4/opencv2/flann/logger.h \
+ /usr/local/include/opencv4/opencv2/flann/composite_index.h \
+ /usr/local/include/opencv4/opencv2/flann/linear_index.h \
+ /usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+ /usr/local/include/opencv4/opencv2/flann/lsh_index.h \
+ /usr/local/include/opencv4/opencv2/flann/lsh_table.h \
+ /usr/include/c++/11/math.h \
+ /usr/local/include/opencv4/opencv2/flann/autotuned_index.h \
+ /usr/local/include/opencv4/opencv2/flann/ground_truth.h \
+ /usr/local/include/opencv4/opencv2/flann/index_testing.h \
+ /usr/local/include/opencv4/opencv2/flann/timer.h \
+ /usr/local/include/opencv4/opencv2/flann/sampling.h \
+ /usr/local/include/opencv4/opencv2/highgui.hpp \
+ /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
+ /usr/local/include/opencv4/opencv2/videoio.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
+ /usr/local/include/opencv4/opencv2/ml.hpp \
+ /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+ /usr/local/include/opencv4/opencv2/photo.hpp \
+ /usr/local/include/opencv4/opencv2/stitching.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+ /usr/local/include/opencv4/opencv2/core/cuda.hpp \
+ /usr/local/include/opencv4/opencv2/core/cuda_types.hpp \
+ /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/list.tcc \
+ /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+ /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
+ /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
+ /usr/local/include/opencv4/opencv2/video.hpp \
+ /usr/local/include/opencv4/opencv2/video/tracking.hpp \
+ /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
+ /usr/local/include/opencv4/opencv2/videoio/videoio_c.h \
+ /usr/local/include/opencv4/opencv2/core/core_c.h \
+ /usr/local/include/opencv4/opencv2/core/types_c.h \
+ /usr/local/include/opencv4/opencv2/videoio/legacy/constants_c.h \
+ /usr/local/include/opencv4/opencv2/imgcodecs/imgcodecs.hpp \
+ /usr/local/include/opencv4/opencv2/core/opengl.hpp \
+ /usr/local/include/opencv4/opencv2/core/ocl.hpp \
+ /usr/include/c++/11/typeindex \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/menu.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/menuItem.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/./../../hardware/hw/inputManager.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/./../../hardware/hw/../../patterns/observer/observable.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/./../../hardware/hw/../../patterns/observer/observer.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/./../../hardware/hw/inputKeys.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/../../hardware/psvr/_psvr.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/../../hardware/psvr/../ihidapi/_hidapi.hpp \
+ /usr/local/include/hidapi/hidapi.h \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./abstract/../../model/controllers/ui/../../hardware/psvr/../../../model/patterns/commands/commands.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./members/cameraPickerNode.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./members/displayOutputNode.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./members/./../../model/windows/window.hpp \
+ /usr/local/include/opencv4/opencv2/core/core.hpp /usr/include/GL/glut.h \
+ /usr/include/GL/freeglut_std.h \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./members/./../../model/windows/../../threadweaver/debugging.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./members/uiDrawerNode.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./members/uiMergerNode.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./members/../../ui/support/UiSupport.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./members/videoCaptureNode.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/AHRS_core/src/pipeline/./members/pluginNode.hpp
