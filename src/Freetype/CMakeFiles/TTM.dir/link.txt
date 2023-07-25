@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTTM.a CMakeFiles/TTM.dir/TrueTypeManager.cpp.o
+/usr/bin/ranlib libTTM.a

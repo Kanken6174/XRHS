@@ -1,0 +1,2 @@
+/usr/bin/ar qc libloaders.a CMakeFiles/loaders.dir/OBJLoader.cpp.o
+/usr/bin/ranlib libloaders.a
