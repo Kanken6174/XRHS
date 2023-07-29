@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md_readme" kind="page">
+    <compoundname>md_readme</compoundname>
+    <title>KronUI, the opengl mini-engine</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>todo: doc, readme this repo is still very much WIP. Currently working:<itemizedlist>
+<listitem><para>basic camera movement (translation/relation)</para>
+</listitem><listitem><para>text rendering</para>
+</listitem><listitem><para>flat shape rendering</para>
+</listitem><listitem><para>default 3d cube + shading</para>
+</listitem></itemizedlist>
+</para>
+<para>doxygen can be used here </para>
+    </detaileddescription>
+    <location file="readme.md"/>
+  </compounddef>
+</doxygen>

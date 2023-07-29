@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_c33bdd63ccc632af7019238d81e0d8e9" kind="dir">
+    <compoundname>src/KronUIGL/Paints</compoundname>
+    <innerfile refid="Paints_8hpp">Paints.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/Paints/"/>
+  </compounddef>
+</doxygen>

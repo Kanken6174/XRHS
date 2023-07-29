@@ -1,0 +1,162 @@
+[
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC   -L/usr/local/lib -o CMakeFiles/prog.dir/main.cpp.o -c /home/kanken/code/AHRS_core/src/main.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/main.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC   -L/usr/local/lib -o CMakeFiles/prog.dir/topLevelManager.cpp.o -c /home/kanken/code/AHRS_core/src/topLevelManager.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/topLevelManager.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/threadweaver",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/threadweaver.dir/threadweaver.cpp.o -c /home/kanken/code/AHRS_core/src/threadweaver/threadweaver.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/threadweaver/threadweaver.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/perfcheckers",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/perfcheckers.dir/framerate.cpp.o -c /home/kanken/code/AHRS_core/src/model/perfcheckers/framerate.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/perfcheckers/framerate.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/hardware/ihidapi",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -isystem /usr/local/include/hidapi -g -Ofast -fPIC -o CMakeFiles/ihidapi.dir/hidapi_functions.cpp.o -c /home/kanken/code/AHRS_core/src/model/hardware/ihidapi/hidapi_functions.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/hardware/ihidapi/hidapi_functions.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/hardware/cameras",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/cameras.dir/camEnum.cpp.o -c /home/kanken/code/AHRS_core/src/model/hardware/cameras/camEnum.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/hardware/cameras/camEnum.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/hardware/cameras",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/cameras.dir/cameraManager.cpp.o -c /home/kanken/code/AHRS_core/src/model/hardware/cameras/cameraManager.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/hardware/cameras/cameraManager.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/hardware/psvr",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/psvr.dir/psvr.cpp.o -c /home/kanken/code/AHRS_core/src/model/hardware/psvr/psvr.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/hardware/psvr/psvr.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/hardware/hw/extendables",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/hw_ext.dir/DeviceTree.cpp.o -c /home/kanken/code/AHRS_core/src/model/hardware/hw/extendables/DeviceTree.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/hardware/hw/extendables/DeviceTree.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/hardware/hw",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/hw.dir/inputManager.cpp.o -c /home/kanken/code/AHRS_core/src/model/hardware/hw/inputManager.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/hardware/hw/inputManager.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/controllers",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/controllers.dir/ui/uiController.cpp.o -c /home/kanken/code/AHRS_core/src/model/controllers/ui/uiController.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/controllers/ui/uiController.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/controllers",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/controllers.dir/ui/menu.cpp.o -c /home/kanken/code/AHRS_core/src/model/controllers/ui/menu.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/controllers/ui/menu.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/patterns/observer",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/observers.dir/observable.cpp.o -c /home/kanken/code/AHRS_core/src/model/patterns/observer/observable.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/patterns/observer/observable.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/processing/zbar",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/zbarLib.dir/zbar.cpp.o -c /home/kanken/code/AHRS_core/src/processing/zbar/zbar.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/processing/zbar/zbar.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/windows",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/windows.dir/window.cpp.o -c /home/kanken/code/AHRS_core/src/model/windows/window.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/windows/window.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/model/windows",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/windows.dir/windowManager.cpp.o -c /home/kanken/code/AHRS_core/src/model/windows/windowManager.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/model/windows/windowManager.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/ui/support",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/support.dir/UiSupport.cpp.o -c /home/kanken/code/AHRS_core/src/ui/support/UiSupport.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/ui/support/UiSupport.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/abstract/pipelineNode.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/abstract/pipelineNode.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/cameraPickerNode.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/cameraPickerNode.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/displayOutputNode.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/displayOutputNode.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/uiDrawerNode.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/uiDrawerNode.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/uiMergerNode.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/uiMergerNode.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/zbarAnalysisNode.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/zbarAnalysisNode.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/videoCaptureNode.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/videoCaptureNode.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/pluginNode.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/pluginNode.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/subNodes/fpsCounter.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/subNodes/fpsCounter.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/subNodes/staticImageOverlayer.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/subNodes/staticImageOverlayer.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/subNodes/zbarOverlayer.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/subNodes/zbarOverlayer.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/members/subNodes/uiMenuItem.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/members/subNodes/uiMenuItem.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pipeline",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/pipelineLib.dir/pipeline.cpp.o -c /home/kanken/code/AHRS_core/src/pipeline/pipeline.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pipeline/pipeline.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pluginManagement",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/PluginManager.dir/PluginManager.cpp.o -c /home/kanken/code/AHRS_core/src/pluginManagement/PluginManager.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pluginManagement/PluginManager.cpp"
+},
+{
+  "directory": "/home/kanken/code/AHRS_core/src/build/pluginManagement",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -Ofast -fPIC -o CMakeFiles/PluginManager.dir/Plugin.cpp.o -c /home/kanken/code/AHRS_core/src/pluginManagement/Plugin.cpp",
+  "file": "/home/kanken/code/AHRS_core/src/pluginManagement/Plugin.cpp"
+}
+]

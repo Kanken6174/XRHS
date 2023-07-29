@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="texture_8hpp" kind="file" language="C++">
+    <compoundname>texture.hpp</compoundname>
+    <includes local="no">assimp/scene.h</includes>
+    <includedby refid="entity_8hpp" local="yes">src/KronUIGL/3D/Elements/entity.hpp</includedby>
+    <includedby refid="mesh_8hpp" local="yes">src/KronUIGL/3D/Elements/mesh.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>assimp/scene.h</label>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/3D/Elements/texture.hpp</label>
+        <link refid="texture_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="12">
+        <label>src/KronUIGL/3D/Loaders/OBJLoader.cpp</label>
+        <link refid="OBJLoader_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/KronUIGL/3D/Elements/entity.cpp</label>
+        <link refid="entity_8cpp"/>
+      </node>
+      <node id="4">
+        <label>src/KronUIGL/3D/Vision/camera.hpp</label>
+        <link refid="camera_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>src/KronUIGL/3D/Loaders/OBJLoader.hpp</label>
+        <link refid="OBJLoader_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>src/KronUIGL/3D/Elements/mesh.hpp</label>
+        <link refid="mesh_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/KronUIGL/Input/Input.hpp</label>
+        <link refid="Input_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>src/KronUIGL/3D/Renderers/MeshRenderer.hpp</label>
+        <link refid="MeshRenderer_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>src/KronUIGL/3D/Elements/mesh.cpp</label>
+        <link refid="mesh_8cpp"/>
+      </node>
+      <node id="7">
+        <label>src/KronUIGL/Input/Input.cpp</label>
+        <link refid="Input_8cpp"/>
+      </node>
+      <node id="2">
+        <label>src/KronUIGL/3D/Elements/entity.hpp</label>
+        <link refid="entity_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>src/KronUIGL/3D/Renderers/MeshRenderer.cpp</label>
+        <link refid="MeshRenderer_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/3D/Elements/texture.hpp</label>
+        <link refid="texture_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/KronUIGL/3D/Vision/camera.cpp</label>
+        <link refid="camera_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structTexture" prot="public">Texture</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assimp/scene.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="structTexture" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structTexture" kindref="compound">Texture</ref><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="structTexture_1aed42161a5c00b6020c85833401da6da6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structTexture_1aed42161a5c00b6020c85833401da6da6" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="6" refid="structTexture_1a22c6a103e9d97bd75f35cd7de8882524" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/><ref refid="structTexture_1a22c6a103e9d97bd75f35cd7de8882524" kindref="member">textureCoordinates</ref>;</highlight></codeline>
+<codeline lineno="7" refid="structTexture_1a916a835d009806f2a57546c7705942b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structTexture_1a916a835d009806f2a57546c7705942b1" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="8" refid="structTexture_1a88893bf81a4d4529c70da39f07f53ddb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>aiString<sp/><ref refid="structTexture_1a88893bf81a4d4529c70da39f07f53ddb" kindref="member">path</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/KronUIGL/3D/Elements/texture.hpp"/>
+  </compounddef>
+</doxygen>

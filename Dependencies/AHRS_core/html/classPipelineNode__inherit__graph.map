@@ -1,0 +1,11 @@
+<map id="PipelineNode" name="PipelineNode">
+<area shape="rect" id="node1" title="this class represents a threaded node of the graphics pipeline" alt="" coords="153,157,252,184"/>
+<area shape="rect" id="node3" href="$classDisplayOutputNode.html" title="this node will pick the right camera UMat from the ones available in its _sourceManager" alt="" coords="300,5,436,32"/>
+<area shape="rect" id="node4" href="$classPluginNode.html" title="this class is used to run plugins" alt="" coords="323,56,413,83"/>
+<area shape="rect" id="node5" href="$classUiDrawerNode.html" title=" " alt="" coords="314,107,422,133"/>
+<area shape="rect" id="node6" href="$classUiMergerNode.html" title="this class is used to merge the camera&#39;s frame and the UI mat" alt="" coords="315,157,421,184"/>
+<area shape="rect" id="node7" href="$classVideoCaptureNode.html" title=" " alt="" coords="302,208,434,235"/>
+<area shape="rect" id="node8" href="$classZbarAnalysisNode.html" title="this class is used to check a mat for any bar codes" alt="" coords="303,259,433,285"/>
+<area shape="rect" id="node9" href="$classcameraPickerNode.html" title="this node will pick the right camera UMat from the ones available in its _sourceManager" alt="" coords="301,309,435,336"/>
+<area shape="rect" id="node2" href="$classMapObserver.html" title=" " alt="" coords="5,157,105,184"/>
+</map>

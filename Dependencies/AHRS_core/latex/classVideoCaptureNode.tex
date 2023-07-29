@@ -1,0 +1,139 @@
+\hypertarget{classVideoCaptureNode}{}\doxysection{Video\+Capture\+Node Class Reference}
+\label{classVideoCaptureNode}\index{VideoCaptureNode@{VideoCaptureNode}}
+
+
+{\ttfamily \#include $<$video\+Capture\+Node.\+hpp$>$}
+
+
+
+Inheritance diagram for Video\+Capture\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=179pt]{classVideoCaptureNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Video\+Capture\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classVideoCaptureNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classVideoCaptureNode_a81b23bba2eccc40447ce40ce9ce63592}{Video\+Capture\+Node}} (\mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$\+\_\+previous)
+\item 
+std\+::string \mbox{\hyperlink{classVideoCaptureNode_a72e07586608aef130f9f2dc7e6641a7c}{get\+Name}} () override
+\item 
+void \mbox{\hyperlink{classVideoCaptureNode_a0d2cdf5275dd043b22b1a1f1afc71cc1}{begin\+Video\+Capture}} ()
+\item 
+void \mbox{\hyperlink{classVideoCaptureNode_a0b5db66d8d32d1a9255cb84e38ed40ab}{stop\+Video\+Capture}} ()
+\item 
+void \mbox{\hyperlink{classVideoCaptureNode_acf56610aeae62adcfc37e7181e7257f8}{snap\+Picture}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classVideoCaptureNode_aa10e5305ce5daa3f5556a4b0fc6892f2}{process\+Frame}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+cv\+::\+Video\+Writer $\ast$ \mbox{\hyperlink{classVideoCaptureNode_a06e23b11fc7f5ce87db78cd272b59e78}{writer}}
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classVideoCaptureNode_a1c981f79fa4d698fef8e1218dc9f4908}{capturing}} = false
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classVideoCaptureNode_ab8e4f0e2ad2e24388efd9161ff9b2f9e}{end\+Capture}} = false
+\item 
+std\+::string \mbox{\hyperlink{classVideoCaptureNode_aee5dc73a0662106a7fcbfd3d1b6eb5fc}{current\+Recording\+Name}} = \char`\"{}\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classVideoCaptureNode_a81b23bba2eccc40447ce40ce9ce63592}\label{classVideoCaptureNode_a81b23bba2eccc40447ce40ce9ce63592}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!VideoCaptureNode@{VideoCaptureNode}}
+\index{VideoCaptureNode@{VideoCaptureNode}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{VideoCaptureNode()}{VideoCaptureNode()}}
+{\footnotesize\ttfamily Video\+Capture\+Node\+::\+Video\+Capture\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$}]{\+\_\+previous }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classVideoCaptureNode_a0d2cdf5275dd043b22b1a1f1afc71cc1}\label{classVideoCaptureNode_a0d2cdf5275dd043b22b1a1f1afc71cc1}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!beginVideoCapture@{beginVideoCapture}}
+\index{beginVideoCapture@{beginVideoCapture}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{beginVideoCapture()}{beginVideoCapture()}}
+{\footnotesize\ttfamily void Video\+Capture\+Node\+::begin\+Video\+Capture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classVideoCaptureNode_a72e07586608aef130f9f2dc7e6641a7c}\label{classVideoCaptureNode_a72e07586608aef130f9f2dc7e6641a7c}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!getName@{getName}}
+\index{getName@{getName}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Video\+Capture\+Node\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classPipelineNode_a49b56283610fe540953730035478642d}{Pipeline\+Node}}.
+
+\mbox{\Hypertarget{classVideoCaptureNode_aa10e5305ce5daa3f5556a4b0fc6892f2}\label{classVideoCaptureNode_aa10e5305ce5daa3f5556a4b0fc6892f2}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!processFrame@{processFrame}}
+\index{processFrame@{processFrame}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{processFrame()}{processFrame()}}
+{\footnotesize\ttfamily void Video\+Capture\+Node\+::process\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classPipelineNode_a3d7558cbccb39d64bdb3d837d658d34e}{Pipeline\+Node}}.
+
+\mbox{\Hypertarget{classVideoCaptureNode_acf56610aeae62adcfc37e7181e7257f8}\label{classVideoCaptureNode_acf56610aeae62adcfc37e7181e7257f8}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!snapPicture@{snapPicture}}
+\index{snapPicture@{snapPicture}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{snapPicture()}{snapPicture()}}
+{\footnotesize\ttfamily void Video\+Capture\+Node\+::snap\+Picture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classVideoCaptureNode_a0b5db66d8d32d1a9255cb84e38ed40ab}\label{classVideoCaptureNode_a0b5db66d8d32d1a9255cb84e38ed40ab}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!stopVideoCapture@{stopVideoCapture}}
+\index{stopVideoCapture@{stopVideoCapture}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{stopVideoCapture()}{stopVideoCapture()}}
+{\footnotesize\ttfamily void Video\+Capture\+Node\+::stop\+Video\+Capture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classVideoCaptureNode_a1c981f79fa4d698fef8e1218dc9f4908}\label{classVideoCaptureNode_a1c981f79fa4d698fef8e1218dc9f4908}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!capturing@{capturing}}
+\index{capturing@{capturing}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{capturing}{capturing}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Video\+Capture\+Node\+::capturing = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classVideoCaptureNode_aee5dc73a0662106a7fcbfd3d1b6eb5fc}\label{classVideoCaptureNode_aee5dc73a0662106a7fcbfd3d1b6eb5fc}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!currentRecordingName@{currentRecordingName}}
+\index{currentRecordingName@{currentRecordingName}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{currentRecordingName}{currentRecordingName}}
+{\footnotesize\ttfamily std\+::string Video\+Capture\+Node\+::current\+Recording\+Name = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classVideoCaptureNode_ab8e4f0e2ad2e24388efd9161ff9b2f9e}\label{classVideoCaptureNode_ab8e4f0e2ad2e24388efd9161ff9b2f9e}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!endCapture@{endCapture}}
+\index{endCapture@{endCapture}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{endCapture}{endCapture}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Video\+Capture\+Node\+::end\+Capture = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classVideoCaptureNode_a06e23b11fc7f5ce87db78cd272b59e78}\label{classVideoCaptureNode_a06e23b11fc7f5ce87db78cd272b59e78}} 
+\index{VideoCaptureNode@{VideoCaptureNode}!writer@{writer}}
+\index{writer@{writer}!VideoCaptureNode@{VideoCaptureNode}}
+\doxysubsubsection{\texorpdfstring{writer}{writer}}
+{\footnotesize\ttfamily cv\+::\+Video\+Writer$\ast$ Video\+Capture\+Node\+::writer\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/pipeline/members/\mbox{\hyperlink{videoCaptureNode_8hpp}{video\+Capture\+Node.\+hpp}}\item 
+src/pipeline/members/\mbox{\hyperlink{videoCaptureNode_8cpp}{video\+Capture\+Node.\+cpp}}\end{DoxyCompactItemize}

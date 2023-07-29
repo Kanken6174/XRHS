@@ -1,0 +1,107 @@
+\hypertarget{classDisplayOutputNode}{}\doxysection{Display\+Output\+Node Class Reference}
+\label{classDisplayOutputNode}\index{DisplayOutputNode@{DisplayOutputNode}}
+
+
+this node will pick the right camera UMat from the ones available in its \+\_\+source\+Manager  
+
+
+
+
+{\ttfamily \#include $<$display\+Output\+Node.\+hpp$>$}
+
+
+
+Inheritance diagram for Display\+Output\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{classDisplayOutputNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Display\+Output\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{classDisplayOutputNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDisplayOutputNode_a52ae7c1ba11827287ab70a8d6063632c}{Display\+Output\+Node}} (\mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$predecessor, \mbox{\hyperlink{classWindow}{Window}} $\ast$managed)
+\item 
+std\+::string \mbox{\hyperlink{classDisplayOutputNode_a0a6996a15ccb346ca406d26cdd42bfcd}{get\+Name}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classDisplayOutputNode_a216a5a3270fd2586fbc4ebd071536813}{process\+Frame}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classDisplayOutputNode_a4c96a0db8386d7f23e7d982f818fa72d}{inited}} = false
+\item 
+\mbox{\hyperlink{classWindow}{Window}} $\ast$ \mbox{\hyperlink{classDisplayOutputNode_ac4fc24d56b6121d4f7efc05cf54f9117}{\+\_\+managed}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+this node will pick the right camera UMat from the ones available in its \+\_\+source\+Manager 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDisplayOutputNode_a52ae7c1ba11827287ab70a8d6063632c}\label{classDisplayOutputNode_a52ae7c1ba11827287ab70a8d6063632c}} 
+\index{DisplayOutputNode@{DisplayOutputNode}!DisplayOutputNode@{DisplayOutputNode}}
+\index{DisplayOutputNode@{DisplayOutputNode}!DisplayOutputNode@{DisplayOutputNode}}
+\doxysubsubsection{\texorpdfstring{DisplayOutputNode()}{DisplayOutputNode()}}
+{\footnotesize\ttfamily Display\+Output\+Node\+::\+Display\+Output\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$}]{predecessor,  }\item[{\mbox{\hyperlink{classWindow}{Window}} $\ast$}]{managed }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDisplayOutputNode_a0a6996a15ccb346ca406d26cdd42bfcd}\label{classDisplayOutputNode_a0a6996a15ccb346ca406d26cdd42bfcd}} 
+\index{DisplayOutputNode@{DisplayOutputNode}!getName@{getName}}
+\index{getName@{getName}!DisplayOutputNode@{DisplayOutputNode}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Display\+Output\+Node\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classPipelineNode_a49b56283610fe540953730035478642d}{Pipeline\+Node}}.
+
+\mbox{\Hypertarget{classDisplayOutputNode_a216a5a3270fd2586fbc4ebd071536813}\label{classDisplayOutputNode_a216a5a3270fd2586fbc4ebd071536813}} 
+\index{DisplayOutputNode@{DisplayOutputNode}!processFrame@{processFrame}}
+\index{processFrame@{processFrame}!DisplayOutputNode@{DisplayOutputNode}}
+\doxysubsubsection{\texorpdfstring{processFrame()}{processFrame()}}
+{\footnotesize\ttfamily void Display\+Output\+Node\+::process\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classPipelineNode_a3d7558cbccb39d64bdb3d837d658d34e}{Pipeline\+Node}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classDisplayOutputNode_ac4fc24d56b6121d4f7efc05cf54f9117}\label{classDisplayOutputNode_ac4fc24d56b6121d4f7efc05cf54f9117}} 
+\index{DisplayOutputNode@{DisplayOutputNode}!\_managed@{\_managed}}
+\index{\_managed@{\_managed}!DisplayOutputNode@{DisplayOutputNode}}
+\doxysubsubsection{\texorpdfstring{\_managed}{\_managed}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWindow}{Window}}$\ast$ Display\+Output\+Node\+::\+\_\+managed\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classDisplayOutputNode_a4c96a0db8386d7f23e7d982f818fa72d}\label{classDisplayOutputNode_a4c96a0db8386d7f23e7d982f818fa72d}} 
+\index{DisplayOutputNode@{DisplayOutputNode}!inited@{inited}}
+\index{inited@{inited}!DisplayOutputNode@{DisplayOutputNode}}
+\doxysubsubsection{\texorpdfstring{inited}{inited}}
+{\footnotesize\ttfamily bool Display\+Output\+Node\+::inited = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/pipeline/members/\mbox{\hyperlink{displayOutputNode_8hpp}{display\+Output\+Node.\+hpp}}\item 
+src/pipeline/members/\mbox{\hyperlink{displayOutputNode_8cpp}{display\+Output\+Node.\+cpp}}\end{DoxyCompactItemize}

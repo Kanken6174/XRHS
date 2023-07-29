@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_bca6d9e9e391ded75cc9296571518978" kind="dir">
+    <compoundname>src/KronUIGL/Window</compoundname>
+    <innerdir refid="dir_52bd83ba56b6b94cb70d308787924620">src/KronUIGL/Window/CMakeFiles</innerdir>
+    <innerfile refid="KronUIWindow_8cpp">KronUIWindow.cpp</innerfile>
+    <innerfile refid="KronUIWindow_8hpp">KronUIWindow.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/Window/"/>
+  </compounddef>
+</doxygen>

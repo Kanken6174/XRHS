@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classGeometryRenderer" kind="class" language="C++" prot="public">
+    <compoundname>GeometryRenderer</compoundname>
+    <includes refid="GeometryRenderer_8hpp" local="no">GeometryRenderer.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGeometryRenderer_1ad75105392b1578bd20fe3d65dd296599" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classDrawable" kindref="compound">Drawable</ref> * &gt;</type>
+        <definition>std::vector&lt;Drawable*&gt; GeometryRenderer::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/GeometryRenderer.hpp" line="12" column="17" bodyfile="src/KronUIGL/Geometry/GeometryRenderer.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGeometryRenderer_1afcd3f06bbcc4349e5c17040c21286772" prot="private" static="no" mutable="no">
+        <type>std::map&lt; int, float * &gt;</type>
+        <definition>std::map&lt;int,float*&gt; GeometryRenderer::arrays</definition>
+        <argsstring></argsstring>
+        <name>arrays</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/GeometryRenderer.hpp" line="13" column="14" bodyfile="src/KronUIGL/Geometry/GeometryRenderer.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGeometryRenderer_1a527af018c442b956a80c59726130aa1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeometryRenderer::addShapeToBuffer</definition>
+        <argsstring>(Drawable *toRender)</argsstring>
+        <name>addShapeToBuffer</name>
+        <param>
+          <type><ref refid="classDrawable" kindref="compound">Drawable</ref> *</type>
+          <declname>toRender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/GeometryRenderer.hpp" line="15" column="10" bodyfile="src/KronUIGL/Geometry/GeometryRenderer.cpp" bodystart="32" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classGeometryRenderer_1abc7985b5bd113b1c7856ba41ec04f51e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeometryRenderer::renderAll</definition>
+        <argsstring>()</argsstring>
+        <name>renderAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/GeometryRenderer.hpp" line="16" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/Geometry/GeometryRenderer.hpp" line="10" column="1" bodyfile="src/KronUIGL/Geometry/GeometryRenderer.hpp" bodystart="10" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classGeometryRenderer_1a527af018c442b956a80c59726130aa1b" prot="public" virt="non-virtual"><scope>GeometryRenderer</scope><name>addShapeToBuffer</name></member>
+      <member refid="classGeometryRenderer_1afcd3f06bbcc4349e5c17040c21286772" prot="private" virt="non-virtual"><scope>GeometryRenderer</scope><name>arrays</name></member>
+      <member refid="classGeometryRenderer_1ad75105392b1578bd20fe3d65dd296599" prot="private" virt="non-virtual"><scope>GeometryRenderer</scope><name>elements</name></member>
+      <member refid="classGeometryRenderer_1abc7985b5bd113b1c7856ba41ec04f51e" prot="public" virt="non-virtual"><scope>GeometryRenderer</scope><name>renderAll</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

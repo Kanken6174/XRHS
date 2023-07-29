@@ -1,0 +1,6 @@
+<map id="PluginNode" name="PluginNode">
+<area shape="rect" id="node1" title="this class is used to run plugins" alt="" coords="79,171,168,197"/>
+<area shape="rect" id="node2" href="$classPipelineNode.html" title="this class represents a threaded node of the graphics pipeline" alt="" coords="74,95,173,121"/>
+<area shape="rect" id="node3" href="$classMapObserver.html" title=" " alt="" coords="5,5,105,32"/>
+<area shape="rect" id="node4" href="$classframerateChecker.html" title=" " alt="" coords="129,5,256,32"/>
+</map>

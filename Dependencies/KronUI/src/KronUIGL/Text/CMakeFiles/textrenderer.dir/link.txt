@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtextrenderer.a CMakeFiles/textrenderer.dir/TextRenderer.cpp.o
+/usr/bin/ranlib libtextrenderer.a

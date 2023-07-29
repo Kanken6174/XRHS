@@ -1,0 +1,548 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classCamera" kind="class"><name>Camera</name>
+    <member refid="classCamera_1af080757da494dd1e4a347f527df4af9c" kind="variable"><name>projectionMatrix</name></member>
+    <member refid="classCamera_1a6e088a154066ed6f2bfca373163f21d2" kind="variable"><name>viewMatrix</name></member>
+    <member refid="classCamera_1ad4be81e1c8f5933ac9776ee64fc187c0" kind="variable"><name>rotationQuat</name></member>
+    <member refid="classCamera_1adfbea0b198457bc22880fde1592188e8" kind="function"><name>Camera</name></member>
+    <member refid="classCamera_1a8fe5c71a390571a861ad8afd99dfdea3" kind="function"><name>updateViewMatrix</name></member>
+    <member refid="classCamera_1a811c7766d0c8c961b682b70833b2ba1d" kind="function"><name>translate</name></member>
+    <member refid="classCamera_1a03ce20e3509f06e513fe1efb161fdc85" kind="function"><name>rotate</name></member>
+    <member refid="classCamera_1aec34fc33b8a3f1317bebc3488f019231" kind="function"><name>getRotation</name></member>
+    <member refid="classCamera_1ae44d552243a7b430e94ed9e70adcf07b" kind="function"><name>getForward</name></member>
+    <member refid="classCamera_1aaca7b5755187dbe1920ae8aeeed1a29a" kind="function"><name>getUp</name></member>
+    <member refid="classCamera_1aa21e94d4bfd57c15897a8a2948d6356c" kind="function"><name>getRight</name></member>
+    <member refid="classCamera_1a01f94c3543f56ede7af49dc778f19331" kind="function"><name>Camera</name></member>
+  </compound>
+  <compound refid="structCharacter" kind="struct"><name>Character</name>
+    <member refid="structCharacter_1a411760a6a33f2cb54dd6a0138e038a46" kind="variable"><name>TextureID</name></member>
+    <member refid="structCharacter_1aaaa598050e0ef590fe6903fd2bab40b8" kind="variable"><name>Size</name></member>
+    <member refid="structCharacter_1afef98bf9c7f5313d96476f6f3f85f872" kind="variable"><name>Bearing</name></member>
+    <member refid="structCharacter_1a5338c0800545802a63f8e4945573cbe7" kind="variable"><name>Advance</name></member>
+  </compound>
+  <compound refid="classDefaultCube" kind="class"><name>DefaultCube</name>
+    <member refid="classDefaultCube_1a04c7cd2a1188320a3e93d198119c306d" kind="variable"><name>width</name></member>
+    <member refid="classDefaultCube_1a90fec6e990c985a10376112826a0f5a9" kind="variable"><name>height</name></member>
+    <member refid="classDefaultCube_1ab831d77a429abd2d3519cc5cbdf18d8d" kind="variable"><name>thickness</name></member>
+    <member refid="classDefaultCube_1a02974065ff4db3e20933e7e2483e28d3" kind="variable"><name>offsetX</name></member>
+    <member refid="classDefaultCube_1a75e319522347962c8f3c07f044292b67" kind="variable"><name>offsetY</name></member>
+    <member refid="classDefaultCube_1a06055f363a825680d5fa605aef0982a3" kind="variable"><name>offsetZ</name></member>
+    <member refid="classDefaultCube_1ab09d41e2e1315cfff955f202ff5b3a0e" kind="function"><name>DefaultCube</name></member>
+    <member refid="classDefaultCube_1a72b21fa2d0a30474184f296f3ee7bb1c" kind="function"><name>generateVertices</name></member>
+  </compound>
+  <compound refid="classDrawable" kind="class"><name>Drawable</name>
+    <member refid="classDrawable_1a6ef0a45864cdb86a2f7ee86df33cf1c3" kind="variable"><name>mode</name></member>
+    <member refid="classDrawable_1ad66b72e5c70f154ba14f736779702edf" kind="variable"><name>bufferID</name></member>
+    <member refid="classDrawable_1a5d88a6da5c2d7aa468c7b347ea2189b7" kind="variable"><name>shader</name></member>
+    <member refid="classDrawable_1ac2a22ca4c60f3725209dfe5da30b91e6" kind="variable"><name>drawerFunction</name></member>
+    <member refid="classDrawable_1a40520e875b6b2caa68aa234217da8ef1" kind="function"><name>drawSelf</name></member>
+  </compound>
+  <compound refid="classEmptyRectangle" kind="class"><name>EmptyRectangle</name>
+    <member refid="classEmptyRectangle_1a06ab9dbea6532464db65bd6812ceeec6" kind="variable"><name>_sides</name></member>
+    <member refid="classEmptyRectangle_1abec7853e545d8bd2de5223467b637ad8" kind="variable"><name>_points</name></member>
+    <member refid="classEmptyRectangle_1aa7f43337c495035304c2e2e5a2da2ef0" kind="variable"><name>_thickness</name></member>
+    <member refid="classEmptyRectangle_1ae0dea2b13d4c6ddf0f20d2ae508820b6" kind="variable"><name>_width</name></member>
+    <member refid="classEmptyRectangle_1a08f9f398a0973b36551d3a6a48cfcd63" kind="variable"><name>_height</name></member>
+    <member refid="classEmptyRectangle_1a6f0aded2866e07ad17aa3f4fd58dc6e7" kind="function"><name>EmptyRectangle</name></member>
+    <member refid="classEmptyRectangle_1a2fe9364ae7f70af2404d350f74ce5f8a" kind="function"><name>EmptyRectangle</name></member>
+    <member refid="classEmptyRectangle_1af1386bf5f9e1853911e40e8a30aedc88" kind="function"><name>generateVertices</name></member>
+  </compound>
+  <compound refid="classEntity" kind="class"><name>Entity</name>
+    <member refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kind="variable"><name>transform</name></member>
+    <member refid="classEntity_1a662031d9dcbb291677450c75dfaa2f00" kind="variable"><name>children</name></member>
+    <member refid="classEntity_1a4e9d192ca16cb130ce5046537b51e686" kind="variable"><name>parent</name></member>
+    <member refid="classEntity_1aecee6f5e02ee3d3531a7ac05e0272cf4" kind="variable"><name>mesh</name></member>
+    <member refid="classEntity_1a980f368aa07ce358583982821533a54a" kind="function"><name>Entity</name></member>
+    <member refid="classEntity_1a5796d93d58631510893c9df5e5b8c6cc" kind="function"><name>Entity</name></member>
+    <member refid="classEntity_1a1bd378fb770244307e7abc96dac3d6a6" kind="function"><name>Entity</name></member>
+    <member refid="classEntity_1a863b2318e49fdca5bd1b3ff44b08fcb5" kind="function"><name>getTransformMatrix</name></member>
+  </compound>
+  <compound refid="classGeometryRenderer" kind="class"><name>GeometryRenderer</name>
+    <member refid="classGeometryRenderer_1ad75105392b1578bd20fe3d65dd296599" kind="variable"><name>elements</name></member>
+    <member refid="classGeometryRenderer_1afcd3f06bbcc4349e5c17040c21286772" kind="variable"><name>arrays</name></member>
+    <member refid="classGeometryRenderer_1a527af018c442b956a80c59726130aa1b" kind="function"><name>addShapeToBuffer</name></member>
+    <member refid="classGeometryRenderer_1abc7985b5bd113b1c7856ba41ec04f51e" kind="function"><name>renderAll</name></member>
+  </compound>
+  <compound refid="classInputSystem" kind="class"><name>InputSystem</name>
+    <member refid="classInputSystem_1a3341b588be454de0622cd669dc5e4ab0" kind="variable"><name>camera</name></member>
+    <member refid="classInputSystem_1af91355b1bb129950cf975c277669e907" kind="variable"><name>instance</name></member>
+    <member refid="classInputSystem_1ae0ab3951fece5c8749a36c6cdcf6bf00" kind="variable"><name>keyActions</name></member>
+    <member refid="classInputSystem_1a4e54cb10f3c668e30382023454fd4790" kind="function"><name>getCamera</name></member>
+    <member refid="classInputSystem_1a7259383b613f661128029641f251b629" kind="function"><name>getInstance</name></member>
+  </compound>
+  <compound refid="classKronUIWindow" kind="class"><name>KronUIWindow</name>
+    <member refid="classKronUIWindow_1a174a23fe511587ce5bced0951125cfe3" kind="variable"><name>_name</name></member>
+    <member refid="classKronUIWindow_1a08b0fe0613699ffafa5f9c0597a1558a" kind="variable"><name>_self</name></member>
+    <member refid="classKronUIWindow_1a80a57875d765cfebcbd37b43596bf2ab" kind="variable"><name>VAO</name></member>
+    <member refid="classKronUIWindow_1ae9361e2b65da641c7bb38eee36a6e2f6" kind="variable"><name>VBO</name></member>
+    <member refid="classKronUIWindow_1a8d663a36e40905c9ef89f95c8339ff93" kind="variable"><name>_width</name></member>
+    <member refid="classKronUIWindow_1afa73da45f9b7284c881af0dd71a6667c" kind="variable"><name>_height</name></member>
+    <member refid="classKronUIWindow_1acecb005664c26c2e79eecd11bc049db5" kind="function"><name>KronUIWindow</name></member>
+    <member refid="classKronUIWindow_1aebe95a20c494eae6f513822d05043422" kind="function"><name>getName</name></member>
+    <member refid="classKronUIWindow_1a9a290a36d6132d865a7de67eb856f7d8" kind="function"><name>getSelf</name></member>
+  </compound>
+  <compound refid="classKronUIWindowManager" kind="class"><name>KronUIWindowManager</name>
+    <member refid="classKronUIWindowManager_1a193605345ae6c92e31bc7780e160f402" kind="variable"><name>_window</name></member>
+    <member refid="classKronUIWindowManager_1acd09e751baa7298405144d4c6383d90d" kind="function"><name>getWindow</name></member>
+    <member refid="classKronUIWindowManager_1a73511465c8ae2dec27377c70bb17dd17" kind="function"><name>setWindow</name></member>
+  </compound>
+  <compound refid="classLine" kind="class"><name>Line</name>
+    <member refid="classLine_1a5b99891786413b86c86065d7e3cd7d6a" kind="variable"><name>_begin</name></member>
+    <member refid="classLine_1a2a9f014fadd09f2a89c54507cb6cc0da" kind="variable"><name>_end</name></member>
+    <member refid="classLine_1a9a6d288919fed15ad17be5bca592965f" kind="variable"><name>_thickness</name></member>
+    <member refid="classLine_1a87e8ec896581b0e6b8c80d8dc4050da9" kind="function"><name>Line</name></member>
+    <member refid="classLine_1a5841e69c7633a8b94f155761c30c8657" kind="function"><name>generateVertices</name></member>
+  </compound>
+  <compound refid="classLogger" kind="class"><name>Logger</name>
+    <member refid="classLogger_1ad766a24576ea8b27ad9d5649cef46d8f" kind="enum"><name>Level</name></member>
+    <member refid="classLogger_1ad766a24576ea8b27ad9d5649cef46d8fa19da7170bea36556dde582519795f3fc" kind="enumvalue"><name>FATAL</name></member>
+    <member refid="classLogger_1ad766a24576ea8b27ad9d5649cef46d8fabb1ca97ec761fc37101737ba0aa2e7c5" kind="enumvalue"><name>ERROR</name></member>
+    <member refid="classLogger_1ad766a24576ea8b27ad9d5649cef46d8fa059e9861e0400dfbe05c98a841f3f96b" kind="enumvalue"><name>WARNING</name></member>
+    <member refid="classLogger_1ad766a24576ea8b27ad9d5649cef46d8fa551b723eafd6a31d444fcb2f5920fbd3" kind="enumvalue"><name>INFO</name></member>
+    <member refid="classLogger_1afbe890cea4f5034d431905a8578f9f22" kind="function"><name>getInstance</name></member>
+    <member refid="classLogger_1ae64bfdf4c1b08f856f3d3177d6adbd35" kind="function"><name>log</name></member>
+    <member refid="classLogger_1ab6042fdfcbb14026098e0df9d6b32f27" kind="function"><name>error</name></member>
+    <member refid="classLogger_1a24b519e0f53e73937f93edd2da37ea76" kind="function"><name>warn</name></member>
+    <member refid="classLogger_1ab4c4d86279176eb0ede726bc5b4d5ddb" kind="function"><name>info</name></member>
+    <member refid="classLogger_1ab934865d3713793d0353271a475eaf4b" kind="function"><name>fatal</name></member>
+    <member refid="classLogger_1ac45b6ef7069b222c094da3724d1aa8fb" kind="function"><name>Logger</name></member>
+    <member refid="classLogger_1add0f34d4c753c86af8074840a72366b3" kind="function"><name>Logger</name></member>
+    <member refid="classLogger_1a21dc953ea7e5c00656e75a2b4b7ec5cc" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="classMesh" kind="class"><name>Mesh</name>
+    <member refid="classMesh_1a6465a888c97232a39e12aad008c969c3" kind="variable"><name>vertices</name></member>
+    <member refid="classMesh_1a26632e27b772f24b069a738e7983b9da" kind="variable"><name>indices</name></member>
+    <member refid="classMesh_1abf1e672703bf4f8e104f3b076faaf958" kind="variable"><name>textures</name></member>
+    <member refid="classMesh_1adaae6716e6366111013999f0979038df" kind="variable"><name>transform</name></member>
+    <member refid="classMesh_1a79afa055e485fb65b1a7aa5b8eda2940" kind="variable"><name>VAO</name></member>
+    <member refid="classMesh_1af08e5f92b0cf587817841104c16fa803" kind="variable"><name>VBO</name></member>
+    <member refid="classMesh_1a25262f446aea3107da7c23f126a81faa" kind="variable"><name>EBO</name></member>
+    <member refid="classMesh_1ad6ef66e72ef5dc0046ca61f2eb1703ac" kind="variable"><name>TBO</name></member>
+    <member refid="classMesh_1af21dcb72528476fd87715618392456d2" kind="variable"><name>shaderID</name></member>
+    <member refid="classMesh_1a566d0cdb9b06a7f0b59f0c0ea23f5ae2" kind="variable"><name>Draw</name></member>
+    <member refid="classMesh_1a387b547f54e19117a27ffef03b5d292c" kind="function"><name>Mesh</name></member>
+    <member refid="classMesh_1a3c89b9891734ae73b065f09dab1eb5e1" kind="function"><name>getTransformMatrix</name></member>
+    <member refid="classMesh_1af9e71c7a3876710c2ee61a0e92fe3ce0" kind="function"><name>setupMesh</name></member>
+  </compound>
+  <compound refid="classMeshRenderer" kind="class"><name>MeshRenderer</name>
+    <member refid="classMeshRenderer_1a3113309271a52659964ab0d78cb78ef3" kind="variable"><name>meshes</name></member>
+    <member refid="classMeshRenderer_1a52c3631df64ad60cf8952f77dd41a2f6" kind="variable"><name>quadVAO</name></member>
+    <member refid="classMeshRenderer_1a721df01202bc75558b32fa5211905a36" kind="variable"><name>quadVBO</name></member>
+    <member refid="classMeshRenderer_1ab3dcfdff5dfc95cff21a398b3c3599a5" kind="variable"><name>shader</name></member>
+    <member refid="classMeshRenderer_1a1a5040793bfcc8d659b3519fe7567604" kind="function"><name>prepareQuad</name></member>
+    <member refid="classMeshRenderer_1a57212c34a1768e12d9fe38e9dc871201" kind="function"><name>drawQuad</name></member>
+    <member refid="classMeshRenderer_1a988942a8fffef15f1fad5fde3b6018ca" kind="function"><name>MeshRenderer</name></member>
+    <member refid="classMeshRenderer_1a934312ed260ad137c16bfc342de31f6e" kind="function"><name>addMesh</name></member>
+    <member refid="classMeshRenderer_1a813be8c300f6bcb6d34250bcaec8f929" kind="function"><name>drawMesh</name></member>
+    <member refid="classMeshRenderer_1aacd9634e6cadcfb52398930028ec3ddb" kind="function"><name>renderAll</name></member>
+  </compound>
+  <compound refid="classOBJLoader" kind="class"><name>OBJLoader</name>
+    <member refid="classOBJLoader_1a8bd995c16730351dee6bcf7897d89224" kind="variable"><name>directory</name></member>
+    <member refid="classOBJLoader_1a6ab560cb7e82fe536a59644df708e753" kind="function"><name>loadModel</name></member>
+    <member refid="classOBJLoader_1a5d0249f14ed4fc02803427e199d8d1d1" kind="function"><name>processNode</name></member>
+    <member refid="classOBJLoader_1a85502351e778edbb2fe5700804b46d8f" kind="function"><name>processMesh</name></member>
+    <member refid="classOBJLoader_1aec170caf53234621d71b8007d9bd12af" kind="function"><name>loadMaterialTextures</name></member>
+    <member refid="classOBJLoader_1a819e6eb0bcb7feead874a29cc6af922c" kind="function"><name>TextureFromFile</name></member>
+    <member refid="classOBJLoader_1a950e7796e8c72b19b38798bf6ed39fe1" kind="function"><name>processTexturePath</name></member>
+  </compound>
+  <compound refid="classPoint" kind="class"><name>Point</name>
+    <member refid="classPoint_1a0e3587d7be70a5e56e886b93a0db5156" kind="variable"><name>_position</name></member>
+    <member refid="classPoint_1ac9682b9cd45f4790d0d27dd5ad6bd256" kind="function"><name>Point</name></member>
+    <member refid="classPoint_1ad92f2337b839a94ce97dcdb439b4325a" kind="function"><name>Point</name></member>
+    <member refid="classPoint_1af0c0f20db1616447bc78184ed537ef6e" kind="function"><name>Point</name></member>
+    <member refid="classPoint_1a63977324f06d762ce224554ae693e6c7" kind="function"><name>generateVertices</name></member>
+    <member refid="classPoint_1a0f5fd4682dd29392e395d5483bad40b1" kind="function"><name>getVector</name></member>
+  </compound>
+  <compound refid="classRectangle" kind="class"><name>Rectangle</name>
+    <member refid="classRectangle_1a5c31d7de06bee34915525dcc0a7497a1" kind="variable"><name>_triangles</name></member>
+    <member refid="classRectangle_1a7545c7d77a46c406c46e451a4bb06d4b" kind="variable"><name>_points</name></member>
+    <member refid="classRectangle_1a5d99d3e2887f008e48cf3f00ba0d1a7f" kind="function"><name>Rectangle</name></member>
+    <member refid="classRectangle_1a8a933e0ebd9e80ce91e61ffe87fd577e" kind="function"><name>Rectangle</name></member>
+    <member refid="classRectangle_1a96af63ff9bab4e9ad1974568c30c9a3e" kind="function"><name>Rectangle</name></member>
+    <member refid="classRectangle_1a04bc59d135e90047dbb780fb52788e02" kind="function"><name>generateVertices</name></member>
+  </compound>
+  <compound refid="classReflectiveItem" kind="class"><name>ReflectiveItem</name>
+    <member refid="classReflectiveItem_1aed117b0e2e9a414575871627e8622cfa" kind="variable"><name>_name</name></member>
+    <member refid="classReflectiveItem_1af93522901a0e167eb130053642261b04" kind="variable"><name>address</name></member>
+    <member refid="classReflectiveItem_1adabfa391ef38161de2e243bd387b8e6a" kind="function"><name>ReflectiveItem</name></member>
+    <member refid="classReflectiveItem_1a1ed203f9b24870e37f02adb3c57c8f5c" kind="function"><name>getName</name></member>
+    <member refid="classReflectiveItem_1ac9c9a3038c9c4e57568418c4f43931f7" kind="function"><name>getAddress</name></member>
+  </compound>
+  <compound refid="classShader" kind="class"><name>Shader</name>
+    <member refid="classShader_1a142a08b6fbdfc982d82ca10ee0b0f38d" kind="variable"><name>ID</name></member>
+    <member refid="classShader_1aa732beb72038e86aca70a34c369a255e" kind="function"><name>Shader</name></member>
+    <member refid="classShader_1a870fa9f13d69e558815d6fd351a469dc" kind="function"><name>use</name></member>
+    <member refid="classShader_1ab1a56d6c299bd7eaa18c2e142ef7bd9f" kind="function"><name>setBool</name></member>
+    <member refid="classShader_1ad362e2b654cd95a3574cd505411e41fd" kind="function"><name>setInt</name></member>
+    <member refid="classShader_1afe7367621f74c2d26431d8ac15252bf3" kind="function"><name>setFloat</name></member>
+    <member refid="classShader_1afd4d41322a1cdd1d5155bf124d19debf" kind="function"><name>setVec2</name></member>
+    <member refid="classShader_1afb91bc9e954bf590857c96ab1331b0ec" kind="function"><name>setVec2</name></member>
+    <member refid="classShader_1aeb021061c5d451329d92257b07dbfec3" kind="function"><name>setVec3</name></member>
+    <member refid="classShader_1a90092c25b7dc23964c465b93887300f9" kind="function"><name>setVec3</name></member>
+    <member refid="classShader_1a79cbe674f6bf1a576a48045dcb924de5" kind="function"><name>setVec4</name></member>
+    <member refid="classShader_1a913e10fe2501b00746ae6901b97a1730" kind="function"><name>setVec4</name></member>
+    <member refid="classShader_1a91a6ee79b959cacd618c9e29a5bbd732" kind="function"><name>setMat2</name></member>
+    <member refid="classShader_1a3e24fcad187493dfebaa12939072e91d" kind="function"><name>setMat3</name></member>
+    <member refid="classShader_1a8e711c96f3e1722cbfb88fde9478977c" kind="function"><name>setMat4</name></member>
+    <member refid="classShader_1a22055065153d38e63a410cb7e020e905" kind="function"><name>checkCompileErrors</name></member>
+  </compound>
+  <compound refid="classShaderManager" kind="class"><name>ShaderManager</name>
+    <member refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kind="variable"><name>shaders</name></member>
+    <member refid="classShaderManager_1ac9a9bfc3cfec32a105ed40f1851942c9" kind="variable"><name>current</name></member>
+    <member refid="classShaderManager_1a3174fd362b96f5a956d1077bc6e33651" kind="function"><name>setShader</name></member>
+    <member refid="classShaderManager_1ab2888d11e1eab202a669e4b5753a68d2" kind="function"><name>addShader</name></member>
+    <member refid="classShaderManager_1aba2a567fecc0fc1fd0b82cc6a0407221" kind="function"><name>remShader</name></member>
+  </compound>
+  <compound refid="classshapeElement" kind="class"><name>shapeElement</name>
+    <member refid="classshapeElement_1a5bed7938c8f925300b2ca1c3e071fb4b" kind="variable"><name>vertices</name></member>
+    <member refid="classshapeElement_1ab6a75c0933f15914e0723e1f77a3e675" kind="variable"><name>verticesAmount</name></member>
+    <member refid="classshapeElement_1a7a794c9647200504b783c0f1830add18" kind="function"><name>generateVertices</name></member>
+  </compound>
+  <compound refid="structstbi__io__callbacks" kind="struct"><name>stbi_io_callbacks</name>
+    <member refid="structstbi__io__callbacks_1a623e46b3a2a019611601409926283a88" kind="variable"><name>read</name></member>
+    <member refid="structstbi__io__callbacks_1a257aac5480a90a6c4b8fbe86c1b01068" kind="variable"><name>skip</name></member>
+    <member refid="structstbi__io__callbacks_1a319639db2f76e715eed7a7a974136832" kind="variable"><name>eof</name></member>
+  </compound>
+  <compound refid="classTextRenderer" kind="class"><name>TextRenderer</name>
+    <member refid="classTextRenderer_1ac20c3356fd473861a650d49cd2bd4574" kind="variable"><name>_shader</name></member>
+    <member refid="classTextRenderer_1a9abfaa754803ccd71bd452415cdc5565" kind="variable"><name>_window</name></member>
+    <member refid="classTextRenderer_1a71c74673b6e8cfb66a5c04383c14fd47" kind="variable"><name>_ttfManager</name></member>
+    <member refid="classTextRenderer_1a64bd4daffc6b494497d2712bf4c2afca" kind="function"><name>TextRenderer</name></member>
+    <member refid="classTextRenderer_1a8e35cbe6e2bd1a4f7e03e585ac74d8d9" kind="function"><name>RenderText</name></member>
+  </compound>
+  <compound refid="structTexture" kind="struct"><name>Texture</name>
+    <member refid="structTexture_1aed42161a5c00b6020c85833401da6da6" kind="variable"><name>id</name></member>
+    <member refid="structTexture_1a22c6a103e9d97bd75f35cd7de8882524" kind="variable"><name>textureCoordinates</name></member>
+    <member refid="structTexture_1a916a835d009806f2a57546c7705942b1" kind="variable"><name>type</name></member>
+    <member refid="structTexture_1a88893bf81a4d4529c70da39f07f53ddb" kind="variable"><name>path</name></member>
+  </compound>
+  <compound refid="structTransform" kind="struct"><name>Transform</name>
+    <member refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kind="variable"><name>Position</name></member>
+    <member refid="structTransform_1a0b39a3cad853ab427a91b761d82440d2" kind="variable"><name>Rotation</name></member>
+    <member refid="structTransform_1a337690a3de8862de2f930e9ee1323365" kind="variable"><name>Scale</name></member>
+    <member refid="structTransform_1a04baa07a15f7c86c9b0355afc33a1da2" kind="variable"><name>modelMatrix</name></member>
+    <member refid="structTransform_1aa08ca4266efabc768973cdeea51945ab" kind="function"><name>Transform</name></member>
+    <member refid="structTransform_1adacad9adbcfc5cee971c71809ff93a75" kind="function"><name>Transform</name></member>
+    <member refid="structTransform_1a52419fabf2513dbd10020e65b835a1f0" kind="function"><name>Transform</name></member>
+    <member refid="structTransform_1af7b04bd65e9e9735734ff625da6abe81" kind="function"><name>Transform</name></member>
+  </compound>
+  <compound refid="classTriangle" kind="class"><name>Triangle</name>
+    <member refid="classTriangle_1a4df64eb9e682222f04d0fed49391d4e1" kind="variable"><name>_points</name></member>
+    <member refid="classTriangle_1a9c7726918e249569bdadf26a70d2fa71" kind="function"><name>Triangle</name></member>
+    <member refid="classTriangle_1aaefe4ed500c07918d30c6f0e286332c5" kind="function"><name>Triangle</name></member>
+    <member refid="classTriangle_1a96c1681b2b1752c7b4a75bce9c4855ab" kind="function"><name>Triangle</name></member>
+    <member refid="classTriangle_1a10ad7915f83b13cfebddea20e6336894" kind="function"><name>generateVertices</name></member>
+  </compound>
+  <compound refid="classTrueTypeManager" kind="class"><name>TrueTypeManager</name>
+    <member refid="classTrueTypeManager_1a147c153c7d34a38c20af85d9246bfc10" kind="variable"><name>Characters</name></member>
+    <member refid="classTrueTypeManager_1aeede74f34b46edc658dedd20a03c14a9" kind="function"><name>TrueTypeManager</name></member>
+  </compound>
+  <compound refid="structVertex" kind="struct"><name>Vertex</name>
+    <member refid="structVertex_1abb3cfacd96b5955b0cec9359840ee49f" kind="variable"><name>Position</name></member>
+    <member refid="structVertex_1a921a513c1e6d1e63e99d477fa837a317" kind="variable"><name>TexCoords</name></member>
+    <member refid="structVertex_1a9ab4dc431b41509f0b1bb1a4bf09d4e2" kind="variable"><name>Normal</name></member>
+  </compound>
+  <compound refid="logger_8hpp" kind="file"><name>logger.hpp</name>
+    <member refid="logger_8hpp_1a41497890167c3393f94ae90b9977eaa4" kind="define"><name>IGNORE_INFO_LOGS</name></member>
+  </compound>
+  <compound refid="stb__image_8h" kind="file"><name>stb_image.h</name>
+    <member refid="stb__image_8h_1aed6cd14a3bf678808c4c179e808866aa" kind="define"><name>STBI_VERSION</name></member>
+    <member refid="stb__image_8h_1a2d9ec9850cd12aefe7641b456266a4c2" kind="define"><name>STBIDEF</name></member>
+    <member refid="stb__image_8h_1a06fc87d81c62e9abb8790b6e5713c55b" kind="enum"><name>@0</name></member>
+    <member refid="stb__image_8h_1a06fc87d81c62e9abb8790b6e5713c55ba0177ac2c5002f4f251bb766d41752029" kind="enumvalue"><name>STBI_default</name></member>
+    <member refid="stb__image_8h_1a06fc87d81c62e9abb8790b6e5713c55bad1eb95ca1fa7706bf732bf35a0ed40aa" kind="enumvalue"><name>STBI_grey</name></member>
+    <member refid="stb__image_8h_1a06fc87d81c62e9abb8790b6e5713c55baf5829d16d4cca6077465c5abd346e2f8" kind="enumvalue"><name>STBI_grey_alpha</name></member>
+    <member refid="stb__image_8h_1a06fc87d81c62e9abb8790b6e5713c55baa59123e5d0af25f9b1539f5cf1facddf" kind="enumvalue"><name>STBI_rgb</name></member>
+    <member refid="stb__image_8h_1a06fc87d81c62e9abb8790b6e5713c55baa7b1af0c9f0310c3ada2aa29a32de293" kind="enumvalue"><name>STBI_rgb_alpha</name></member>
+    <member refid="stb__image_8h_1a28eb51a1512ce382ee50f20e1d04d50d" kind="typedef"><name>stbi_uc</name></member>
+    <member refid="stb__image_8h_1a648037d4c55689328ba08c8f5d293df2" kind="typedef"><name>stbi_us</name></member>
+    <member refid="stb__image_8h_1acae25d31bfae29d75482f07fecf2935f" kind="function"><name>stbi_load_from_memory</name></member>
+    <member refid="stb__image_8h_1a95ebc5c42c1a753200be8d465e933af7" kind="function"><name>stbi_load_from_callbacks</name></member>
+    <member refid="stb__image_8h_1aefdc7387857a14894bbf321e9ea4f048" kind="function"><name>stbi_load</name></member>
+    <member refid="stb__image_8h_1aa9994764695597161e8f3776e97caa99" kind="function"><name>stbi_load_from_file</name></member>
+    <member refid="stb__image_8h_1ab81ccbc3526368d651117ef48df82b01" kind="function"><name>stbi_load_gif_from_memory</name></member>
+    <member refid="stb__image_8h_1ad30fd870ed2138ce8f38c9dd29b2f76a" kind="function"><name>stbi_load_16_from_memory</name></member>
+    <member refid="stb__image_8h_1a82bcc0957b6a4ebfdfa3d7f04fbaed18" kind="function"><name>stbi_load_16_from_callbacks</name></member>
+    <member refid="stb__image_8h_1a8a58b6bcd805afa1bdb14f988dd37fee" kind="function"><name>stbi_load_16</name></member>
+    <member refid="stb__image_8h_1a9ca2591f0987284129e82bf9dbcf7c6c" kind="function"><name>stbi_load_from_file_16</name></member>
+    <member refid="stb__image_8h_1a5d47fb76ce1e34eb0729ad932c9c48e2" kind="function"><name>stbi_loadf_from_memory</name></member>
+    <member refid="stb__image_8h_1a6e7fd261af79ecef2208df3a6cc806bb" kind="function"><name>stbi_loadf_from_callbacks</name></member>
+    <member refid="stb__image_8h_1af4f17acd30945a75901fdc022f90575f" kind="function"><name>stbi_loadf</name></member>
+    <member refid="stb__image_8h_1ace82446ecd7b5c760cde062179660f46" kind="function"><name>stbi_loadf_from_file</name></member>
+    <member refid="stb__image_8h_1ab18889e43518d6b4421b705782bb1b5e" kind="function"><name>stbi_hdr_to_ldr_gamma</name></member>
+    <member refid="stb__image_8h_1ae21cc1184eeb5cc814699f1ed62c5258" kind="function"><name>stbi_hdr_to_ldr_scale</name></member>
+    <member refid="stb__image_8h_1a1feccdcf726dcc6b5502e3efa85b7dbb" kind="function"><name>stbi_ldr_to_hdr_gamma</name></member>
+    <member refid="stb__image_8h_1af946583656a362a316b40c0421c20561" kind="function"><name>stbi_ldr_to_hdr_scale</name></member>
+    <member refid="stb__image_8h_1af0e94f316fe1848f632517ca3c11d077" kind="function"><name>stbi_is_hdr_from_callbacks</name></member>
+    <member refid="stb__image_8h_1a5cbc6f5cbb3b2d0d87ee959fcee9d23e" kind="function"><name>stbi_is_hdr_from_memory</name></member>
+    <member refid="stb__image_8h_1ae70f9a302f7e87fd971075e7f758d55c" kind="function"><name>stbi_is_hdr</name></member>
+    <member refid="stb__image_8h_1aaf10d41631e1e9214fde1688bdbd8524" kind="function"><name>stbi_is_hdr_from_file</name></member>
+    <member refid="stb__image_8h_1aa874b3ba909f3281d499894909678336" kind="function"><name>stbi_failure_reason</name></member>
+    <member refid="stb__image_8h_1ad3e11bb44412a7ba348acfbad09caacb" kind="function"><name>stbi_image_free</name></member>
+    <member refid="stb__image_8h_1acfef077febce3bc3f1f339de478f3315" kind="function"><name>stbi_info_from_memory</name></member>
+    <member refid="stb__image_8h_1a86291c64cb663f41a34647d5e1abf363" kind="function"><name>stbi_info_from_callbacks</name></member>
+    <member refid="stb__image_8h_1a548d486e07e0eb95671cb200d3a9530f" kind="function"><name>stbi_is_16_bit_from_memory</name></member>
+    <member refid="stb__image_8h_1a990e0e38ab6e600bd9cbf5d30abd2f8f" kind="function"><name>stbi_is_16_bit_from_callbacks</name></member>
+    <member refid="stb__image_8h_1aede708cca1304520b2afcf4d5eb61d70" kind="function"><name>stbi_info</name></member>
+    <member refid="stb__image_8h_1a28abedef4a0a93909332080df6be0021" kind="function"><name>stbi_info_from_file</name></member>
+    <member refid="stb__image_8h_1a7d9af55a35382c011cc186f7b62c00af" kind="function"><name>stbi_is_16_bit</name></member>
+    <member refid="stb__image_8h_1a42fa266b80bfde22a0781ba2112d1c62" kind="function"><name>stbi_is_16_bit_from_file</name></member>
+    <member refid="stb__image_8h_1a3f02e0053e1c8d08a3ed436e6a82c7c9" kind="function"><name>stbi_set_unpremultiply_on_load</name></member>
+    <member refid="stb__image_8h_1a23525ef2b882f3de426b47ecf8d9151b" kind="function"><name>stbi_convert_iphone_png_to_rgb</name></member>
+    <member refid="stb__image_8h_1ab89c177fc52f1bb2dc1c05e48129a0a4" kind="function"><name>stbi_set_flip_vertically_on_load</name></member>
+    <member refid="stb__image_8h_1acf48dffaa1b2bb00f5a8d9af697c6aca" kind="function"><name>stbi_set_unpremultiply_on_load_thread</name></member>
+    <member refid="stb__image_8h_1aff26696e30b62a40dd00bc12415343f6" kind="function"><name>stbi_convert_iphone_png_to_rgb_thread</name></member>
+    <member refid="stb__image_8h_1ad683202a3f6ec89729b5ad9220ae98ee" kind="function"><name>stbi_set_flip_vertically_on_load_thread</name></member>
+    <member refid="stb__image_8h_1aaaa17a529bec51403cc23dc2e7c36d79" kind="function"><name>stbi_zlib_decode_malloc_guesssize</name></member>
+    <member refid="stb__image_8h_1a038b0e741859a482b8b9d60167e54d27" kind="function"><name>stbi_zlib_decode_malloc_guesssize_headerflag</name></member>
+    <member refid="stb__image_8h_1a4919b67b12e0e3acc5301f185ca77e2e" kind="function"><name>stbi_zlib_decode_malloc</name></member>
+    <member refid="stb__image_8h_1ae8447830c49bc17f8491e12c1f0ded48" kind="function"><name>stbi_zlib_decode_buffer</name></member>
+    <member refid="stb__image_8h_1a7fbd65c83495f13f22469fe493775739" kind="function"><name>stbi_zlib_decode_noheader_malloc</name></member>
+    <member refid="stb__image_8h_1a0d12efc011adfff7521f3b924feb0b0e" kind="function"><name>stbi_zlib_decode_noheader_buffer</name></member>
+  </compound>
+  <compound refid="readme_8md" kind="file"><name>readme.md</name>
+  </compound>
+  <compound refid="ReflectiveItem_8hpp" kind="file"><name>ReflectiveItem.hpp</name>
+  </compound>
+  <compound refid="CMakeCCompilerId_8c" kind="file"><name>CMakeCCompilerId.c</name>
+    <member refid="CMakeCCompilerId_8c_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
+    <member refid="CMakeCCompilerId_8c_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="CMakeCCompilerId_8c_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="CMakeCCompilerId_8c_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="CMakeCCompilerId_8c_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="CMakeCCompilerId_8c_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="CMakeCCompilerId_8c_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="CMakeCCompilerId_8c_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="CMakeCCompilerId_8c_1adaee3ee7c5a7a22451ea25e762e1d7d5" kind="define"><name>C_VERSION</name></member>
+    <member refid="CMakeCCompilerId_8c_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="CMakeCCompilerId_8c_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="CMakeCCompilerId_8c_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="CMakeCCompilerId_8c_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
+    <member refid="CMakeCCompilerId_8c_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
+    <member refid="CMakeCCompilerId_8c_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="CMakeCXXCompilerId_8cpp" kind="file"><name>CMakeCXXCompilerId.cpp</name>
+    <member refid="CMakeCXXCompilerId_8cpp_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a34cc889e576a1ae6c84ae9e0a851ba21" kind="define"><name>CXX_STD</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
+    <member refid="CMakeCXXCompilerId_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="main_8cpp_8o_8d" kind="file"><name>main.cpp.o.d</name>
+  </compound>
+  <compound refid="TrueTypeManager_8cpp_8o_8d" kind="file"><name>TrueTypeManager.cpp.o.d</name>
+  </compound>
+  <compound refid="TrueTypeManager_8cpp" kind="file"><name>TrueTypeManager.cpp</name>
+  </compound>
+  <compound refid="TrueTypeManager_8hpp" kind="file"><name>TrueTypeManager.hpp</name>
+  </compound>
+  <compound refid="3D_8hpp" kind="file"><name>3D.hpp</name>
+  </compound>
+  <compound refid="CMakeFiles_23D_8dir_2camera_8cpp_8o_8d" kind="file"><name>camera.cpp.o.d</name>
+  </compound>
+  <compound refid="Vision_2CMakeFiles_2vision_8dir_2camera_8cpp_8o_8d" kind="file"><name>camera.cpp.o.d</name>
+  </compound>
+  <compound refid="modelEntity_8cpp_8o_8d" kind="file"><name>modelEntity.cpp.o.d</name>
+  </compound>
+  <compound refid="entity_8cpp_8o_8d" kind="file"><name>entity.cpp.o.d</name>
+  </compound>
+  <compound refid="mesh_8cpp_8o_8d" kind="file"><name>mesh.cpp.o.d</name>
+  </compound>
+  <compound refid="entity_8cpp" kind="file"><name>entity.cpp</name>
+  </compound>
+  <compound refid="entity_8hpp" kind="file"><name>entity.hpp</name>
+  </compound>
+  <compound refid="mesh_8cpp" kind="file"><name>mesh.cpp</name>
+  </compound>
+  <compound refid="mesh_8hpp" kind="file"><name>mesh.hpp</name>
+  </compound>
+  <compound refid="texture_8hpp" kind="file"><name>texture.hpp</name>
+  </compound>
+  <compound refid="transform_8hpp" kind="file"><name>transform.hpp</name>
+  </compound>
+  <compound refid="vertex_8hpp" kind="file"><name>vertex.hpp</name>
+  </compound>
+  <compound refid="OBJLoader_8cpp_8o_8d" kind="file"><name>OBJLoader.cpp.o.d</name>
+  </compound>
+  <compound refid="OBJLoader_8cpp" kind="file"><name>OBJLoader.cpp</name>
+    <member refid="OBJLoader_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78" kind="define"><name>STB_IMAGE_IMPLEMENTATION</name></member>
+    <member refid="OBJLoader_8cpp_1ade458b2c3373454a16b89837505b01bc" kind="function"><name>findClosestFileMatch</name></member>
+  </compound>
+  <compound refid="OBJLoader_8hpp" kind="file"><name>OBJLoader.hpp</name>
+  </compound>
+  <compound refid="MeshRenderer_8cpp_8o_8d" kind="file"><name>MeshRenderer.cpp.o.d</name>
+  </compound>
+  <compound refid="MeshRenderer_8cpp" kind="file"><name>MeshRenderer.cpp</name>
+  </compound>
+  <compound refid="MeshRenderer_8hpp" kind="file"><name>MeshRenderer.hpp</name>
+  </compound>
+  <compound refid="camera_8cpp" kind="file"><name>camera.cpp</name>
+  </compound>
+  <compound refid="camera_8hpp" kind="file"><name>camera.hpp</name>
+  </compound>
+  <compound refid="GeometryRenderer_8cpp_8o_8d" kind="file"><name>GeometryRenderer.cpp.o.d</name>
+  </compound>
+  <compound refid="Shapes_8cpp_8o_8d" kind="file"><name>Shapes.cpp.o.d</name>
+  </compound>
+  <compound refid="Drawing_8hpp" kind="file"><name>Drawing.hpp</name>
+    <member refid="Drawing_8hpp_1a1b332b1d1277bcf787fe5d740b7a45d7" kind="define"><name>VERTICES_SIZE</name></member>
+    <member refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88" kind="enum"><name>RenderMode</name></member>
+    <member refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88a7ca66fdfaad3eb33fc65d7490178f856" kind="enumvalue"><name>Triangles</name></member>
+    <member refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88aa0b0293a2db49f5f93c15a62e095c819" kind="enumvalue"><name>Lines</name></member>
+    <member refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88a456de28f607f812b42743dfdd8d89314" kind="enumvalue"><name>Quads</name></member>
+  </compound>
+  <compound refid="GeometryRenderer_8cpp" kind="file"><name>GeometryRenderer.cpp</name>
+    <member refid="GeometryRenderer_8cpp_1a9d879a91944ac8c169ee97e639a031f1" kind="function"><name>drawGeometry</name></member>
+  </compound>
+  <compound refid="GeometryRenderer_8hpp" kind="file"><name>GeometryRenderer.hpp</name>
+  </compound>
+  <compound refid="Shapes_8cpp" kind="file"><name>Shapes.cpp</name>
+  </compound>
+  <compound refid="Shapes_8hpp" kind="file"><name>Shapes.hpp</name>
+  </compound>
+  <compound refid="Input_8cpp_8o_8d" kind="file"><name>Input.cpp.o.d</name>
+  </compound>
+  <compound refid="Input_8cpp" kind="file"><name>Input.cpp</name>
+    <member refid="Input_8cpp_1af4ca2891044ac10a664b8d83ce590f1f" kind="function"><name>mouse_callback</name></member>
+    <member refid="Input_8cpp_1ac9fe5113088cde8cc9efb199e5b839f3" kind="function"><name>processInput</name></member>
+  </compound>
+  <compound refid="Input_8hpp" kind="file"><name>Input.hpp</name>
+    <member refid="Input_8hpp_1af4ca2891044ac10a664b8d83ce590f1f" kind="function"><name>mouse_callback</name></member>
+    <member refid="Input_8hpp_1ac9fe5113088cde8cc9efb199e5b839f3" kind="function"><name>processInput</name></member>
+  </compound>
+  <compound refid="KronUIGL_8hpp" kind="file"><name>KronUIGL.hpp</name>
+  </compound>
+  <compound refid="Paints_8hpp" kind="file"><name>Paints.hpp</name>
+    <member refid="Paints_8hpp_1a7b3b25cba33b07c303f3060fe41887f6" kind="define"><name>BLACK</name></member>
+    <member refid="Paints_8hpp_1ae5f70677050eecd8909e0248e07b9e73" kind="define"><name>GRAY</name></member>
+    <member refid="Paints_8hpp_1a8d23feea868a983c8c2b661e1e16972f" kind="define"><name>RED</name></member>
+  </compound>
+  <compound refid="RotationPaintShader_8cpp_8o_8d" kind="file"><name>RotationPaintShader.cpp.o.d</name>
+  </compound>
+  <compound refid="Shader_8cpp_8o_8d" kind="file"><name>Shader.cpp.o.d</name>
+  </compound>
+  <compound refid="ShaderManager_8cpp_8o_8d" kind="file"><name>ShaderManager.cpp.o.d</name>
+  </compound>
+  <compound refid="Shader_8hpp" kind="file"><name>Shader.hpp</name>
+  </compound>
+  <compound refid="ShaderManager_8cpp" kind="file"><name>ShaderManager.cpp</name>
+  </compound>
+  <compound refid="ShaderManager_8hpp" kind="file"><name>ShaderManager.hpp</name>
+  </compound>
+  <compound refid="TextRenderer_8cpp_8o_8d" kind="file"><name>TextRenderer.cpp.o.d</name>
+  </compound>
+  <compound refid="TextRenderer_8cpp" kind="file"><name>TextRenderer.cpp</name>
+  </compound>
+  <compound refid="TextRenderer_8hpp" kind="file"><name>TextRenderer.hpp</name>
+  </compound>
+  <compound refid="KronUIWindow_8cpp_8o_8d" kind="file"><name>KronUIWindow.cpp.o.d</name>
+  </compound>
+  <compound refid="KronUIWindow_8cpp" kind="file"><name>KronUIWindow.cpp</name>
+    <member refid="KronUIWindow_8cpp_1a5180f7bf2b71421af837035824a8c8ac" kind="function"><name>framebuffer_size_callback</name></member>
+  </compound>
+  <compound refid="KronUIWindow_8hpp" kind="file"><name>KronUIWindow.hpp</name>
+    <member refid="KronUIWindow_8hpp_1a5180f7bf2b71421af837035824a8c8ac" kind="function"><name>framebuffer_size_callback</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a76259e93488aa188c59d8b8a80517f74" kind="function"><name>MessageCallback</name></member>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="md_readme" kind="page"><name>md_readme</name>
+  </compound>
+  <compound refid="dir_cec8e168f1e0bdf00e3d8b7b7e67c75b" kind="dir"><name>src/CMakeFiles/3.22.1</name>
+  </compound>
+  <compound refid="dir_84f0ba7854bb193f154e62434cec779c" kind="dir"><name>src/KronUIGL/3D</name>
+  </compound>
+  <compound refid="dir_2cebc05f7de31bb0412a25e825511a31" kind="dir"><name>src/KronUIGL/3D/CMakeFiles/3D.dir</name>
+  </compound>
+  <compound refid="dir_d0c6b433adc400089eb7508a0ceaf0df" kind="dir"><name>src/Bases</name>
+  </compound>
+  <compound refid="dir_27db2da0464b188e42af5d28b7b57b82" kind="dir"><name>src/Freetype/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_9f8b20ea499ad36ac0c38875331fe98d" kind="dir"><name>src/KronUIGL/3D/Elements/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_69357a098510887cece25538d89e2a08" kind="dir"><name>src/KronUIGL/3D/Loaders/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_5e26515c708fa411b14239804c2621ca" kind="dir"><name>src/KronUIGL/3D/Vision/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_3373ff66d2b4e1620c365f0efa901ba8" kind="dir"><name>src/KronUIGL/Text/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_f2117061aa5b119dd2bb3a99940766c0" kind="dir"><name>src/KronUIGL/3D/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_cac026dc60a237b84f356e0e78bdca66" kind="dir"><name>src/KronUIGL/3D/Renderers/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_52bd83ba56b6b94cb70d308787924620" kind="dir"><name>src/KronUIGL/Window/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_f4931641371711e74ea996fd2ac3b8b8" kind="dir"><name>src/KronUIGL/Geometry/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_3d206d25899baedc6783e6e048b75481" kind="dir"><name>src/KronUIGL/Input/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_02360bd02ac1201056da1daa384a18e9" kind="dir"><name>src/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_f8d6aefb304ed5b7ff6983e64cea01e5" kind="dir"><name>src/KronUIGL/Shaders/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_a29c40f963018cb07cfef91c641fb6cb" kind="dir"><name>src/CMakeFiles/3.22.1/CompilerIdC</name>
+  </compound>
+  <compound refid="dir_dab6282177c64bb6a103c53496a1f1f1" kind="dir"><name>src/CMakeFiles/3.22.1/CompilerIdCXX</name>
+  </compound>
+  <compound refid="dir_8c6b0d6ef4c3c3ec8a34560658597bcd" kind="dir"><name>src/KronUIGL/3D/Elements</name>
+  </compound>
+  <compound refid="dir_c8da66a0fde9a087f8aea753de441ec6" kind="dir"><name>src/KronUIGL/3D/Elements/CMakeFiles/elements.dir</name>
+  </compound>
+  <compound refid="dir_bdfcbf25f7474b9c5ba610b0e80e7852" kind="dir"><name>src/Freetype</name>
+  </compound>
+  <compound refid="dir_c350ee29a3b3383e185c0f081f00425b" kind="dir"><name>src/KronUIGL/Geometry</name>
+  </compound>
+  <compound refid="dir_53923716a0e2d51a53a8e74fb67bf4ac" kind="dir"><name>src/KronUIGL/Geometry/CMakeFiles/geometry.dir</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_1e7c42f9ec21af67a1d4161a097cc59e" kind="dir"><name>src/KronUIGL/Input</name>
+  </compound>
+  <compound refid="dir_71b94f06da3f8b27b1bae19f0f8e7dd0" kind="dir"><name>src/KronUIGL/Input/CMakeFiles/input.dir</name>
+  </compound>
+  <compound refid="dir_48051e9ae471f326e26a15a6ef56402f" kind="dir"><name>src/CMakeFiles/KronUI.dir</name>
+  </compound>
+  <compound refid="dir_08e6c0ad2fd900a2b951e7dc417bfc87" kind="dir"><name>src/KronUIGL</name>
+  </compound>
+  <compound refid="dir_e6e5b5f260d335e51756077e0a59365f" kind="dir"><name>src/KronUIGL/3D/Loaders</name>
+  </compound>
+  <compound refid="dir_d6a5f56cae31ed16a113522f65ec0f77" kind="dir"><name>src/KronUIGL/3D/Loaders/CMakeFiles/loaders.dir</name>
+  </compound>
+  <compound refid="dir_c33bdd63ccc632af7019238d81e0d8e9" kind="dir"><name>src/KronUIGL/Paints</name>
+  </compound>
+  <compound refid="dir_57c0de8f9626b1e9be79b215d4bd7ae6" kind="dir"><name>src/KronUIGL/3D/Renderers</name>
+  </compound>
+  <compound refid="dir_f057049c6403cba32b3346cb243b3591" kind="dir"><name>src/KronUIGL/3D/Renderers/CMakeFiles/renderers.dir</name>
+  </compound>
+  <compound refid="dir_38a02244cd8c36873565c70e3958cb2a" kind="dir"><name>src/KronUIGL/Shaders</name>
+  </compound>
+  <compound refid="dir_cbc8056f1cf60cb1b1efef2acf47bb13" kind="dir"><name>src/KronUIGL/Shaders/CMakeFiles/shaders.dir</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_640e89c8239781e7dce70dc47ee83170" kind="dir"><name>src/KronUIGL/Text</name>
+  </compound>
+  <compound refid="dir_8d0d8424bbfe659a62478cb4bc20c471" kind="dir"><name>src/KronUIGL/Text/CMakeFiles/textrenderer.dir</name>
+  </compound>
+  <compound refid="dir_5d9ad244ea21c7b8bbd403a4d41b41a9" kind="dir"><name>src/Freetype/CMakeFiles/TTM.dir</name>
+  </compound>
+  <compound refid="dir_8ce79d946b4e5ec6f8d1cf3a6bbe09ee" kind="dir"><name>src/KronUIGL/3D/Vision</name>
+  </compound>
+  <compound refid="dir_9f1a20767a4025d6d5e50e74c62a6e47" kind="dir"><name>src/KronUIGL/3D/Vision/CMakeFiles/vision.dir</name>
+  </compound>
+  <compound refid="dir_bca6d9e9e391ded75cc9296571518978" kind="dir"><name>src/KronUIGL/Window</name>
+  </compound>
+  <compound refid="dir_d754a425bc723307fee46a9c58c65e31" kind="dir"><name>src/KronUIGL/Window/CMakeFiles/window.dir</name>
+  </compound>
+</doxygenindex>

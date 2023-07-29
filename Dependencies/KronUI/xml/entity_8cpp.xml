@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="entity_8cpp" kind="file" language="C++">
+    <compoundname>entity.cpp</compoundname>
+    <includes refid="entity_8hpp" local="yes">entity.hpp</includes>
+    <includes local="no">glm/gtc/matrix_transform.hpp</includes>
+    <incdepgraph>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/3D/Elements/entity.cpp</label>
+        <link refid="entity_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>vertex.hpp</label>
+        <link refid="vertex_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>transform.hpp</label>
+        <link refid="transform_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="9">
+        <label>mesh.hpp</label>
+        <link refid="mesh_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>optional</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+      <node id="8">
+        <label>assimp/scene.h</label>
+      </node>
+      <node id="13">
+        <label>glm/gtc/matrix_transform.hpp</label>
+      </node>
+      <node id="2">
+        <label>entity.hpp</label>
+        <link refid="entity_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>texture.hpp</label>
+        <link refid="texture_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="entity_8hpp" kindref="compound">entity.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glm/gtc/matrix_transform.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">glm::mat4<sp/><ref refid="classEntity_1a863b2318e49fdca5bd1b3ff44b08fcb5" kindref="member">Entity::getTransformMatrix</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>glm::mat4<sp/>model<sp/>=<sp/>glm::mat4(1.0f);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>model<sp/>=<sp/>glm::translate(model,<sp/><ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref>);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>model<sp/>=<sp/>glm::rotate(model,<sp/>glm::radians(<ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a0b39a3cad853ab427a91b761d82440d2" kindref="member">Rotation</ref>.x),<sp/>glm::vec3(1.0f,<sp/>0.0f,<sp/>0.0f));</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>model<sp/>=<sp/>glm::rotate(model,<sp/>glm::radians(<ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a0b39a3cad853ab427a91b761d82440d2" kindref="member">Rotation</ref>.y),<sp/>glm::vec3(0.0f,<sp/>1.0f,<sp/>0.0f));</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>model<sp/>=<sp/>glm::rotate(model,<sp/>glm::radians(<ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a0b39a3cad853ab427a91b761d82440d2" kindref="member">Rotation</ref>.z),<sp/>glm::vec3(0.0f,<sp/>0.0f,<sp/>1.0f));</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>model<sp/>=<sp/>glm::scale(model,<sp/><ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a337690a3de8862de2f930e9ee1323365" kindref="member">Scale</ref>);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>model;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/KronUIGL/3D/Elements/entity.cpp"/>
+  </compounddef>
+</doxygen>

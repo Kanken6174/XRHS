@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classMeshRenderer" kind="class" language="C++" prot="public">
+    <compoundname>MeshRenderer</compoundname>
+    <includes refid="MeshRenderer_8hpp" local="no">MeshRenderer.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMeshRenderer_1a3113309271a52659964ab0d78cb78ef3" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMesh" kindref="compound">Mesh</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;Mesh&gt; &gt; MeshRenderer::meshes</definition>
+        <argsstring></argsstring>
+        <name>meshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="13" column="17" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMeshRenderer_1a52c3631df64ad60cf8952f77dd41a2f6" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int MeshRenderer::quadVAO</definition>
+        <argsstring></argsstring>
+        <name>quadVAO</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="15" column="18" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMeshRenderer_1a721df01202bc75558b32fa5211905a36" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int MeshRenderer::quadVBO</definition>
+        <argsstring></argsstring>
+        <name>quadVBO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="16" column="18" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMeshRenderer_1ab3dcfdff5dfc95cff21a398b3c3599a5" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classShader" kindref="compound">Shader</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Shader&gt; MeshRenderer::shader</definition>
+        <argsstring></argsstring>
+        <name>shader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="20" column="21" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMeshRenderer_1a1a5040793bfcc8d659b3519fe7567604" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshRenderer::prepareQuad</definition>
+        <argsstring>()</argsstring>
+        <name>prepareQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="17" column="10" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.cpp" bodystart="3" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshRenderer_1a57212c34a1768e12d9fe38e9dc871201" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshRenderer::drawQuad</definition>
+        <argsstring>()</argsstring>
+        <name>drawQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="18" column="10" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.cpp" bodystart="30" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMeshRenderer_1a988942a8fffef15f1fad5fde3b6018ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MeshRenderer::MeshRenderer</definition>
+        <argsstring>(std::shared_ptr&lt; Shader &gt; _shader)</argsstring>
+        <name>MeshRenderer</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classShader" kindref="compound">Shader</ref> &gt;</type>
+          <declname>_shader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="21" column="5" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshRenderer_1a934312ed260ad137c16bfc342de31f6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshRenderer::addMesh</definition>
+        <argsstring>(std::shared_ptr&lt; Mesh &gt; mesh)</argsstring>
+        <name>addMesh</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classMesh" kindref="compound">Mesh</ref> &gt;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="23" column="10" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshRenderer_1a813be8c300f6bcb6d34250bcaec8f929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshRenderer::drawMesh</definition>
+        <argsstring>(std::shared_ptr&lt; Mesh &gt; mesh)</argsstring>
+        <name>drawMesh</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classMesh" kindref="compound">Mesh</ref> &gt;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="29" column="10" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.cpp" bodystart="84" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshRenderer_1aacd9634e6cadcfb52398930028ec3ddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshRenderer::renderAll</definition>
+        <argsstring>()</argsstring>
+        <name>renderAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="31" column="10" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.cpp" bodystart="39" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" line="11" column="1" bodyfile="src/KronUIGL/3D/Renderers/MeshRenderer.hpp" bodystart="11" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classMeshRenderer_1a934312ed260ad137c16bfc342de31f6e" prot="public" virt="non-virtual"><scope>MeshRenderer</scope><name>addMesh</name></member>
+      <member refid="classMeshRenderer_1a813be8c300f6bcb6d34250bcaec8f929" prot="public" virt="non-virtual"><scope>MeshRenderer</scope><name>drawMesh</name></member>
+      <member refid="classMeshRenderer_1a57212c34a1768e12d9fe38e9dc871201" prot="private" virt="non-virtual"><scope>MeshRenderer</scope><name>drawQuad</name></member>
+      <member refid="classMeshRenderer_1a3113309271a52659964ab0d78cb78ef3" prot="private" virt="non-virtual"><scope>MeshRenderer</scope><name>meshes</name></member>
+      <member refid="classMeshRenderer_1a988942a8fffef15f1fad5fde3b6018ca" prot="public" virt="non-virtual"><scope>MeshRenderer</scope><name>MeshRenderer</name></member>
+      <member refid="classMeshRenderer_1a1a5040793bfcc8d659b3519fe7567604" prot="private" virt="non-virtual"><scope>MeshRenderer</scope><name>prepareQuad</name></member>
+      <member refid="classMeshRenderer_1a52c3631df64ad60cf8952f77dd41a2f6" prot="private" virt="non-virtual"><scope>MeshRenderer</scope><name>quadVAO</name></member>
+      <member refid="classMeshRenderer_1a721df01202bc75558b32fa5211905a36" prot="private" virt="non-virtual"><scope>MeshRenderer</scope><name>quadVBO</name></member>
+      <member refid="classMeshRenderer_1aacd9634e6cadcfb52398930028ec3ddb" prot="public" virt="non-virtual"><scope>MeshRenderer</scope><name>renderAll</name></member>
+      <member refid="classMeshRenderer_1ab3dcfdff5dfc95cff21a398b3c3599a5" prot="public" virt="non-virtual"><scope>MeshRenderer</scope><name>shader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

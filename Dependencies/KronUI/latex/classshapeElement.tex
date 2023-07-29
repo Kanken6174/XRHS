@@ -1,0 +1,72 @@
+\hypertarget{classshapeElement}{}\doxysection{shape\+Element Class Reference}
+\label{classshapeElement}\index{shapeElement@{shapeElement}}
+
+
+{\ttfamily \#include $<$Drawing.\+hpp$>$}
+
+
+
+Inheritance diagram for shape\+Element\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classshapeElement__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual std\+::vector$<$ float $>$ \mbox{\hyperlink{classshapeElement_a7a794c9647200504b783c0f1830add18}{generate\+Vertices}} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{classshapeElement_ab6a75c0933f15914e0723e1f77a3e675}{vertices\+Amount}} = 3
+\begin{DoxyCompactList}\small\item\em Generates the vertices for a given shape, which can be read by opengl to draw things. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ float $>$ \mbox{\hyperlink{classshapeElement_a5bed7938c8f925300b2ca1c3e071fb4b}{vertices}} = std\+::vector$<$float$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classshapeElement_a7a794c9647200504b783c0f1830add18}\label{classshapeElement_a7a794c9647200504b783c0f1830add18}} 
+\index{shapeElement@{shapeElement}!generateVertices@{generateVertices}}
+\index{generateVertices@{generateVertices}!shapeElement@{shapeElement}}
+\doxysubsubsection{\texorpdfstring{generateVertices()}{generateVertices()}}
+{\footnotesize\ttfamily virtual std\+::vector$<$float$>$ shape\+Element\+::generate\+Vertices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classDefaultCube_a72b21fa2d0a30474184f296f3ee7bb1c}{Default\+Cube}}, \mbox{\hyperlink{classEmptyRectangle_af1386bf5f9e1853911e40e8a30aedc88}{Empty\+Rectangle}}, \mbox{\hyperlink{classRectangle_a04bc59d135e90047dbb780fb52788e02}{Rectangle}}, \mbox{\hyperlink{classTriangle_a10ad7915f83b13cfebddea20e6336894}{Triangle}}, \mbox{\hyperlink{classLine_a5841e69c7633a8b94f155761c30c8657}{Line}}, and \mbox{\hyperlink{classPoint_a63977324f06d762ce224554ae693e6c7}{Point}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classshapeElement_a5bed7938c8f925300b2ca1c3e071fb4b}\label{classshapeElement_a5bed7938c8f925300b2ca1c3e071fb4b}} 
+\index{shapeElement@{shapeElement}!vertices@{vertices}}
+\index{vertices@{vertices}!shapeElement@{shapeElement}}
+\doxysubsubsection{\texorpdfstring{vertices}{vertices}}
+{\footnotesize\ttfamily std\+::vector$<$float$>$ shape\+Element\+::vertices = std\+::vector$<$float$>$()\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classshapeElement_ab6a75c0933f15914e0723e1f77a3e675}\label{classshapeElement_ab6a75c0933f15914e0723e1f77a3e675}} 
+\index{shapeElement@{shapeElement}!verticesAmount@{verticesAmount}}
+\index{verticesAmount@{verticesAmount}!shapeElement@{shapeElement}}
+\doxysubsubsection{\texorpdfstring{verticesAmount}{verticesAmount}}
+{\footnotesize\ttfamily unsigned int shape\+Element\+::vertices\+Amount = 3}
+
+
+
+Generates the vertices for a given shape, which can be read by opengl to draw things. 
+
+\begin{DoxyReturn}{Returns}
+~\newline
+ 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Kron\+UIGL/\+Geometry/\mbox{\hyperlink{Drawing_8hpp}{Drawing.\+hpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpaints.a 
+/usr/bin/ranlib libpaints.a

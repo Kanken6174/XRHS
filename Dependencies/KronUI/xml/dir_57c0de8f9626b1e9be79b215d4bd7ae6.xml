@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_57c0de8f9626b1e9be79b215d4bd7ae6" kind="dir">
+    <compoundname>src/KronUIGL/3D/Renderers</compoundname>
+    <innerdir refid="dir_cac026dc60a237b84f356e0e78bdca66">src/KronUIGL/3D/Renderers/CMakeFiles</innerdir>
+    <innerfile refid="MeshRenderer_8cpp">MeshRenderer.cpp</innerfile>
+    <innerfile refid="MeshRenderer_8hpp">MeshRenderer.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/3D/Renderers/"/>
+  </compounddef>
+</doxygen>

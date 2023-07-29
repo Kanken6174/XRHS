@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="Drawing_8hpp" kind="file" language="C++">
+    <compoundname>Drawing.hpp</compoundname>
+    <includes local="no">GL/glew.h</includes>
+    <includes refid="Shader_8hpp" local="yes">../Shaders/Shader.hpp</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">memory</includes>
+    <includedby refid="Shapes_8hpp" local="yes">src/KronUIGL/Geometry/Shapes.hpp</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="2">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="8">
+        <label>fstream</label>
+      </node>
+      <node id="3">
+        <label>../Shaders/Shader.hpp</label>
+        <link refid="Shader_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+      <node id="7">
+        <label>sstream</label>
+      </node>
+      <node id="5">
+        <label>../../Bases/ReflectiveItem.hpp</label>
+        <link refid="ReflectiveItem_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/Geometry/Drawing.hpp</label>
+        <link refid="Drawing_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>memory</label>
+      </node>
+      <node id="4">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>src/KronUIGL/KronUIGL.hpp</label>
+        <link refid="KronUIGL_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/KronUIGL/Geometry/Shapes.hpp</label>
+        <link refid="Shapes_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/KronUIGL/Geometry/Shapes.cpp</label>
+        <link refid="Shapes_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/KronUIGL/Geometry/GeometryRenderer.hpp</label>
+        <link refid="GeometryRenderer_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/Geometry/Drawing.hpp</label>
+        <link refid="Drawing_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/KronUIGL/Geometry/GeometryRenderer.cpp</label>
+        <link refid="GeometryRenderer_8cpp"/>
+      </node>
+      <node id="6">
+        <label>src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classshapeElement" prot="public">shapeElement</innerclass>
+    <innerclass refid="classDrawable" prot="public">Drawable</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Drawing_8hpp_1a1b332b1d1277bcf787fe5d740b7a45d7" prot="public" static="no">
+        <name>VERTICES_SIZE</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Drawing.hpp" line="5" column="19" bodyfile="src/KronUIGL/Geometry/Drawing.hpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>RenderMode</name>
+        <enumvalue id="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88a7ca66fdfaad3eb33fc65d7490178f856" prot="public">
+          <name>Triangles</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88aa0b0293a2db49f5f93c15a62e095c819" prot="public">
+          <name>Lines</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88a456de28f607f812b42743dfdd8d89314" prot="public">
+          <name>Quads</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Drawing.hpp" line="10" column="1" bodyfile="src/KronUIGL/Geometry/Drawing.hpp" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>guard_drawing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>guard_drawing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;GL/glew.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../Shaders/Shader.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="Drawing_8hpp_1a1b332b1d1277bcf787fe5d740b7a45d7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERTICES_SIZE<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88" kindref="member">RenderMode</ref><sp/>{<ref refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88a7ca66fdfaad3eb33fc65d7490178f856" kindref="member">Triangles</ref>,<sp/><ref refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88aa0b0293a2db49f5f93c15a62e095c819" kindref="member">Lines</ref>,<sp/><ref refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88a456de28f607f812b42743dfdd8d89314" kindref="member">Quads</ref>};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//Defines<sp/>a<sp/>primitive<sp/>shape<sp/>made<sp/>out<sp/>of<sp/>computed<sp/>verticies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classshapeElement" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classshapeElement" kindref="compound">shapeElement</ref>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15" refid="classshapeElement_1a5bed7938c8f925300b2ca1c3e071fb4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/><ref refid="classshapeElement_1a5bed7938c8f925300b2ca1c3e071fb4b" kindref="member">vertices</ref><sp/>=<sp/>std::vector&lt;float&gt;();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="classshapeElement_1ab6a75c0933f15914e0723e1f77a3e675" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classshapeElement_1ab6a75c0933f15914e0723e1f77a3e675" kindref="member">verticesAmount</ref><sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="20" refid="classshapeElement_1a7a794c9647200504b783c0f1830add18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;<sp/><ref refid="classshapeElement_1a7a794c9647200504b783c0f1830add18" kindref="member">generateVertices</ref>()=0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classDrawable" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classDrawable" kindref="compound">Drawable</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classshapeElement" kindref="compound">shapeElement</ref>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25" refid="classDrawable_1a6ef0a45864cdb86a2f7ee86df33cf1c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88" kindref="member">RenderMode</ref><sp/><ref refid="classDrawable_1a6ef0a45864cdb86a2f7ee86df33cf1c3" kindref="member">mode</ref><sp/>=<sp/><ref refid="Drawing_8hpp_1ac9e546db27bb4f76f47d7e25f24abb88a7ca66fdfaad3eb33fc65d7490178f856" kindref="member">RenderMode::Triangles</ref>;</highlight></codeline>
+<codeline lineno="26" refid="classDrawable_1ad66b72e5c70f154ba14f736779702edf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>GLuint<sp/><ref refid="classDrawable_1ad66b72e5c70f154ba14f736779702edf" kindref="member">bufferID</ref>;</highlight></codeline>
+<codeline lineno="27" refid="classDrawable_1a5d88a6da5c2d7aa468c7b347ea2189b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Shader&gt;<sp/><ref refid="classDrawable_1a5d88a6da5c2d7aa468c7b347ea2189b7" kindref="member">shader</ref>;</highlight></codeline>
+<codeline lineno="28" refid="classDrawable_1ac2a22ca4c60f3725209dfe5da30b91e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*<ref refid="classDrawable_1ac2a22ca4c60f3725209dfe5da30b91e6" kindref="member">drawerFunction</ref>)(<ref refid="classDrawable" kindref="compound">Drawable</ref>*);</highlight></codeline>
+<codeline lineno="29" refid="classDrawable_1a40520e875b6b2caa68aa234217da8ef1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDrawable_1a40520e875b6b2caa68aa234217da8ef1" kindref="member">drawSelf</ref>(){</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="classDrawable_1ac2a22ca4c60f3725209dfe5da30b91e6" kindref="member">drawerFunction</ref><sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDrawable_1ac2a22ca4c60f3725209dfe5da30b91e6" kindref="member">drawerFunction</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;drawer<sp/>function<sp/>was<sp/>null<sp/>on<sp/>drawable:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>this-&gt;bufferID<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="src/KronUIGL/Geometry/Drawing.hpp"/>
+  </compounddef>
+</doxygen>

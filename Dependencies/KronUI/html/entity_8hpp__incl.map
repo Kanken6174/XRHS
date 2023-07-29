@@ -1,0 +1,13 @@
+<map id="src/KronUIGL/3D/Elements/entity.hpp" name="src/KronUIGL/3D/Elements/entity.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="96,5,279,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="37,244,130,271"/>
+<area shape="rect" id="node3" title=" " alt="" coords="37,95,95,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="119,95,186,121"/>
+<area shape="rect" id="node5" href="$transform_8hpp.html" title=" " alt="" coords="32,169,135,196"/>
+<area shape="rect" id="node6" href="$texture_8hpp.html" title=" " alt="" coords="472,169,559,196"/>
+<area shape="rect" id="node8" href="$mesh_8hpp.html" title=" " alt="" coords="264,95,343,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="458,244,573,271"/>
+<area shape="rect" id="node9" href="$vertex_8hpp.html" title=" " alt="" coords="159,169,242,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="267,169,345,196"/>
+<area shape="rect" id="node11" title=" " alt="" coords="369,169,448,196"/>
+</map>

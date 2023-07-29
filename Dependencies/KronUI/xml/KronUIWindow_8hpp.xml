@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="KronUIWindow_8hpp" kind="file" language="C++">
+    <compoundname>KronUIWindow.hpp</compoundname>
+    <includes local="no">GL/glew.h</includes>
+    <includes local="no">GLFW/glfw3.h</includes>
+    <includes local="no">string</includes>
+    <includedby refid="KronUIGL_8hpp" local="yes">src/KronUIGL/KronUIGL.hpp</includedby>
+    <includedby refid="TextRenderer_8hpp" local="yes">src/KronUIGL/Text/TextRenderer.hpp</includedby>
+    <includedby refid="KronUIWindow_8cpp" local="yes">src/KronUIGL/Window/KronUIWindow.cpp</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="2">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="3">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/Window/KronUIWindow.hpp</label>
+        <link refid="KronUIWindow_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/KronUIGL/KronUIGL.hpp</label>
+        <link refid="KronUIGL_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/KronUIGL/Text/TextRenderer.hpp</label>
+        <link refid="TextRenderer_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/KronUIGL/Window/KronUIWindow.cpp</label>
+        <link refid="KronUIWindow_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/KronUIGL/Text/TextRenderer.cpp</label>
+        <link refid="TextRenderer_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/Window/KronUIWindow.hpp</label>
+        <link refid="KronUIWindow_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classKronUIWindow" prot="public">KronUIWindow</innerclass>
+    <innerclass refid="classKronUIWindowManager" prot="public">KronUIWindowManager</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="KronUIWindow_8hpp_1a5180f7bf2b71421af837035824a8c8ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void framebuffer_size_callback</definition>
+        <argsstring>(GLFWwindow *window, int width, int height)</argsstring>
+        <name>framebuffer_size_callback</name>
+        <param>
+          <type>GLFWwindow *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Window/KronUIWindow.hpp" line="8" column="6" bodyfile="src/KronUIGL/Window/KronUIWindow.cpp" bodystart="8" bodyend="14" declfile="src/KronUIGL/Window/KronUIWindow.hpp" declline="8" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GLFWXWindow_guard</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GLFWXWindow_guard</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;GL/glew.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;GLFW/glfw3.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="KronUIWindow_8hpp_1a5180f7bf2b71421af837035824a8c8ac" kindref="member">framebuffer_size_callback</ref>(GLFWwindow*<sp/>window,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classKronUIWindow" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classKronUIWindow" kindref="compound">KronUIWindow</ref>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>_name;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>GLFWwindow*<sp/>_self;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15" refid="classKronUIWindow_1a80a57875d765cfebcbd37b43596bf2ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classKronUIWindow_1a80a57875d765cfebcbd37b43596bf2ab" kindref="member">VAO</ref>,<sp/><ref refid="classKronUIWindow_1ae9361e2b65da641c7bb38eee36a6e2f6" kindref="member">VBO</ref>;</highlight></codeline>
+<codeline lineno="16" refid="classKronUIWindow_1a8d663a36e40905c9ef89f95c8339ff93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classKronUIWindow_1a8d663a36e40905c9ef89f95c8339ff93" kindref="member">_width</ref><sp/>=<sp/>800;</highlight></codeline>
+<codeline lineno="17" refid="classKronUIWindow_1afa73da45f9b7284c881af0dd71a6667c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classKronUIWindow_1afa73da45f9b7284c881af0dd71a6667c" kindref="member">_height</ref><sp/>=<sp/>600;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classKronUIWindow_1acecb005664c26c2e79eecd11bc049db5" kindref="member">KronUIWindow</ref>(std::string<sp/>name,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="19" refid="classKronUIWindow_1aebe95a20c494eae6f513822d05043422" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classKronUIWindow_1aebe95a20c494eae6f513822d05043422" kindref="member">getName</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_name;}</highlight></codeline>
+<codeline lineno="20" refid="classKronUIWindow_1a9a290a36d6132d865a7de67eb856f7d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>GLFWwindow*<sp/><ref refid="classKronUIWindow_1a9a290a36d6132d865a7de67eb856f7d8" kindref="member">getSelf</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_self;}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classKronUIWindowManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classKronUIWindowManager" kindref="compound">KronUIWindowManager</ref>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classKronUIWindow" kindref="compound">KronUIWindow</ref>*<sp/>_window;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28" refid="classKronUIWindowManager_1acd09e751baa7298405144d4c6383d90d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classKronUIWindow" kindref="compound">KronUIWindow</ref>*<sp/><ref refid="classKronUIWindowManager_1acd09e751baa7298405144d4c6383d90d" kindref="member">getWindow</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_window;}</highlight></codeline>
+<codeline lineno="29" refid="classKronUIWindowManager_1a73511465c8ae2dec27377c70bb17dd17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classKronUIWindowManager_1a73511465c8ae2dec27377c70bb17dd17" kindref="member">setWindow</ref>(<ref refid="classKronUIWindow" kindref="compound">KronUIWindow</ref>*<sp/>window){_window<sp/>=<sp/>window;}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="src/KronUIGL/Window/KronUIWindow.hpp"/>
+  </compounddef>
+</doxygen>

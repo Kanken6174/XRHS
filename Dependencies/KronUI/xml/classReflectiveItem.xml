@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classReflectiveItem" kind="class" language="C++" prot="public">
+    <compoundname>ReflectiveItem</compoundname>
+    <includes refid="ReflectiveItem_8hpp" local="no">ReflectiveItem.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classReflectiveItem_1aed117b0e2e9a414575871627e8622cfa" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ReflectiveItem::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Bases/ReflectiveItem.hpp" line="8" column="17" bodyfile="src/Bases/ReflectiveItem.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReflectiveItem_1af93522901a0e167eb130053642261b04" prot="private" static="no" mutable="no">
+        <type>const void *</type>
+        <definition>const void* ReflectiveItem::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <initializer>= static_cast&lt;const void*&gt;(this)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Bases/ReflectiveItem.hpp" line="9" column="17" bodyfile="src/Bases/ReflectiveItem.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classReflectiveItem_1adabfa391ef38161de2e243bd387b8e6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ReflectiveItem::ReflectiveItem</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>ReflectiveItem</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Bases/ReflectiveItem.hpp" line="11" column="5" bodyfile="src/Bases/ReflectiveItem.hpp" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classReflectiveItem_1a1ed203f9b24870e37f02adb3c57c8f5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ReflectiveItem::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Bases/ReflectiveItem.hpp" line="16" column="17" bodyfile="src/Bases/ReflectiveItem.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classReflectiveItem_1ac9c9a3038c9c4e57568418c4f43931f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classReflectiveItem" kindref="compound">ReflectiveItem</ref> *</type>
+        <definition>ReflectiveItem* ReflectiveItem::getAddress</definition>
+        <argsstring>()</argsstring>
+        <name>getAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Bases/ReflectiveItem.hpp" line="17" column="20" bodyfile="src/Bases/ReflectiveItem.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Bases/ReflectiveItem.hpp" line="6" column="1" bodyfile="src/Bases/ReflectiveItem.hpp" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="classReflectiveItem_1aed117b0e2e9a414575871627e8622cfa" prot="private" virt="non-virtual"><scope>ReflectiveItem</scope><name>_name</name></member>
+      <member refid="classReflectiveItem_1af93522901a0e167eb130053642261b04" prot="private" virt="non-virtual"><scope>ReflectiveItem</scope><name>address</name></member>
+      <member refid="classReflectiveItem_1ac9c9a3038c9c4e57568418c4f43931f7" prot="public" virt="non-virtual"><scope>ReflectiveItem</scope><name>getAddress</name></member>
+      <member refid="classReflectiveItem_1a1ed203f9b24870e37f02adb3c57c8f5c" prot="public" virt="non-virtual"><scope>ReflectiveItem</scope><name>getName</name></member>
+      <member refid="classReflectiveItem_1adabfa391ef38161de2e243bd387b8e6a" prot="public" virt="non-virtual"><scope>ReflectiveItem</scope><name>ReflectiveItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

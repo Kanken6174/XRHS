@@ -1,0 +1,99 @@
+\hypertarget{classcameraPickerNode}{}\doxysection{camera\+Picker\+Node Class Reference}
+\label{classcameraPickerNode}\index{cameraPickerNode@{cameraPickerNode}}
+
+
+this node will pick the right camera UMat from the ones available in its \+\_\+source\+Manager  
+
+
+
+
+{\ttfamily \#include $<$camera\+Picker\+Node.\+hpp$>$}
+
+
+
+Inheritance diagram for camera\+Picker\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{classcameraPickerNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for camera\+Picker\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcameraPickerNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classcameraPickerNode_ab915119c3833e9b3fbd852b7876e4c24}{get\+Name}} () override
+\item 
+\mbox{\hyperlink{classcameraPickerNode_a274e3e89a282991e907c0d022c92e0d1}{camera\+Picker\+Node}} (\mbox{\hyperlink{classcameraManager}{camera\+Manager}} $\ast$source\+Manager)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcameraPickerNode_a9614cbe8c6f23e2a8a53b89af1b6a1fb}{process\+Frame}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcameraManager}{camera\+Manager}} $\ast$ \mbox{\hyperlink{classcameraPickerNode_a6388113326453d1399e721bd645f413d}{\+\_\+source\+Manager}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+this node will pick the right camera UMat from the ones available in its \+\_\+source\+Manager 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcameraPickerNode_a274e3e89a282991e907c0d022c92e0d1}\label{classcameraPickerNode_a274e3e89a282991e907c0d022c92e0d1}} 
+\index{cameraPickerNode@{cameraPickerNode}!cameraPickerNode@{cameraPickerNode}}
+\index{cameraPickerNode@{cameraPickerNode}!cameraPickerNode@{cameraPickerNode}}
+\doxysubsubsection{\texorpdfstring{cameraPickerNode()}{cameraPickerNode()}}
+{\footnotesize\ttfamily camera\+Picker\+Node\+::camera\+Picker\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcameraManager}{camera\+Manager}} $\ast$}]{source\+Manager }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcameraPickerNode_ab915119c3833e9b3fbd852b7876e4c24}\label{classcameraPickerNode_ab915119c3833e9b3fbd852b7876e4c24}} 
+\index{cameraPickerNode@{cameraPickerNode}!getName@{getName}}
+\index{getName@{getName}!cameraPickerNode@{cameraPickerNode}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string camera\+Picker\+Node\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classPipelineNode_a49b56283610fe540953730035478642d}{Pipeline\+Node}}.
+
+\mbox{\Hypertarget{classcameraPickerNode_a9614cbe8c6f23e2a8a53b89af1b6a1fb}\label{classcameraPickerNode_a9614cbe8c6f23e2a8a53b89af1b6a1fb}} 
+\index{cameraPickerNode@{cameraPickerNode}!processFrame@{processFrame}}
+\index{processFrame@{processFrame}!cameraPickerNode@{cameraPickerNode}}
+\doxysubsubsection{\texorpdfstring{processFrame()}{processFrame()}}
+{\footnotesize\ttfamily void camera\+Picker\+Node\+::process\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classPipelineNode_a3d7558cbccb39d64bdb3d837d658d34e}{Pipeline\+Node}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcameraPickerNode_a6388113326453d1399e721bd645f413d}\label{classcameraPickerNode_a6388113326453d1399e721bd645f413d}} 
+\index{cameraPickerNode@{cameraPickerNode}!\_sourceManager@{\_sourceManager}}
+\index{\_sourceManager@{\_sourceManager}!cameraPickerNode@{cameraPickerNode}}
+\doxysubsubsection{\texorpdfstring{\_sourceManager}{\_sourceManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcameraManager}{camera\+Manager}}$\ast$ camera\+Picker\+Node\+::\+\_\+source\+Manager\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/pipeline/members/\mbox{\hyperlink{cameraPickerNode_8hpp}{camera\+Picker\+Node.\+hpp}}\item 
+src/pipeline/members/\mbox{\hyperlink{cameraPickerNode_8cpp}{camera\+Picker\+Node.\+cpp}}\end{DoxyCompactItemize}

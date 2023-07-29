@@ -1,0 +1,289 @@
+\hypertarget{classPipelineNode}{}\doxysection{Pipeline\+Node Class Reference}
+\label{classPipelineNode}\index{PipelineNode@{PipelineNode}}
+
+
+this class represents a threaded node of the graphics pipeline  
+
+
+
+
+{\ttfamily \#include $<$pipeline\+Node.\+hpp$>$}
+
+
+
+Inheritance diagram for Pipeline\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPipelineNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Pipeline\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classPipelineNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPipelineNode_abfe916b6b26bf16f34c8d6c853bb7a5a}{Pipeline\+Node}} ()
+\item 
+cv\+::\+UMat \mbox{\hyperlink{classPipelineNode_a8eea2b43ffcb9651b41ceba8bea12b93}{get\+Output}} ()
+\item 
+void \mbox{\hyperlink{classPipelineNode_a11da7c4cfa3b2b1ecc3db44a1b2d0be1}{run}} ()
+\item 
+bool \mbox{\hyperlink{classPipelineNode_a3af84efa81637db59b54118082f2cd98}{is\+Running}} ()
+\item 
+void \mbox{\hyperlink{classPipelineNode_a7debfedefe43ccc70b5f08245659b42c}{stop}} ()
+\item 
+void \mbox{\hyperlink{classPipelineNode_a22f06a1a02806fd43a8240154a46278f}{start}} ()
+\item 
+virtual std\+::string \mbox{\hyperlink{classPipelineNode_a49b56283610fe540953730035478642d}{get\+Name}} ()=0
+\item 
+std\+::thread $\ast$ \mbox{\hyperlink{classPipelineNode_a5b93e680cd507bbd36a15c919d2287e1}{join\+Thread}} ()
+\item 
+void \mbox{\hyperlink{classPipelineNode_a24d9a3b3738c956fd5dc6b716d69aa6d}{set\+Thread\+To\+Core}} (int core)
+\item 
+void \mbox{\hyperlink{classPipelineNode_a46567f4cee5cfacbf6ab8b501a731fda}{add\+Sub\+Node}} (\mbox{\hyperlink{classSubNode}{Sub\+Node}} $\ast$sn)
+\item 
+void \mbox{\hyperlink{classPipelineNode_a07565dd58ce506b9de7e9a530dc8b2e5}{Update}} (const std\+::string \&key, const std\+::string \&value) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::atomic\+\_\+int \mbox{\hyperlink{classPipelineNode_a7f83c6f245382e170b20f41d4a51fb35}{fps\+Limit}} = 60
+\item 
+\mbox{\hyperlink{classframerateChecker}{framerate\+Checker}} $\ast$ \mbox{\hyperlink{classPipelineNode_af40a44fd744746656ec8aa50375233cd}{local\+ES}}
+\item 
+float \mbox{\hyperlink{classPipelineNode_a2739f4e8a07a0ca57d94c7d3370481e6}{cost}} = 1
+\item 
+std\+::mutex \mbox{\hyperlink{classPipelineNode_ab70918696c879dfdbb53e390aaac5071}{output\+Lock}}
+\item 
+std\+::mutex \mbox{\hyperlink{classPipelineNode_a26e9a47dd77e0020b613fb94f57ace32}{sub\+Nodes\+Lock}}
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classPipelineNode_a2e218788c0cc5d0027c5be4ad84949e2}{disabled}} = false
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classPipelineNode_a44074e1ff5d143dac2984bed8debe300}{changed}} = true
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classPipelineNode_a3d7558cbccb39d64bdb3d837d658d34e}{process\+Frame}} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classSubNode}{Sub\+Node}} $\ast$ $>$ \mbox{\hyperlink{classPipelineNode_a0f7eaaaeec4d4a71da4a35785153fcde}{sub\+Nodes}}
+\item 
+cv\+::\+UMat \mbox{\hyperlink{classPipelineNode_a14b1fc420fde77e8e67e726231455cd9}{output}}
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classPipelineNode_aacd63ad8780f2e29871d932f77af6219}{should\+Run}} = false
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classPipelineNode_a129905d26914d077839d2e8d63bb64c1}{is\+Last}} = true
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classPipelineNode_ab88c4fe3db4eca29d3487ceac5998cdc}{is\+First}} = true
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classPipelineNode_a46f1e64a64ac906b813d2e4cb859b56b}{ran\+Once}} = false
+\item 
+\mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$ \mbox{\hyperlink{classPipelineNode_abfbf207beb663300ef17cdfd61ad0c78}{previous}} = nullptr
+\item 
+std\+::thread $\ast$ \mbox{\hyperlink{classPipelineNode_a3ca9733910b0bb880429995a6a3163fa}{local\+Thread}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class represents a threaded node of the graphics pipeline 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPipelineNode_abfe916b6b26bf16f34c8d6c853bb7a5a}\label{classPipelineNode_abfe916b6b26bf16f34c8d6c853bb7a5a}} 
+\index{PipelineNode@{PipelineNode}!PipelineNode@{PipelineNode}}
+\index{PipelineNode@{PipelineNode}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{PipelineNode()}{PipelineNode()}}
+{\footnotesize\ttfamily Pipeline\+Node\+::\+Pipeline\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPipelineNode_a46567f4cee5cfacbf6ab8b501a731fda}\label{classPipelineNode_a46567f4cee5cfacbf6ab8b501a731fda}} 
+\index{PipelineNode@{PipelineNode}!addSubNode@{addSubNode}}
+\index{addSubNode@{addSubNode}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{addSubNode()}{addSubNode()}}
+{\footnotesize\ttfamily void Pipeline\+Node\+::add\+Sub\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSubNode}{Sub\+Node}} $\ast$}]{sn }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classPipelineNode_a49b56283610fe540953730035478642d}\label{classPipelineNode_a49b56283610fe540953730035478642d}} 
+\index{PipelineNode@{PipelineNode}!getName@{getName}}
+\index{getName@{getName}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily virtual std\+::string Pipeline\+Node\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classZbarAnalysisNode_a127b0b0c3ee5bd3cb1cdefd413958524}{Zbar\+Analysis\+Node}}, \mbox{\hyperlink{classVideoCaptureNode_a72e07586608aef130f9f2dc7e6641a7c}{Video\+Capture\+Node}}, \mbox{\hyperlink{classUiMergerNode_ae86940b67c1a9415ced4520162c2e33e}{Ui\+Merger\+Node}}, \mbox{\hyperlink{classUiDrawerNode_a71d1547582c1f12f47f5e07ca112f0cd}{Ui\+Drawer\+Node}}, \mbox{\hyperlink{classPluginNode_a50121a5e37d0aff40b7e53a4ef258c10}{Plugin\+Node}}, \mbox{\hyperlink{classDisplayOutputNode_a0a6996a15ccb346ca406d26cdd42bfcd}{Display\+Output\+Node}}, and \mbox{\hyperlink{classcameraPickerNode_ab915119c3833e9b3fbd852b7876e4c24}{camera\+Picker\+Node}}.
+
+\mbox{\Hypertarget{classPipelineNode_a8eea2b43ffcb9651b41ceba8bea12b93}\label{classPipelineNode_a8eea2b43ffcb9651b41ceba8bea12b93}} 
+\index{PipelineNode@{PipelineNode}!getOutput@{getOutput}}
+\index{getOutput@{getOutput}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{getOutput()}{getOutput()}}
+{\footnotesize\ttfamily cv\+::\+UMat Pipeline\+Node\+::get\+Output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classPipelineNode_a3af84efa81637db59b54118082f2cd98}\label{classPipelineNode_a3af84efa81637db59b54118082f2cd98}} 
+\index{PipelineNode@{PipelineNode}!isRunning@{isRunning}}
+\index{isRunning@{isRunning}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{isRunning()}{isRunning()}}
+{\footnotesize\ttfamily bool Pipeline\+Node\+::is\+Running (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classPipelineNode_a5b93e680cd507bbd36a15c919d2287e1}\label{classPipelineNode_a5b93e680cd507bbd36a15c919d2287e1}} 
+\index{PipelineNode@{PipelineNode}!joinThread@{joinThread}}
+\index{joinThread@{joinThread}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{joinThread()}{joinThread()}}
+{\footnotesize\ttfamily std\+::thread $\ast$ Pipeline\+Node\+::join\+Thread (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classPipelineNode_a3d7558cbccb39d64bdb3d837d658d34e}\label{classPipelineNode_a3d7558cbccb39d64bdb3d837d658d34e}} 
+\index{PipelineNode@{PipelineNode}!processFrame@{processFrame}}
+\index{processFrame@{processFrame}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{processFrame()}{processFrame()}}
+{\footnotesize\ttfamily virtual void Pipeline\+Node\+::process\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classZbarAnalysisNode_ae866ed83f357db98e8de84ee3a7d6e22}{Zbar\+Analysis\+Node}}, \mbox{\hyperlink{classVideoCaptureNode_aa10e5305ce5daa3f5556a4b0fc6892f2}{Video\+Capture\+Node}}, \mbox{\hyperlink{classUiMergerNode_a55cd538de31ef62a16f5a9aeac612a4c}{Ui\+Merger\+Node}}, \mbox{\hyperlink{classUiDrawerNode_a37c6e4da21bf7a021dc82429c6d3e7f8}{Ui\+Drawer\+Node}}, \mbox{\hyperlink{classPluginNode_aadfec36b7c8d898754deda04a4ce94e3}{Plugin\+Node}}, \mbox{\hyperlink{classDisplayOutputNode_a216a5a3270fd2586fbc4ebd071536813}{Display\+Output\+Node}}, and \mbox{\hyperlink{classcameraPickerNode_a9614cbe8c6f23e2a8a53b89af1b6a1fb}{camera\+Picker\+Node}}.
+
+\mbox{\Hypertarget{classPipelineNode_a11da7c4cfa3b2b1ecc3db44a1b2d0be1}\label{classPipelineNode_a11da7c4cfa3b2b1ecc3db44a1b2d0be1}} 
+\index{PipelineNode@{PipelineNode}!run@{run}}
+\index{run@{run}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void Pipeline\+Node\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classPipelineNode_a24d9a3b3738c956fd5dc6b716d69aa6d}\label{classPipelineNode_a24d9a3b3738c956fd5dc6b716d69aa6d}} 
+\index{PipelineNode@{PipelineNode}!setThreadToCore@{setThreadToCore}}
+\index{setThreadToCore@{setThreadToCore}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{setThreadToCore()}{setThreadToCore()}}
+{\footnotesize\ttfamily void Pipeline\+Node\+::set\+Thread\+To\+Core (\begin{DoxyParamCaption}\item[{int}]{core }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classPipelineNode_a22f06a1a02806fd43a8240154a46278f}\label{classPipelineNode_a22f06a1a02806fd43a8240154a46278f}} 
+\index{PipelineNode@{PipelineNode}!start@{start}}
+\index{start@{start}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{start()}{start()}}
+{\footnotesize\ttfamily void Pipeline\+Node\+::start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classPipelineNode_a7debfedefe43ccc70b5f08245659b42c}\label{classPipelineNode_a7debfedefe43ccc70b5f08245659b42c}} 
+\index{PipelineNode@{PipelineNode}!stop@{stop}}
+\index{stop@{stop}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{stop()}{stop()}}
+{\footnotesize\ttfamily void Pipeline\+Node\+::stop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classPipelineNode_a07565dd58ce506b9de7e9a530dc8b2e5}\label{classPipelineNode_a07565dd58ce506b9de7e9a530dc8b2e5}} 
+\index{PipelineNode@{PipelineNode}!Update@{Update}}
+\index{Update@{Update}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Pipeline\+Node\+::\+Update (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{key,  }\item[{const std\+::string \&}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classMapObserver_ad6e17cc9cd506f988510ff3011a46a48}{Map\+Observer}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classPipelineNode_a44074e1ff5d143dac2984bed8debe300}\label{classPipelineNode_a44074e1ff5d143dac2984bed8debe300}} 
+\index{PipelineNode@{PipelineNode}!changed@{changed}}
+\index{changed@{changed}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{changed}{changed}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Pipeline\+Node\+::changed = true}
+
+\mbox{\Hypertarget{classPipelineNode_a2739f4e8a07a0ca57d94c7d3370481e6}\label{classPipelineNode_a2739f4e8a07a0ca57d94c7d3370481e6}} 
+\index{PipelineNode@{PipelineNode}!cost@{cost}}
+\index{cost@{cost}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{cost}{cost}}
+{\footnotesize\ttfamily float Pipeline\+Node\+::cost = 1}
+
+\mbox{\Hypertarget{classPipelineNode_a2e218788c0cc5d0027c5be4ad84949e2}\label{classPipelineNode_a2e218788c0cc5d0027c5be4ad84949e2}} 
+\index{PipelineNode@{PipelineNode}!disabled@{disabled}}
+\index{disabled@{disabled}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{disabled}{disabled}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Pipeline\+Node\+::disabled = false}
+
+\mbox{\Hypertarget{classPipelineNode_a7f83c6f245382e170b20f41d4a51fb35}\label{classPipelineNode_a7f83c6f245382e170b20f41d4a51fb35}} 
+\index{PipelineNode@{PipelineNode}!fpsLimit@{fpsLimit}}
+\index{fpsLimit@{fpsLimit}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{fpsLimit}{fpsLimit}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+int Pipeline\+Node\+::fps\+Limit = 60}
+
+\mbox{\Hypertarget{classPipelineNode_ab88c4fe3db4eca29d3487ceac5998cdc}\label{classPipelineNode_ab88c4fe3db4eca29d3487ceac5998cdc}} 
+\index{PipelineNode@{PipelineNode}!isFirst@{isFirst}}
+\index{isFirst@{isFirst}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{isFirst}{isFirst}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Pipeline\+Node\+::is\+First = true\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classPipelineNode_a129905d26914d077839d2e8d63bb64c1}\label{classPipelineNode_a129905d26914d077839d2e8d63bb64c1}} 
+\index{PipelineNode@{PipelineNode}!isLast@{isLast}}
+\index{isLast@{isLast}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{isLast}{isLast}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Pipeline\+Node\+::is\+Last = true\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classPipelineNode_af40a44fd744746656ec8aa50375233cd}\label{classPipelineNode_af40a44fd744746656ec8aa50375233cd}} 
+\index{PipelineNode@{PipelineNode}!localES@{localES}}
+\index{localES@{localES}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{localES}{localES}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classframerateChecker}{framerate\+Checker}}$\ast$ Pipeline\+Node\+::local\+ES}
+
+\mbox{\Hypertarget{classPipelineNode_a3ca9733910b0bb880429995a6a3163fa}\label{classPipelineNode_a3ca9733910b0bb880429995a6a3163fa}} 
+\index{PipelineNode@{PipelineNode}!localThread@{localThread}}
+\index{localThread@{localThread}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{localThread}{localThread}}
+{\footnotesize\ttfamily std\+::thread$\ast$ Pipeline\+Node\+::local\+Thread\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classPipelineNode_a14b1fc420fde77e8e67e726231455cd9}\label{classPipelineNode_a14b1fc420fde77e8e67e726231455cd9}} 
+\index{PipelineNode@{PipelineNode}!output@{output}}
+\index{output@{output}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{output}{output}}
+{\footnotesize\ttfamily cv\+::\+UMat Pipeline\+Node\+::output\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classPipelineNode_ab70918696c879dfdbb53e390aaac5071}\label{classPipelineNode_ab70918696c879dfdbb53e390aaac5071}} 
+\index{PipelineNode@{PipelineNode}!outputLock@{outputLock}}
+\index{outputLock@{outputLock}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{outputLock}{outputLock}}
+{\footnotesize\ttfamily std\+::mutex Pipeline\+Node\+::output\+Lock}
+
+\mbox{\Hypertarget{classPipelineNode_abfbf207beb663300ef17cdfd61ad0c78}\label{classPipelineNode_abfbf207beb663300ef17cdfd61ad0c78}} 
+\index{PipelineNode@{PipelineNode}!previous@{previous}}
+\index{previous@{previous}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{previous}{previous}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}}$\ast$ Pipeline\+Node\+::previous = nullptr\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classPipelineNode_a46f1e64a64ac906b813d2e4cb859b56b}\label{classPipelineNode_a46f1e64a64ac906b813d2e4cb859b56b}} 
+\index{PipelineNode@{PipelineNode}!ranOnce@{ranOnce}}
+\index{ranOnce@{ranOnce}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{ranOnce}{ranOnce}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Pipeline\+Node\+::ran\+Once = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classPipelineNode_aacd63ad8780f2e29871d932f77af6219}\label{classPipelineNode_aacd63ad8780f2e29871d932f77af6219}} 
+\index{PipelineNode@{PipelineNode}!shouldRun@{shouldRun}}
+\index{shouldRun@{shouldRun}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{shouldRun}{shouldRun}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Pipeline\+Node\+::should\+Run = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classPipelineNode_a0f7eaaaeec4d4a71da4a35785153fcde}\label{classPipelineNode_a0f7eaaaeec4d4a71da4a35785153fcde}} 
+\index{PipelineNode@{PipelineNode}!subNodes@{subNodes}}
+\index{subNodes@{subNodes}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{subNodes}{subNodes}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classSubNode}{Sub\+Node}}$\ast$$>$ Pipeline\+Node\+::sub\+Nodes\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classPipelineNode_a26e9a47dd77e0020b613fb94f57ace32}\label{classPipelineNode_a26e9a47dd77e0020b613fb94f57ace32}} 
+\index{PipelineNode@{PipelineNode}!subNodesLock@{subNodesLock}}
+\index{subNodesLock@{subNodesLock}!PipelineNode@{PipelineNode}}
+\doxysubsubsection{\texorpdfstring{subNodesLock}{subNodesLock}}
+{\footnotesize\ttfamily std\+::mutex Pipeline\+Node\+::sub\+Nodes\+Lock}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/pipeline/abstract/\mbox{\hyperlink{pipelineNode_8hpp}{pipeline\+Node.\+hpp}}\item 
+src/pipeline/abstract/\mbox{\hyperlink{pipelineNode_8cpp}{pipeline\+Node.\+cpp}}\end{DoxyCompactItemize}

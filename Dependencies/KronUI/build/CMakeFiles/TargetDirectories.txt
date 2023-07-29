@@ -1,0 +1,3 @@
+/home/kanken/code/opengl-tests/KronUI/build/CMakeFiles/bases.dir
+/home/kanken/code/opengl-tests/KronUI/build/CMakeFiles/edit_cache.dir
+/home/kanken/code/opengl-tests/KronUI/build/CMakeFiles/rebuild_cache.dir

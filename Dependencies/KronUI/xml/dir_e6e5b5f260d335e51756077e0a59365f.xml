@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_e6e5b5f260d335e51756077e0a59365f" kind="dir">
+    <compoundname>src/KronUIGL/3D/Loaders</compoundname>
+    <innerdir refid="dir_69357a098510887cece25538d89e2a08">src/KronUIGL/3D/Loaders/CMakeFiles</innerdir>
+    <innerfile refid="OBJLoader_8cpp">OBJLoader.cpp</innerfile>
+    <innerfile refid="OBJLoader_8hpp">OBJLoader.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/3D/Loaders/"/>
+  </compounddef>
+</doxygen>
