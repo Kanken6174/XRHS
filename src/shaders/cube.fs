@@ -1,4 +1,6 @@
-#version 330 core
+#version 300 es
+precision mediump float;
+
 in vec3 Position;  
 in vec2 TexCoords;
 in vec3 Normal;    
@@ -17,15 +19,15 @@ struct Light {
 
 uniform Material material;
 uniform Light lights[8];
-uniform int numLights = 0;
+uniform int numLights;
 
-uniform int useDefault = 1;
-uniform int useColor = 0;
-uniform int useTexture = 0;
-uniform int useBump = 0;
-uniform int usePhong = 1;
+uniform int useDefault;
+uniform int useColor;
+uniform int useTexture;
+uniform int useBump;
+uniform int usePhong;
 
-uniform vec3 viewPos = vec3(0.0, 0.0, 0.0);
+uniform vec3 viewPos;
 
 vec3 calculateAmbient(vec3 color) {
     return 0.1 * color;
