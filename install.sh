@@ -45,10 +45,12 @@ unzip -o opencv_contrib.zip
 rm opencv.zip
 rm opencv_contrib.zip
 
+sudo ldconfig
+
 mkdir -p build && cd build
 cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-4.x/modules ../opencv-4.x \
  -DWITH_FFMPEG=ON -DWITH_OPENGL=ON -DWITH_OPENCL=ON -DWITH_GTK=ON -DWITH_QT=OFF -DWITHTBB=ON \
- -DWITH_CUDA=OFF -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF 
+ -DWITH_CUDA=OFF -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF -DBUILD_PNG=ON
 #-------------------------------------------------build project
 # Get the number of cores
 NUM_CORES=$(nproc)
