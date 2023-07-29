@@ -42,7 +42,8 @@ cameraManager::cameraManager() {
     std::cout << "found " << cameras.size() << " cameras" << std::endl;
 
     for(std::string camIdx : cameras) {
-        int camID = std::stoi(camIdx);
+        std::string index_str = camIdx.substr(camIdx.find_last_of("o") + 1);
+        int camID = std::stoi(index_str);
         // If the camera index is invalid, skip it
         if(invalid_cameras.count(camID)) continue;
 
