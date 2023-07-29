@@ -28,7 +28,7 @@ sudo apt-get install -y libtbb-dev ffmpeg freeglut3 freeglut3-dev binutils-gold 
 
 sudo apt-get install -y ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev
 
-sudo apt-get install -y libgtk2.0-dev libgl1-mesa-dev libglu1-mesa-dev
+sudo apt-get install -y libgtk2.0-dev libgl1-mesa-dev libglu1-mesa-dev libgtkglext1-dev
 
 sudo apt-get install -y libswresample-dev
 
