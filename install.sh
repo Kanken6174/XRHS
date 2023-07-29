@@ -42,6 +42,11 @@ rm opencv_contrib.zip
 mkdir -p build && cd build
 cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-4.x/modules ../opencv-4.x -DWITH_FFMPEG=ON -DWITH_OPENGL=ON -DWITH_OPENCL=ON -DWITH_GTK=ON -DWITH_QT=OFF -DWITHTBB=ON
 #-------------------------------------------------build project
-cmake --build . -j7
+# Get the number of cores
+NUM_CORES=$(nproc)
+# Add 1 to the number of cores
+NUM_JOBS=$((NUM_CORES + 1))
+# Build with cmake
+cmake --build . -j$NUM_JOBS
 sudo make install
 sudo ldconfig
