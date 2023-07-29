@@ -30,6 +30,8 @@ sudo apt-get install -y ffmpeg libavcodec-dev libavformat-dev libavutil-dev libs
 
 sudo apt-get install -y libgtk2.0-dev libgl1-mesa-dev libglu1-mesa-dev
 
+sudo apt-get install -y libswresample-dev
+
 mkdir ocv
 cd ocv
 
