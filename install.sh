@@ -24,6 +24,8 @@ sudo ldconfig
 #-------------------------------------------------------------------------------------Opencv
 cd ~/code/auto_installed/
 
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/include/libpng
+
 sudo apt-get install -y libtbb-dev ffmpeg freeglut3 freeglut3-dev binutils-gold libglew-dev mesa-common-dev libglm-dev libtbb-dev mesa-utils gtk2.0 libgtkglext1 libgtkglext1-dev libcanberra-gtk-module
 
 sudo apt-get install -y ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev
@@ -44,7 +46,9 @@ rm opencv.zip
 rm opencv_contrib.zip
 
 mkdir -p build && cd build
-cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-4.x/modules ../opencv-4.x -DWITH_FFMPEG=ON -DWITH_OPENGL=ON -DWITH_OPENCL=ON -DWITH_GTK=ON -DWITH_QT=OFF -DWITHTBB=ON
+cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-4.x/modules ../opencv-4.x \
+ -DWITH_FFMPEG=ON -DWITH_OPENGL=ON -DWITH_OPENCL=ON -DWITH_GTK=ON -DWITH_QT=OFF -DWITHTBB=ON \
+ -DWITH_CUDA=OFF -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF 
 #-------------------------------------------------build project
 # Get the number of cores
 NUM_CORES=$(nproc)
