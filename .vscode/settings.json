@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "valarray": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers"
 }
