@@ -5,6 +5,11 @@ cd ~/code/auto_installed/
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install -y git cmake g++ wget unzip build-essential ccache pkg-config
+#-------------------------------------------------zbar
+sudo apt-get install -y libzbar-dev
+#-------------------------------------------------gl deps
+PACKAGES="libglm-dev libfreetype6-dev libglew-dev libglfw3-dev libassimp-dev libx11-dev libgl1-mesa-dev freeglut3-dev libopencv-dev libtbb-dev libpthread-stubs0-dev pkg-config libhidapi-dev"
+sudo apt-get install -y $PACKAGES
 #------------------------------------------------------------------------------------Hidapi
 sudo apt-get install -y libudev-dev libusb-1.0-0-dev
 mkdir hid
@@ -36,9 +41,6 @@ rm opencv_contrib.zip
 
 mkdir -p build && cd build
 cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-4.x/modules ../opencv-4.x -DWITH_FFMPEG=ON -DWITH_OPENGL=ON -DWITH_OPENCL=ON -DWITH_GTK=ON -DWITH_QT=OFF -DWITHTBB=ON
-
-#-------------------------------------------------zbar
-sudo apt-get install -y libzbar-dev
 #-------------------------------------------------build project
 cmake --build . -j7
 sudo make install
