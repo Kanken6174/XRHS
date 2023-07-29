@@ -63,7 +63,7 @@ cameraManager::cameraManager() {
 
                 cam->path = camID;
                 videoSources.push_back(cam);    //valid camera added
-                std::cout << "added camera with path /dev/video" << cam->path << std::endl;
+                std::cout << "\033[32m" << "added camera with path /dev/video" << cam->path << "\033[0m" << std::endl;
                 cv::UMat m;
                 captures.push_back(std::move(m));
             }

@@ -30,6 +30,8 @@ std::vector<std::string> listCameras() {
                 to = std::regex_replace(to, std::regex(R"([\D])"), "");
                 std::cout << "found valid camera " << to << std::endl;
                 toreturn.push_back(to);
+            }else {
+                std::cout << "found invalid camera name match " << to << std::endl;
             }
         }
     }
