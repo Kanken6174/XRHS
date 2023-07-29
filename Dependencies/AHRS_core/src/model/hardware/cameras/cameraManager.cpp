@@ -1,5 +1,6 @@
 #include "_cam.hpp"
 #include <signal.h>
+#include <unordered_set>
 
 void cameraManager::runCaptureForCamera(camera* c, uint index){
     while(runCaptureThread){
