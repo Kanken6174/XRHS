@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 # Include any dependencies generated for this target.
 include KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/depend.make
@@ -70,18 +70,18 @@ include KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/progress.make
 include KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/flags.make
 
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/flags.make
-KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp
+KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o"
-	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o -MF CMakeFiles/surfaces.dir/DrawSurface.cpp.o.d -o CMakeFiles/surfaces.dir/DrawSurface.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o"
+	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o -MF CMakeFiles/surfaces.dir/DrawSurface.cpp.o.d -o CMakeFiles/surfaces.dir/DrawSurface.cpp.o -c /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp
 
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/surfaces.dir/DrawSurface.cpp.i"
-	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp > CMakeFiles/surfaces.dir/DrawSurface.cpp.i
+	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp > CMakeFiles/surfaces.dir/DrawSurface.cpp.i
 
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/surfaces.dir/DrawSurface.cpp.s"
-	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp -o CMakeFiles/surfaces.dir/DrawSurface.cpp.s
+	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp -o CMakeFiles/surfaces.dir/DrawSurface.cpp.s
 
 # Object files for target surfaces
 surfaces_OBJECTS = \
@@ -93,19 +93,19 @@ surfaces_EXTERNAL_OBJECTS =
 KronUIGL/3D/Surfaces/libsurfaces.a: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o
 KronUIGL/3D/Surfaces/libsurfaces.a: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make
 KronUIGL/3D/Surfaces/libsurfaces.a: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsurfaces.a"
-	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && $(CMAKE_COMMAND) -P CMakeFiles/surfaces.dir/cmake_clean_target.cmake
-	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/surfaces.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsurfaces.a"
+	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Surfaces && $(CMAKE_COMMAND) -P CMakeFiles/surfaces.dir/cmake_clean_target.cmake
+	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Surfaces && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/surfaces.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build: KronUIGL/3D/Surfaces/libsurfaces.a
 .PHONY : KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build
 
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/clean:
-	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && $(CMAKE_COMMAND) -P CMakeFiles/surfaces.dir/cmake_clean.cmake
+	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Surfaces && $(CMAKE_COMMAND) -P CMakeFiles/surfaces.dir/cmake_clean.cmake
 .PHONY : KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/clean
 
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanken/code/XRHS/src /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces /home/kanken/code/XRHS/src /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/src/KronUIGL/3D/Surfaces /home/orangepi/code/XRHS/src/KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/depend
 

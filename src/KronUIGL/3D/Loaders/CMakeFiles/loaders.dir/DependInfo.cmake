@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Loaders/OBJLoader.cpp" "KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o" "gcc" "KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o.d"
+  "/home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Loaders/OBJLoader.cpp" "KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o" "gcc" "KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/kanken/code/XRHS/src/KronUIGL/3D/Elements/CMakeFiles/elements.dir/DependInfo.cmake"
+  "/home/orangepi/code/XRHS/src/KronUIGL/3D/Elements/CMakeFiles/elements.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

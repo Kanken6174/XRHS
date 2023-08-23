@@ -1,4 +1,4 @@
-# Install script for directory: /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/ihidapi
+# Install script for directory: /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/hardware/ihidapi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

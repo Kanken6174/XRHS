@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 # Include any dependencies generated for this target.
 include ARHS/model/controllers/CMakeFiles/controllers.dir/depend.make
@@ -70,32 +70,32 @@ include ARHS/model/controllers/CMakeFiles/controllers.dir/progress.make
 include ARHS/model/controllers/CMakeFiles/controllers.dir/flags.make
 
 ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o: ARHS/model/controllers/CMakeFiles/controllers.dir/flags.make
-ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o: /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp
+ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o: /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp
 ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o: ARHS/model/controllers/CMakeFiles/controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o"
-	cd /home/kanken/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o -MF CMakeFiles/controllers.dir/ui/uiController.cpp.o.d -o CMakeFiles/controllers.dir/ui/uiController.cpp.o -c /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o"
+	cd /home/orangepi/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o -MF CMakeFiles/controllers.dir/ui/uiController.cpp.o.d -o CMakeFiles/controllers.dir/ui/uiController.cpp.o -c /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp
 
 ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/controllers.dir/ui/uiController.cpp.i"
-	cd /home/kanken/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp > CMakeFiles/controllers.dir/ui/uiController.cpp.i
+	cd /home/orangepi/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp > CMakeFiles/controllers.dir/ui/uiController.cpp.i
 
 ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controllers.dir/ui/uiController.cpp.s"
-	cd /home/kanken/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp -o CMakeFiles/controllers.dir/ui/uiController.cpp.s
+	cd /home/orangepi/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp -o CMakeFiles/controllers.dir/ui/uiController.cpp.s
 
 ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o: ARHS/model/controllers/CMakeFiles/controllers.dir/flags.make
-ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o: /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp
+ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o: /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp
 ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o: ARHS/model/controllers/CMakeFiles/controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o"
-	cd /home/kanken/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o -MF CMakeFiles/controllers.dir/ui/menu.cpp.o.d -o CMakeFiles/controllers.dir/ui/menu.cpp.o -c /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o"
+	cd /home/orangepi/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o -MF CMakeFiles/controllers.dir/ui/menu.cpp.o.d -o CMakeFiles/controllers.dir/ui/menu.cpp.o -c /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp
 
 ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/controllers.dir/ui/menu.cpp.i"
-	cd /home/kanken/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp > CMakeFiles/controllers.dir/ui/menu.cpp.i
+	cd /home/orangepi/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp > CMakeFiles/controllers.dir/ui/menu.cpp.i
 
 ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controllers.dir/ui/menu.cpp.s"
-	cd /home/kanken/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp -o CMakeFiles/controllers.dir/ui/menu.cpp.s
+	cd /home/orangepi/code/XRHS/src/ARHS/model/controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp -o CMakeFiles/controllers.dir/ui/menu.cpp.s
 
 # Object files for target controllers
 controllers_OBJECTS = \
@@ -109,19 +109,19 @@ ARHS/model/controllers/libcontrollers.a: ARHS/model/controllers/CMakeFiles/contr
 ARHS/model/controllers/libcontrollers.a: ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o
 ARHS/model/controllers/libcontrollers.a: ARHS/model/controllers/CMakeFiles/controllers.dir/build.make
 ARHS/model/controllers/libcontrollers.a: ARHS/model/controllers/CMakeFiles/controllers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcontrollers.a"
-	cd /home/kanken/code/XRHS/src/ARHS/model/controllers && $(CMAKE_COMMAND) -P CMakeFiles/controllers.dir/cmake_clean_target.cmake
-	cd /home/kanken/code/XRHS/src/ARHS/model/controllers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/controllers.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcontrollers.a"
+	cd /home/orangepi/code/XRHS/src/ARHS/model/controllers && $(CMAKE_COMMAND) -P CMakeFiles/controllers.dir/cmake_clean_target.cmake
+	cd /home/orangepi/code/XRHS/src/ARHS/model/controllers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/controllers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ARHS/model/controllers/CMakeFiles/controllers.dir/build: ARHS/model/controllers/libcontrollers.a
 .PHONY : ARHS/model/controllers/CMakeFiles/controllers.dir/build
 
 ARHS/model/controllers/CMakeFiles/controllers.dir/clean:
-	cd /home/kanken/code/XRHS/src/ARHS/model/controllers && $(CMAKE_COMMAND) -P CMakeFiles/controllers.dir/cmake_clean.cmake
+	cd /home/orangepi/code/XRHS/src/ARHS/model/controllers && $(CMAKE_COMMAND) -P CMakeFiles/controllers.dir/cmake_clean.cmake
 .PHONY : ARHS/model/controllers/CMakeFiles/controllers.dir/clean
 
 ARHS/model/controllers/CMakeFiles/controllers.dir/depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanken/code/XRHS/src /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers /home/kanken/code/XRHS/src /home/kanken/code/XRHS/src/ARHS/model/controllers /home/kanken/code/XRHS/src/ARHS/model/controllers/CMakeFiles/controllers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/controllers /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/src/ARHS/model/controllers /home/orangepi/code/XRHS/src/ARHS/model/controllers/CMakeFiles/controllers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ARHS/model/controllers/CMakeFiles/controllers.dir/depend
 

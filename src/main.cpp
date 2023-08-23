@@ -133,10 +133,10 @@ int main(){
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         glBindVertexArray(VertexArrayID);
-
+        
         OpencvToVideoFrame::updateFromNode(backgroundFrame, tlm->localPipeline->getNodes().at(0));
 #ifdef DEBUG_UI
-        OpencvToVideoFrame::updateFromNodeWithTransparency(frontFrame, tlm->localPipeline->getNodes().at(3));
+        //OpencvToVideoFrame::updateFromNodeWithTransparency(frontFrame, tlm->localPipeline->getNodes().at(3));
 #endif
 
 
@@ -155,7 +155,7 @@ int main(){
         //tx.RenderText("test", (window->_width/2.5), window->_height/2, i, glm::vec3(1.0f,1.0f,1.0f));
         i+= 0.001f;
         frontFrame->render();
-        /*ds->updateSurfaceFromWindow();
+        /*ds->updateSurfaceFromWindow(); //virtual pc window
         ds->shader->setMat4("view", InputSystem::getInstance().getCamera().viewMatrix);
         ds->shader->setMat4("projection", InputSystem::getInstance().getCamera().projectionMatrix);
         ds->drawSurface(InputSystem::getInstance().getCamera().viewMatrix, InputSystem::getInstance().getCamera().projectionMatrix);

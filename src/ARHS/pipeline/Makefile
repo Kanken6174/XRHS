@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/ARHS/pipeline//CMakeFiles/progress.marks
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/ARHS/pipeline//CMakeFiles/progress.marks
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/clean
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ARHS/pipeline/CMakeFiles/pipelineLib.dir/rule:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/CMakeFiles/pipelineLib.dir/rule
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pipeline/CMakeFiles/pipelineLib.dir/rule
 .PHONY : ARHS/pipeline/CMakeFiles/pipelineLib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ pipelineLib: ARHS/pipeline/CMakeFiles/pipelineLib.dir/rule
 
 # fast build rule for target.
 pipelineLib/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/build
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/build
 .PHONY : pipelineLib/fast
 
 abstract/pipelineNode.o: abstract/pipelineNode.cpp.o
@@ -135,7 +135,7 @@ abstract/pipelineNode.o: abstract/pipelineNode.cpp.o
 
 # target to build an object file
 abstract/pipelineNode.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.o
 .PHONY : abstract/pipelineNode.cpp.o
 
 abstract/pipelineNode.i: abstract/pipelineNode.cpp.i
@@ -143,7 +143,7 @@ abstract/pipelineNode.i: abstract/pipelineNode.cpp.i
 
 # target to preprocess a source file
 abstract/pipelineNode.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.i
 .PHONY : abstract/pipelineNode.cpp.i
 
 abstract/pipelineNode.s: abstract/pipelineNode.cpp.s
@@ -151,7 +151,7 @@ abstract/pipelineNode.s: abstract/pipelineNode.cpp.s
 
 # target to generate assembly for a file
 abstract/pipelineNode.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.s
 .PHONY : abstract/pipelineNode.cpp.s
 
 members/cameraPickerNode.o: members/cameraPickerNode.cpp.o
@@ -159,7 +159,7 @@ members/cameraPickerNode.o: members/cameraPickerNode.cpp.o
 
 # target to build an object file
 members/cameraPickerNode.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.o
 .PHONY : members/cameraPickerNode.cpp.o
 
 members/cameraPickerNode.i: members/cameraPickerNode.cpp.i
@@ -167,7 +167,7 @@ members/cameraPickerNode.i: members/cameraPickerNode.cpp.i
 
 # target to preprocess a source file
 members/cameraPickerNode.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.i
 .PHONY : members/cameraPickerNode.cpp.i
 
 members/cameraPickerNode.s: members/cameraPickerNode.cpp.s
@@ -175,7 +175,7 @@ members/cameraPickerNode.s: members/cameraPickerNode.cpp.s
 
 # target to generate assembly for a file
 members/cameraPickerNode.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.s
 .PHONY : members/cameraPickerNode.cpp.s
 
 members/displayOutputNode.o: members/displayOutputNode.cpp.o
@@ -183,7 +183,7 @@ members/displayOutputNode.o: members/displayOutputNode.cpp.o
 
 # target to build an object file
 members/displayOutputNode.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.o
 .PHONY : members/displayOutputNode.cpp.o
 
 members/displayOutputNode.i: members/displayOutputNode.cpp.i
@@ -191,7 +191,7 @@ members/displayOutputNode.i: members/displayOutputNode.cpp.i
 
 # target to preprocess a source file
 members/displayOutputNode.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.i
 .PHONY : members/displayOutputNode.cpp.i
 
 members/displayOutputNode.s: members/displayOutputNode.cpp.s
@@ -199,7 +199,7 @@ members/displayOutputNode.s: members/displayOutputNode.cpp.s
 
 # target to generate assembly for a file
 members/displayOutputNode.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.s
 .PHONY : members/displayOutputNode.cpp.s
 
 members/pluginNode.o: members/pluginNode.cpp.o
@@ -207,7 +207,7 @@ members/pluginNode.o: members/pluginNode.cpp.o
 
 # target to build an object file
 members/pluginNode.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.o
 .PHONY : members/pluginNode.cpp.o
 
 members/pluginNode.i: members/pluginNode.cpp.i
@@ -215,7 +215,7 @@ members/pluginNode.i: members/pluginNode.cpp.i
 
 # target to preprocess a source file
 members/pluginNode.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.i
 .PHONY : members/pluginNode.cpp.i
 
 members/pluginNode.s: members/pluginNode.cpp.s
@@ -223,7 +223,7 @@ members/pluginNode.s: members/pluginNode.cpp.s
 
 # target to generate assembly for a file
 members/pluginNode.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.s
 .PHONY : members/pluginNode.cpp.s
 
 members/subNodes/fpsCounter.o: members/subNodes/fpsCounter.cpp.o
@@ -231,7 +231,7 @@ members/subNodes/fpsCounter.o: members/subNodes/fpsCounter.cpp.o
 
 # target to build an object file
 members/subNodes/fpsCounter.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.o
 .PHONY : members/subNodes/fpsCounter.cpp.o
 
 members/subNodes/fpsCounter.i: members/subNodes/fpsCounter.cpp.i
@@ -239,7 +239,7 @@ members/subNodes/fpsCounter.i: members/subNodes/fpsCounter.cpp.i
 
 # target to preprocess a source file
 members/subNodes/fpsCounter.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.i
 .PHONY : members/subNodes/fpsCounter.cpp.i
 
 members/subNodes/fpsCounter.s: members/subNodes/fpsCounter.cpp.s
@@ -247,7 +247,7 @@ members/subNodes/fpsCounter.s: members/subNodes/fpsCounter.cpp.s
 
 # target to generate assembly for a file
 members/subNodes/fpsCounter.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.s
 .PHONY : members/subNodes/fpsCounter.cpp.s
 
 members/subNodes/staticImageOverlayer.o: members/subNodes/staticImageOverlayer.cpp.o
@@ -255,7 +255,7 @@ members/subNodes/staticImageOverlayer.o: members/subNodes/staticImageOverlayer.c
 
 # target to build an object file
 members/subNodes/staticImageOverlayer.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.cpp.o
 .PHONY : members/subNodes/staticImageOverlayer.cpp.o
 
 members/subNodes/staticImageOverlayer.i: members/subNodes/staticImageOverlayer.cpp.i
@@ -263,7 +263,7 @@ members/subNodes/staticImageOverlayer.i: members/subNodes/staticImageOverlayer.c
 
 # target to preprocess a source file
 members/subNodes/staticImageOverlayer.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.cpp.i
 .PHONY : members/subNodes/staticImageOverlayer.cpp.i
 
 members/subNodes/staticImageOverlayer.s: members/subNodes/staticImageOverlayer.cpp.s
@@ -271,7 +271,7 @@ members/subNodes/staticImageOverlayer.s: members/subNodes/staticImageOverlayer.c
 
 # target to generate assembly for a file
 members/subNodes/staticImageOverlayer.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.cpp.s
 .PHONY : members/subNodes/staticImageOverlayer.cpp.s
 
 members/subNodes/uiMenuItem.o: members/subNodes/uiMenuItem.cpp.o
@@ -279,7 +279,7 @@ members/subNodes/uiMenuItem.o: members/subNodes/uiMenuItem.cpp.o
 
 # target to build an object file
 members/subNodes/uiMenuItem.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.o
 .PHONY : members/subNodes/uiMenuItem.cpp.o
 
 members/subNodes/uiMenuItem.i: members/subNodes/uiMenuItem.cpp.i
@@ -287,7 +287,7 @@ members/subNodes/uiMenuItem.i: members/subNodes/uiMenuItem.cpp.i
 
 # target to preprocess a source file
 members/subNodes/uiMenuItem.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.i
 .PHONY : members/subNodes/uiMenuItem.cpp.i
 
 members/subNodes/uiMenuItem.s: members/subNodes/uiMenuItem.cpp.s
@@ -295,7 +295,7 @@ members/subNodes/uiMenuItem.s: members/subNodes/uiMenuItem.cpp.s
 
 # target to generate assembly for a file
 members/subNodes/uiMenuItem.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.s
 .PHONY : members/subNodes/uiMenuItem.cpp.s
 
 members/subNodes/zbarOverlayer.o: members/subNodes/zbarOverlayer.cpp.o
@@ -303,7 +303,7 @@ members/subNodes/zbarOverlayer.o: members/subNodes/zbarOverlayer.cpp.o
 
 # target to build an object file
 members/subNodes/zbarOverlayer.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.o
 .PHONY : members/subNodes/zbarOverlayer.cpp.o
 
 members/subNodes/zbarOverlayer.i: members/subNodes/zbarOverlayer.cpp.i
@@ -311,7 +311,7 @@ members/subNodes/zbarOverlayer.i: members/subNodes/zbarOverlayer.cpp.i
 
 # target to preprocess a source file
 members/subNodes/zbarOverlayer.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.i
 .PHONY : members/subNodes/zbarOverlayer.cpp.i
 
 members/subNodes/zbarOverlayer.s: members/subNodes/zbarOverlayer.cpp.s
@@ -319,7 +319,7 @@ members/subNodes/zbarOverlayer.s: members/subNodes/zbarOverlayer.cpp.s
 
 # target to generate assembly for a file
 members/subNodes/zbarOverlayer.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.s
 .PHONY : members/subNodes/zbarOverlayer.cpp.s
 
 members/uiDrawerNode.o: members/uiDrawerNode.cpp.o
@@ -327,7 +327,7 @@ members/uiDrawerNode.o: members/uiDrawerNode.cpp.o
 
 # target to build an object file
 members/uiDrawerNode.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.o
 .PHONY : members/uiDrawerNode.cpp.o
 
 members/uiDrawerNode.i: members/uiDrawerNode.cpp.i
@@ -335,7 +335,7 @@ members/uiDrawerNode.i: members/uiDrawerNode.cpp.i
 
 # target to preprocess a source file
 members/uiDrawerNode.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.i
 .PHONY : members/uiDrawerNode.cpp.i
 
 members/uiDrawerNode.s: members/uiDrawerNode.cpp.s
@@ -343,7 +343,7 @@ members/uiDrawerNode.s: members/uiDrawerNode.cpp.s
 
 # target to generate assembly for a file
 members/uiDrawerNode.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.s
 .PHONY : members/uiDrawerNode.cpp.s
 
 members/uiMergerNode.o: members/uiMergerNode.cpp.o
@@ -351,7 +351,7 @@ members/uiMergerNode.o: members/uiMergerNode.cpp.o
 
 # target to build an object file
 members/uiMergerNode.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.o
 .PHONY : members/uiMergerNode.cpp.o
 
 members/uiMergerNode.i: members/uiMergerNode.cpp.i
@@ -359,7 +359,7 @@ members/uiMergerNode.i: members/uiMergerNode.cpp.i
 
 # target to preprocess a source file
 members/uiMergerNode.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.i
 .PHONY : members/uiMergerNode.cpp.i
 
 members/uiMergerNode.s: members/uiMergerNode.cpp.s
@@ -367,7 +367,7 @@ members/uiMergerNode.s: members/uiMergerNode.cpp.s
 
 # target to generate assembly for a file
 members/uiMergerNode.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.s
 .PHONY : members/uiMergerNode.cpp.s
 
 members/videoCaptureNode.o: members/videoCaptureNode.cpp.o
@@ -375,7 +375,7 @@ members/videoCaptureNode.o: members/videoCaptureNode.cpp.o
 
 # target to build an object file
 members/videoCaptureNode.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.o
 .PHONY : members/videoCaptureNode.cpp.o
 
 members/videoCaptureNode.i: members/videoCaptureNode.cpp.i
@@ -383,7 +383,7 @@ members/videoCaptureNode.i: members/videoCaptureNode.cpp.i
 
 # target to preprocess a source file
 members/videoCaptureNode.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.i
 .PHONY : members/videoCaptureNode.cpp.i
 
 members/videoCaptureNode.s: members/videoCaptureNode.cpp.s
@@ -391,7 +391,7 @@ members/videoCaptureNode.s: members/videoCaptureNode.cpp.s
 
 # target to generate assembly for a file
 members/videoCaptureNode.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.s
 .PHONY : members/videoCaptureNode.cpp.s
 
 members/zbarAnalysisNode.o: members/zbarAnalysisNode.cpp.o
@@ -399,7 +399,7 @@ members/zbarAnalysisNode.o: members/zbarAnalysisNode.cpp.o
 
 # target to build an object file
 members/zbarAnalysisNode.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.o
 .PHONY : members/zbarAnalysisNode.cpp.o
 
 members/zbarAnalysisNode.i: members/zbarAnalysisNode.cpp.i
@@ -407,7 +407,7 @@ members/zbarAnalysisNode.i: members/zbarAnalysisNode.cpp.i
 
 # target to preprocess a source file
 members/zbarAnalysisNode.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.i
 .PHONY : members/zbarAnalysisNode.cpp.i
 
 members/zbarAnalysisNode.s: members/zbarAnalysisNode.cpp.s
@@ -415,7 +415,7 @@ members/zbarAnalysisNode.s: members/zbarAnalysisNode.cpp.s
 
 # target to generate assembly for a file
 members/zbarAnalysisNode.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.s
 .PHONY : members/zbarAnalysisNode.cpp.s
 
 pipeline.o: pipeline.cpp.o
@@ -423,7 +423,7 @@ pipeline.o: pipeline.cpp.o
 
 # target to build an object file
 pipeline.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o
 .PHONY : pipeline.cpp.o
 
 pipeline.i: pipeline.cpp.i
@@ -431,7 +431,7 @@ pipeline.i: pipeline.cpp.i
 
 # target to preprocess a source file
 pipeline.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.i
 .PHONY : pipeline.cpp.i
 
 pipeline.s: pipeline.cpp.s
@@ -439,7 +439,7 @@ pipeline.s: pipeline.cpp.s
 
 # target to generate assembly for a file
 pipeline.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pipeline/CMakeFiles/pipelineLib.dir/build.make ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.s
 .PHONY : pipeline.cpp.s
 
 # Help Target
@@ -501,6 +501,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

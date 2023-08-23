@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/ARHS/model/controllers//CMakeFiles/progress.marks
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/ARHS/model/controllers//CMakeFiles/progress.marks
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/clean
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ARHS/model/controllers/CMakeFiles/controllers.dir/rule:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/CMakeFiles/controllers.dir/rule
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/controllers/CMakeFiles/controllers.dir/rule
 .PHONY : ARHS/model/controllers/CMakeFiles/controllers.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ controllers: ARHS/model/controllers/CMakeFiles/controllers.dir/rule
 
 # fast build rule for target.
 controllers/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/build
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/build
 .PHONY : controllers/fast
 
 ui/menu.o: ui/menu.cpp.o
@@ -135,7 +135,7 @@ ui/menu.o: ui/menu.cpp.o
 
 # target to build an object file
 ui/menu.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.o
 .PHONY : ui/menu.cpp.o
 
 ui/menu.i: ui/menu.cpp.i
@@ -143,7 +143,7 @@ ui/menu.i: ui/menu.cpp.i
 
 # target to preprocess a source file
 ui/menu.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.i
 .PHONY : ui/menu.cpp.i
 
 ui/menu.s: ui/menu.cpp.s
@@ -151,7 +151,7 @@ ui/menu.s: ui/menu.cpp.s
 
 # target to generate assembly for a file
 ui/menu.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/menu.cpp.s
 .PHONY : ui/menu.cpp.s
 
 ui/uiController.o: ui/uiController.cpp.o
@@ -159,7 +159,7 @@ ui/uiController.o: ui/uiController.cpp.o
 
 # target to build an object file
 ui/uiController.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.o
 .PHONY : ui/uiController.cpp.o
 
 ui/uiController.i: ui/uiController.cpp.i
@@ -167,7 +167,7 @@ ui/uiController.i: ui/uiController.cpp.i
 
 # target to preprocess a source file
 ui/uiController.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.i
 .PHONY : ui/uiController.cpp.i
 
 ui/uiController.s: ui/uiController.cpp.s
@@ -175,7 +175,7 @@ ui/uiController.s: ui/uiController.cpp.s
 
 # target to generate assembly for a file
 ui/uiController.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/controllers/CMakeFiles/controllers.dir/build.make ARHS/model/controllers/CMakeFiles/controllers.dir/ui/uiController.cpp.s
 .PHONY : ui/uiController.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

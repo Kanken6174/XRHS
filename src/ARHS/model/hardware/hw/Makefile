@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/ARHS/model/hardware/hw//CMakeFiles/progress.marks
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/ARHS/model/hardware/hw//CMakeFiles/progress.marks
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/clean
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ARHS/model/hardware/hw/CMakeFiles/hw.dir/rule:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/CMakeFiles/hw.dir/rule
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/hw/CMakeFiles/hw.dir/rule
 .PHONY : ARHS/model/hardware/hw/CMakeFiles/hw.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ hw: ARHS/model/hardware/hw/CMakeFiles/hw.dir/rule
 
 # fast build rule for target.
 hw/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/hw/CMakeFiles/hw.dir/build.make ARHS/model/hardware/hw/CMakeFiles/hw.dir/build
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/hw/CMakeFiles/hw.dir/build.make ARHS/model/hardware/hw/CMakeFiles/hw.dir/build
 .PHONY : hw/fast
 
 inputManager.o: inputManager.cpp.o
@@ -135,7 +135,7 @@ inputManager.o: inputManager.cpp.o
 
 # target to build an object file
 inputManager.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/hw/CMakeFiles/hw.dir/build.make ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/hw/CMakeFiles/hw.dir/build.make ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o
 .PHONY : inputManager.cpp.o
 
 inputManager.i: inputManager.cpp.i
@@ -143,7 +143,7 @@ inputManager.i: inputManager.cpp.i
 
 # target to preprocess a source file
 inputManager.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/hw/CMakeFiles/hw.dir/build.make ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/hw/CMakeFiles/hw.dir/build.make ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.i
 .PHONY : inputManager.cpp.i
 
 inputManager.s: inputManager.cpp.s
@@ -151,7 +151,7 @@ inputManager.s: inputManager.cpp.s
 
 # target to generate assembly for a file
 inputManager.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/hw/CMakeFiles/hw.dir/build.make ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/hw/CMakeFiles/hw.dir/build.make ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.s
 .PHONY : inputManager.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

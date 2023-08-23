@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 # Include any dependencies generated for this target.
 include ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/depend.make
@@ -70,18 +70,18 @@ include ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/progress.make
 include ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/flags.make
 
 ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o: ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/flags.make
-ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o: /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp
+ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o: /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp
 ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o: ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o"
-	cd /home/kanken/code/XRHS/src/ARHS/model/perfcheckers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o -MF CMakeFiles/perfcheckers.dir/framerate.cpp.o.d -o CMakeFiles/perfcheckers.dir/framerate.cpp.o -c /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o"
+	cd /home/orangepi/code/XRHS/src/ARHS/model/perfcheckers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o -MF CMakeFiles/perfcheckers.dir/framerate.cpp.o.d -o CMakeFiles/perfcheckers.dir/framerate.cpp.o -c /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp
 
 ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/perfcheckers.dir/framerate.cpp.i"
-	cd /home/kanken/code/XRHS/src/ARHS/model/perfcheckers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp > CMakeFiles/perfcheckers.dir/framerate.cpp.i
+	cd /home/orangepi/code/XRHS/src/ARHS/model/perfcheckers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp > CMakeFiles/perfcheckers.dir/framerate.cpp.i
 
 ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/perfcheckers.dir/framerate.cpp.s"
-	cd /home/kanken/code/XRHS/src/ARHS/model/perfcheckers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp -o CMakeFiles/perfcheckers.dir/framerate.cpp.s
+	cd /home/orangepi/code/XRHS/src/ARHS/model/perfcheckers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp -o CMakeFiles/perfcheckers.dir/framerate.cpp.s
 
 # Object files for target perfcheckers
 perfcheckers_OBJECTS = \
@@ -93,19 +93,19 @@ perfcheckers_EXTERNAL_OBJECTS =
 ARHS/model/perfcheckers/libperfcheckers.a: ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o
 ARHS/model/perfcheckers/libperfcheckers.a: ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/build.make
 ARHS/model/perfcheckers/libperfcheckers.a: ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libperfcheckers.a"
-	cd /home/kanken/code/XRHS/src/ARHS/model/perfcheckers && $(CMAKE_COMMAND) -P CMakeFiles/perfcheckers.dir/cmake_clean_target.cmake
-	cd /home/kanken/code/XRHS/src/ARHS/model/perfcheckers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/perfcheckers.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libperfcheckers.a"
+	cd /home/orangepi/code/XRHS/src/ARHS/model/perfcheckers && $(CMAKE_COMMAND) -P CMakeFiles/perfcheckers.dir/cmake_clean_target.cmake
+	cd /home/orangepi/code/XRHS/src/ARHS/model/perfcheckers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/perfcheckers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/build: ARHS/model/perfcheckers/libperfcheckers.a
 .PHONY : ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/build
 
 ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/clean:
-	cd /home/kanken/code/XRHS/src/ARHS/model/perfcheckers && $(CMAKE_COMMAND) -P CMakeFiles/perfcheckers.dir/cmake_clean.cmake
+	cd /home/orangepi/code/XRHS/src/ARHS/model/perfcheckers && $(CMAKE_COMMAND) -P CMakeFiles/perfcheckers.dir/cmake_clean.cmake
 .PHONY : ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/clean
 
 ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanken/code/XRHS/src /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers /home/kanken/code/XRHS/src /home/kanken/code/XRHS/src/ARHS/model/perfcheckers /home/kanken/code/XRHS/src/ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/src/ARHS/model/perfcheckers /home/orangepi/code/XRHS/src/ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/depend
 

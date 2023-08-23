@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/KronUIGL/3D/Elements//CMakeFiles/progress.marks
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/KronUIGL/3D/Elements//CMakeFiles/progress.marks
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/clean
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/rule:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/CMakeFiles/elements.dir/rule
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Elements/CMakeFiles/elements.dir/rule
 .PHONY : KronUIGL/3D/Elements/CMakeFiles/elements.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ elements: KronUIGL/3D/Elements/CMakeFiles/elements.dir/rule
 
 # fast build rule for target.
 elements/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/build
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/build
 .PHONY : elements/fast
 
 entity.o: entity.cpp.o
@@ -135,7 +135,7 @@ entity.o: entity.cpp.o
 
 # target to build an object file
 entity.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o
 .PHONY : entity.cpp.o
 
 entity.i: entity.cpp.i
@@ -143,7 +143,7 @@ entity.i: entity.cpp.i
 
 # target to preprocess a source file
 entity.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.i
 .PHONY : entity.cpp.i
 
 entity.s: entity.cpp.s
@@ -151,7 +151,7 @@ entity.s: entity.cpp.s
 
 # target to generate assembly for a file
 entity.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.s
 .PHONY : entity.cpp.s
 
 mesh.o: mesh.cpp.o
@@ -159,7 +159,7 @@ mesh.o: mesh.cpp.o
 
 # target to build an object file
 mesh.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.o
 .PHONY : mesh.cpp.o
 
 mesh.i: mesh.cpp.i
@@ -167,7 +167,7 @@ mesh.i: mesh.cpp.i
 
 # target to preprocess a source file
 mesh.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.i
 .PHONY : mesh.cpp.i
 
 mesh.s: mesh.cpp.s
@@ -175,7 +175,7 @@ mesh.s: mesh.cpp.s
 
 # target to generate assembly for a file
 mesh.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.s
 .PHONY : mesh.cpp.s
 
 transform.o: transform.cpp.o
@@ -183,7 +183,7 @@ transform.o: transform.cpp.o
 
 # target to build an object file
 transform.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o
 .PHONY : transform.cpp.o
 
 transform.i: transform.cpp.i
@@ -191,7 +191,7 @@ transform.i: transform.cpp.i
 
 # target to preprocess a source file
 transform.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.i
 .PHONY : transform.cpp.i
 
 transform.s: transform.cpp.s
@@ -199,7 +199,7 @@ transform.s: transform.cpp.s
 
 # target to generate assembly for a file
 transform.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.s
 .PHONY : transform.cpp.s
 
 world.o: world.cpp.o
@@ -207,7 +207,7 @@ world.o: world.cpp.o
 
 # target to build an object file
 world.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o
 .PHONY : world.cpp.o
 
 world.i: world.cpp.i
@@ -215,7 +215,7 @@ world.i: world.cpp.i
 
 # target to preprocess a source file
 world.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.i
 .PHONY : world.cpp.i
 
 world.s: world.cpp.s
@@ -223,7 +223,7 @@ world.s: world.cpp.s
 
 # target to generate assembly for a file
 world.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.s
 .PHONY : world.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

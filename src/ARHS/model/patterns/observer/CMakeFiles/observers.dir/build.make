@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 # Include any dependencies generated for this target.
 include ARHS/model/patterns/observer/CMakeFiles/observers.dir/depend.make
@@ -70,18 +70,18 @@ include ARHS/model/patterns/observer/CMakeFiles/observers.dir/progress.make
 include ARHS/model/patterns/observer/CMakeFiles/observers.dir/flags.make
 
 ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o: ARHS/model/patterns/observer/CMakeFiles/observers.dir/flags.make
-ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o: /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp
+ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o: /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp
 ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o: ARHS/model/patterns/observer/CMakeFiles/observers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o"
-	cd /home/kanken/code/XRHS/src/ARHS/model/patterns/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o -MF CMakeFiles/observers.dir/observable.cpp.o.d -o CMakeFiles/observers.dir/observable.cpp.o -c /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o"
+	cd /home/orangepi/code/XRHS/src/ARHS/model/patterns/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o -MF CMakeFiles/observers.dir/observable.cpp.o.d -o CMakeFiles/observers.dir/observable.cpp.o -c /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp
 
 ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/observers.dir/observable.cpp.i"
-	cd /home/kanken/code/XRHS/src/ARHS/model/patterns/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp > CMakeFiles/observers.dir/observable.cpp.i
+	cd /home/orangepi/code/XRHS/src/ARHS/model/patterns/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp > CMakeFiles/observers.dir/observable.cpp.i
 
 ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/observers.dir/observable.cpp.s"
-	cd /home/kanken/code/XRHS/src/ARHS/model/patterns/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp -o CMakeFiles/observers.dir/observable.cpp.s
+	cd /home/orangepi/code/XRHS/src/ARHS/model/patterns/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp -o CMakeFiles/observers.dir/observable.cpp.s
 
 # Object files for target observers
 observers_OBJECTS = \
@@ -93,19 +93,19 @@ observers_EXTERNAL_OBJECTS =
 ARHS/model/patterns/observer/libobservers.a: ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o
 ARHS/model/patterns/observer/libobservers.a: ARHS/model/patterns/observer/CMakeFiles/observers.dir/build.make
 ARHS/model/patterns/observer/libobservers.a: ARHS/model/patterns/observer/CMakeFiles/observers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libobservers.a"
-	cd /home/kanken/code/XRHS/src/ARHS/model/patterns/observer && $(CMAKE_COMMAND) -P CMakeFiles/observers.dir/cmake_clean_target.cmake
-	cd /home/kanken/code/XRHS/src/ARHS/model/patterns/observer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/observers.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libobservers.a"
+	cd /home/orangepi/code/XRHS/src/ARHS/model/patterns/observer && $(CMAKE_COMMAND) -P CMakeFiles/observers.dir/cmake_clean_target.cmake
+	cd /home/orangepi/code/XRHS/src/ARHS/model/patterns/observer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/observers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ARHS/model/patterns/observer/CMakeFiles/observers.dir/build: ARHS/model/patterns/observer/libobservers.a
 .PHONY : ARHS/model/patterns/observer/CMakeFiles/observers.dir/build
 
 ARHS/model/patterns/observer/CMakeFiles/observers.dir/clean:
-	cd /home/kanken/code/XRHS/src/ARHS/model/patterns/observer && $(CMAKE_COMMAND) -P CMakeFiles/observers.dir/cmake_clean.cmake
+	cd /home/orangepi/code/XRHS/src/ARHS/model/patterns/observer && $(CMAKE_COMMAND) -P CMakeFiles/observers.dir/cmake_clean.cmake
 .PHONY : ARHS/model/patterns/observer/CMakeFiles/observers.dir/clean
 
 ARHS/model/patterns/observer/CMakeFiles/observers.dir/depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanken/code/XRHS/src /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer /home/kanken/code/XRHS/src /home/kanken/code/XRHS/src/ARHS/model/patterns/observer /home/kanken/code/XRHS/src/ARHS/model/patterns/observer/CMakeFiles/observers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/src/ARHS/model/patterns/observer /home/orangepi/code/XRHS/src/ARHS/model/patterns/observer/CMakeFiles/observers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ARHS/model/patterns/observer/CMakeFiles/observers.dir/depend
 

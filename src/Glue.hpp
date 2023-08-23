@@ -3,33 +3,38 @@
 
 class OpencvToVideoFrame {
 public:
-    static void updateFromNode(std::shared_ptr<VideoFrame> videoFrame, PipelineNode* node) {
-        cv::UMat umat = node->getOutput();
+static void updateFromNode(std::shared_ptr<VideoFrame> videoFrame, PipelineNode* node) {
+    cv::UMat umat = node->getOutput();
 
-        // Convert the UMat object to a Mat object. This will copy the data if the UMat object is not currently mapped to the CPU.
-        cv::Mat mat = umat.getMat(cv::ACCESS_READ);
+    // Convert the UMat object to a Mat object. This will copy the data if the UMat object is not currently mapped to the CPU.
+    cv::Mat mat = umat.getMat(cv::ACCESS_READ);
 
-        // Check if the dimensions have changed
-        if (mat.cols != videoFrame->width || mat.rows != videoFrame->height) {
-            // Update the texture size
-            videoFrame->width = mat.cols;
-            videoFrame->height = mat.rows;
-            glBindTexture(GL_TEXTURE_2D, videoFrame->getTextureID());
-            glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, videoFrame->width, videoFrame->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, nullptr);
-        }
-
-        // Check that the Mat object's data can be used as is. This assumes that the Mat object is continuous and in BGR format.
-        if (mat.isContinuous() && mat.type() == CV_8UC3) {
-            cv::Mat temp;
-            cv::cvtColor(mat, temp, cv::COLOR_BGR2RGBA);
-            videoFrame->updateFrame(temp.data);
-        } else {
-            // If the Mat object's data can't be used as is, convert/copy it to a new Mat object that can be.
-            cv::Mat temp;
-            cv::cvtColor(mat, temp, cv::COLOR_BGR2RGBA);
-            videoFrame->updateFrame(temp.data);
-        }
+    // Check if the dimensions have changed
+    if (mat.cols != videoFrame->width || mat.rows != videoFrame->height) {
+        // Update the texture size
+        videoFrame->width = mat.cols;
+        videoFrame->height = mat.rows;
+        glBindTexture(GL_TEXTURE_2D, videoFrame->getTextureID());
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, videoFrame->width, videoFrame->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, nullptr);
     }
+
+    // Check that the Mat object's data can be used as is. This assumes that the Mat object is continuous and in BGR format.
+    if (mat.empty()) {
+        std::cout << "Nothing to be drawn!\n";
+        return;
+    }
+
+    if (mat.isContinuous() && mat.type() == CV_8UC3) {
+        cv::Mat temp;
+        cv::cvtColor(mat, temp, cv::COLOR_BGR2RGBA);
+        videoFrame->updateFrame(temp.data);
+    } else {
+        // If the Mat object's data can't be used as is, convert/copy it to a new Mat object that can be.
+        cv::Mat temp;
+        cv::cvtColor(mat, temp, cv::COLOR_BGR2RGBA);
+        videoFrame->updateFrame(temp.data);
+    }
+}
 
     static void updateFromNodeWithTransparency(std::shared_ptr<VideoFrame> videoFrame, PipelineNode* node) {
         cv::UMat umat = node->getOutput();

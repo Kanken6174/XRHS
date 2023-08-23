@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/ARHS/pluginManagement//CMakeFiles/progress.marks
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/ARHS/pluginManagement//CMakeFiles/progress.marks
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/clean
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/rule:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/rule
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/rule
 .PHONY : ARHS/pluginManagement/CMakeFiles/PluginManager.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ PluginManager: ARHS/pluginManagement/CMakeFiles/PluginManager.dir/rule
 
 # fast build rule for target.
 PluginManager/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build
 .PHONY : PluginManager/fast
 
 Plugin.o: Plugin.cpp.o
@@ -135,7 +135,7 @@ Plugin.o: Plugin.cpp.o
 
 # target to build an object file
 Plugin.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o
 .PHONY : Plugin.cpp.o
 
 Plugin.i: Plugin.cpp.i
@@ -143,7 +143,7 @@ Plugin.i: Plugin.cpp.i
 
 # target to preprocess a source file
 Plugin.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.i
 .PHONY : Plugin.cpp.i
 
 Plugin.s: Plugin.cpp.s
@@ -151,7 +151,7 @@ Plugin.s: Plugin.cpp.s
 
 # target to generate assembly for a file
 Plugin.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.s
 .PHONY : Plugin.cpp.s
 
 PluginManager.o: PluginManager.cpp.o
@@ -159,7 +159,7 @@ PluginManager.o: PluginManager.cpp.o
 
 # target to build an object file
 PluginManager.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o
 .PHONY : PluginManager.cpp.o
 
 PluginManager.i: PluginManager.cpp.i
@@ -167,7 +167,7 @@ PluginManager.i: PluginManager.cpp.i
 
 # target to preprocess a source file
 PluginManager.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.i
 .PHONY : PluginManager.cpp.i
 
 PluginManager.s: PluginManager.cpp.s
@@ -175,7 +175,7 @@ PluginManager.s: PluginManager.cpp.s
 
 # target to generate assembly for a file
 PluginManager.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.s
 .PHONY : PluginManager.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

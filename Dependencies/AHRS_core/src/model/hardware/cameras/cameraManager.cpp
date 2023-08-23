@@ -2,15 +2,27 @@
 #include <signal.h>
 #include <unordered_set>
 
+std::string pipeline = "v4l2src device=/dev/video0 ! "
+                        "image/jpeg,width=1920,height=1080,framerate=30/1 ! "
+                        "jpegdec ! videoconvert ! appsink";
+
 void cameraManager::runCaptureForCamera(camera* c, uint index){
+    if(!c->source->isOpened()){
+        cout << "camera " << c->path << " is closed, opening..." << endl;
+        if(!c->source->open(pipeline)){
+            cout << "couldn't open camera with index " << c->path << endl;
+        }else{
+            std::cout << "camera re-opened\n";
+        }
+    }
+
     while(runCaptureThread){
         if(!c->source->isOpened()){
             cout << "camera " << c->path << " is closed, opening..." << endl;
-            if(!c->source->open(c->path)){
+            if(!c->source->open(pipeline)){
                 cout << "couldn't open camera with index " << c->path << endl;
             }else{
-                c->source->set(CV_CAP_PROP_FOURCC, CV_FOURCC('M', 'J', 'P', 'G'));
-                c->source->set(CV_CAP_PROP_FPS , FPS_LIMIT_PSEYE);
+                std::cout << "camera re-opened\n";
             }
         }
 
@@ -48,19 +60,18 @@ cameraManager::cameraManager() {
         if(invalid_cameras.count(camID)) continue;
 
         try {
-            cv::VideoCapture vs(camID);
-            if(!vs.isOpened() || !vs.open(camID)) {
-                std::cout << "\x1B[31mopening camera " << camIdx << " failed\033[0m" << std::endl;
-                vs.release();
-            } else {
-                vs.release();
+            
+            if(camID == 0) {
                 camera* cam = new camera();
-                cam->source = new cv::VideoCapture(camID, cv::CAP_FFMPEG);
-                cam->source->set(CV_CAP_PROP_FOURCC, CV_FOURCC('M', 'J', 'P', 'G'));
-                cam->source->set(CV_CAP_PROP_FPS , FPS_LIMIT_PSEYE);
+                cam->source = new cv::VideoCapture(pipeline, cv::CAP_GSTREAMER);
+                /*bool success = cam->source->set(CV_CAP_PROP_FOURCC, CV_FOURCC('M', 'J', 'P', 'G'));
+                if (!success) {
+                    std::cerr << "Failed to set MJPEG FOURCC" << std::endl;
+                }
+                cam->source->set(CV_CAP_PROP_FPS , 60);
                 cam->source->set(cv::CAP_PROP_FRAME_WIDTH, 1920);
                 cam->source->set(cv::CAP_PROP_FRAME_HEIGHT, 1080);
-
+                */
                 cam->path = camID;
                 videoSources.push_back(cam);    //valid camera added
                 std::cout << "\033[32m" << "added camera with path /dev/video" << cam->path << "\033[0m" << std::endl;

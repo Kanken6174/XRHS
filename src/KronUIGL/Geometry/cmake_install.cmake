@@ -1,4 +1,4 @@
-# Install script for directory: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry
+# Install script for directory: /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

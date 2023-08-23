@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/KronUIGL/Window//CMakeFiles/progress.marks
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/KronUIGL/Window//CMakeFiles/progress.marks
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/clean
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 KronUIGL/Window/CMakeFiles/window.dir/rule:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/CMakeFiles/window.dir/rule
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Window/CMakeFiles/window.dir/rule
 .PHONY : KronUIGL/Window/CMakeFiles/window.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ window: KronUIGL/Window/CMakeFiles/window.dir/rule
 
 # fast build rule for target.
 window/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/build
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/build
 .PHONY : window/fast
 
 KronUIWindow.o: KronUIWindow.cpp.o
@@ -135,7 +135,7 @@ KronUIWindow.o: KronUIWindow.cpp.o
 
 # target to build an object file
 KronUIWindow.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o
 .PHONY : KronUIWindow.cpp.o
 
 KronUIWindow.i: KronUIWindow.cpp.i
@@ -143,7 +143,7 @@ KronUIWindow.i: KronUIWindow.cpp.i
 
 # target to preprocess a source file
 KronUIWindow.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.i
 .PHONY : KronUIWindow.cpp.i
 
 KronUIWindow.s: KronUIWindow.cpp.s
@@ -151,7 +151,7 @@ KronUIWindow.s: KronUIWindow.cpp.s
 
 # target to generate assembly for a file
 KronUIWindow.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.s
 .PHONY : KronUIWindow.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

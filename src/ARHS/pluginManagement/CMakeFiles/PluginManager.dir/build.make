@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 # Include any dependencies generated for this target.
 include ARHS/pluginManagement/CMakeFiles/PluginManager.dir/depend.make
@@ -70,32 +70,32 @@ include ARHS/pluginManagement/CMakeFiles/PluginManager.dir/progress.make
 include ARHS/pluginManagement/CMakeFiles/PluginManager.dir/flags.make
 
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o: ARHS/pluginManagement/CMakeFiles/PluginManager.dir/flags.make
-ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o: /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/PluginManager.cpp
+ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o: /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/PluginManager.cpp
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o: ARHS/pluginManagement/CMakeFiles/PluginManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o"
-	cd /home/kanken/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o -MF CMakeFiles/PluginManager.dir/PluginManager.cpp.o.d -o CMakeFiles/PluginManager.dir/PluginManager.cpp.o -c /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/PluginManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o"
+	cd /home/orangepi/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.o -MF CMakeFiles/PluginManager.dir/PluginManager.cpp.o.d -o CMakeFiles/PluginManager.dir/PluginManager.cpp.o -c /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/PluginManager.cpp
 
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PluginManager.dir/PluginManager.cpp.i"
-	cd /home/kanken/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/PluginManager.cpp > CMakeFiles/PluginManager.dir/PluginManager.cpp.i
+	cd /home/orangepi/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/PluginManager.cpp > CMakeFiles/PluginManager.dir/PluginManager.cpp.i
 
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/PluginManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PluginManager.dir/PluginManager.cpp.s"
-	cd /home/kanken/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/PluginManager.cpp -o CMakeFiles/PluginManager.dir/PluginManager.cpp.s
+	cd /home/orangepi/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/PluginManager.cpp -o CMakeFiles/PluginManager.dir/PluginManager.cpp.s
 
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o: ARHS/pluginManagement/CMakeFiles/PluginManager.dir/flags.make
-ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o: /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/Plugin.cpp
+ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o: /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/Plugin.cpp
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o: ARHS/pluginManagement/CMakeFiles/PluginManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o"
-	cd /home/kanken/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o -MF CMakeFiles/PluginManager.dir/Plugin.cpp.o.d -o CMakeFiles/PluginManager.dir/Plugin.cpp.o -c /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/Plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o"
+	cd /home/orangepi/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o -MF CMakeFiles/PluginManager.dir/Plugin.cpp.o.d -o CMakeFiles/PluginManager.dir/Plugin.cpp.o -c /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/Plugin.cpp
 
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PluginManager.dir/Plugin.cpp.i"
-	cd /home/kanken/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/Plugin.cpp > CMakeFiles/PluginManager.dir/Plugin.cpp.i
+	cd /home/orangepi/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/Plugin.cpp > CMakeFiles/PluginManager.dir/Plugin.cpp.i
 
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PluginManager.dir/Plugin.cpp.s"
-	cd /home/kanken/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/Plugin.cpp -o CMakeFiles/PluginManager.dir/Plugin.cpp.s
+	cd /home/orangepi/code/XRHS/src/ARHS/pluginManagement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/Plugin.cpp -o CMakeFiles/PluginManager.dir/Plugin.cpp.s
 
 # Object files for target PluginManager
 PluginManager_OBJECTS = \
@@ -109,19 +109,19 @@ ARHS/pluginManagement/libPluginManager.a: ARHS/pluginManagement/CMakeFiles/Plugi
 ARHS/pluginManagement/libPluginManager.a: ARHS/pluginManagement/CMakeFiles/PluginManager.dir/Plugin.cpp.o
 ARHS/pluginManagement/libPluginManager.a: ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build.make
 ARHS/pluginManagement/libPluginManager.a: ARHS/pluginManagement/CMakeFiles/PluginManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libPluginManager.a"
-	cd /home/kanken/code/XRHS/src/ARHS/pluginManagement && $(CMAKE_COMMAND) -P CMakeFiles/PluginManager.dir/cmake_clean_target.cmake
-	cd /home/kanken/code/XRHS/src/ARHS/pluginManagement && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PluginManager.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libPluginManager.a"
+	cd /home/orangepi/code/XRHS/src/ARHS/pluginManagement && $(CMAKE_COMMAND) -P CMakeFiles/PluginManager.dir/cmake_clean_target.cmake
+	cd /home/orangepi/code/XRHS/src/ARHS/pluginManagement && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PluginManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build: ARHS/pluginManagement/libPluginManager.a
 .PHONY : ARHS/pluginManagement/CMakeFiles/PluginManager.dir/build
 
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/clean:
-	cd /home/kanken/code/XRHS/src/ARHS/pluginManagement && $(CMAKE_COMMAND) -P CMakeFiles/PluginManager.dir/cmake_clean.cmake
+	cd /home/orangepi/code/XRHS/src/ARHS/pluginManagement && $(CMAKE_COMMAND) -P CMakeFiles/PluginManager.dir/cmake_clean.cmake
 .PHONY : ARHS/pluginManagement/CMakeFiles/PluginManager.dir/clean
 
 ARHS/pluginManagement/CMakeFiles/PluginManager.dir/depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanken/code/XRHS/src /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement /home/kanken/code/XRHS/src /home/kanken/code/XRHS/src/ARHS/pluginManagement /home/kanken/code/XRHS/src/ARHS/pluginManagement/CMakeFiles/PluginManager.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/pluginManagement /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/src/ARHS/pluginManagement /home/orangepi/code/XRHS/src/ARHS/pluginManagement/CMakeFiles/PluginManager.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ARHS/pluginManagement/CMakeFiles/PluginManager.dir/depend
 

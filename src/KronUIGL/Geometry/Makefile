@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/KronUIGL/Geometry//CMakeFiles/progress.marks
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/KronUIGL/Geometry//CMakeFiles/progress.marks
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/clean
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/preinstall
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 KronUIGL/Geometry/CMakeFiles/geometry.dir/rule:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/CMakeFiles/geometry.dir/rule
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Geometry/CMakeFiles/geometry.dir/rule
 .PHONY : KronUIGL/Geometry/CMakeFiles/geometry.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ geometry: KronUIGL/Geometry/CMakeFiles/geometry.dir/rule
 
 # fast build rule for target.
 geometry/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/build
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/build
 .PHONY : geometry/fast
 
 GeometryRenderer.o: GeometryRenderer.cpp.o
@@ -135,7 +135,7 @@ GeometryRenderer.o: GeometryRenderer.cpp.o
 
 # target to build an object file
 GeometryRenderer.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o
 .PHONY : GeometryRenderer.cpp.o
 
 GeometryRenderer.i: GeometryRenderer.cpp.i
@@ -143,7 +143,7 @@ GeometryRenderer.i: GeometryRenderer.cpp.i
 
 # target to preprocess a source file
 GeometryRenderer.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.i
 .PHONY : GeometryRenderer.cpp.i
 
 GeometryRenderer.s: GeometryRenderer.cpp.s
@@ -151,7 +151,7 @@ GeometryRenderer.s: GeometryRenderer.cpp.s
 
 # target to generate assembly for a file
 GeometryRenderer.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.s
 .PHONY : GeometryRenderer.cpp.s
 
 Shapes.o: Shapes.cpp.o
@@ -159,7 +159,7 @@ Shapes.o: Shapes.cpp.o
 
 # target to build an object file
 Shapes.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o
 .PHONY : Shapes.cpp.o
 
 Shapes.i: Shapes.cpp.i
@@ -167,7 +167,7 @@ Shapes.i: Shapes.cpp.i
 
 # target to preprocess a source file
 Shapes.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.i
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.i
 .PHONY : Shapes.cpp.i
 
 Shapes.s: Shapes.cpp.s
@@ -175,7 +175,7 @@ Shapes.s: Shapes.cpp.s
 
 # target to generate assembly for a file
 Shapes.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.s
+	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.s
 .PHONY : Shapes.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
