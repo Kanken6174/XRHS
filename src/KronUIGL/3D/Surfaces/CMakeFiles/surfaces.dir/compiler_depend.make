@@ -145,7 +145,7 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.hpp \
   /usr/include/glm/glm.hpp \
   /usr/include/glm/detail/_fixes.hpp \
   /usr/include/c++/11/cmath \
@@ -333,7 +333,6 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
   /usr/include/glm/detail/type_half.inl \
   /usr/include/glm/integer.hpp \
   /usr/include/glm/detail/func_integer.inl \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.hpp \
   /usr/include/glm/gtc/quaternion.hpp \
   /usr/include/glm/gtc/constants.hpp \
   /usr/include/glm/ext/scalar_constants.hpp \
@@ -441,8 +440,58 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   /usr/include/c++/11/iostream \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/texture.hpp \
+  /usr/include/assimp/scene.h \
+  /usr/include/assimp/types.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/assimp/defs.h \
+  /usr/include/assimp/config.h \
+  /usr/include/assimp/vector2.h \
+  /usr/include/assimp/vector3.h \
+  /usr/include/assimp/color4.h \
+  /usr/include/assimp/matrix3x3.h \
+  /usr/include/assimp/matrix4x4.h \
+  /usr/include/assimp/quaternion.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/assimp/vector2.inl \
+  /usr/include/assimp/vector3.inl \
+  /usr/include/assimp/color4.inl \
+  /usr/include/assimp/matrix3x3.inl \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/assimp/matrix4x4.inl \
+  /usr/include/assimp/MathFunctions.h \
+  /usr/include/assimp/quaternion.inl \
+  /usr/include/assimp/texture.h \
+  /usr/include/assimp/Compiler/pushpack1.h \
+  /usr/include/assimp/Compiler/poppack1.h \
+  /usr/include/assimp/mesh.h \
+  /usr/include/assimp/aabb.h \
+  /usr/include/assimp/light.h \
+  /usr/include/assimp/camera.h \
+  /usr/include/assimp/material.h \
+  /usr/include/assimp/material.inl \
+  /usr/include/assimp/anim.h \
+  /usr/include/assimp/metadata.h \
+  /home/kanken/code/XRHS/Dependencies/KronUI/include/stb_image.h \
+  /usr/include/c++/11/stdlib.h \
   /home/kanken/code/XRHS/Dependencies/KronUI/include/logger.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp \
   /usr/include/glm/gtx/quaternion.hpp \
   /usr/include/glm/ext/quaternion_exponential.hpp \
   /usr/include/glm/ext/quaternion_exponential.inl \
@@ -472,6 +521,52 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/glm/ext/quaternion_exponential.hpp:
 
+/home/kanken/code/XRHS/Dependencies/KronUI/include/stb_image.h:
+
+/usr/include/assimp/metadata.h:
+
+/usr/include/assimp/anim.h:
+
+/usr/include/assimp/material.inl:
+
+/usr/include/assimp/light.h:
+
+/usr/include/assimp/Compiler/pushpack1.h:
+
+/usr/include/assimp/quaternion.inl:
+
+/usr/include/assimp/MathFunctions.h:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+/usr/include/c++/11/algorithm:
+
+/usr/include/assimp/matrix3x3.inl:
+
+/usr/include/assimp/color4.inl:
+
+/usr/include/assimp/vector3.inl:
+
+/usr/include/assimp/vector2.inl:
+
+/usr/include/assimp/matrix4x4.h:
+
+/usr/include/assimp/matrix3x3.h:
+
+/usr/include/assimp/vector2.h:
+
+/usr/include/assimp/defs.h:
+
+/usr/include/assimp/scene.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.hpp:
+
 /usr/include/c++/11/bits/fstream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
@@ -483,6 +578,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 /usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/c++/11/ostream:
+
+/usr/include/assimp/aabb.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -496,7 +593,11 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/c++/11/cwctype:
 
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
 /usr/include/c++/11/bits/basic_ios.h:
+
+/usr/include/string.h:
 
 /usr/include/c++/11/bits/streambuf.tcc:
 
@@ -521,6 +622,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/c++/11/functional:
 
 /usr/include/linux/errno.h:
 
@@ -574,6 +677,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/glm/ext/quaternion_double.hpp:
 
+/usr/include/assimp/texture.h:
+
 /usr/include/glm/ext/quaternion_relational.inl:
 
 /usr/include/glm/ext/quaternion_geometric.inl:
@@ -605,6 +710,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 /usr/include/glm/ext/matrix_float2x2.hpp:
 
 /usr/include/glm/ext/matrix_double2x2_precision.hpp:
+
+/usr/include/strings.h:
 
 /usr/include/glm/detail/compute_common.hpp:
 
@@ -684,6 +791,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/glm/mat3x4.hpp:
 
+/usr/include/assimp/camera.h:
+
 /usr/include/glm/ext/matrix_float3x3_precision.hpp:
 
 /usr/include/glm/ext/matrix_transform.inl:
@@ -693,6 +802,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 /usr/include/glm/ext/matrix_double3x3_precision.hpp:
 
 /usr/include/glm/detail/type_mat3x3.hpp:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/11/stdexcept:
 
@@ -745,6 +856,10 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 /usr/include/X11/extensions/Xinerama.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/wctype.h:
 
@@ -856,11 +971,15 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/glm/gtx/quaternion.hpp:
 
+/usr/include/c++/11/bits/std_function.h:
+
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/X11/X.h:
 
 /usr/include/glm/ext/vector_int3.hpp:
+
+/usr/include/assimp/vector3.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -1022,6 +1141,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/c++/11/memory:
 
+/usr/include/c++/11/bits/erase_if.h:
+
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/endian.h:
@@ -1092,7 +1213,11 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
+/usr/include/assimp/types.h:
+
 /usr/include/c++/11/exception:
+
+/usr/include/assimp/matrix4x4.inl:
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
@@ -1112,7 +1237,7 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/c++/11/bits/stl_vector.h:
 
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.hpp:
+/usr/include/assimp/color4.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
@@ -1120,15 +1245,19 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.hpp:
 
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.hpp:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/glm/glm.hpp:
 
 /usr/include/glm/detail/func_integer.inl:
 
 /usr/include/stdlib.h:
+
+/usr/include/c++/11/cstring:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/texture.hpp:
 
 /usr/include/glm/common.hpp:
 
@@ -1152,19 +1281,23 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
+/usr/include/assimp/material.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
 /usr/include/c++/11/iostream:
 
 /usr/include/glm/detail/_vectorize.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
@@ -1190,7 +1323,11 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/glm/ext/vector_bool2.hpp:
 
+/usr/include/assimp/Compiler/poppack1.h:
+
 /usr/include/c++/11/bits/specfun.h:
+
+/usr/include/assimp/quaternion.h:
 
 /usr/include/glm/gtc/matrix_transform.hpp:
 
@@ -1199,6 +1336,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 /usr/include/c++/11/limits:
 
 /usr/include/glm/ext/vector_float3_precision.hpp:
+
+/usr/include/assimp/config.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -1266,6 +1405,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
+/usr/include/c++/11/bits/unordered_map.h:
+
 /usr/include/glm/gtc/matrix_transform.inl:
 
 /usr/include/glm/detail/type_mat2x3.hpp:
@@ -1275,6 +1416,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 /usr/include/glm/detail/compute_vector_relational.hpp:
 
 /usr/include/glm/vec3.hpp:
+
+/usr/include/c++/11/stdlib.h:
 
 /usr/include/glm/ext/vector_bool2_precision.hpp:
 
@@ -1324,6 +1467,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 
 /usr/include/glm/ext/vector_double3_precision.hpp:
 
+/usr/include/c++/11/bits/algorithmfwd.h:
+
 /usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/glm/ext/vector_uint3_sized.hpp:
@@ -1347,6 +1492,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/cod
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/glm/ext/vector_int4_sized.hpp:
+
+/usr/include/assimp/mesh.h:
 
 /usr/include/glm/ext/vector_uint4.hpp:
 

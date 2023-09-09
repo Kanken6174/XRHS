@@ -43,6 +43,9 @@
 /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir
 /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces/CMakeFiles/edit_cache.dir
 /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces/CMakeFiles/rebuild_cache.dir
+/home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir
+/home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics/CMakeFiles/edit_cache.dir
+/home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics/CMakeFiles/rebuild_cache.dir
 /home/kanken/code/XRHS/src/KronUIGL/Input/CMakeFiles/input.dir
 /home/kanken/code/XRHS/src/KronUIGL/Input/CMakeFiles/edit_cache.dir
 /home/kanken/code/XRHS/src/KronUIGL/Input/CMakeFiles/rebuild_cache.dir

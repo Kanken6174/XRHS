@@ -83,10 +83,24 @@ KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/elements.dir/mesh.cpp.s"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Elements && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.cpp -o CMakeFiles/elements.dir/mesh.cpp.s
 
+KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o: KronUIGL/3D/Elements/CMakeFiles/elements.dir/flags.make
+KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.cpp
+KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o: KronUIGL/3D/Elements/CMakeFiles/elements.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Elements && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o -MF CMakeFiles/elements.dir/vertex.cpp.o.d -o CMakeFiles/elements.dir/vertex.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.cpp
+
+KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/elements.dir/vertex.cpp.i"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Elements && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.cpp > CMakeFiles/elements.dir/vertex.cpp.i
+
+KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/elements.dir/vertex.cpp.s"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Elements && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.cpp -o CMakeFiles/elements.dir/vertex.cpp.s
+
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o: KronUIGL/3D/Elements/CMakeFiles/elements.dir/flags.make
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.cpp
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o: KronUIGL/3D/Elements/CMakeFiles/elements.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Elements && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o -MF CMakeFiles/elements.dir/transform.cpp.o.d -o CMakeFiles/elements.dir/transform.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.cpp
 
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.i: cmake_force
@@ -100,7 +114,7 @@ KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.s: cmake_force
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o: KronUIGL/3D/Elements/CMakeFiles/elements.dir/flags.make
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/entity.cpp
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o: KronUIGL/3D/Elements/CMakeFiles/elements.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Elements && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o -MF CMakeFiles/elements.dir/entity.cpp.o.d -o CMakeFiles/elements.dir/entity.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/entity.cpp
 
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.i: cmake_force
@@ -114,7 +128,7 @@ KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.s: cmake_force
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o: KronUIGL/3D/Elements/CMakeFiles/elements.dir/flags.make
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/world.cpp
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o: KronUIGL/3D/Elements/CMakeFiles/elements.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Elements && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o -MF CMakeFiles/elements.dir/world.cpp.o.d -o CMakeFiles/elements.dir/world.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/world.cpp
 
 KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.i: cmake_force
@@ -128,6 +142,7 @@ KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.s: cmake_force
 # Object files for target elements
 elements_OBJECTS = \
 "CMakeFiles/elements.dir/mesh.cpp.o" \
+"CMakeFiles/elements.dir/vertex.cpp.o" \
 "CMakeFiles/elements.dir/transform.cpp.o" \
 "CMakeFiles/elements.dir/entity.cpp.o" \
 "CMakeFiles/elements.dir/world.cpp.o"
@@ -136,12 +151,13 @@ elements_OBJECTS = \
 elements_EXTERNAL_OBJECTS =
 
 KronUIGL/3D/Elements/libelements.a: KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.o
+KronUIGL/3D/Elements/libelements.a: KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o
 KronUIGL/3D/Elements/libelements.a: KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o
 KronUIGL/3D/Elements/libelements.a: KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o
 KronUIGL/3D/Elements/libelements.a: KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o
 KronUIGL/3D/Elements/libelements.a: KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make
 KronUIGL/3D/Elements/libelements.a: KronUIGL/3D/Elements/CMakeFiles/elements.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libelements.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libelements.a"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Elements && $(CMAKE_COMMAND) -P CMakeFiles/elements.dir/cmake_clean_target.cmake
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Elements && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/elements.dir/link.txt --verbose=$(VERBOSE)
 

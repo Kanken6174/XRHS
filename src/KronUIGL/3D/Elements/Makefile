@@ -202,6 +202,30 @@ transform.cpp.s:
 	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.s
 .PHONY : transform.cpp.s
 
+vertex.o: vertex.cpp.o
+.PHONY : vertex.o
+
+# target to build an object file
+vertex.cpp.o:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o
+.PHONY : vertex.cpp.o
+
+vertex.i: vertex.cpp.i
+.PHONY : vertex.i
+
+# target to preprocess a source file
+vertex.cpp.i:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.i
+.PHONY : vertex.cpp.i
+
+vertex.s: vertex.cpp.s
+.PHONY : vertex.s
+
+# target to generate assembly for a file
+vertex.cpp.s:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Elements/CMakeFiles/elements.dir/build.make KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.s
+.PHONY : vertex.cpp.s
+
 world.o: world.cpp.o
 .PHONY : world.o
 
@@ -244,6 +268,9 @@ help:
 	@echo "... transform.o"
 	@echo "... transform.i"
 	@echo "... transform.s"
+	@echo "... vertex.o"
+	@echo "... vertex.i"
+	@echo "... vertex.s"
 	@echo "... world.o"
 	@echo "... world.i"
 	@echo "... world.s"

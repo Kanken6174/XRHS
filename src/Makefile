@@ -312,6 +312,19 @@ surfaces/fast:
 .PHONY : surfaces/fast
 
 #=============================================================================
+# Target rules for targets named kinematics
+
+# Build rule for target.
+kinematics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kinematics
+.PHONY : kinematics
+
+# fast build rule for target.
+kinematics/fast:
+	$(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build
+.PHONY : kinematics/fast
+
+#=============================================================================
 # Target rules for targets named input
 
 # Build rule for target.
@@ -579,6 +592,7 @@ help:
 	@echo "... hw_ext"
 	@echo "... ihidapi"
 	@echo "... input"
+	@echo "... kinematics"
 	@echo "... loaders"
 	@echo "... observers"
 	@echo "... paints"

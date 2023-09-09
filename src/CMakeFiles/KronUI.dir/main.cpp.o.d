@@ -335,55 +335,51 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h \
- /usr/include/c++/11/bits/erase_if.h \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Text/TextRenderer.hpp \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Text/./../Shaders/Shader.hpp \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Text/./../Window/KronUIWindow.hpp \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Text/./../../Freetype/TrueTypeManager.hpp \
- /usr/include/freetype2/ft2build.h \
- /usr/include/freetype2/freetype/config/ftheader.h \
- /usr/include/freetype2/freetype/freetype.h \
- /usr/include/freetype2/freetype/config/ftconfig.h \
- /usr/include/freetype2/freetype/config/ftoption.h \
- /usr/include/freetype2/freetype/config/ftstdlib.h /usr/include/string.h \
- /usr/include/strings.h /usr/include/c++/11/stdlib.h \
- /usr/include/setjmp.h \
- /usr/include/freetype2/freetype/config/integer-types.h \
- /usr/include/freetype2/freetype/config/public-macros.h \
- /usr/include/freetype2/freetype/config/mac-support.h \
- /usr/include/freetype2/freetype/fttypes.h \
- /usr/include/freetype2/freetype/ftsystem.h \
- /usr/include/freetype2/freetype/ftimage.h \
- /usr/include/freetype2/freetype/fterrors.h \
- /usr/include/freetype2/freetype/ftmoderr.h \
- /usr/include/freetype2/freetype/fterrdef.h \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/Input.hpp \
- /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
- /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/stl_algo.h \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Geometry/./../3D/Elements/mesh.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Geometry/./../3D/Elements/vertex.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Geometry/./../3D/Elements/texture.hpp \
+ /usr/include/assimp/scene.h /usr/include/assimp/types.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/assimp/defs.h \
+ /usr/include/assimp/config.h /usr/include/assimp/vector2.h \
+ /usr/include/assimp/vector3.h /usr/include/assimp/color4.h \
+ /usr/include/assimp/matrix3x3.h /usr/include/assimp/matrix4x4.h \
+ /usr/include/assimp/quaternion.h /usr/include/c++/11/cstring \
+ /usr/include/assimp/vector2.inl /usr/include/assimp/vector3.inl \
+ /usr/include/assimp/color4.inl /usr/include/assimp/matrix3x3.inl \
+ /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/../3D/Vision/camera.hpp \
- /usr/include/glm/gtc/matrix_transform.hpp \
- /usr/include/glm/ext/matrix_projection.hpp \
- /usr/include/glm/gtc/constants.hpp \
+ /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
+ /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /usr/include/c++/11/bits/erase_if.h /usr/include/assimp/matrix4x4.inl \
+ /usr/include/assimp/MathFunctions.h /usr/include/assimp/quaternion.inl \
+ /usr/include/assimp/texture.h /usr/include/assimp/Compiler/pushpack1.h \
+ /usr/include/assimp/Compiler/poppack1.h /usr/include/assimp/mesh.h \
+ /usr/include/assimp/aabb.h /usr/include/assimp/light.h \
+ /usr/include/assimp/camera.h /usr/include/assimp/material.h \
+ /usr/include/assimp/material.inl /usr/include/assimp/anim.h \
+ /usr/include/assimp/metadata.h \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Geometry/./../3D/Elements/../../../../include/stb_image.h \
+ /usr/include/c++/11/stdlib.h \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Geometry/./../3D/Elements/../../../../include/logger.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Geometry/./../3D/Elements/transform.hpp \
+ /usr/include/glm/gtc/quaternion.hpp /usr/include/glm/gtc/constants.hpp \
  /usr/include/glm/ext/scalar_constants.hpp \
  /usr/include/glm/ext/scalar_constants.inl \
  /usr/include/glm/gtc/constants.inl \
+ /usr/include/glm/gtc/matrix_transform.hpp \
+ /usr/include/glm/ext/matrix_projection.hpp \
  /usr/include/glm/ext/matrix_projection.inl \
  /usr/include/glm/ext/matrix_clip_space.hpp \
  /usr/include/glm/ext/matrix_clip_space.inl \
  /usr/include/glm/ext/matrix_transform.hpp \
  /usr/include/glm/ext/matrix_transform.inl \
  /usr/include/glm/gtc/matrix_transform.inl \
- /usr/include/glm/gtc/quaternion.hpp \
  /usr/include/glm/ext/vector_relational.hpp \
  /usr/include/glm/ext/vector_relational.inl \
  /usr/include/glm/detail/type_float.hpp \
@@ -405,6 +401,30 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /usr/include/glm/ext/quaternion_transform.inl \
  /usr/include/glm/gtc/quaternion.inl /usr/include/glm/gtc/epsilon.hpp \
  /usr/include/glm/detail/setup.hpp /usr/include/glm/gtc/epsilon.inl \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
+ /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Text/TextRenderer.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Text/./../Shaders/Shader.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Text/./../Window/KronUIWindow.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/./Text/./../../Freetype/TrueTypeManager.hpp \
+ /usr/include/freetype2/ft2build.h \
+ /usr/include/freetype2/freetype/config/ftheader.h \
+ /usr/include/freetype2/freetype/freetype.h \
+ /usr/include/freetype2/freetype/config/ftconfig.h \
+ /usr/include/freetype2/freetype/config/ftoption.h \
+ /usr/include/freetype2/freetype/config/ftstdlib.h /usr/include/setjmp.h \
+ /usr/include/freetype2/freetype/config/integer-types.h \
+ /usr/include/freetype2/freetype/config/public-macros.h \
+ /usr/include/freetype2/freetype/config/mac-support.h \
+ /usr/include/freetype2/freetype/fttypes.h \
+ /usr/include/freetype2/freetype/ftsystem.h \
+ /usr/include/freetype2/freetype/ftimage.h \
+ /usr/include/freetype2/freetype/fterrors.h \
+ /usr/include/freetype2/freetype/ftmoderr.h \
+ /usr/include/freetype2/freetype/fterrdef.h \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/Input.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/../3D/Vision/camera.hpp \
  /usr/include/glm/gtx/quaternion.hpp \
  /usr/include/glm/ext/quaternion_exponential.hpp \
  /usr/include/glm/ext/quaternion_exponential.inl \
@@ -413,29 +433,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /usr/include/glm/gtx/component_wise.inl /usr/include/glm/gtx/norm.inl \
  /usr/include/glm/gtx/quaternion.inl \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/../3D/Vision/../Elements/entity.hpp \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/../3D/Vision/../Elements/transform.hpp \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/../3D/Vision/../Elements/texture.hpp \
- /usr/include/assimp/scene.h /usr/include/assimp/types.h \
- /usr/include/assimp/defs.h /usr/include/assimp/config.h \
- /usr/include/assimp/vector2.h /usr/include/assimp/vector3.h \
- /usr/include/assimp/color4.h /usr/include/assimp/matrix3x3.h \
- /usr/include/assimp/matrix4x4.h /usr/include/assimp/quaternion.h \
- /usr/include/c++/11/cstring /usr/include/assimp/vector2.inl \
- /usr/include/assimp/vector3.inl /usr/include/assimp/color4.inl \
- /usr/include/assimp/matrix3x3.inl /usr/include/c++/11/algorithm \
- /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /usr/include/assimp/matrix4x4.inl /usr/include/assimp/MathFunctions.h \
- /usr/include/assimp/quaternion.inl /usr/include/assimp/texture.h \
- /usr/include/assimp/Compiler/pushpack1.h \
- /usr/include/assimp/Compiler/poppack1.h /usr/include/assimp/mesh.h \
- /usr/include/assimp/aabb.h /usr/include/assimp/light.h \
- /usr/include/assimp/camera.h /usr/include/assimp/material.h \
- /usr/include/assimp/material.inl /usr/include/assimp/anim.h \
- /usr/include/assimp/metadata.h \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/../3D/Vision/../Elements/../../../../include/stb_image.h \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/../3D/Vision/../Elements/../../../../include/logger.hpp \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/../3D/Vision/../Elements/mesh.hpp \
- /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Input/../3D/Vision/../Elements/vertex.hpp \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/3D/Renderers/MeshRenderer.hpp \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/3D/Renderers/../../Shaders/Shader.hpp \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/3D/Renderers/../Loaders/OBJLoader.hpp \

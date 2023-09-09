@@ -408,60 +408,71 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   /usr/include/c++/11/iostream \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Text/TextRenderer.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Window/KronUIWindow.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/Freetype/TrueTypeManager.hpp \
-  /usr/include/freetype2/ft2build.h \
-  /usr/include/freetype2/freetype/config/ftheader.h \
-  /usr/include/freetype2/freetype/freetype.h \
-  /usr/include/freetype2/freetype/config/ftconfig.h \
-  /usr/include/freetype2/freetype/config/ftoption.h \
-  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/texture.hpp \
+  /usr/include/assimp/scene.h \
+  /usr/include/assimp/types.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/setjmp.h \
-  /usr/include/freetype2/freetype/config/integer-types.h \
-  /usr/include/freetype2/freetype/config/public-macros.h \
-  /usr/include/freetype2/freetype/config/mac-support.h \
-  /usr/include/freetype2/freetype/fttypes.h \
-  /usr/include/freetype2/freetype/ftsystem.h \
-  /usr/include/freetype2/freetype/ftimage.h \
-  /usr/include/freetype2/freetype/fterrors.h \
-  /usr/include/freetype2/freetype/ftmoderr.h \
-  /usr/include/freetype2/freetype/fterrdef.h \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Input/Input.hpp \
+  /usr/include/assimp/defs.h \
+  /usr/include/assimp/config.h \
+  /usr/include/assimp/vector2.h \
+  /usr/include/assimp/vector3.h \
+  /usr/include/assimp/color4.h \
+  /usr/include/assimp/matrix3x3.h \
+  /usr/include/assimp/matrix4x4.h \
+  /usr/include/assimp/quaternion.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/assimp/vector2.inl \
+  /usr/include/assimp/vector3.inl \
+  /usr/include/assimp/color4.inl \
+  /usr/include/assimp/matrix3x3.inl \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/unordered_map \
   /usr/include/c++/11/bits/hashtable.h \
   /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Vision/camera.hpp \
-  /usr/include/glm/gtc/matrix_transform.hpp \
-  /usr/include/glm/ext/matrix_projection.hpp \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/assimp/matrix4x4.inl \
+  /usr/include/assimp/MathFunctions.h \
+  /usr/include/assimp/quaternion.inl \
+  /usr/include/assimp/texture.h \
+  /usr/include/assimp/Compiler/pushpack1.h \
+  /usr/include/assimp/Compiler/poppack1.h \
+  /usr/include/assimp/mesh.h \
+  /usr/include/assimp/aabb.h \
+  /usr/include/assimp/light.h \
+  /usr/include/assimp/camera.h \
+  /usr/include/assimp/material.h \
+  /usr/include/assimp/material.inl \
+  /usr/include/assimp/anim.h \
+  /usr/include/assimp/metadata.h \
+  /home/kanken/code/XRHS/Dependencies/KronUI/include/stb_image.h \
+  /usr/include/c++/11/stdlib.h \
+  /home/kanken/code/XRHS/Dependencies/KronUI/include/logger.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.hpp \
+  /usr/include/glm/gtc/quaternion.hpp \
   /usr/include/glm/gtc/constants.hpp \
   /usr/include/glm/ext/scalar_constants.hpp \
   /usr/include/glm/ext/scalar_constants.inl \
   /usr/include/glm/gtc/constants.inl \
+  /usr/include/glm/gtc/matrix_transform.hpp \
+  /usr/include/glm/ext/matrix_projection.hpp \
   /usr/include/glm/ext/matrix_projection.inl \
   /usr/include/glm/ext/matrix_clip_space.hpp \
   /usr/include/glm/ext/matrix_clip_space.inl \
   /usr/include/glm/ext/matrix_transform.hpp \
   /usr/include/glm/ext/matrix_transform.inl \
   /usr/include/glm/gtc/matrix_transform.inl \
-  /usr/include/glm/gtc/quaternion.hpp \
   /usr/include/glm/ext/vector_relational.hpp \
   /usr/include/glm/ext/vector_relational.inl \
   /usr/include/glm/detail/type_float.hpp \
@@ -485,6 +496,32 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/glm/gtc/epsilon.hpp \
   /usr/include/glm/detail/setup.hpp \
   /usr/include/glm/gtc/epsilon.inl \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Text/TextRenderer.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Window/KronUIWindow.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/Freetype/TrueTypeManager.hpp \
+  /usr/include/freetype2/ft2build.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/setjmp.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Input/Input.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Vision/camera.hpp \
   /usr/include/glm/gtx/quaternion.hpp \
   /usr/include/glm/ext/quaternion_exponential.hpp \
   /usr/include/glm/ext/quaternion_exponential.inl \
@@ -495,43 +532,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/glm/gtx/norm.inl \
   /usr/include/glm/gtx/quaternion.inl \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/entity.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/texture.hpp \
-  /usr/include/assimp/scene.h \
-  /usr/include/assimp/types.h \
-  /usr/include/assimp/defs.h \
-  /usr/include/assimp/config.h \
-  /usr/include/assimp/vector2.h \
-  /usr/include/assimp/vector3.h \
-  /usr/include/assimp/color4.h \
-  /usr/include/assimp/matrix3x3.h \
-  /usr/include/assimp/matrix4x4.h \
-  /usr/include/assimp/quaternion.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/assimp/vector2.inl \
-  /usr/include/assimp/vector3.inl \
-  /usr/include/assimp/color4.inl \
-  /usr/include/assimp/matrix3x3.inl \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/assimp/matrix4x4.inl \
-  /usr/include/assimp/MathFunctions.h \
-  /usr/include/assimp/quaternion.inl \
-  /usr/include/assimp/texture.h \
-  /usr/include/assimp/Compiler/pushpack1.h \
-  /usr/include/assimp/Compiler/poppack1.h \
-  /usr/include/assimp/mesh.h \
-  /usr/include/assimp/aabb.h \
-  /usr/include/assimp/light.h \
-  /usr/include/assimp/camera.h \
-  /usr/include/assimp/material.h \
-  /usr/include/assimp/material.inl \
-  /usr/include/assimp/anim.h \
-  /usr/include/assimp/metadata.h \
-  /home/kanken/code/XRHS/Dependencies/KronUI/include/stb_image.h \
-  /home/kanken/code/XRHS/Dependencies/KronUI/include/logger.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Loaders/OBJLoader.hpp \
@@ -1484,11 +1484,11 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/glm/ext/vector_float3_precision.hpp:
 
-/usr/include/glm/gtc/matrix_transform.hpp:
-
 /usr/local/include/opencv4/opencv2/core/mat.inl.hpp:
 
 /usr/include/assimp/quaternion.h:
+
+/usr/include/glm/gtc/matrix_transform.hpp:
 
 /usr/include/c++/11/bits/specfun.h:
 
@@ -2040,11 +2040,11 @@ main.cpp:
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
+/usr/include/assimp/color4.h:
+
 /usr/include/glm/mat3x2.hpp:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.hpp:
-
-/usr/include/assimp/color4.h:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/pipeline.hpp:
 
@@ -2454,6 +2454,146 @@ main.cpp:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.hpp:
+
+/usr/include/assimp/scene.h:
+
+/usr/include/oneapi/tbb/detail/_machine.h:
+
+/usr/include/c++/11/bits/fs_dir.h:
+
+/usr/include/assimp/defs.h:
+
+/usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
+
+/usr/include/assimp/vector2.h:
+
+/usr/local/include/opencv4/opencv2/core/optim.hpp:
+
+/usr/include/assimp/matrix3x3.h:
+
+/usr/include/assimp/matrix4x4.h:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/assimp/vector2.inl:
+
+/usr/include/assimp/vector3.inl:
+
+/usr/include/assimp/color4.inl:
+
+/usr/include/glm/ext/vector_float2_precision.hpp:
+
+/usr/include/assimp/matrix3x3.inl:
+
+/usr/include/c++/11/pstl/numeric_fwd.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqvlintrin.h:
+
+/usr/include/freetype2/freetype/ftsystem.h:
+
+/usr/include/c++/11/algorithm:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
+
+/usr/include/freetype2/freetype/config/public-macros.h:
+
+/usr/include/glm/ext/quaternion_relational.hpp:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/functional:
+
+/usr/include/assimp/MathFunctions.h:
+
+/usr/include/assimp/quaternion.inl:
+
+/usr/include/assimp/texture.h:
+
+/usr/include/glm/ext/quaternion_relational.inl:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/usr/include/assimp/Compiler/pushpack1.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.hpp:
+
+/usr/local/include/opencv4/opencv2/flann/kdtree_index.h:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/usr/include/assimp/light.h:
+
+/usr/include/assimp/material.inl:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/freetype2/ft2build.h:
+
+/usr/include/assimp/anim.h:
+
+/usr/local/include/opencv4/opencv2/core/base.hpp:
+
+/usr/include/assimp/metadata.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/include/stb_image.h:
+
+/usr/include/oneapi/tbb/detail/_range_common.h:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/glm/gtc/constants.hpp:
+
+/usr/include/glm/ext/vector_uint3_sized.hpp:
+
+/usr/include/glm/ext/scalar_constants.inl:
+
+/usr/include/glm/ext/matrix_projection.hpp:
+
+/usr/include/glm/ext/matrix_projection.inl:
+
+/usr/include/glm/ext/matrix_transform.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/movdirintrin.h:
+
+/usr/include/glm/ext/vector_relational.inl:
+
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/cldemoteintrin.h:
+
+/usr/include/glm/ext/quaternion_geometric.inl:
+
+/usr/include/glm/ext/quaternion_double.hpp:
+
+/usr/include/oneapi/tbb/detail/_export.h:
+
+/usr/include/glm/ext/quaternion_trigonometric.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512dqintrin.h:
+
+/usr/include/c++/11/codecvt:
+
+/usr/include/assert.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/glm/ext/quaternion_trigonometric.inl:
+
+/usr/include/glm/ext/quaternion_transform.inl:
+
+/usr/include/oneapi/tbb/parallel_scan.h:
+
+/usr/include/glm/gtc/epsilon.inl:
+
 /usr/include/c++/11/map:
 
 /usr/include/c++/11/bits/stl_tree.h:
@@ -2461,12 +2601,6 @@ main.cpp:
 /usr/include/oneapi/tbb/parallel_invoke.h:
 
 /usr/include/c++/11/bits/stl_map.h:
-
-/usr/include/c++/11/bits/stl_multimap.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/movdirintrin.h:
-
-/usr/include/glm/ext/vector_relational.inl:
 
 /usr/local/include/opencv4/opencv2/flann.hpp:
 
@@ -2496,89 +2630,15 @@ main.cpp:
 
 /usr/include/setjmp.h:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
-
-/usr/include/freetype2/freetype/config/public-macros.h:
-
-/usr/include/c++/11/algorithm:
-
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/freetype2/freetype/config/mac-support.h:
 
-/usr/include/c++/11/pstl/numeric_fwd.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqvlintrin.h:
-
-/usr/include/freetype2/freetype/ftsystem.h:
-
-/usr/include/glm/ext/vector_float2_precision.hpp:
-
-/usr/include/assimp/matrix3x3.inl:
-
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Input/Input.hpp:
-
-/usr/include/c++/11/unordered_map:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/glm/ext/quaternion_relational.hpp:
-
-/usr/include/c++/11/bits/stl_algo.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Vision/camera.hpp:
-
-/usr/include/glm/ext/matrix_projection.hpp:
-
-/usr/include/oneapi/tbb/detail/_range_common.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/glm/gtc/constants.hpp:
-
-/usr/include/glm/ext/vector_uint3_sized.hpp:
-
-/usr/include/glm/ext/scalar_constants.inl:
-
-/usr/include/glm/ext/matrix_projection.inl:
-
-/usr/include/glm/ext/matrix_transform.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/cldemoteintrin.h:
-
-/usr/include/glm/ext/quaternion_geometric.inl:
-
-/usr/include/glm/ext/quaternion_relational.inl:
-
-/usr/include/assimp/texture.h:
-
-/usr/include/glm/ext/quaternion_double.hpp:
-
-/usr/include/oneapi/tbb/detail/_export.h:
-
-/usr/include/glm/ext/quaternion_trigonometric.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512dqintrin.h:
-
-/usr/include/c++/11/codecvt:
-
-/usr/include/assert.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/glm/ext/quaternion_trigonometric.inl:
-
-/usr/include/glm/ext/quaternion_transform.inl:
-
-/usr/include/oneapi/tbb/parallel_scan.h:
-
-/usr/include/glm/gtc/epsilon.inl:
 
 /usr/include/glm/ext/quaternion_exponential.hpp:
 
@@ -2589,66 +2649,6 @@ main.cpp:
 /usr/include/glm/ext/quaternion_exponential.inl:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/entity.hpp:
-
-/usr/include/assimp/scene.h:
-
-/usr/include/oneapi/tbb/detail/_machine.h:
-
-/usr/include/c++/11/bits/fs_dir.h:
-
-/usr/include/assimp/defs.h:
-
-/usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
-
-/usr/include/assimp/vector2.h:
-
-/usr/local/include/opencv4/opencv2/core/optim.hpp:
-
-/usr/include/assimp/matrix3x3.h:
-
-/usr/include/assimp/matrix4x4.h:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/usr/include/assimp/vector2.inl:
-
-/usr/include/assimp/vector3.inl:
-
-/usr/include/assimp/color4.inl:
-
-/usr/include/c++/11/functional:
-
-/usr/include/assimp/MathFunctions.h:
-
-/usr/include/assimp/quaternion.inl:
-
-/usr/include/c++/11/bits/stl_pair.h:
-
-/usr/include/assimp/Compiler/pushpack1.h:
-
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.hpp:
-
-/usr/local/include/opencv4/opencv2/flann/kdtree_index.h:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/usr/include/assimp/light.h:
-
-/usr/include/assimp/material.inl:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/freetype2/ft2build.h:
-
-/usr/include/assimp/anim.h:
-
-/usr/local/include/opencv4/opencv2/core/base.hpp:
-
-/usr/include/assimp/metadata.h:
-
-/home/kanken/code/XRHS/Dependencies/KronUI/include/stb_image.h:
-
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.hpp:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/hw/inputKeys.hpp:
 
