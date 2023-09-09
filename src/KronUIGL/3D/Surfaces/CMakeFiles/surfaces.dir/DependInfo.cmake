@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o" "gcc" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o" "gcc" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o.d"
   )
 
 # Targets to which this target links.

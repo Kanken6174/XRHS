@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp" "ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o" "gcc" "ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.cpp" "ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o" "gcc" "ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o.d"
   )
 
 # Targets to which this target links.

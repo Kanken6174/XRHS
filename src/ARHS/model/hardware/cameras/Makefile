@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
+CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/ARHS/model/hardware/cameras//CMakeFiles/progress.marks
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/ARHS/model/hardware/cameras//CMakeFiles/progress.marks
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/clean
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/preinstall
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/preinstall
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/rule:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/rule
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/rule
 .PHONY : ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ cameras: ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/rule
 
 # fast build rule for target.
 cameras/fast:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build
 .PHONY : cameras/fast
 
 camEnum.o: camEnum.cpp.o
@@ -135,7 +135,7 @@ camEnum.o: camEnum.cpp.o
 
 # target to build an object file
 camEnum.cpp.o:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/camEnum.cpp.o
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/camEnum.cpp.o
 .PHONY : camEnum.cpp.o
 
 camEnum.i: camEnum.cpp.i
@@ -143,7 +143,7 @@ camEnum.i: camEnum.cpp.i
 
 # target to preprocess a source file
 camEnum.cpp.i:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/camEnum.cpp.i
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/camEnum.cpp.i
 .PHONY : camEnum.cpp.i
 
 camEnum.s: camEnum.cpp.s
@@ -151,7 +151,7 @@ camEnum.s: camEnum.cpp.s
 
 # target to generate assembly for a file
 camEnum.cpp.s:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/camEnum.cpp.s
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/camEnum.cpp.s
 .PHONY : camEnum.cpp.s
 
 cameraManager.o: cameraManager.cpp.o
@@ -159,7 +159,7 @@ cameraManager.o: cameraManager.cpp.o
 
 # target to build an object file
 cameraManager.cpp.o:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/cameraManager.cpp.o
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/cameraManager.cpp.o
 .PHONY : cameraManager.cpp.o
 
 cameraManager.i: cameraManager.cpp.i
@@ -167,7 +167,7 @@ cameraManager.i: cameraManager.cpp.i
 
 # target to preprocess a source file
 cameraManager.cpp.i:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/cameraManager.cpp.i
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/cameraManager.cpp.i
 .PHONY : cameraManager.cpp.i
 
 cameraManager.s: cameraManager.cpp.s
@@ -175,7 +175,7 @@ cameraManager.s: cameraManager.cpp.s
 
 # target to generate assembly for a file
 cameraManager.cpp.s:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/cameraManager.cpp.s
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/build.make ARHS/model/hardware/cameras/CMakeFiles/cameras.dir/cameraManager.cpp.s
 .PHONY : cameraManager.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

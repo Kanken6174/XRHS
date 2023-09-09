@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Vision/camera.cpp" "KronUIGL/3D/Vision/CMakeFiles/vision.dir/camera.cpp.o" "gcc" "KronUIGL/3D/Vision/CMakeFiles/vision.dir/camera.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Vision/camera.cpp" "KronUIGL/3D/Vision/CMakeFiles/vision.dir/camera.cpp.o" "gcc" "KronUIGL/3D/Vision/CMakeFiles/vision.dir/camera.cpp.o.d"
   )
 
 # Targets to which this target links.

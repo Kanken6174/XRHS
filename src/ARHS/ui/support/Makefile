@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
+CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/ARHS/ui/support//CMakeFiles/progress.marks
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/ARHS/ui/support//CMakeFiles/progress.marks
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/clean
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/preinstall
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/preinstall
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ARHS/ui/support/CMakeFiles/support.dir/rule:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/CMakeFiles/support.dir/rule
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/ui/support/CMakeFiles/support.dir/rule
 .PHONY : ARHS/ui/support/CMakeFiles/support.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ support: ARHS/ui/support/CMakeFiles/support.dir/rule
 
 # fast build rule for target.
 support/fast:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/ui/support/CMakeFiles/support.dir/build.make ARHS/ui/support/CMakeFiles/support.dir/build
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/ui/support/CMakeFiles/support.dir/build.make ARHS/ui/support/CMakeFiles/support.dir/build
 .PHONY : support/fast
 
 UiSupport.o: UiSupport.cpp.o
@@ -135,7 +135,7 @@ UiSupport.o: UiSupport.cpp.o
 
 # target to build an object file
 UiSupport.cpp.o:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/ui/support/CMakeFiles/support.dir/build.make ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.o
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/ui/support/CMakeFiles/support.dir/build.make ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.o
 .PHONY : UiSupport.cpp.o
 
 UiSupport.i: UiSupport.cpp.i
@@ -143,7 +143,7 @@ UiSupport.i: UiSupport.cpp.i
 
 # target to preprocess a source file
 UiSupport.cpp.i:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/ui/support/CMakeFiles/support.dir/build.make ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.i
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/ui/support/CMakeFiles/support.dir/build.make ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.i
 .PHONY : UiSupport.cpp.i
 
 UiSupport.s: UiSupport.cpp.s
@@ -151,7 +151,7 @@ UiSupport.s: UiSupport.cpp.s
 
 # target to generate assembly for a file
 UiSupport.cpp.s:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/ui/support/CMakeFiles/support.dir/build.make ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.s
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/ui/support/CMakeFiles/support.dir/build.make ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.s
 .PHONY : UiSupport.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

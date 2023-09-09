@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/hardware/ihidapi/hidapi_functions.cpp" "ARHS/model/hardware/ihidapi/CMakeFiles/ihidapi.dir/hidapi_functions.cpp.o" "gcc" "ARHS/model/hardware/ihidapi/CMakeFiles/ihidapi.dir/hidapi_functions.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/ihidapi/hidapi_functions.cpp" "ARHS/model/hardware/ihidapi/CMakeFiles/ihidapi.dir/hidapi_functions.cpp.o" "gcc" "ARHS/model/hardware/ihidapi/CMakeFiles/ihidapi.dir/hidapi_functions.cpp.o.d"
   )
 
 # Targets to which this target links.

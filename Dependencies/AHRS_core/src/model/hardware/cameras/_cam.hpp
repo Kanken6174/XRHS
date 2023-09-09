@@ -29,7 +29,19 @@ class camera{
     int Yindex = 0; //index for the stitcher
 };
 
+class stubCamera : public camera{
+    public:
+    stubCamera() {
+        path = 255;
+        source = nullptr;
+        source = new cv::VideoCapture("./Ressources/Textures/noi.jpeg");
+    }
+};
+
 class cameraManager{
+    protected:
+    UMat stubImage = cv::imread("./Ressources/Textures/noi2.png").getUMat( ACCESS_READ );;
+
     public:
     std::vector<camera*> videoSources;
     std::vector<UMat> captures;

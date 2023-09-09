@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp" "ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o" "gcc" "ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/perfcheckers/framerate.cpp" "ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o" "gcc" "ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/framerate.cpp.o.d"
   )
 
 # Targets to which this target links.

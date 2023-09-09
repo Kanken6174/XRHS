@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/ui/support/UiSupport.cpp" "ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.o" "gcc" "ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/ui/support/UiSupport.cpp" "ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.o" "gcc" "ARHS/ui/support/CMakeFiles/support.dir/UiSupport.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/windows/window.cpp" "ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o" "gcc" "ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o.d"
-  "/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/windows/windowManager.cpp" "ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o" "gcc" "ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/windows/window.cpp" "ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o" "gcc" "ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/windows/windowManager.cpp" "ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o" "gcc" "ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o.d"
   )
 
 # Targets to which this target links.

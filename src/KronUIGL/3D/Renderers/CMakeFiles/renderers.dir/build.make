@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
+CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
 
 # Include any dependencies generated for this target.
 include KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/depend.make
@@ -70,18 +70,18 @@ include KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/progress.make
 include KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/flags.make
 
 KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.o: KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/flags.make
-KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.o: /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.cpp
+KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.cpp
 KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.o: KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.o"
-	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Renderers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.o -MF CMakeFiles/renderers.dir/MeshRenderer.cpp.o.d -o CMakeFiles/renderers.dir/MeshRenderer.cpp.o -c /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.o"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Renderers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.o -MF CMakeFiles/renderers.dir/MeshRenderer.cpp.o.d -o CMakeFiles/renderers.dir/MeshRenderer.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.cpp
 
 KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/renderers.dir/MeshRenderer.cpp.i"
-	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Renderers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.cpp > CMakeFiles/renderers.dir/MeshRenderer.cpp.i
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Renderers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.cpp > CMakeFiles/renderers.dir/MeshRenderer.cpp.i
 
 KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/renderers.dir/MeshRenderer.cpp.s"
-	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Renderers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.cpp -o CMakeFiles/renderers.dir/MeshRenderer.cpp.s
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Renderers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.cpp -o CMakeFiles/renderers.dir/MeshRenderer.cpp.s
 
 # Object files for target renderers
 renderers_OBJECTS = \
@@ -93,19 +93,19 @@ renderers_EXTERNAL_OBJECTS =
 KronUIGL/3D/Renderers/librenderers.a: KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/MeshRenderer.cpp.o
 KronUIGL/3D/Renderers/librenderers.a: KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/build.make
 KronUIGL/3D/Renderers/librenderers.a: KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library librenderers.a"
-	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Renderers && $(CMAKE_COMMAND) -P CMakeFiles/renderers.dir/cmake_clean_target.cmake
-	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Renderers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/renderers.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library librenderers.a"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Renderers && $(CMAKE_COMMAND) -P CMakeFiles/renderers.dir/cmake_clean_target.cmake
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Renderers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/renderers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/build: KronUIGL/3D/Renderers/librenderers.a
 .PHONY : KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/build
 
 KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/clean:
-	cd /home/orangepi/code/XRHS/src/KronUIGL/3D/Renderers && $(CMAKE_COMMAND) -P CMakeFiles/renderers.dir/cmake_clean.cmake
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Renderers && $(CMAKE_COMMAND) -P CMakeFiles/renderers.dir/cmake_clean.cmake
 .PHONY : KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/clean
 
 KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/depend:
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers /home/orangepi/code/XRHS/src /home/orangepi/code/XRHS/src/KronUIGL/3D/Renderers /home/orangepi/code/XRHS/src/KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanken/code/XRHS/src /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers /home/kanken/code/XRHS/src /home/kanken/code/XRHS/src/KronUIGL/3D/Renderers /home/kanken/code/XRHS/src/KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/depend
 

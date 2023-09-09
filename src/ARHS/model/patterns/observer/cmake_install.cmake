@@ -1,4 +1,4 @@
-# Install script for directory: /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer
+# Install script for directory: /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

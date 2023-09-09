@@ -7,7 +7,7 @@ std::string pipeline = "v4l2src device=/dev/video0 ! "
                         "jpegdec ! videoconvert ! appsink";
 
 void cameraManager::runCaptureForCamera(camera* c, uint index){
-    if(!c->source->isOpened()){
+    if(c->path != 255 && !c->source->isOpened()){
         cout << "camera " << c->path << " is closed, opening..." << endl;
         if(!c->source->open(pipeline)){
             cout << "couldn't open camera with index " << c->path << endl;
@@ -17,13 +17,20 @@ void cameraManager::runCaptureForCamera(camera* c, uint index){
     }
 
     while(runCaptureThread){
-        if(!c->source->isOpened()){
+        if(c->path != 255 && !c->source->isOpened()){
             cout << "camera " << c->path << " is closed, opening..." << endl;
             if(!c->source->open(pipeline)){
                 cout << "couldn't open camera with index " << c->path << endl;
             }else{
                 std::cout << "camera re-opened\n";
             }
+        }
+
+        if(c->path == 255){
+            accessLocks[index]->lock();
+            captures[index] = stubImage;
+            accessLocks[index]->unlock();
+            continue;
         }
 
         if(c->source->grab()){
@@ -84,6 +91,15 @@ cameraManager::cameraManager() {
     }
 
     std::cout << "found " << std::to_string(videoSources.size()) << " valid cameras" << std::endl;
+
+    if(videoSources.size() == 0){
+        std::cout << "no valid cameras found, creating a stub" << std::endl;
+        camera* cam = new stubCamera();
+        videoSources.push_back(cam);
+        std::cout << "\033[32m" << "added stub camera with path ./Ressources/Textures/noi.jpeg\033[0m" << std::endl;
+        cv::UMat m;
+        captures.push_back(std::move(m));
+    }
 }
 
 

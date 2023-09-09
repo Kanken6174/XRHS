@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orangepi/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orangepi/code/XRHS/src
+CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles /home/orangepi/code/XRHS/src/ARHS/model/patterns/observer//CMakeFiles/progress.marks
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/code/XRHS/src/CMakeFiles 0
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/ARHS/model/patterns/observer//CMakeFiles/progress.marks
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/clean
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/preinstall
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/preinstall
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ARHS/model/patterns/observer/CMakeFiles/observers.dir/rule:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/CMakeFiles/observers.dir/rule
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARHS/model/patterns/observer/CMakeFiles/observers.dir/rule
 .PHONY : ARHS/model/patterns/observer/CMakeFiles/observers.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ observers: ARHS/model/patterns/observer/CMakeFiles/observers.dir/rule
 
 # fast build rule for target.
 observers/fast:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/patterns/observer/CMakeFiles/observers.dir/build.make ARHS/model/patterns/observer/CMakeFiles/observers.dir/build
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/patterns/observer/CMakeFiles/observers.dir/build.make ARHS/model/patterns/observer/CMakeFiles/observers.dir/build
 .PHONY : observers/fast
 
 observable.o: observable.cpp.o
@@ -135,7 +135,7 @@ observable.o: observable.cpp.o
 
 # target to build an object file
 observable.cpp.o:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/patterns/observer/CMakeFiles/observers.dir/build.make ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/patterns/observer/CMakeFiles/observers.dir/build.make ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.o
 .PHONY : observable.cpp.o
 
 observable.i: observable.cpp.i
@@ -143,7 +143,7 @@ observable.i: observable.cpp.i
 
 # target to preprocess a source file
 observable.cpp.i:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/patterns/observer/CMakeFiles/observers.dir/build.make ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.i
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/patterns/observer/CMakeFiles/observers.dir/build.make ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.i
 .PHONY : observable.cpp.i
 
 observable.s: observable.cpp.s
@@ -151,7 +151,7 @@ observable.s: observable.cpp.s
 
 # target to generate assembly for a file
 observable.cpp.s:
-	cd /home/orangepi/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/patterns/observer/CMakeFiles/observers.dir/build.make ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.s
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f ARHS/model/patterns/observer/CMakeFiles/observers.dir/build.make ARHS/model/patterns/observer/CMakeFiles/observers.dir/observable.cpp.s
 .PHONY : observable.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/orangepi/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

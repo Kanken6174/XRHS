@@ -1,4 +1,4 @@
-# Install script for directory: /home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/hardware/cameras
+# Install script for directory: /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/cameras
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
