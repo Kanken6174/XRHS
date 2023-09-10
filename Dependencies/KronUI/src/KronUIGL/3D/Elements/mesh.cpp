@@ -24,7 +24,16 @@ glm::mat4 Mesh::getTransformMatrix() const {
     model = glm::rotate(model, glm::radians(transform->getEulerAngles().y), glm::vec3(0.0f, 1.0f, 0.0f));
     model = glm::rotate(model, glm::radians(transform->getEulerAngles().z), glm::vec3(0.0f, 0.0f, 1.0f));
     model = glm::scale(model, transform->getScale());
-
+    if(model[0][0] == 0.0f || model[1][1] || 0.0f && model[2][2] == 0.0f || model[3][3] == 0.0f){
+        Logger::getInstance().warn("Model matrix is invalid, supplying identifty matrix");
+        return glm::mat4(1.0f);
+    }
+    //if the matrix is valid, fully display it, line by line
+    Logger::getInstance().warn("Model matrix: ");
+    Logger::getInstance().warn(std::to_string(model[0][0]) + " " + std::to_string(model[0][1]) + " " + std::to_string(model[0][2]) + " " + std::to_string(model[0][3]));
+    Logger::getInstance().warn(std::to_string(model[1][0]) + " " + std::to_string(model[1][1]) + " " + std::to_string(model[1][2]) + " " + std::to_string(model[1][3]));
+    Logger::getInstance().warn(std::to_string(model[2][0]) + " " + std::to_string(model[2][1]) + " " + std::to_string(model[2][2]) + " " + std::to_string(model[2][3]));
+    Logger::getInstance().warn(std::to_string(model[3][0]) + " " + std::to_string(model[3][1]) + " " + std::to_string(model[3][2]) + " " + std::to_string(model[3][3]));
     return model;
 }
 

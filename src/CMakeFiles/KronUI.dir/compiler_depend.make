@@ -509,7 +509,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Text/TextRenderer.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Window/KronUIWindow.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/Freetype/TrueTypeManager.hpp \
   /usr/include/freetype2/ft2build.h \
@@ -542,13 +541,11 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/glm/gtx/quaternion.inl \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/entity.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Renderers/MeshRenderer.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Loaders/OBJLoader.hpp \
   /usr/include/assimp/Importer.hpp \
   /usr/include/assimp/postprocess.h \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Shapes.hpp \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/VideoFrame.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/world.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/light.hpp \

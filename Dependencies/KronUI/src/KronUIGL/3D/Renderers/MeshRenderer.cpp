@@ -48,11 +48,12 @@ void MeshRenderer::renderSingle(const std::shared_ptr<Mesh>& mesh) {
         int useColor = 0, useTexture = 0, useBump = 0;
         unsigned int diffuseNr = 1;
         unsigned int normalNr = 1;
+        int defaultMode = 0;
 
         //std::cout << "rendering model with: " << mesh->textures.size() << " textures" << std::endl;
 
         if(mesh->textures.size() == 0){
-            useColor = 1;
+            defaultMode = 1;
         }else
             for (unsigned int i = 0; i < mesh->textures.size(); i++) {
                 glActiveTexture(GL_TEXTURE0 + i); // active proper texture unit before binding
@@ -70,7 +71,7 @@ void MeshRenderer::renderSingle(const std::shared_ptr<Mesh>& mesh) {
                 shader->setInt(("material." + name + number).c_str(), i);
                 glBindTexture(GL_TEXTURE_2D, mesh->textures[i].id);
             }
-        shader->setInt("useDefault", (useColor == 0 && useTexture == 0 && useBump == 0) ? 1 : 0);
+        shader->setInt("useDefault", (useColor == 0 && useTexture == 0 && useBump == 0) || defaultMode == 1 ? 1 : 0);
         shader->setInt("useColor", useColor);
         shader->setInt("useTexture", useTexture);
         shader->setInt("useBump", useBump);
@@ -93,7 +94,7 @@ void MeshRenderer::renderAll() {
 
 void MeshRenderer::renderAllWorld() {
     ShaderManager::getInstance()->setShader(shader);
-    shader->cameraMatrixOp();
+    cameraMatrixOp(shader);
 
     auto worldInstance = World::getInstance();  
 

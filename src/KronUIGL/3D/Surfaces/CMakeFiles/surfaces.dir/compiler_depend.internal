@@ -500,7 +500,6 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o
  /home/kanken/code/XRHS/Dependencies/KronUI/include/stb_image.h
  /usr/include/c++/11/stdlib.h
  /home/kanken/code/XRHS/Dependencies/KronUI/include/logger.hpp
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp
  /usr/include/glm/gtx/quaternion.hpp
  /usr/include/glm/ext/quaternion_exponential.hpp
  /usr/include/glm/ext/quaternion_exponential.inl

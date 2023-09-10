@@ -27,3 +27,5 @@ public:
     void remShader(std::shared_ptr<Shader> s);
     std::shared_ptr<Shader> buildShader(const std::string& vertexPath, const std::string& fragmentPath, const std::string& geometryPath = std::string(""));
 };
+
+void cameraMatrixOp(std::shared_ptr<Shader> shader);

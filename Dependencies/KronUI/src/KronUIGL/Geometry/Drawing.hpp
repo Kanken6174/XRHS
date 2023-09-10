@@ -31,7 +31,7 @@ public:
         shader->setInt("useColor", 0);
         shader->setInt("useTexture", 0);
         shader->setInt("useBump", 0);
-        shader->cameraMatrixOp();
+        cameraMatrixOp(shader);
         if(drawerFunction != nullptr)
             drawerFunction(this);
         else

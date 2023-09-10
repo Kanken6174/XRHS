@@ -2,6 +2,7 @@
 #include <algorithm>
 #include "Shader.hpp"
 #include "../../../include/logger.hpp"
+#include "../Input/Input.hpp"
 
 const std::shared_ptr<ShaderManager> ShaderManager::instance = std::make_shared<ShaderManager>();
 
@@ -74,4 +75,10 @@ std::shared_ptr<Shader> ShaderManager::buildShader(const std::string &vertexPath
     shaders.push_back(shader);
     Logger::getInstance().warn("Shader with id " + std::to_string(shader->ID) + " built");
     return shader;
+}
+
+void cameraMatrixOp(std::shared_ptr<Shader> shader)
+{
+    shader->setMat4("view", InputSystem::getInstance().getCamera().viewMatrix);
+    shader->setMat4("projection", InputSystem::getInstance().getCamera().projectionMatrix);
 }

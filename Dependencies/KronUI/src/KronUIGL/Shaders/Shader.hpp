@@ -1,6 +1,4 @@
-#ifndef Guard_Shader
-#define Guard_Shader
-
+#pragma once
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 
@@ -198,8 +196,6 @@ public:
         }
     }
 
-    void cameraMatrixOp() const;
-
 
 private:
     // utility function for checking shader compilation/linking errors.
@@ -230,4 +226,3 @@ private:
         }
     }
 };
-#endif

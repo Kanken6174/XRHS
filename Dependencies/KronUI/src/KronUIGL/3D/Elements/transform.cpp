@@ -2,6 +2,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtx/euler_angles.hpp>
 #include <glm/gtx/quaternion.hpp>
+#include <iostream>
 
 glm::mat4 Transform::getTransformMatrix() const {
     glm::mat4 model = glm::mat4(1.0f);
@@ -142,9 +143,13 @@ glm::mat4 QuaternionTransform::getTransformMatrix() const {
     glm::mat4 translation = glm::translate(glm::mat4(1.0f), getPosition());
     glm::mat4 rotation = glm::toMat4(getQuaternion());
     glm::mat4 scale = glm::scale(glm::mat4(1.0f), getScale());
+    glm::mat4 model = translation; //* rotation; //* scale;
 
+    if(model[0][0] == 0.0f && model[1][1] == 0.0f && model[2][2] == 0.0f && model[3][3] == 0.0f){   //invalid matrix
+        return glm::mat4(1.0f);
+    }
     // Perform scaling, then rotation, then translation
-    return translation * rotation * scale;
+    return model;
 }
 
 std::shared_ptr<Transform> QuaternionTransform::offsetOP(const std::shared_ptr<Transform> parent) const{

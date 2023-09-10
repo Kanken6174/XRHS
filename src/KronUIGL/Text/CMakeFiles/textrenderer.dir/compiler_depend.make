@@ -438,7 +438,6 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
   /usr/include/freetype2/freetype/fterrors.h \
   /usr/include/freetype2/freetype/ftmoderr.h \
   /usr/include/freetype2/freetype/fterrdef.h \
-  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.hpp \
   /usr/include/glm/gtc/matrix_transform.hpp \
   /usr/include/glm/ext/matrix_projection.hpp \
   /usr/include/glm/gtc/constants.hpp \

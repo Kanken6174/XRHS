@@ -106,12 +106,9 @@ int main(){
 
     dc->shader = cubed;
     dc2->shader = cubed;
-    glm::mat4 modelMatrix = glm::mat4(1.0f);
-    dc->shader->setMat4("model", modelMatrix); 
-    dc2->shader->setMat4("model", modelMatrix);
 
-    TrueTypeManager* ttm = new TrueTypeManager("./f2.ttf");
-    TextRenderer tx = TextRenderer(shader,window,ttm);
+    //TrueTypeManager* ttm = new TrueTypeManager("./f2.ttf");
+    //TextRenderer tx = TextRenderer(shader,window,ttm);
     float i = 0;
     float deltaTime = 0.0f;
     float lastFrame = 0.0f;
@@ -141,9 +138,9 @@ int main(){
         //OpencvToVideoFrame::updateFromNodeWithTransparency(frontFrame, tlm->localPipeline->getNodes().at(3));
 #endif
         backgroundFrame->render();
-        dc->drawSelf();
-        dc2->drawSelf();
-        
+        //dc->drawSelf();
+        //dc2->drawSelf();
+
         mr->renderAllWorld();
     
         //tx.RenderText("test", (window->_width/2.5), window->_height/2, i, glm::vec3(1.0f,1.0f,1.0f));
