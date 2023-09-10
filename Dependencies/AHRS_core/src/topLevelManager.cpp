@@ -17,6 +17,7 @@ topLevelManager::topLevelManager()
     catch (...)
     {
         cerr << "caught main thread exception" << endl;
+        exit(1);
     }
 
     DEBUG_LOG("Exitted sleep while")

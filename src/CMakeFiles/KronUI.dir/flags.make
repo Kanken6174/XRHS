@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/usr/include/freetype2 -isystem /usr/local/include/opencv4
 
-CXX_FLAGS =   -L/usr/local/lib -I/usr/include/glm
+CXX_FLAGS = -g -Ofast -fPIC   -L/usr/local/lib -I/usr/include/glm
 

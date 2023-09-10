@@ -6,6 +6,7 @@
 #include "./KronUIGL/3D/Surfaces/DrawSurface.hpp"
 #include "./KronUIGL/3D/Surfaces/VideoFrame.hpp"
 #include "./KronUIGL/3D/Elements/world.hpp"
+#include "./KronUIGL/3D/Kinematics/KinematicsProcessor.hpp"
 
 #include "../include/logger.hpp"
 
@@ -113,6 +114,8 @@ int main(){
         World::getInstance()->addEntity(es);
     }
 
+    std::shared_ptr<SimpleSkeleton> sk = std::make_shared<SimpleSkeleton>(cubed->ID);
+
     dc->shader = cubed;
     dc2->shader = cubed;
     glm::mat4 modelMatrix = glm::mat4(1.0f);
@@ -139,6 +142,7 @@ int main(){
         lastFrame = currentFrame;
 
         processInput(window->getSelf(), deltaTime);
+        processWorldTransforms();
 
         // Clear the screen
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

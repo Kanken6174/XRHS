@@ -56,7 +56,7 @@ void PipelineNode::run()
 {
     while (!shouldRun || (!isFirst && (previous == nullptr || previous->ranOnce)))
     {                                                              // sleep until told to run and if you're not the first in your hierarchy,
-        std::this_thread::sleep_for(std::chrono::milliseconds(5)); // wait for previous to be assigned
+        std::this_thread::sleep_for(std::chrono::milliseconds(50)); // wait for previous to be assigned
     }
     // DEBUG_LOG("pipeline on thread " << localThread->get_id() << " exitted wait while");
     try

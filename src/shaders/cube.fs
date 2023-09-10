@@ -54,12 +54,12 @@ void main()
     else {
         vec3 color = vec3(0.1);
         if (useColor == 1) {
-            color = abs(Position);
-        }
-        if (useTexture == 1) {
+            color = vec3(0.5,0.7,0.3);
+        }else if (useTexture == 1) {
             color = vec3(0.2);
             color += texture(material.texture_diffuse1, TexCoords).rgb;
         }
+
         if (useBump == 1) {
             vec3 texNormal = normalize(texture(material.texture_bump1, TexCoords).rgb * 2.0 - 1.0);
             vec3 lightDir = normalize(lights[0].position - Position);

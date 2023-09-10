@@ -51,22 +51,25 @@ void MeshRenderer::renderSingle(const std::shared_ptr<Mesh>& mesh) {
 
         //std::cout << "rendering model with: " << mesh->textures.size() << " textures" << std::endl;
 
-        for (unsigned int i = 0; i < mesh->textures.size(); i++) {
-            glActiveTexture(GL_TEXTURE0 + i); // active proper texture unit before binding
+        if(mesh->textures.size() == 0)
+            useColor = 1;
+        else
+            for (unsigned int i = 0; i < mesh->textures.size(); i++) {
+                glActiveTexture(GL_TEXTURE0 + i); // active proper texture unit before binding
 
-            // retrieve texture number (the N in diffuse_textureN)
-            std::string number;
-            std::string name = mesh->textures[i].type;
-            if (name == "texture_diffuse") {
-                number = std::to_string(diffuseNr++);
-                useTexture = 1;
-            }else if (name == "texture_normal") {
-                number = std::to_string(normalNr++);
-                useBump = 0;
+                // retrieve texture number (the N in diffuse_textureN)
+                std::string number;
+                std::string name = mesh->textures[i].type;
+                if (name == "texture_diffuse") {
+                    number = std::to_string(diffuseNr++);
+                    useTexture = 1;
+                }else if (name == "texture_normal") {
+                    number = std::to_string(normalNr++);
+                    useBump = 0;
+                }
+                shader->setInt(("material." + name + number).c_str(), i);
+                glBindTexture(GL_TEXTURE_2D, mesh->textures[i].id);
             }
-            shader->setInt(("material." + name + number).c_str(), i);
-            glBindTexture(GL_TEXTURE_2D, mesh->textures[i].id);
-        }
         shader->setInt("useDefault", (useColor == 0 && useTexture == 0 && useBump == 0) ? 1 : 0);
         shader->setInt("useColor", useColor);
         shader->setInt("useTexture", useTexture);
@@ -92,19 +95,19 @@ void MeshRenderer::renderAll() {
 void MeshRenderer::renderAllWorld() {
     ShaderManager::getInstance()->setShader(shader);
 
-    auto worldInstance = World::getInstance();
+    auto worldInstance = World::getInstance();  
+
+    Logger::getInstance().info("Rendering world with " + std::to_string(worldInstance->totalEntitiesRecurse()) + " entities and " + std::to_string(worldInstance->lights.size()) + " lights.");
+
     if(worldInstance == nullptr) {
         Logger::getInstance().error("World instance is null!");
-        return;
     }
-    if(worldInstance->entities.size() == 0) {
+    if(worldInstance->children.size() == 0) {
         Logger::getInstance().error("World instance has no entities!");
-        return;
     }
 
     if(worldInstance->lights.size() == 0) {
         Logger::getInstance().error("World instance has no lights!");
-        return;
     }
 
     // Set light properties
@@ -116,7 +119,7 @@ void MeshRenderer::renderAllWorld() {
     shader->setInt("numLights", worldInstance->lights.size());
 
     // Render entities
-    for(auto& entity : worldInstance->entities) {
+    for(auto& entity : worldInstance->children) {
         if(entity->mesh && entity->transform && entity->mesh->get()->VAO != 0) {
             renderSingle(entity->mesh.value());
             drawMesh(entity->mesh.value());

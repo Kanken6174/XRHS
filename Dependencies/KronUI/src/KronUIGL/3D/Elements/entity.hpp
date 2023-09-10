@@ -13,12 +13,15 @@
 */
 class Entity {
 public:
-    // stores the entity's XYZ rotation and translation + scale
+    std::string name = "UnNamed Entity";
+    // stores the entity's XYZ rotation and translation + scale from its parent, if it has one
+    std::shared_ptr<Transform> localTransform = std::make_shared<QuaternionTransform>();
+    // stores the entity's XYZ rotation and translation + scale from the world origin (only calculated when needed)
     std::shared_ptr<Transform> transform = std::make_shared<QuaternionTransform>();
     
     // this is used to store the children of this entity as part of the scene graph
-    std::vector<Entity> children;
-    std::optional<Entity*> parent = std::nullopt;
+    std::vector<std::shared_ptr<Entity>> children;
+    std::optional<std::shared_ptr<Entity>> parent = std::nullopt;
 
     // an entity can have a 3d mesh
     std::optional<std::shared_ptr<Mesh>> mesh = std::nullopt;
@@ -26,6 +29,7 @@ public:
     bool visible = true;
 
     Entity() {}
+    Entity(std::shared_ptr<Entity> myParent) : parent(myParent) {}
     Entity(float x, float y, float z) {transform->setEulerAngles(glm::vec3(x,y,z));}
     Entity(float x, float y, float z, float rx, float ry, float rz) {transform->setEulerAngles(glm::vec3(rx,ry,rz)); transform->setPosition(glm::vec3(x,y,z));}
 

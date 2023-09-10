@@ -3,7 +3,7 @@
 #include <GL/glew.h>
 #include <memory>
 #include <vector>
-#include "./../Elements/vertex.hpp"
+//#include "./../Elements/vertex.hpp"
 #include "./../Elements/transform.hpp"
 #include "../../Geometry/Shapes.hpp"
 #include "../../Shaders/Shader.hpp"

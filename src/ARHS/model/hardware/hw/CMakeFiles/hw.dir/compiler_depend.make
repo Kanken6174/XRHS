@@ -29,10 +29,14 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -59,6 +63,7 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/tuple \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
@@ -179,8 +184,11 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/c++/11/bits/charconv.h \
@@ -194,6 +202,7 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -277,7 +286,23 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/asm-generic/termbits.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/x86_64-linux-gnu/asm/termbits.h:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/x86_64-linux-gnu/asm/ioctls.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/11/bits/fstream.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -311,25 +336,9 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/c++/11/ext/concurrence.h:
 
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/11/iostream:
-
 /usr/include/c++/11/bits/functional_hash.h:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/hw/inputKeys.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/c++/11/bits/invoke.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -341,43 +350,49 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
+/usr/include/x86_64-linux-gnu/asm/ioctl.h:
+
+/usr/include/c++/11/bits/functexcept.h:
+
 /usr/include/c++/11/streambuf:
 
 /usr/local/include/CppLinuxSerial/SerialPort.hpp:
 
-/usr/include/unistd.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
-/usr/include/c++/11/cwchar:
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+/usr/include/c++/11/filesystem:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/c++/11/bits/basic_string.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/linux/errno.h:
 
@@ -385,35 +400,23 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/features-time64.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/c++/11/bits/invoke.h:
+
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/include/c++/11/cstdint:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/11/cerrno:
-
-/usr/include/c++/11/bits/fs_dir.h:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
 /usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/asm/ioctl.h:
 
 /usr/include/errno.h:
 
 /usr/include/features.h:
-
-/usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -425,13 +428,33 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/c++/11/bits/std_thread.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
@@ -467,17 +490,11 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/c++/11/bits/stl_relops.h:
 
-/usr/include/c++/11/tuple:
-
 /usr/include/linux/stddef.h:
 
 /usr/include/c++/11/bits/refwrap.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -487,13 +504,19 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/c++/11/thread:
 
-/usr/include/c++/11/limits:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 /usr/include/c++/11/chrono:
 
@@ -508,6 +531,8 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
@@ -535,10 +560,6 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/c++/11/list:
 
-/usr/include/c++/11/ctime:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
 /usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
@@ -561,23 +582,43 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/c++/11/array:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/11/ctime:
 
 /usr/include/c++/11/initializer_list:
 
 /usr/include/c++/11/iosfwd:
 
-/usr/include/c++/11/bits/nested_exception.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/include/c++/11/bits/parse_numbers.h:
+/usr/include/c++/11/bits/locale_facets.tcc:
 
-/usr/include/asm-generic/ioctl.h:
+/usr/include/c++/11/bits/this_thread_sleep.h:
 
 /usr/include/c++/11/string:
 
-/usr/include/c++/11/bits/predefined_ops.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/unistd.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/11/cerrno:
+
+/usr/include/c++/11/bits/fs_dir.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
@@ -687,7 +728,15 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
+/usr/include/c++/11/cwchar:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/alloca.h:
+
+/usr/include/c++/11/cwctype:
+
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/threadweaver/debugging.hpp:
 
 /usr/include/c++/11/bits/std_abs.h:
 
@@ -719,17 +768,19 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
-
-/usr/include/c++/11/filesystem:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/c++/11/bits/fs_fwd.h:
 
@@ -740,10 +791,6 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 /usr/include/c++/11/bits/exception.h:
 
 /usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/c++/11/cwctype:
-
-/home/kanken/code/XRHS/Dependencies/AHRS_core/src/threadweaver/debugging.hpp:
 
 /usr/include/c++/11/bits/ios_base.h:
 
@@ -758,12 +805,6 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/list.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
@@ -786,17 +827,3 @@ ARHS/model/hardware/hw/CMakeFiles/hw.dir/inputManager.cpp.o: /home/kanken/code/X
 /usr/include/c++/11/bits/stl_list.h:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observer.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/c++/11/bits/fstream.tcc:
-
-/usr/include/asm-generic/ioctls.h:
-
-/usr/include/linux/ioctl.h:
-
-/usr/include/x86_64-linux-gnu/asm/termbits.h:

@@ -2,6 +2,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/quaternion.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+#include <memory>
 
 class Transform {
 public:
@@ -24,6 +25,8 @@ public:
     virtual glm::vec3 getRight() const = 0;
 
     virtual glm::mat4 getTransformMatrix() const;   //pre-defined utility
+
+    virtual std::shared_ptr<Transform> offsetOP(const std::shared_ptr<Transform> parent) const = 0; //offset operation
 
     virtual ~Transform() {}
 };
@@ -49,6 +52,7 @@ public:
     glm::vec3 getForward() const override;
     glm::vec3 getUp() const override;
     glm::vec3 getRight() const override;
+    virtual std::shared_ptr<Transform> offsetOP(const std::shared_ptr<Transform> parent) const override;
 };
 
 class QuaternionTransform : public Transform {
@@ -73,5 +77,6 @@ public:
     glm::vec3 getUp() const override;
     glm::vec3 getRight() const override;
 
-    glm::mat4 getTransformMatrix() const override; 
+    glm::mat4 getTransformMatrix() const override;
+    virtual std::shared_ptr<Transform> offsetOP(const std::shared_ptr<Transform> parent) const override;
 };

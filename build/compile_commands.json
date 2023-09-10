@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/kanken/code/XRHS/build",
+  "command": "/usr/bin/c++  -isystem /usr/local/include/opencv4 -g -o CMakeFiles/controllers.dir/ui/uiController.o -c /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp",
+  "file": "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.cpp"
+},
+{
+  "directory": "/home/kanken/code/XRHS/build",
+  "command": "/usr/bin/c++  -isystem /usr/local/include/opencv4 -g -o CMakeFiles/controllers.dir/ui/menu.o -c /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp",
+  "file": "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/menu.cpp"
+}
+]

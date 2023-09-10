@@ -102,6 +102,8 @@ int main(){
         World::getInstance()->addEntity(es);
     }
 
+    std::shared_ptr<SimpleSkeleton> sk = std::make_shared<SimpleSkeleton>(cubed->ID);
+
     dc->shader = cubed;
     dc2->shader = cubed;
     glm::mat4 modelMatrix = glm::mat4(1.0f);
@@ -144,7 +146,7 @@ int main(){
 
         dc->shader->setMat4("view", InputSystem::getInstance().getCamera().viewMatrix);
         dc->shader->setMat4("projection", InputSystem::getInstance().getCamera().projectionMatrix);
-        //dc->drawSelf();
+        dc->drawSelf();
         dc2->shader->setMat4("view", InputSystem::getInstance().getCamera().viewMatrix);
         dc2->shader->setMat4("projection", InputSystem::getInstance().getCamera().projectionMatrix);
         dc2->drawSelf();

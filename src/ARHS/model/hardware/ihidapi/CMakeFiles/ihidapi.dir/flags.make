@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/usr/include/freetype2 -I/usr/local/include/opencv4 -isystem /usr/local/include/hidapi
 
-CXX_FLAGS = 
+CXX_FLAGS = -g -Ofast -fPIC
 

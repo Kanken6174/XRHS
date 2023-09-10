@@ -73,7 +73,8 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "*.ipp": "cpp"
     },
     "cmake.sourceDirectory": "/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers"
 }

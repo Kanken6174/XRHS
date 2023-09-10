@@ -1,0 +1,3 @@
+/home/kanken/code/XRHS/build/CMakeFiles/controllers.dir
+/home/kanken/code/XRHS/build/CMakeFiles/edit_cache.dir
+/home/kanken/code/XRHS/build/CMakeFiles/rebuild_cache.dir

@@ -3,6 +3,7 @@
 
 #include <glm/glm.hpp>
 #include "./Drawing.hpp"
+#include "../3D/Elements/mesh.hpp"
 
 class Point : public shapeElement{
 private:
@@ -68,6 +69,8 @@ public:
     DefaultCube(float width, float height, float thickness, float offsetX = 0, float offsetY = 0, float offsetZ = 0);
 
     std::vector<float> generateVertices() override;
+
+    static std::shared_ptr<Mesh> DirectDefaultMesh(float scale = 1.0f);
 
 private:
     float width, height, thickness;

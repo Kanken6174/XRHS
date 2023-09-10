@@ -12,7 +12,6 @@ class World : public Entity {
 protected:
     World& operator=(const World&) = delete;
 public:
-    std::vector<std::shared_ptr<Entity>> entities;
     std::vector<std::shared_ptr<Light>> lights;
 
     static std::shared_ptr<World> instance;
@@ -29,6 +28,18 @@ public:
     }
 
     void addEntity(std::shared_ptr<Entity> e) {
-        entities.push_back(e);
+        children.push_back(e);
+        e->parent = std::make_shared<Entity>(*this);
+    }
+
+    int totalEntitiesRecurse(std::shared_ptr<Entity> e = nullptr) {
+        int total = 0;
+        if (e == nullptr) {
+            e = std::make_shared<Entity>(*this);
+        }
+        for (auto child : e->children) {
+            total += totalEntitiesRecurse(child);
+        }
+        return total + e->children.size();
     }
 };

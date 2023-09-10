@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcontrollers.a CMakeFiles/controllers.dir/ui/uiController.o CMakeFiles/controllers.dir/ui/menu.o
+/usr/bin/ranlib libcontrollers.a

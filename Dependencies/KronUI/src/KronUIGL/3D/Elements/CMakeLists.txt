@@ -5,6 +5,7 @@ set(local_src
     ./mesh.cpp
     ./texture.hpp
     ./vertex.hpp
+    ./vertex.cpp
     ./transform.hpp
     ./transform.cpp
     ./entity.hpp

@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "C/C++: CMake Build (Debug)",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/build"
+			},
+			"command": "cmake ${workspaceRoot}/src -DCMAKE_BUILD_TYPE=Debug && cmake --build ${workspaceRoot}/src -j11",
+		},
+		{
+			"label": "C/C++: CMake Build (Release)",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/build"
+			},
+			"command": "cmake ${workspaceRoot}/src -DCMAKE_BUILD_TYPE=Release && cmake --build ${workspaceRoot}/src -j11",
+		}
+	]
+}

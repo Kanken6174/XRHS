@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/usr/include/freetype2
 
-CXX_FLAGS = 
+CXX_FLAGS = -g -Ofast -fPIC
 

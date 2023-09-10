@@ -72,6 +72,9 @@ glm::vec3 EulerTransform::getRight() const {
     return glm::normalize(glm::cross(getForward(), glm::vec3(0.0f, 1.0f, 0.0f)));
 }
 
+std::shared_ptr<Transform> EulerTransform::offsetOP(const std::shared_ptr<Transform> parent) const{
+    return parent;
+}
 
 // QuaternionTransform implementation
 QuaternionTransform::QuaternionTransform() : position(0.0f), scale(1.0f), rotation(glm::vec3(0.0f)) {}
@@ -142,4 +145,24 @@ glm::mat4 QuaternionTransform::getTransformMatrix() const {
 
     // Perform scaling, then rotation, then translation
     return translation * rotation * scale;
+}
+
+std::shared_ptr<Transform> QuaternionTransform::offsetOP(const std::shared_ptr<Transform> parent) const{
+        std::shared_ptr<Transform> result = std::make_shared<QuaternionTransform>();
+
+        // Get the position and quaternion of the parent transform
+        glm::vec3 parentPosition = parent->getPosition();
+        glm::quat parentQuaternion = parent->getQuaternion();
+
+        // Offset the parent's position using the current transform's position (used as offset from parent)
+        glm::vec3 offsetPosition = parentPosition + getPosition();
+
+        // Combine the quaternions (rotate the child by the parent's rotation)
+        glm::quat offsetQuaternion = parentQuaternion * getQuaternion();
+
+        // Set the new position and quaternion to the result transform
+        result->setPosition(offsetPosition);
+        result->setQuaternion(offsetQuaternion);
+
+        return result;
 }
