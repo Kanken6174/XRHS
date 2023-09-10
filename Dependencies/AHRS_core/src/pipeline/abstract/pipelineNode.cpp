@@ -68,11 +68,12 @@ void PipelineNode::run()
         {
             begin = std::chrono::steady_clock::now();
             localES->tickBegin();
+            
             if (!disabled)
             {
                 const std::lock_guard<std::mutex> lock(subNodesLock);
                 this->processFrame();
-                lock.~lock_guard();
+                //lock.~lock_guard(); //TODO: figure out why destroying the guard lock prematurely crashes everything
             }
             else
             {
@@ -86,6 +87,7 @@ void PipelineNode::run()
             end = std::chrono::steady_clock::now();
             std::this_thread::sleep_for(std::chrono::milliseconds((1000 / this->fpsLimit) - std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count()));
             changed = true;
+            
         }
         ranOnce = true;
     }
