@@ -1,5 +1,5 @@
 #include "vertex.hpp"
-
+#include "iostream"
 std::vector<Vertex> from3FloatVector(std::vector<float> floats){
     std::vector<Vertex> vertices;
     for(int i = 0; i < floats.size(); i+=3){

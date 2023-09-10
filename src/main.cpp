@@ -140,20 +140,12 @@ int main(){
 #ifdef DEBUG_UI
         //OpencvToVideoFrame::updateFromNodeWithTransparency(frontFrame, tlm->localPipeline->getNodes().at(3));
 #endif
-
-
         backgroundFrame->render();
-
-        dc->shader->setMat4("view", InputSystem::getInstance().getCamera().viewMatrix);
-        dc->shader->setMat4("projection", InputSystem::getInstance().getCamera().projectionMatrix);
         dc->drawSelf();
-        dc2->shader->setMat4("view", InputSystem::getInstance().getCamera().viewMatrix);
-        dc2->shader->setMat4("projection", InputSystem::getInstance().getCamera().projectionMatrix);
         dc2->drawSelf();
         
-        mr->shader->setMat4("view", InputSystem::getInstance().getCamera().viewMatrix);
-        mr->shader->setMat4("projection", InputSystem::getInstance().getCamera().projectionMatrix);
         mr->renderAllWorld();
+    
         //tx.RenderText("test", (window->_width/2.5), window->_height/2, i, glm::vec3(1.0f,1.0f,1.0f));
         i+= 0.001f;
         frontFrame->render();

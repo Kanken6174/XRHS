@@ -1,5 +1,6 @@
 set(shaders_src
     ./Shader.hpp
+    ./Shader.cpp
     ./ShaderManager.cpp
     ./ShaderManager.hpp)
 

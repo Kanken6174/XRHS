@@ -302,6 +302,16 @@ std::shared_ptr<Mesh> DefaultCube::DirectDefaultMesh(float scale){
         std::vector<unsigned int>(), 
         std::vector<Texture>(), 
         std::make_shared<QuaternionTransform>(glm::vec3(0.0f,0.0f,0.0f),glm::vec3(0.0f,0.0f,0.0f),glm::vec3(scale,scale,scale)));
+    //also generate opengl indices
+    std::vector<unsigned int> indices;
+    for(int i = 0; i < mesh->vertices.size(); i++)
+        indices.push_back(i);
+    mesh->indices = indices;
 
+    //print all veticies, on XYZ (each verticies have a position attribute, which is a vec3 of 3 floats)
+    for(int i = 0; i < mesh->vertices.size(); i++){
+        std::cout << mesh->vertices.at(i).Position.x << ", " << mesh->vertices.at(i).Position.y << ", " << mesh->vertices.at(i).Position.z << std::endl;
+    }
+    std::cout << "------------------------------" << std::endl;
     return mesh;
 };

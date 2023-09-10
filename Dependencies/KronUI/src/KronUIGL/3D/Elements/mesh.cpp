@@ -29,6 +29,10 @@ glm::mat4 Mesh::getTransformMatrix() const {
 }
 
 void Mesh::setupMesh(GLuint shaderProgram) {
+    
+    Logger::getInstance().warn("Setting up mesh "+std::to_string(this->vertices.size()) + " vertices, " + std::to_string(this->indices.size()) + 
+    " indices, " + std::to_string(this->textures.size()) + " textures");
+
     glUseProgram(shaderProgram);
 
     glBindAttribLocation(shaderProgram, 0, "Position");

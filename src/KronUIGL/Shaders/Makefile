@@ -130,6 +130,30 @@ shaders/fast:
 	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Shaders/CMakeFiles/shaders.dir/build.make KronUIGL/Shaders/CMakeFiles/shaders.dir/build
 .PHONY : shaders/fast
 
+Shader.o: Shader.cpp.o
+.PHONY : Shader.o
+
+# target to build an object file
+Shader.cpp.o:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Shaders/CMakeFiles/shaders.dir/build.make KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.o
+.PHONY : Shader.cpp.o
+
+Shader.i: Shader.cpp.i
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Shaders/CMakeFiles/shaders.dir/build.make KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Shaders/CMakeFiles/shaders.dir/build.make KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
+
 ShaderManager.o: ShaderManager.cpp.o
 .PHONY : ShaderManager.o
 
@@ -163,6 +187,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... shaders"
+	@echo "... Shader.o"
+	@echo "... Shader.i"
+	@echo "... Shader.s"
 	@echo "... ShaderManager.o"
 	@echo "... ShaderManager.i"
 	@echo "... ShaderManager.s"

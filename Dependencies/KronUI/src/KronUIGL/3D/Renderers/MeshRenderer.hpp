@@ -28,10 +28,12 @@ public:
         mesh->setupMesh(shader->ID);
         meshes.push_back(mesh);
     }
-
+    
     void drawMesh(std::shared_ptr<Mesh> mesh);
 
     void renderAll();   //deprecated
     void renderAllWorld();  //renders all entities in the world
     void renderSingle(const std::shared_ptr<Mesh>& mesh);
+protected:
+    void renderChildren(const std::shared_ptr<Entity>& entity);
 };

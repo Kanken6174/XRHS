@@ -2,7 +2,7 @@
 #include "../Elements/world.hpp"
 #include "../../Geometry/Shapes.hpp"
 
-void resursiveMeshSetup(std::shared_ptr<Entity> entity, uint programID){
+void recursiveMeshSetup(std::shared_ptr<Entity> entity, uint programID){
     if(entity->mesh){
         entity->mesh->get()->setupMesh(programID);
     }else{
@@ -10,7 +10,7 @@ void resursiveMeshSetup(std::shared_ptr<Entity> entity, uint programID){
         return;
     }
     for(auto child : entity->children){
-        resursiveMeshSetup(child, programID);
+        recursiveMeshSetup(child, programID);
     }
 }
 
@@ -44,7 +44,7 @@ SimpleSkeleton::SimpleSkeleton(uint programID){
     leftHand->mesh = DefaultCube::DirectDefaultMesh();
     rightHand->mesh = DefaultCube::DirectDefaultMesh();
     
-    resursiveMeshSetup(head,programID);
+    recursiveMeshSetup(head,programID);
 }
 
 Head::Head(std::shared_ptr<Entity> parentNode){

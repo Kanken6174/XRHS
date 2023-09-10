@@ -51,9 +51,9 @@ void MeshRenderer::renderSingle(const std::shared_ptr<Mesh>& mesh) {
 
         //std::cout << "rendering model with: " << mesh->textures.size() << " textures" << std::endl;
 
-        if(mesh->textures.size() == 0)
+        if(mesh->textures.size() == 0){
             useColor = 1;
-        else
+        }else
             for (unsigned int i = 0; i < mesh->textures.size(); i++) {
                 glActiveTexture(GL_TEXTURE0 + i); // active proper texture unit before binding
 
@@ -74,9 +74,8 @@ void MeshRenderer::renderSingle(const std::shared_ptr<Mesh>& mesh) {
         shader->setInt("useColor", useColor);
         shader->setInt("useTexture", useTexture);
         shader->setInt("useBump", useBump);
-        // Draw the mesh.
-        if(mesh->Draw)
-            mesh->Draw();
+
+        drawMesh(mesh);
 
         // Always good practice to set everything back to defaults once configured.
         glActiveTexture(GL_TEXTURE0);
@@ -94,6 +93,7 @@ void MeshRenderer::renderAll() {
 
 void MeshRenderer::renderAllWorld() {
     ShaderManager::getInstance()->setShader(shader);
+    shader->cameraMatrixOp();
 
     auto worldInstance = World::getInstance();  
 
@@ -117,15 +117,21 @@ void MeshRenderer::renderAllWorld() {
         shader->setVec3(lightStr + ".color", worldInstance->lights[i]->GetColor());
     }
     shader->setInt("numLights", worldInstance->lights.size());
-
+    int i = 0;
     // Render entities
     for(auto& entity : worldInstance->children) {
-        if(entity->mesh && entity->transform && entity->mesh->get()->VAO != 0) {
-            renderSingle(entity->mesh.value());
-            drawMesh(entity->mesh.value());
-        }else{
-            Logger::getInstance().error("Entity has no mesh or transform!");
-        }
+        renderChildren(entity);
+    }
+}
+
+void MeshRenderer::renderChildren(const std::shared_ptr<Entity>& entity){
+    if(entity->mesh && entity->transform && entity->mesh->get()->VAO != 0) {
+        renderSingle(entity->mesh.value());
+    }else{
+        Logger::getInstance().error("Entity has no mesh or transform!");
+    }
+    for(auto& child : entity->children){
+        renderChildren(child);
     }
 }
 
@@ -133,5 +139,5 @@ void MeshRenderer::drawMesh(std::shared_ptr<Mesh> mesh) {
     glBindVertexArray(mesh->VAO);
     glDrawElements(GL_TRIANGLES, mesh->indices.size(), GL_UNSIGNED_INT, 0);
     glBindVertexArray(0);
-    glEnable(GL_CULL_FACE);
+    glDisable(GL_CULL_FACE);
 }

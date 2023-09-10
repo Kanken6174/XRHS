@@ -198,6 +198,8 @@ public:
         }
     }
 
+    void cameraMatrixOp() const;
+
 
 private:
     // utility function for checking shader compilation/linking errors.

@@ -69,10 +69,24 @@ include KronUIGL/Shaders/CMakeFiles/shaders.dir/progress.make
 # Include the compile flags for this target's objects.
 include KronUIGL/Shaders/CMakeFiles/shaders.dir/flags.make
 
+KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.o: KronUIGL/Shaders/CMakeFiles/shaders.dir/flags.make
+KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.cpp
+KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.o: KronUIGL/Shaders/CMakeFiles/shaders.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.o"
+	cd /home/kanken/code/XRHS/src/KronUIGL/Shaders && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.o -MF CMakeFiles/shaders.dir/Shader.cpp.o.d -o CMakeFiles/shaders.dir/Shader.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.cpp
+
+KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shaders.dir/Shader.cpp.i"
+	cd /home/kanken/code/XRHS/src/KronUIGL/Shaders && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.cpp > CMakeFiles/shaders.dir/Shader.cpp.i
+
+KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shaders.dir/Shader.cpp.s"
+	cd /home/kanken/code/XRHS/src/KronUIGL/Shaders && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/Shader.cpp -o CMakeFiles/shaders.dir/Shader.cpp.s
+
 KronUIGL/Shaders/CMakeFiles/shaders.dir/ShaderManager.cpp.o: KronUIGL/Shaders/CMakeFiles/shaders.dir/flags.make
 KronUIGL/Shaders/CMakeFiles/shaders.dir/ShaderManager.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/ShaderManager.cpp
 KronUIGL/Shaders/CMakeFiles/shaders.dir/ShaderManager.cpp.o: KronUIGL/Shaders/CMakeFiles/shaders.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/Shaders/CMakeFiles/shaders.dir/ShaderManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object KronUIGL/Shaders/CMakeFiles/shaders.dir/ShaderManager.cpp.o"
 	cd /home/kanken/code/XRHS/src/KronUIGL/Shaders && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/Shaders/CMakeFiles/shaders.dir/ShaderManager.cpp.o -MF CMakeFiles/shaders.dir/ShaderManager.cpp.o.d -o CMakeFiles/shaders.dir/ShaderManager.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Shaders/ShaderManager.cpp
 
 KronUIGL/Shaders/CMakeFiles/shaders.dir/ShaderManager.cpp.i: cmake_force
@@ -85,15 +99,17 @@ KronUIGL/Shaders/CMakeFiles/shaders.dir/ShaderManager.cpp.s: cmake_force
 
 # Object files for target shaders
 shaders_OBJECTS = \
+"CMakeFiles/shaders.dir/Shader.cpp.o" \
 "CMakeFiles/shaders.dir/ShaderManager.cpp.o"
 
 # External object files for target shaders
 shaders_EXTERNAL_OBJECTS =
 
+KronUIGL/Shaders/libshaders.a: KronUIGL/Shaders/CMakeFiles/shaders.dir/Shader.cpp.o
 KronUIGL/Shaders/libshaders.a: KronUIGL/Shaders/CMakeFiles/shaders.dir/ShaderManager.cpp.o
 KronUIGL/Shaders/libshaders.a: KronUIGL/Shaders/CMakeFiles/shaders.dir/build.make
 KronUIGL/Shaders/libshaders.a: KronUIGL/Shaders/CMakeFiles/shaders.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libshaders.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libshaders.a"
 	cd /home/kanken/code/XRHS/src/KronUIGL/Shaders && $(CMAKE_COMMAND) -P CMakeFiles/shaders.dir/cmake_clean_target.cmake
 	cd /home/kanken/code/XRHS/src/KronUIGL/Shaders && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shaders.dir/link.txt --verbose=$(VERBOSE)
 
