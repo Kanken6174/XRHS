@@ -40,7 +40,7 @@ class stubCamera : public camera{
 
 class cameraManager{
     protected:
-    UMat stubImage = cv::imread("./Ressources/Textures/noi2.png").getUMat( ACCESS_READ );;
+    UMat stubImage = cv::imread("./Ressources/Textures/noi2.jpeg").getUMat( ACCESS_READ );;
 
     public:
     std::vector<camera*> videoSources;

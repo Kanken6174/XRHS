@@ -127,6 +127,9 @@ int main(){
         lastFrame = currentFrame;
 
         processInput(window->getSelf(), deltaTime);
+        sk->head->localTransform->setPosition(InputSystem::getInstance().getCamera().transform->getPosition()*glm::vec3(0.0f,0.0f,-5.0f));
+        sk->head->localTransform->setQuaternion(InputSystem::getInstance().getCamera().transform->getQuaternion());
+        processWorldTransforms();
 
         // Clear the screen
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

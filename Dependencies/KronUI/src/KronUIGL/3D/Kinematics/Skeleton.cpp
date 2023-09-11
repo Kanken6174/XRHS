@@ -36,12 +36,16 @@ SimpleSkeleton::SimpleSkeleton(uint programID){
 
     leftHand->parent = head;
     rightHand->parent = head;
-    head->transform->setPosition(glm::vec3(1.0f,1.8f,1.0f));    //head is origin, relative to the world, 1.8m high
-    head->transform->setEulerAngles(glm::vec3(1.0f,60.0f,1.0f));
-    //head->localTransform->setPosition(glm::vec3(0.1f,10.1f,0.18f));    //head is origin, relative to the world, 1.8m high
+    head->localTransform->setPosition(glm::vec3(0.0f,2.0f,10.0f));    //head is origin, relative to the world, 1.8m high
+    head->localTransform->setEulerAngles(glm::vec3(0.0f,0.0f,0.0f));
+    leftHand->localTransform->setPosition(glm::vec3(-1.0f,-3.0f,2.0f)); //left hand is left, relative to the head
+    leftHand->localTransform->setEulerAngles(glm::vec3(0.0f,0.0f,0.0f));
+    rightHand->localTransform->setPosition(glm::vec3(-1.0f,-3.0f,-2.0f));    //right hand is right, relative to the head
+    rightHand->localTransform->setEulerAngles(glm::vec3(0.0f,0.0f,0.0f));
+
     World::getInstance()->addEntity(head);  //this also sets the parent of the head to the world
 
-    head->mesh = DefaultCube::DirectDefaultMesh(5.0f);
+    head->mesh = DefaultCube::DirectDefaultMesh(2.0f);
     leftHand->mesh = DefaultCube::DirectDefaultMesh();
     rightHand->mesh = DefaultCube::DirectDefaultMesh();
     

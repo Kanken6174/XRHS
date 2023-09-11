@@ -11,6 +11,7 @@ void processLocalTransforms(std::shared_ptr<Entity> parent) {
 void processWorldTransforms() {
     auto world = World::getInstance();
     for (auto& entity : world->children) {  //iterate through the parent entities
+        entity->transform = entity->localTransform;  //apply parent transform to child
         processLocalTransforms(entity); //recursive
     }
 }
