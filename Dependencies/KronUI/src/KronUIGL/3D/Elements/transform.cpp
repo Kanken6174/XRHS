@@ -148,6 +148,8 @@ glm::mat4 QuaternionTransform::getTransformMatrix() const {
     if(model[0][0] == 0.0f && model[1][1] == 0.0f && model[2][2] == 0.0f && model[3][3] == 0.0f){   //invalid matrix
         return glm::mat4(1.0f);
     }
+    //display the resulting vector of getpositon
+    std::cout << "position: " << std::to_string(getPosition()[0]) << " " << std::to_string(getPosition()[1]) << " " << std::to_string(getPosition()[2]) << std::endl;
     // Perform scaling, then rotation, then translation
     return model;
 }

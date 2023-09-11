@@ -44,6 +44,8 @@ SimpleSkeleton::SimpleSkeleton(uint programID){
     head->mesh = DefaultCube::DirectDefaultMesh(5.0f);
     leftHand->mesh = DefaultCube::DirectDefaultMesh();
     rightHand->mesh = DefaultCube::DirectDefaultMesh();
+
+    head->mesh.value()->transform->setPosition(glm::vec3(0.0f,10.0f,0.0f));
     
     recursiveMeshSetup(head,programID);
 }
