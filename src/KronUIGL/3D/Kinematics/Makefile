@@ -130,6 +130,30 @@ kinematics/fast:
 	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build
 .PHONY : kinematics/fast
 
+KinematicJoints.o: KinematicJoints.cpp.o
+.PHONY : KinematicJoints.o
+
+# target to build an object file
+KinematicJoints.cpp.o:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o
+.PHONY : KinematicJoints.cpp.o
+
+KinematicJoints.i: KinematicJoints.cpp.i
+.PHONY : KinematicJoints.i
+
+# target to preprocess a source file
+KinematicJoints.cpp.i:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.i
+.PHONY : KinematicJoints.cpp.i
+
+KinematicJoints.s: KinematicJoints.cpp.s
+.PHONY : KinematicJoints.s
+
+# target to generate assembly for a file
+KinematicJoints.cpp.s:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.s
+.PHONY : KinematicJoints.cpp.s
+
 KinematicsProcessor.o: KinematicsProcessor.cpp.o
 .PHONY : KinematicsProcessor.o
 
@@ -187,6 +211,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kinematics"
+	@echo "... KinematicJoints.o"
+	@echo "... KinematicJoints.i"
+	@echo "... KinematicJoints.s"
 	@echo "... KinematicsProcessor.o"
 	@echo "... KinematicsProcessor.i"
 	@echo "... KinematicsProcessor.s"

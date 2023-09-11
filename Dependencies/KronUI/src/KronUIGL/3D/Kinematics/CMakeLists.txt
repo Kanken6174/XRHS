@@ -3,6 +3,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(local_src
     ./KinematicsProcessor.cpp
     ./KinematicsProcessor.hpp
+    ./KinematicJoints.hpp
+    ./KinematicJoints.cpp
     ./Skeleton.cpp
     ./Skeleton.hpp
     )

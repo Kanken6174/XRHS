@@ -8,6 +8,8 @@
 #include "mesh.hpp"
 #include <memory>
 
+class AbstractKinematicJoint;   // forward declaration
+
 /*
 * this class is used to represent an entity in 3D space
 */
@@ -26,6 +28,8 @@ public:
     // an entity can have a 3d mesh
     std::shared_ptr<Mesh> mesh;
     bool visible = true;
+
+    std::shared_ptr<AbstractKinematicJoint> kinematicJoint;
 
     Entity() {}
     Entity(std::shared_ptr<Entity> myParent) : parent(myParent) {}

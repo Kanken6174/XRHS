@@ -1,2 +1,2 @@
-/usr/bin/ar qc libkinematics.a CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.o CMakeFiles/kinematics.dir/Skeleton.cpp.o
+/usr/bin/ar qc libkinematics.a CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.o CMakeFiles/kinematics.dir/KinematicJoints.cpp.o CMakeFiles/kinematics.dir/Skeleton.cpp.o
 /usr/bin/ranlib libkinematics.a

@@ -1,6 +1,7 @@
 #include "Skeleton.hpp"
 #include "../Elements/world.hpp"
 #include "../../Geometry/Shapes.hpp"
+#include "KinematicJoints.hpp"
 
 void recursiveMeshSetup(std::shared_ptr<Entity> entity, uint programID){
     if(entity->mesh){
@@ -48,7 +49,11 @@ SimpleSkeleton::SimpleSkeleton(uint programID){
     head->mesh = DefaultCube::DirectDefaultMesh(2.0f);
     leftHand->mesh = DefaultCube::DirectDefaultMesh();
     rightHand->mesh = DefaultCube::DirectDefaultMesh();
-    
+
+    std::shared_ptr<DerivedKinematicJoint> djc = std::make_shared<DerivedKinematicJoint>();
+    leftHand->kinematicJoint = djc;
+    rightHand->kinematicJoint = djc;
+
     recursiveMeshSetup(head,programID);
 }
 

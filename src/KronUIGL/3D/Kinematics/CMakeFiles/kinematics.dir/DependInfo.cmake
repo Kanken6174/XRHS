@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.cpp" "KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o" "gcc" "KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o.d"
   "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicsProcessor.cpp" "KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.o" "gcc" "KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.o.d"
   "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/Skeleton.cpp" "KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o" "gcc" "KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o.d"
   )

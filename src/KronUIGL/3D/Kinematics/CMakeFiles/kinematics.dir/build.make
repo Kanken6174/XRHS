@@ -83,10 +83,24 @@ KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.s"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicsProcessor.cpp -o CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.s
 
+KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/flags.make
+KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.cpp
+KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o -MF CMakeFiles/kinematics.dir/KinematicJoints.cpp.o.d -o CMakeFiles/kinematics.dir/KinematicJoints.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.cpp
+
+KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kinematics.dir/KinematicJoints.cpp.i"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.cpp > CMakeFiles/kinematics.dir/KinematicJoints.cpp.i
+
+KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kinematics.dir/KinematicJoints.cpp.s"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.cpp -o CMakeFiles/kinematics.dir/KinematicJoints.cpp.s
+
 KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/flags.make
 KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/Skeleton.cpp
 KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o -MF CMakeFiles/kinematics.dir/Skeleton.cpp.o.d -o CMakeFiles/kinematics.dir/Skeleton.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/Skeleton.cpp
 
 KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.i: cmake_force
@@ -100,16 +114,18 @@ KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.s: cmake_force
 # Object files for target kinematics
 kinematics_OBJECTS = \
 "CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.o" \
+"CMakeFiles/kinematics.dir/KinematicJoints.cpp.o" \
 "CMakeFiles/kinematics.dir/Skeleton.cpp.o"
 
 # External object files for target kinematics
 kinematics_EXTERNAL_OBJECTS =
 
 KronUIGL/3D/Kinematics/libkinematics.a: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.o
+KronUIGL/3D/Kinematics/libkinematics.a: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o
 KronUIGL/3D/Kinematics/libkinematics.a: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o
 KronUIGL/3D/Kinematics/libkinematics.a: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make
 KronUIGL/3D/Kinematics/libkinematics.a: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libkinematics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libkinematics.a"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics && $(CMAKE_COMMAND) -P CMakeFiles/kinematics.dir/cmake_clean_target.cmake
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kinematics.dir/link.txt --verbose=$(VERBOSE)
 
