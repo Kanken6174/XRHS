@@ -39,9 +39,9 @@ void MeshRenderer::drawQuad()
     glEnable(GL_DEPTH_TEST);
 }
 
-void MeshRenderer::renderSingle(const std::shared_ptr<Mesh>& mesh) {
+void MeshRenderer::renderSingle(const std::shared_ptr<Entity>& entity) {
         // set the model matrix for the current mesh.
-        glm::mat4 model = mesh->transform->getTransformMatrix();
+        glm::mat4 model = entity->transform->getTransformMatrix();
         shader->setMat4("model", model);
 
         // Check the mesh's textures to enable or disable shader features.
@@ -52,15 +52,15 @@ void MeshRenderer::renderSingle(const std::shared_ptr<Mesh>& mesh) {
 
         //std::cout << "rendering model with: " << mesh->textures.size() << " textures" << std::endl;
 
-        if(mesh->textures.size() == 0){
+        if(entity->mesh->textures.size() == 0){
             defaultMode = 1;
         }else
-            for (unsigned int i = 0; i < mesh->textures.size(); i++) {
+            for (unsigned int i = 0; i < entity->mesh->textures.size(); i++) {
                 glActiveTexture(GL_TEXTURE0 + i); // active proper texture unit before binding
 
                 // retrieve texture number (the N in diffuse_textureN)
                 std::string number;
-                std::string name = mesh->textures[i].type;
+                std::string name = entity->mesh->textures[i].type;
                 if (name == "texture_diffuse") {
                     number = std::to_string(diffuseNr++);
                     useTexture = 1;
@@ -69,27 +69,17 @@ void MeshRenderer::renderSingle(const std::shared_ptr<Mesh>& mesh) {
                     useBump = 0;
                 }
                 shader->setInt(("material." + name + number).c_str(), i);
-                glBindTexture(GL_TEXTURE_2D, mesh->textures[i].id);
+                glBindTexture(GL_TEXTURE_2D, entity->mesh->textures[i].id);
             }
         shader->setInt("useDefault", (useColor == 0 && useTexture == 0 && useBump == 0) || defaultMode == 1 ? 1 : 0);
         shader->setInt("useColor", useColor);
         shader->setInt("useTexture", useTexture);
         shader->setInt("useBump", useBump);
 
-        drawMesh(mesh);
+        drawMesh(entity->mesh);
 
         // Always good practice to set everything back to defaults once configured.
         glActiveTexture(GL_TEXTURE0);
-}
-
-void MeshRenderer::renderAll() {
-    ShaderManager::getInstance()->setShader(shader);
-
-    glm::mat4 model = glm::mat4(1.0f);
-
-    for (const std::shared_ptr<Mesh>& mesh : meshes) {
-       renderSingle(mesh);
-    }
 }
 
 void MeshRenderer::renderAllWorld() {
@@ -126,8 +116,8 @@ void MeshRenderer::renderAllWorld() {
 }
 
 void MeshRenderer::renderChildren(const std::shared_ptr<Entity>& entity){
-    if(entity->mesh && entity->transform && entity->mesh->get()->VAO != 0) {
-        renderSingle(entity->mesh.value());
+    if(entity->mesh && entity->transform && entity->mesh->VAO != 0) {
+        renderSingle(entity);
     }else{
         Logger::getInstance().error("Entity has no mesh or transform!");
     }

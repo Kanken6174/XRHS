@@ -98,7 +98,7 @@ int main(){
     for(auto mesh : ms){
         std::shared_ptr<Entity> es = std::make_shared<Entity>(0,0,0,0,0,0);
         es->mesh = mesh;
-        es->mesh->get()->setupMesh(cubed->ID);
+        es->mesh->setupMesh(cubed->ID);
         World::getInstance()->addEntity(es);
     }
 

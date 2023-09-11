@@ -64,7 +64,6 @@ std::shared_ptr<Mesh> OBJLoader::processMesh(aiMesh* mesh, const aiScene* scene)
     std::vector<Vertex> vertices;
     std::vector<unsigned int> indices;
     std::vector<Texture> textures;
-    std::shared_ptr<Transform> transformPtr = std::make_shared<QuaternionTransform>();
 
     for (unsigned int i = 0; i < mesh->mNumVertices; ++i) {
         Vertex vertex;
@@ -106,7 +105,7 @@ std::shared_ptr<Mesh> OBJLoader::processMesh(aiMesh* mesh, const aiScene* scene)
         Logger::getInstance().warn("Mesh normal maps: "+std::to_string(normalMaps.size()));
     }
 
-    return std::make_shared<Mesh>(vertices, indices, textures, transformPtr);
+    return std::make_shared<Mesh>(vertices, indices, textures);
 }
 
 std::vector<Texture> OBJLoader::loadMaterialTextures(aiMaterial* mat, aiTextureType type, std::string typeName)

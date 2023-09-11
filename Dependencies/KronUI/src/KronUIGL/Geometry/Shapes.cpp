@@ -300,8 +300,7 @@ std::shared_ptr<Mesh> DefaultCube::DirectDefaultMesh(float scale){
     DefaultCube dt = DefaultCube(scale,scale,scale);
     std::shared_ptr<Mesh> mesh = std::make_shared<Mesh>(from3FloatVector(dt.generateVertices()), 
         std::vector<unsigned int>(), 
-        std::vector<Texture>(), 
-        std::make_shared<QuaternionTransform>(glm::vec3(0.0f,0.0f,0.0f),glm::vec3(0.0f,0.0f,0.0f),glm::vec3(scale,scale,scale)));
+        std::vector<Texture>());
     //also generate opengl indices
     std::vector<unsigned int> indices;
     for(int i = 0; i < mesh->vertices.size(); i++)

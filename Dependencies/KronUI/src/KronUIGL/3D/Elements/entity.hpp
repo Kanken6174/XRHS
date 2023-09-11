@@ -24,8 +24,7 @@ public:
     std::optional<std::shared_ptr<Entity>> parent = std::nullopt;
 
     // an entity can have a 3d mesh
-    std::optional<std::shared_ptr<Mesh>> mesh = std::nullopt;
-
+    std::shared_ptr<Mesh> mesh;
     bool visible = true;
 
     Entity() {}
