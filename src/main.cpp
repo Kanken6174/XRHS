@@ -129,12 +129,14 @@ int main(){
         mr->renderAllWorld();
     
         //tx.RenderText("test", (window->_width/2.5), window->_height/2, i, glm::vec3(1.0f,1.0f,1.0f));
-        i+= 0.001f;
+        i+= 0.01f;
         frontFrame->render();
         ds->updateSurfaceFromWindow(); //virtual pc window
         cameraMatrixOp(ds->shader);
         ds->drawSurface(InputSystem::getInstance().getCamera().viewMatrix, InputSystem::getInstance().getCamera().projectionMatrix);
         glClear(GL_DEPTH_BUFFER_BIT);
+
+        ds->localTransform->setEulerAngles(glm::vec3(0.0f,i,0.0f));
 
         glfwSwapBuffers(KronUIWindowManager::getWindow()->getSelf());
         glfwPollEvents();

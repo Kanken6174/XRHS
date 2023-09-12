@@ -130,6 +130,30 @@ surfaces/fast:
 	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build
 .PHONY : surfaces/fast
 
+DrawCommands/DrawCommands.o: DrawCommands/DrawCommands.cpp.o
+.PHONY : DrawCommands/DrawCommands.o
+
+# target to build an object file
+DrawCommands/DrawCommands.cpp.o:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawCommands/DrawCommands.cpp.o
+.PHONY : DrawCommands/DrawCommands.cpp.o
+
+DrawCommands/DrawCommands.i: DrawCommands/DrawCommands.cpp.i
+.PHONY : DrawCommands/DrawCommands.i
+
+# target to preprocess a source file
+DrawCommands/DrawCommands.cpp.i:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawCommands/DrawCommands.cpp.i
+.PHONY : DrawCommands/DrawCommands.cpp.i
+
+DrawCommands/DrawCommands.s: DrawCommands/DrawCommands.cpp.s
+.PHONY : DrawCommands/DrawCommands.s
+
+# target to generate assembly for a file
+DrawCommands/DrawCommands.cpp.s:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawCommands/DrawCommands.cpp.s
+.PHONY : DrawCommands/DrawCommands.cpp.s
+
 DrawSurface.o: DrawSurface.cpp.o
 .PHONY : DrawSurface.o
 
@@ -153,6 +177,30 @@ DrawSurface.s: DrawSurface.cpp.s
 DrawSurface.cpp.s:
 	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.s
 .PHONY : DrawSurface.cpp.s
+
+UIDrawSurface.o: UIDrawSurface.cpp.o
+.PHONY : UIDrawSurface.o
+
+# target to build an object file
+UIDrawSurface.cpp.o:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/UIDrawSurface.cpp.o
+.PHONY : UIDrawSurface.cpp.o
+
+UIDrawSurface.i: UIDrawSurface.cpp.i
+.PHONY : UIDrawSurface.i
+
+# target to preprocess a source file
+UIDrawSurface.cpp.i:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/UIDrawSurface.cpp.i
+.PHONY : UIDrawSurface.cpp.i
+
+UIDrawSurface.s: UIDrawSurface.cpp.s
+.PHONY : UIDrawSurface.s
+
+# target to generate assembly for a file
+UIDrawSurface.cpp.s:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/UIDrawSurface.cpp.s
+.PHONY : UIDrawSurface.cpp.s
 
 X11DrawSurface.o: X11DrawSurface.cpp.o
 .PHONY : X11DrawSurface.o
@@ -187,9 +235,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... surfaces"
+	@echo "... DrawCommands/DrawCommands.o"
+	@echo "... DrawCommands/DrawCommands.i"
+	@echo "... DrawCommands/DrawCommands.s"
 	@echo "... DrawSurface.o"
 	@echo "... DrawSurface.i"
 	@echo "... DrawSurface.s"
+	@echo "... UIDrawSurface.o"
+	@echo "... UIDrawSurface.i"
+	@echo "... UIDrawSurface.s"
 	@echo "... X11DrawSurface.o"
 	@echo "... X11DrawSurface.i"
 	@echo "... X11DrawSurface.s"

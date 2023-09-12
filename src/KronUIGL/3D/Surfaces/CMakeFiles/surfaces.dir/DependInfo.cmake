@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawCommands/DrawCommands.cpp" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawCommands/DrawCommands.cpp.o" "gcc" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawCommands/DrawCommands.cpp.o.d"
   "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o" "gcc" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/UIDrawSurface.cpp" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/UIDrawSurface.cpp.o" "gcc" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/UIDrawSurface.cpp.o.d"
   "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/X11DrawSurface.cpp" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o" "gcc" "KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o.d"
   )
 

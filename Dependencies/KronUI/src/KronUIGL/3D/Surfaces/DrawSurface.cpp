@@ -10,6 +10,7 @@
 
 DrawSurface::DrawSurface(const glm::vec2& size, std::shared_ptr<Transform> transform) : DrawSurface(size, defaultIndicies(), transform)
 {
+    _size = size;
     //call other constructor with default indices
     name = "DrawSurfaceEntity";
     customRenderer = true;

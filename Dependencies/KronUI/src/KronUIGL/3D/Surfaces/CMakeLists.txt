@@ -4,6 +4,10 @@ project(surfaces)
 set(CMAKE_CXX_STANDARD 17)
 
 set(local_src
+    ./DrawCommands/DrawCommands.hpp
+    ./DrawCommands/DrawCommands.cpp
+    ./UIDrawSurface.hpp
+    ./UIDrawSurface.cpp
     ./X11DrawSurface.cpp
     ./X11DrawSurface.hpp
     ./DrawSurface.hpp

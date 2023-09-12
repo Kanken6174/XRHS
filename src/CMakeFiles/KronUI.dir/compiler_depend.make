@@ -549,6 +549,7 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/light.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicsProcessor.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/Skeleton.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/ctime \
@@ -1366,6 +1367,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/include/c++/11/ratio:
 
 /usr/include/c++/11/chrono:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.hpp:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/Skeleton.hpp:
 

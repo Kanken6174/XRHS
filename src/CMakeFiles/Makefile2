@@ -687,7 +687,7 @@ CMakeFiles/KronUI.dir/all: ARHS/pipeline/CMakeFiles/pipelineLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/KronUI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 85
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 87
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/KronUI.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : CMakeFiles/KronUI.dir/rule
@@ -779,7 +779,7 @@ KronUIGL/CMakeFiles/KronUIGL.dir/all: KronUIGL/Input/CMakeFiles/input.dir/all
 
 # Build rule for subdir invocation for target.
 KronUIGL/CMakeFiles/KronUIGL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 39
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/CMakeFiles/KronUIGL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : KronUIGL/CMakeFiles/KronUIGL.dir/rule
@@ -866,7 +866,7 @@ KronUIGL/Shaders/CMakeFiles/shaders.dir/all: KronUIGL/3D/Kinematics/CMakeFiles/k
 
 # Build rule for subdir invocation for target.
 KronUIGL/Shaders/CMakeFiles/shaders.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Shaders/CMakeFiles/shaders.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : KronUIGL/Shaders/CMakeFiles/shaders.dir/rule
@@ -899,12 +899,12 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/all: KronUIGL/3D/Surfaces/CMakeFiles/s
 KronUIGL/Text/CMakeFiles/textrenderer.dir/all: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/all
 	$(MAKE) $(MAKESILENT) -f KronUIGL/Text/CMakeFiles/textrenderer.dir/build.make KronUIGL/Text/CMakeFiles/textrenderer.dir/depend
 	$(MAKE) $(MAKESILENT) -f KronUIGL/Text/CMakeFiles/textrenderer.dir/build.make KronUIGL/Text/CMakeFiles/textrenderer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=72,73 "Built target textrenderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=74,75 "Built target textrenderer"
 .PHONY : KronUIGL/Text/CMakeFiles/textrenderer.dir/all
 
 # Build rule for subdir invocation for target.
 KronUIGL/Text/CMakeFiles/textrenderer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Text/CMakeFiles/textrenderer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : KronUIGL/Text/CMakeFiles/textrenderer.dir/rule
@@ -925,7 +925,7 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/clean:
 KronUIGL/Window/CMakeFiles/window.dir/all:
 	$(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/depend
 	$(MAKE) $(MAKESILENT) -f KronUIGL/Window/CMakeFiles/window.dir/build.make KronUIGL/Window/CMakeFiles/window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=80,81 "Built target window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=82,83 "Built target window"
 .PHONY : KronUIGL/Window/CMakeFiles/window.dir/all
 
 # Build rule for subdir invocation for target.
@@ -962,7 +962,7 @@ KronUIGL/3D/CMakeFiles/3D.dir/all: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.
 
 # Build rule for subdir invocation for target.
 KronUIGL/3D/CMakeFiles/3D.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/CMakeFiles/3D.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : KronUIGL/3D/CMakeFiles/3D.dir/rule
@@ -983,7 +983,7 @@ KronUIGL/3D/CMakeFiles/3D.dir/clean:
 KronUIGL/3D/Vision/CMakeFiles/vision.dir/all:
 	$(MAKE) $(MAKESILENT) -f KronUIGL/3D/Vision/CMakeFiles/vision.dir/build.make KronUIGL/3D/Vision/CMakeFiles/vision.dir/depend
 	$(MAKE) $(MAKESILENT) -f KronUIGL/3D/Vision/CMakeFiles/vision.dir/build.make KronUIGL/3D/Vision/CMakeFiles/vision.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=76,77 "Built target vision"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=78,79 "Built target vision"
 .PHONY : KronUIGL/3D/Vision/CMakeFiles/vision.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1087,12 +1087,12 @@ KronUIGL/3D/Renderers/CMakeFiles/renderers.dir/clean:
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/all: KronUIGL/Geometry/CMakeFiles/geometry.dir/all
 	$(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/depend
 	$(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=69,70,71 "Built target surfaces"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=69,70,71,72,73 "Built target surfaces"
 .PHONY : KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/all
 
 # Build rule for subdir invocation for target.
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/rule
@@ -1151,7 +1151,7 @@ KronUIGL/Input/CMakeFiles/input.dir/all: KronUIGL/3D/Kinematics/CMakeFiles/kinem
 
 # Build rule for subdir invocation for target.
 KronUIGL/Input/CMakeFiles/input.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/Input/CMakeFiles/input.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
 .PHONY : KronUIGL/Input/CMakeFiles/input.dir/rule
@@ -1184,7 +1184,7 @@ ARHS/CMakeFiles/visnode_lib.dir/all: ARHS/ui/support/CMakeFiles/support.dir/all
 ARHS/CMakeFiles/visnode_lib.dir/all: ARHS/pipeline/CMakeFiles/pipelineLib.dir/all
 	$(MAKE) $(MAKESILENT) -f ARHS/CMakeFiles/visnode_lib.dir/build.make ARHS/CMakeFiles/visnode_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f ARHS/CMakeFiles/visnode_lib.dir/build.make ARHS/CMakeFiles/visnode_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=78,79 "Built target visnode_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=80,81 "Built target visnode_lib"
 .PHONY : ARHS/CMakeFiles/visnode_lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1210,7 +1210,7 @@ ARHS/CMakeFiles/visnode_lib.dir/clean:
 ARHS/threadweaver/CMakeFiles/threadweaver.dir/all: ARHS/model/perfcheckers/CMakeFiles/perfcheckers.dir/all
 	$(MAKE) $(MAKESILENT) -f ARHS/threadweaver/CMakeFiles/threadweaver.dir/build.make ARHS/threadweaver/CMakeFiles/threadweaver.dir/depend
 	$(MAKE) $(MAKESILENT) -f ARHS/threadweaver/CMakeFiles/threadweaver.dir/build.make ARHS/threadweaver/CMakeFiles/threadweaver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=74,75 "Built target threadweaver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=76,77 "Built target threadweaver"
 .PHONY : ARHS/threadweaver/CMakeFiles/threadweaver.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1481,7 +1481,7 @@ ARHS/model/patterns/commands/CMakeFiles/commands.dir/clean:
 ARHS/processing/zbar/CMakeFiles/zbarLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f ARHS/processing/zbar/CMakeFiles/zbarLib.dir/build.make ARHS/processing/zbar/CMakeFiles/zbarLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f ARHS/processing/zbar/CMakeFiles/zbarLib.dir/build.make ARHS/processing/zbar/CMakeFiles/zbarLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=85,86 "Built target zbarLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=87,88 "Built target zbarLib"
 .PHONY : ARHS/processing/zbar/CMakeFiles/zbarLib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1507,7 +1507,7 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/clean:
 ARHS/model/windows/CMakeFiles/windows.dir/all:
 	$(MAKE) $(MAKESILENT) -f ARHS/model/windows/CMakeFiles/windows.dir/build.make ARHS/model/windows/CMakeFiles/windows.dir/depend
 	$(MAKE) $(MAKESILENT) -f ARHS/model/windows/CMakeFiles/windows.dir/build.make ARHS/model/windows/CMakeFiles/windows.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=82,83,84 "Built target windows"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=84,85,86 "Built target windows"
 .PHONY : ARHS/model/windows/CMakeFiles/windows.dir/all
 
 # Build rule for subdir invocation for target.
