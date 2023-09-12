@@ -1,6 +1,5 @@
 #include "Skeleton.hpp"
 #include "../Elements/world.hpp"
-#include "KinematicJoints.hpp"
 #include "../../Geometry/Shapes.hpp"
 
 void recursiveMeshSetup(std::shared_ptr<Entity> entity, uint programID){

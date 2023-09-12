@@ -65,17 +65,16 @@ int main(){
     auto background = ShaderManager::getInstance()->buildShader("./shaders/background.vs", "./shaders/background.fs");
 
     float angle = glm::radians(270.0f);
-    std::shared_ptr<X11DrawSurface> ds = std::make_shared<X11DrawSurface>(glm::vec2(1.0f,1.0f),
+    std::shared_ptr<X11DrawSurface> ds = std::make_shared<X11DrawSurface>(glm::vec2(2.3f,2.3f),
     std::make_shared<QuaternionTransform>(glm::vec3(0.0f,1.0f,0.0f),glm::vec3(3.0f,2.0f,1.0f),glm::angleAxis(angle, glm::vec3(0.0f, 1.0f, 0.0f))));
 
     std::shared_ptr<VideoFrame> backgroundFrame = std::make_shared<VideoFrame>("./Ressources/Textures/wall.jpg",background, window->getSelf(), true);
     std::shared_ptr<VideoFrame> frontFrame = std::make_shared<VideoFrame>("./Ressources/Textures/hud.png",background, window->getSelf(), false);
 
     ds->shader = surface;
-    ds->localTransform->setEulerAngles(glm::vec3(0.0f,90.0f/RADIAN_TO_DEGREE,0.0f));
+    ds->localTransform->setEulerAngles(glm::vec3(0.0f,360.0f/RADIAN_TO_DEGREE,0.0f));
+    ds->localTransform->setPosition(glm::vec3(0.0f,1.0f,-0.2f));
     ds->setupSurface();
-
-    World::getInstance()->addEntity(ds);
 
     MeshRenderer* mr = new MeshRenderer(cubed);
     for(auto mesh : ms){
@@ -87,6 +86,10 @@ int main(){
     }
 
     std::shared_ptr<SimpleSkeleton> sk = std::make_shared<SimpleSkeleton>(cubed->ID);
+    sk->leftHand->children.push_back(ds);
+    ds->parent = sk->leftHand;
+    std::shared_ptr<DerivedKinematicJoint> djc = std::make_shared<DerivedKinematicJoint>();
+    ds->kinematicJoint = djc;
 
     //TrueTypeManager* ttm = new TrueTypeManager("./f2.ttf");
     //TextRenderer tx = TextRenderer(shader,window,ttm);
