@@ -154,6 +154,30 @@ DrawSurface.cpp.s:
 	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.s
 .PHONY : DrawSurface.cpp.s
 
+X11DrawSurface.o: X11DrawSurface.cpp.o
+.PHONY : X11DrawSurface.o
+
+# target to build an object file
+X11DrawSurface.cpp.o:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o
+.PHONY : X11DrawSurface.cpp.o
+
+X11DrawSurface.i: X11DrawSurface.cpp.i
+.PHONY : X11DrawSurface.i
+
+# target to preprocess a source file
+X11DrawSurface.cpp.i:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.i
+.PHONY : X11DrawSurface.cpp.i
+
+X11DrawSurface.s: X11DrawSurface.cpp.s
+.PHONY : X11DrawSurface.s
+
+# target to generate assembly for a file
+X11DrawSurface.cpp.s:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.s
+.PHONY : X11DrawSurface.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... DrawSurface.o"
 	@echo "... DrawSurface.i"
 	@echo "... DrawSurface.s"
+	@echo "... X11DrawSurface.o"
+	@echo "... X11DrawSurface.i"
+	@echo "... X11DrawSurface.s"
 .PHONY : help
 
 

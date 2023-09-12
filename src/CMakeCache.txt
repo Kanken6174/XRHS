@@ -636,7 +636,7 @@ surfaces_BINARY_DIR:STATIC=/home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces
 surfaces_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-surfaces_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libGLEW.so;general;GLEW;general;glfw;general;assimp;general;/usr/lib/x86_64-linux-gnu/libSM.so;general;/usr/lib/x86_64-linux-gnu/libICE.so;general;/usr/lib/x86_64-linux-gnu/libX11.so;general;/usr/lib/x86_64-linux-gnu/libXext.so;general;/usr/lib/x86_64-linux-gnu/libXinerama.so;
+surfaces_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libGLEW.so;general;GLEW;general;glfw;general;assimp;general;geometry;general;/usr/lib/x86_64-linux-gnu/libSM.so;general;/usr/lib/x86_64-linux-gnu/libICE.so;general;/usr/lib/x86_64-linux-gnu/libX11.so;general;/usr/lib/x86_64-linux-gnu/libXext.so;general;/usr/lib/x86_64-linux-gnu/libXinerama.so;
 
 //Value Computed by CMake
 surfaces_SOURCE_DIR:STATIC=/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces

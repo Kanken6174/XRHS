@@ -28,6 +28,7 @@ public:
     // an entity can have a 3d mesh
     std::shared_ptr<Mesh> mesh;
     bool visible = true;
+    bool customRenderer = false;
 
     std::shared_ptr<AbstractKinematicJoint> kinematicJoint;
 

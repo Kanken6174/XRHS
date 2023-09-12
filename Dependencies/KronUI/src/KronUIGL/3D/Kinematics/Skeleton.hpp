@@ -1,6 +1,5 @@
 #include "../Elements/entity.hpp"
 #include <memory>
-
 // the hand itself is bone 0 of the hand (origin)
 class Hand : public Entity{
 public:

@@ -23,6 +23,7 @@ public:
 
     Mesh(std::vector<Vertex> vertices, std::vector<unsigned int> indices, std::vector<Texture> textures);
     std::function<void()> Draw;
+    Mesh();
 
     void setupMesh(GLuint shaderProgram);
 };

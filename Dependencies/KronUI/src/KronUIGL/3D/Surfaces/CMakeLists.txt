@@ -4,8 +4,10 @@ project(surfaces)
 set(CMAKE_CXX_STANDARD 17)
 
 set(local_src
-    ./DrawSurface.cpp
+    ./X11DrawSurface.cpp
+    ./X11DrawSurface.hpp
     ./DrawSurface.hpp
+    ./DrawSurface.cpp
     ./VideoFrame.hpp)
 
 find_package(GLEW REQUIRED)
@@ -27,6 +29,7 @@ set_target_properties(surfaces PROPERTIES LINKER_LANGUAGE CXX)
 target_link_libraries(surfaces GLEW)
 target_link_libraries(surfaces glfw)
 target_link_libraries(surfaces assimp)
+target_link_libraries(surfaces geometry)
 
 # Link against X11 and Xinerama
 if (X11_FOUND AND X11_Xinerama_FOUND)

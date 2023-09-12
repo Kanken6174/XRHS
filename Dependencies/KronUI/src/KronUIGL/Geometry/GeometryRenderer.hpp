@@ -1,11 +1,12 @@
 #ifndef guard_georenderer
 #define guard_georenderer
 #include <GL/glew.h>
-#include "./Shapes.hpp"
 #include <GLFW/glfw3.h>
 
 #include <vector>
 #include <map>
+
+class DrawableElement;
 
 class GeometryRenderer{
 private:

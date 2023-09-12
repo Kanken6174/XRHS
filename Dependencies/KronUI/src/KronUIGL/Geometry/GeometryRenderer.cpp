@@ -2,6 +2,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include "../Shaders/ShaderManager.hpp"
+#include "./Shapes.hpp"
 
 //global invisible draw function stored in the object to draw (self call)
 void drawGeometry(DrawableElement* toDraw){

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/surfaces.dir/DrawSurface.cpp.o"
   "CMakeFiles/surfaces.dir/DrawSurface.cpp.o.d"
+  "CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o"
+  "CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o.d"
   "libsurfaces.a"
   "libsurfaces.pdb"
 )

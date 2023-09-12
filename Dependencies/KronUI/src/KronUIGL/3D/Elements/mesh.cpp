@@ -17,6 +17,8 @@ Mesh::Mesh(std::vector<Vertex> vertices, std::vector<unsigned int> indices, std:
     }
 }
 
+Mesh::Mesh() = default;
+
 void Mesh::setupMesh(GLuint shaderProgram) {
     
     Logger::getInstance().warn("Setting up mesh "+std::to_string(this->vertices.size()) + " vertices, " + std::to_string(this->indices.size()) + 

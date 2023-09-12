@@ -1,5 +1,3 @@
-#ifndef guard_shapes
-#define guard_shapes
 
 #include <glm/glm.hpp>
 #include "./Drawing.hpp"
@@ -76,5 +74,3 @@ private:
     float width, height, thickness;
     float offsetX, offsetY, offsetZ;
 };
-
-#endif

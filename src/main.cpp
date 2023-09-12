@@ -1,4 +1,5 @@
 #define PATH_TO_KRONUI "../Dependencies/KronUI/src/"
+#define RADIAN_TO_DEGREE 57.2957795131f
 
 #include "Glue.hpp"
 
@@ -49,9 +50,6 @@ int main(){
     double time = glfwGetTime();
     GLuint VertexArrayID;
     glGenVertexArrays(1, &VertexArrayID);
-
-    DefaultCube* dc = new DefaultCube(10.0f,0.5f,10.0f, 0.0f, -0.5f, 0.0f);
-    DefaultCube* dc2 = new DefaultCube(0.5f,0.5f,0.5f, 5.0f,0.0f,0.0f);
     
     OBJLoader* loader = new OBJLoader();
 
@@ -59,11 +57,6 @@ int main(){
     Logger::getInstance().info("meshes loaded: " + std::to_string(ms.size()));
 
     std::unique_ptr<Entity> e = std::make_unique<Entity>();
-    
-
-    GeometryRenderer* gr = new GeometryRenderer();
-    gr->addShapeToBuffer(dc);
-    gr->addShapeToBuffer(dc2);
 
     auto rps = ShaderManager::getInstance()->buildShader("./shaders/geom.vs", "./shaders/geom.fs");
     auto cubed = ShaderManager::getInstance()->buildShader("./shaders/cube.vs", "./shaders/cube.fs");
@@ -72,40 +65,28 @@ int main(){
     auto background = ShaderManager::getInstance()->buildShader("./shaders/background.vs", "./shaders/background.fs");
 
     float angle = glm::radians(270.0f);
-    std::shared_ptr<DrawSurface> ds = std::make_shared<DrawSurface>(glm::vec2(1.0f,1.0f),DrawSurface::defaultIndicies(),
+    std::shared_ptr<X11DrawSurface> ds = std::make_shared<X11DrawSurface>(glm::vec2(1.0f,1.0f),
     std::make_shared<QuaternionTransform>(glm::vec3(0.0f,1.0f,0.0f),glm::vec3(3.0f,2.0f,1.0f),glm::angleAxis(angle, glm::vec3(0.0f, 1.0f, 0.0f))));
 
     std::shared_ptr<VideoFrame> backgroundFrame = std::make_shared<VideoFrame>("./Ressources/Textures/wall.jpg",background, window->getSelf(), true);
     std::shared_ptr<VideoFrame> frontFrame = std::make_shared<VideoFrame>("./Ressources/Textures/hud.png",background, window->getSelf(), false);
 
     ds->shader = surface;
+    ds->localTransform->setEulerAngles(glm::vec3(0.0f,90.0f/RADIAN_TO_DEGREE,0.0f));
     ds->setupSurface();
 
-    std::shared_ptr<QuaternionTransform> baseLightTransform = std::make_shared<QuaternionTransform>(glm::vec3(-5.0f,5.0f,-2.0f),glm::vec3(1.0f,1.0f,1.0f),glm::vec3(1.0f,1.0f,1.0f));
-    std::shared_ptr<Light> l = std::make_shared<Light>(baseLightTransform,Light::LightType::Point, glm::vec3(1.0f,0.0f,0.0f),0.1f);
-
-    std::shared_ptr<QuaternionTransform> baseLightTransform2 = std::make_shared<QuaternionTransform>(glm::vec3(5.0f,5.0f,-2.0f),glm::vec3(1.0f,1.0f,1.0f),glm::vec3(1.0f,1.0f,1.0f));
-    std::shared_ptr<Light> l2 = std::make_shared<Light>(baseLightTransform2,Light::LightType::Point, glm::vec3(0.0f,1.0f,0.0f),0.1f);
-
-    std::shared_ptr<Light> l3 = std::make_shared<Light>(InputSystem::getInstance().getCamera().transform,Light::LightType::Point, glm::vec3(0.0f,0.0f,1.0f),1.0f);
-
-
-    World::getInstance()->addLight(l);
-    //World::getInstance()->addLight(l2);
-    World::getInstance()->addLight(l3);
+    World::getInstance()->addEntity(ds);
 
     MeshRenderer* mr = new MeshRenderer(cubed);
     for(auto mesh : ms){
         std::shared_ptr<Entity> es = std::make_shared<Entity>(0,0,0,0,0,0);
+        es->localTransform->setEulerAngles(glm::vec3(0.0f,90.0f/RADIAN_TO_DEGREE,0.0f));
         es->mesh = mesh;
         es->mesh->setupMesh(cubed->ID);
         World::getInstance()->addEntity(es);
     }
 
     std::shared_ptr<SimpleSkeleton> sk = std::make_shared<SimpleSkeleton>(cubed->ID);
-
-    dc->shader = cubed;
-    dc2->shader = cubed;
 
     //TrueTypeManager* ttm = new TrueTypeManager("./f2.ttf");
     //TextRenderer tx = TextRenderer(shader,window,ttm);
@@ -127,7 +108,7 @@ int main(){
         lastFrame = currentFrame;
 
         processInput(window->getSelf(), deltaTime);
-        sk->head->localTransform->setPosition(InputSystem::getInstance().getCamera().transform->getPosition()*glm::vec3(0.0f,0.0f,-5.0f));
+        sk->head->localTransform->setPosition(InputSystem::getInstance().getCamera().transform->getPosition()*glm::vec3(3.0f,3.0f,-5.0f));
         sk->head->localTransform->setQuaternion(InputSystem::getInstance().getCamera().transform->getQuaternion());
         processWorldTransforms();
 
@@ -141,19 +122,16 @@ int main(){
         //OpencvToVideoFrame::updateFromNodeWithTransparency(frontFrame, tlm->localPipeline->getNodes().at(3));
 #endif
         backgroundFrame->render();
-        //dc->drawSelf();
-        //dc2->drawSelf();
 
         mr->renderAllWorld();
     
         //tx.RenderText("test", (window->_width/2.5), window->_height/2, i, glm::vec3(1.0f,1.0f,1.0f));
         i+= 0.001f;
         frontFrame->render();
-        /*ds->updateSurfaceFromWindow(); //virtual pc window
-        ds->shader->setMat4("view", InputSystem::getInstance().getCamera().viewMatrix);
-        ds->shader->setMat4("projection", InputSystem::getInstance().getCamera().projectionMatrix);
+        ds->updateSurfaceFromWindow(); //virtual pc window
+        cameraMatrixOp(ds->shader);
         ds->drawSurface(InputSystem::getInstance().getCamera().viewMatrix, InputSystem::getInstance().getCamera().projectionMatrix);
-*/      glClear(GL_DEPTH_BUFFER_BIT);
+        glClear(GL_DEPTH_BUFFER_BIT);
 
         glfwSwapBuffers(KronUIWindowManager::getWindow()->getSelf());
         glfwPollEvents();

@@ -1,7 +1,7 @@
 #include "Skeleton.hpp"
 #include "../Elements/world.hpp"
-#include "../../Geometry/Shapes.hpp"
 #include "KinematicJoints.hpp"
+#include "../../Geometry/Shapes.hpp"
 
 void recursiveMeshSetup(std::shared_ptr<Entity> entity, uint programID){
     if(entity->mesh){
@@ -39,9 +39,9 @@ SimpleSkeleton::SimpleSkeleton(uint programID){
     rightHand->parent = head;
     head->localTransform->setPosition(glm::vec3(0.0f,2.0f,10.0f));    //head is origin, relative to the world, 1.8m high
     head->localTransform->setEulerAngles(glm::vec3(0.0f,0.0f,0.0f));
-    leftHand->localTransform->setPosition(glm::vec3(-1.0f,-3.0f,2.0f)); //left hand is left, relative to the head
+    leftHand->localTransform->setPosition(glm::vec3(-2.0f,-3.0f,-1.0f)); //left hand is left, relative to the head
     leftHand->localTransform->setEulerAngles(glm::vec3(0.0f,0.0f,0.0f));
-    rightHand->localTransform->setPosition(glm::vec3(-1.0f,-3.0f,-2.0f));    //right hand is right, relative to the head
+    rightHand->localTransform->setPosition(glm::vec3(2.0f,-3.0f,-1.0f));    //right hand is right, relative to the head
     rightHand->localTransform->setEulerAngles(glm::vec3(0.0f,0.0f,0.0f));
 
     World::getInstance()->addEntity(head);  //this also sets the parent of the head to the world

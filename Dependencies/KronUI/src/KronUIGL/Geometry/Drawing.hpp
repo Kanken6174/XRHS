@@ -17,7 +17,7 @@ public:
     /// @brief Generates the vertices for a given shape, which can be read by opengl to draw things
     /// @return 
     unsigned int verticesAmount = 3;
-    virtual std::vector<float> generateVertices()=0;
+    virtual std::vector<float> generateVertices() = 0;
 };
 
 class DrawableElement : public shapeElement{

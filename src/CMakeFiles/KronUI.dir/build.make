@@ -102,7 +102,6 @@ KronUI: Freetype/libTTM.a
 KronUI: KronUIGL/libKronUIGL.a
 KronUI: /usr/local/lib/libfreetype.so
 KronUI: ARHS/libvisnode_lib.a
-KronUI: KronUIGL/Geometry/libgeometry.a
 KronUI: KronUIGL/Text/libtextrenderer.a
 KronUI: Freetype/libTTM.a
 KronUI: /usr/local/lib/libfreetype.so
@@ -117,6 +116,7 @@ KronUI: KronUIGL/3D/Loaders/libloaders.a
 KronUI: KronUIGL/3D/Renderers/librenderers.a
 KronUI: KronUIGL/3D/Elements/libelements.a
 KronUI: KronUIGL/3D/Surfaces/libsurfaces.a
+KronUI: KronUIGL/Geometry/libgeometry.a
 KronUI: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 KronUI: /usr/lib/x86_64-linux-gnu/libSM.so
 KronUI: /usr/lib/x86_64-linux-gnu/libICE.so

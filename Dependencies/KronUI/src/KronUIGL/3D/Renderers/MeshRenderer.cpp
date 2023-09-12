@@ -40,6 +40,9 @@ void MeshRenderer::drawQuad()
 }
 
 void MeshRenderer::renderSingle(const std::shared_ptr<Entity>& entity) {
+        if(entity->customRenderer){
+            return;
+        }
         // set the model matrix for the current mesh.
         glm::mat4 model = entity->transform->getTransformMatrix();
         shader->setMat4("model", model);
@@ -98,7 +101,7 @@ void MeshRenderer::renderAllWorld() {
     }
 
     if(worldInstance->lights.size() == 0) {
-        Logger::getInstance().error("World instance has no lights!");
+        Logger::getInstance().info("World instance has no lights!");
     }
 
     // Set light properties

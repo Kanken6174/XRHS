@@ -69,10 +69,24 @@ include KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/progress.make
 # Include the compile flags for this target's objects.
 include KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/flags.make
 
+KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/flags.make
+KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/X11DrawSurface.cpp
+KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o -MF CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o.d -o CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/X11DrawSurface.cpp
+
+KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/surfaces.dir/X11DrawSurface.cpp.i"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/X11DrawSurface.cpp > CMakeFiles/surfaces.dir/X11DrawSurface.cpp.i
+
+KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/surfaces.dir/X11DrawSurface.cpp.s"
+	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/X11DrawSurface.cpp -o CMakeFiles/surfaces.dir/X11DrawSurface.cpp.s
+
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/flags.make
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o -MF CMakeFiles/surfaces.dir/DrawSurface.cpp.o.d -o CMakeFiles/surfaces.dir/DrawSurface.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp
 
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.i: cmake_force
@@ -85,15 +99,17 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.s: cmake_force
 
 # Object files for target surfaces
 surfaces_OBJECTS = \
+"CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o" \
 "CMakeFiles/surfaces.dir/DrawSurface.cpp.o"
 
 # External object files for target surfaces
 surfaces_EXTERNAL_OBJECTS =
 
+KronUIGL/3D/Surfaces/libsurfaces.a: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o
 KronUIGL/3D/Surfaces/libsurfaces.a: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o
 KronUIGL/3D/Surfaces/libsurfaces.a: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/build.make
 KronUIGL/3D/Surfaces/libsurfaces.a: KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsurfaces.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libsurfaces.a"
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && $(CMAKE_COMMAND) -P CMakeFiles/surfaces.dir/cmake_clean_target.cmake
 	cd /home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/surfaces.dir/link.txt --verbose=$(VERBOSE)
 

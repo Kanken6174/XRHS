@@ -318,10 +318,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: \
  /usr/include/glm/ext/quaternion_transform.inl \
  /usr/include/glm/gtc/quaternion.inl /usr/include/glm/gtc/epsilon.hpp \
  /usr/include/glm/detail/setup.hpp /usr/include/glm/gtc/epsilon.inl \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/Shapes.hpp \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/./Drawing.hpp \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/./../Shaders/Shader.hpp \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/./../Shaders/../../Bases/ReflectiveItem.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Shaders/Shader.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Shaders/../../Bases/ReflectiveItem.hpp \
  /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
@@ -365,16 +363,15 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/./../Shaders/ShaderManager.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Shaders/ShaderManager.hpp \
  /usr/include/c++/11/optional \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/../3D/Elements/mesh.hpp \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/../3D/Elements/vertex.hpp \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/../3D/Elements/texture.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/./../Elements/entity.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/./../Elements/texture.hpp \
  /usr/include/assimp/scene.h /usr/include/assimp/types.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
@@ -404,17 +401,17 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: \
  /usr/include/assimp/camera.h /usr/include/assimp/material.h \
  /usr/include/assimp/material.inl /usr/include/assimp/anim.h \
  /usr/include/assimp/metadata.h \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/../3D/Elements/../../../../include/stb_image.h \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/./../Elements/../../../../include/stb_image.h \
  /usr/include/c++/11/stdlib.h \
- /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/../3D/Elements/../../../../include/logger.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/./../Elements/../../../../include/logger.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/./../Elements/mesh.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/./../Elements/vertex.hpp \
  /usr/include/glm/gtx/quaternion.hpp \
  /usr/include/glm/ext/quaternion_exponential.hpp \
  /usr/include/glm/ext/quaternion_exponential.inl \
  /usr/include/glm/gtx/norm.hpp /usr/include/glm/gtx/component_wise.hpp \
  /usr/include/glm/detail/setup.hpp \
  /usr/include/glm/gtx/component_wise.inl /usr/include/glm/gtx/norm.inl \
- /usr/include/glm/gtx/quaternion.inl /usr/include/X11/Xlib.h \
- /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h \
- /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h \
- /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h \
- /usr/include/X11/extensions/Xinerama.h
+ /usr/include/glm/gtx/quaternion.inl \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/Shapes.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/../../Geometry/./Drawing.hpp
