@@ -5,15 +5,15 @@
 
 #include <vector>
 #include <map>
+#include <memory>
 
 class DrawableElement;
 
 class GeometryRenderer{
 private:
-    std::vector<DrawableElement*> elements;
     std::map<int,float*> arrays;
 public:
-    void addShapeToBuffer(DrawableElement* toRender);
+    void prepareShape(std::shared_ptr<DrawableElement> toRender);
     void renderAll();
 };
 

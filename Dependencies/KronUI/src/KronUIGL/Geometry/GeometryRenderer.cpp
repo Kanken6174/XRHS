@@ -7,19 +7,18 @@
 //global invisible draw function stored in the object to draw (self call)
 void drawGeometry(DrawableElement* toDraw){
     ShaderManager::getInstance()->setShader(toDraw->shader);
+    toDraw->shader->setVec4("geomColor", toDraw->geomColor);
     glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(400), 0.0f, static_cast<float>(600));
     switch(toDraw->mode){
         case RenderMode::Triangles:
                 glDisable(GL_CULL_FACE);
-                //std::cout << "drawing: " << toDraw->bufferID << " verticies: " << toDraw->verticesAmount << std::endl;
-                // 1st attribute buffer : vertices
                 glBindBuffer(GL_ARRAY_BUFFER, toDraw->bufferID);
                 glVertexAttribPointer(
                 0,                   // attribute 0. No particular reason for 0, but must match the layout in the shader.
                 3,                   //3 (xyz) per verticies
                 GL_FLOAT,            // type
                 GL_FALSE,            // normalized?
-                3*sizeof(float),   // stride
+                3*sizeof(float),     // stride
                 (void*)0             // array buffer offset
                 );
                 glEnableVertexAttribArray(0);
@@ -31,17 +30,12 @@ void drawGeometry(DrawableElement* toDraw){
     }
 }
 
-void GeometryRenderer::addShapeToBuffer(DrawableElement* toRender){
+void GeometryRenderer::prepareShape(std::shared_ptr<DrawableElement> toRender){
     std::vector<float> verticies = toRender->generateVertices();
     toRender->verticesAmount = verticies.size();
     float* arr = new float[toRender->verticesAmount];
-    for (const auto &value : verticies) {
-        std::cout << value << ' ';
-    }
-    std::cout << std::endl;
 
     std::copy(verticies.begin(), verticies.end(), arr); //transfer data to the heap
-    int i = 0;
 
     GLuint vertexhandle;
     glGenBuffers(1, &vertexhandle);

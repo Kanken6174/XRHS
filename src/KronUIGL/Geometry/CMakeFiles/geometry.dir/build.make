@@ -69,10 +69,24 @@ include KronUIGL/Geometry/CMakeFiles/geometry.dir/progress.make
 # Include the compile flags for this target's objects.
 include KronUIGL/Geometry/CMakeFiles/geometry.dir/flags.make
 
+KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.o: KronUIGL/Geometry/CMakeFiles/geometry.dir/flags.make
+KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Drawing.cpp
+KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.o: KronUIGL/Geometry/CMakeFiles/geometry.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.o"
+	cd /home/kanken/code/XRHS/src/KronUIGL/Geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.o -MF CMakeFiles/geometry.dir/Drawing.cpp.o.d -o CMakeFiles/geometry.dir/Drawing.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Drawing.cpp
+
+KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry.dir/Drawing.cpp.i"
+	cd /home/kanken/code/XRHS/src/KronUIGL/Geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Drawing.cpp > CMakeFiles/geometry.dir/Drawing.cpp.i
+
+KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry.dir/Drawing.cpp.s"
+	cd /home/kanken/code/XRHS/src/KronUIGL/Geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Drawing.cpp -o CMakeFiles/geometry.dir/Drawing.cpp.s
+
 KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o: KronUIGL/Geometry/CMakeFiles/geometry.dir/flags.make
 KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Shapes.cpp
 KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o: KronUIGL/Geometry/CMakeFiles/geometry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o"
 	cd /home/kanken/code/XRHS/src/KronUIGL/Geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o -MF CMakeFiles/geometry.dir/Shapes.cpp.o.d -o CMakeFiles/geometry.dir/Shapes.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Shapes.cpp
 
 KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.i: cmake_force
@@ -86,7 +100,7 @@ KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.s: cmake_force
 KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o: KronUIGL/Geometry/CMakeFiles/geometry.dir/flags.make
 KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/GeometryRenderer.cpp
 KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o: KronUIGL/Geometry/CMakeFiles/geometry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o"
 	cd /home/kanken/code/XRHS/src/KronUIGL/Geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o -MF CMakeFiles/geometry.dir/GeometryRenderer.cpp.o.d -o CMakeFiles/geometry.dir/GeometryRenderer.cpp.o -c /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/GeometryRenderer.cpp
 
 KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.i: cmake_force
@@ -99,17 +113,19 @@ KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.s: cmake_force
 
 # Object files for target geometry
 geometry_OBJECTS = \
+"CMakeFiles/geometry.dir/Drawing.cpp.o" \
 "CMakeFiles/geometry.dir/Shapes.cpp.o" \
 "CMakeFiles/geometry.dir/GeometryRenderer.cpp.o"
 
 # External object files for target geometry
 geometry_EXTERNAL_OBJECTS =
 
+KronUIGL/Geometry/libgeometry.a: KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.o
 KronUIGL/Geometry/libgeometry.a: KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o
 KronUIGL/Geometry/libgeometry.a: KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o
 KronUIGL/Geometry/libgeometry.a: KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make
 KronUIGL/Geometry/libgeometry.a: KronUIGL/Geometry/CMakeFiles/geometry.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgeometry.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanken/code/XRHS/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgeometry.a"
 	cd /home/kanken/code/XRHS/src/KronUIGL/Geometry && $(CMAKE_COMMAND) -P CMakeFiles/geometry.dir/cmake_clean_target.cmake
 	cd /home/kanken/code/XRHS/src/KronUIGL/Geometry && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/geometry.dir/link.txt --verbose=$(VERBOSE)
 

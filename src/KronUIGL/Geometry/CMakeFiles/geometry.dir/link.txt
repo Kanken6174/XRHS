@@ -1,2 +1,2 @@
-/usr/bin/ar qc libgeometry.a CMakeFiles/geometry.dir/Shapes.cpp.o CMakeFiles/geometry.dir/GeometryRenderer.cpp.o
+/usr/bin/ar qc libgeometry.a CMakeFiles/geometry.dir/Drawing.cpp.o CMakeFiles/geometry.dir/Shapes.cpp.o CMakeFiles/geometry.dir/GeometryRenderer.cpp.o
 /usr/bin/ranlib libgeometry.a

@@ -1,5 +1,6 @@
 set(Geometry_src
     ./Drawing.hpp
+    ./Drawing.cpp
     ./Shapes.hpp
     ./Shapes.cpp
     ./GeometryRenderer.cpp

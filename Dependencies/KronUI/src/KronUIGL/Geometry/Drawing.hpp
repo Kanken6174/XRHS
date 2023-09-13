@@ -25,18 +25,9 @@ public:
     RenderMode mode = RenderMode::Triangles;
     GLuint bufferID;
     std::shared_ptr<Shader> shader;
+    glm::vec4 geomColor;
     void (*drawerFunction)(DrawableElement*);
-    void drawSelf(){
-        shader->setInt("useDefault", 1);
-        shader->setInt("useColor", 0);
-        shader->setInt("useTexture", 0);
-        shader->setInt("useBump", 0);
-        cameraMatrixOp(shader);
-        if(drawerFunction != nullptr)
-            drawerFunction(this);
-        else
-            std::cout << "drawer function was null on drawable: " << this->bufferID << std::endl;
-    }
+    void drawSelf();
 };
 
 #endif

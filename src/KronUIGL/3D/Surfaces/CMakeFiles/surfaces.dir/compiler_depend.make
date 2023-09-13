@@ -525,7 +525,10 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawCommands/DrawCommands.cpp.o: /h
   /usr/include/freetype2/freetype/ftimage.h \
   /usr/include/freetype2/freetype/fterrors.h \
   /usr/include/freetype2/freetype/ftmoderr.h \
-  /usr/include/freetype2/freetype/fterrdef.h
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Shapes.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Drawing.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/GeometryRenderer.hpp
 
 KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawSurface.cpp.o: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawSurface.cpp \
   /usr/include/stdc-predef.h \
@@ -2528,6 +2531,8 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o: /home/kanken/
 /usr/include/c++/11/vector:
 
 /usr/include/c++/11/bits/align.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/GeometryRenderer.hpp:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 

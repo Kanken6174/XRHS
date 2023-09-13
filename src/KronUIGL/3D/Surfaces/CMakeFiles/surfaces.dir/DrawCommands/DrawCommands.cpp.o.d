@@ -431,4 +431,7 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawCommands/DrawCommands.cpp.o: \
  /usr/include/freetype2/freetype/ftimage.h \
  /usr/include/freetype2/freetype/fterrors.h \
  /usr/include/freetype2/freetype/ftmoderr.h \
- /usr/include/freetype2/freetype/fterrdef.h
+ /usr/include/freetype2/freetype/fterrdef.h \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawCommands/../../../Geometry/Shapes.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawCommands/../../../Geometry/./Drawing.hpp \
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawCommands/../../../Geometry/GeometryRenderer.hpp

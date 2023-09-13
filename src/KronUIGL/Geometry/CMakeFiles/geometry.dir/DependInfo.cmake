@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Drawing.cpp" "KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.o" "gcc" "KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.o.d"
   "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/GeometryRenderer.cpp" "KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o" "gcc" "KronUIGL/Geometry/CMakeFiles/geometry.dir/GeometryRenderer.cpp.o.d"
   "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Shapes.cpp" "KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o" "gcc" "KronUIGL/Geometry/CMakeFiles/geometry.dir/Shapes.cpp.o.d"
   )

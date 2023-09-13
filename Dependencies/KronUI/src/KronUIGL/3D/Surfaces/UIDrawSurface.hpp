@@ -2,10 +2,8 @@
 #include "../../../../../AHRS_core/src/model/patterns/commands/commands.hpp"
 
 class DrawCommand : public Command {
-protected:
-    std::shared_ptr<DrawSurface> surface;
 public:
-    DrawCommand(std::shared_ptr<DrawSurface> surface) : surface(surface) {}
+    DrawCommand() {}
     virtual void Execute() override {}
 };
 

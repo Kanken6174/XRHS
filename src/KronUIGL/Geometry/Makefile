@@ -130,6 +130,30 @@ geometry/fast:
 	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/build
 .PHONY : geometry/fast
 
+Drawing.o: Drawing.cpp.o
+.PHONY : Drawing.o
+
+# target to build an object file
+Drawing.cpp.o:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.o
+.PHONY : Drawing.cpp.o
+
+Drawing.i: Drawing.cpp.i
+.PHONY : Drawing.i
+
+# target to preprocess a source file
+Drawing.cpp.i:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.i
+.PHONY : Drawing.cpp.i
+
+Drawing.s: Drawing.cpp.s
+.PHONY : Drawing.s
+
+# target to generate assembly for a file
+Drawing.cpp.s:
+	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/Geometry/CMakeFiles/geometry.dir/build.make KronUIGL/Geometry/CMakeFiles/geometry.dir/Drawing.cpp.s
+.PHONY : Drawing.cpp.s
+
 GeometryRenderer.o: GeometryRenderer.cpp.o
 .PHONY : GeometryRenderer.o
 
@@ -187,6 +211,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... geometry"
+	@echo "... Drawing.o"
+	@echo "... Drawing.i"
+	@echo "... Drawing.s"
 	@echo "... GeometryRenderer.o"
 	@echo "... GeometryRenderer.i"
 	@echo "... GeometryRenderer.s"

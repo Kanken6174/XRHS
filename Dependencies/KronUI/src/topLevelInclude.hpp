@@ -10,6 +10,7 @@
 #include "./KronUIGL/3D/Kinematics/KinematicsProcessor.hpp"
 #include "./KronUIGL/3D/Kinematics/Skeleton.hpp"
 #include "./KronUIGL/3D/Surfaces/DrawCommands/DrawCommands.hpp"
+#include "./KronUIGL/Geometry/Shapes.hpp"
 
 #include "../include/logger.hpp"
 
