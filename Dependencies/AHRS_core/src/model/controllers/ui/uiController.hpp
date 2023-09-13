@@ -54,10 +54,10 @@ class NavigateCommand : public Command{
     std::string _destination;
     public:
     NavigateCommand(std::string menuName, UiController* backController) : _destination(menuName), _backController(backController){}
-    void Execute() const override { _backController->activeMenuChange(_destination);}
+    void Execute() override { _backController->activeMenuChange(_destination);}
 };
 
 class ExitAppCommand : public Command{
     public:
-    void Execute() const override { exit(0);}
+    void Execute() override { exit(0);}
 };

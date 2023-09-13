@@ -36,7 +36,7 @@ namespace psvr
         Psvr *_internal;
     public:
         StartupCommand(Psvr *internal) : _internal(internal) {}
-        void Execute() const override {_internal->startup();}
+        void Execute() override {_internal->startup();}
     };
 
     class ShutdownCommand : public Command
@@ -45,7 +45,7 @@ namespace psvr
         Psvr *_internal;
     public:
         ShutdownCommand(Psvr *internal) : _internal(internal) {}
-        void Execute() const override { _internal->shutdown();}
+        void Execute() override { _internal->shutdown();}
     };
 
     class CinemaModeCommand : public Command
@@ -54,7 +54,7 @@ namespace psvr
         Psvr *_internal;
     public:
         CinemaModeCommand(Psvr *internal) : _internal(internal) {}
-        void Execute() const override { _internal->cinemaMode();}
+        void Execute() override { _internal->cinemaMode();}
     };
 
     class VrModeCommand : public Command
@@ -63,6 +63,6 @@ namespace psvr
         Psvr *_internal;
     public:
         VrModeCommand(Psvr *internal) : _internal(internal) {}
-        void Execute() const override { _internal->vrmode(); }
+        void Execute() override { _internal->vrmode(); }
     };
 }

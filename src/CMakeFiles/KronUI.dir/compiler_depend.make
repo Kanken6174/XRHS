@@ -550,6 +550,9 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicsProcessor.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/Skeleton.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawCommands/DrawCommands.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/UIDrawSurface.hpp \
+  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/ctime \
@@ -922,8 +925,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/ui/support/UiSupport.hpp:
 
-/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp:
-
 /usr/local/include/hidapi/hidapi.h:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observer.hpp:
@@ -1121,8 +1122,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmivlintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmiintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp:
 
@@ -1367,6 +1366,14 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/include/c++/11/ratio:
 
 /usr/include/c++/11/chrono:
+
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/UIDrawSurface.hpp:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawCommands/DrawCommands.hpp:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.hpp:
 

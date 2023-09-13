@@ -91,8 +91,19 @@ int main(){
     std::shared_ptr<DerivedKinematicJoint> djc = std::make_shared<DerivedKinematicJoint>();
     ds->kinematicJoint = djc;
 
-    //TrueTypeManager* ttm = new TrueTypeManager("./f2.ttf");
-    //TextRenderer tx = TextRenderer(shader,window,ttm);
+    TrueTypeManager* ttm = new TrueTypeManager("./f2.ttf");
+    shared_ptr<TextRenderer> tx = std::make_shared<TextRenderer>(shader,window,ttm);
+
+    std::shared_ptr<UIDrawSurface> uids = std::make_shared<UIDrawSurface>(glm::vec2(2,2), 
+                                            std::make_shared<QuaternionTransform>());
+    uids->shader = surface;
+    uids->parent = sk->rightHand;   //attach to right hand
+    uids->kinematicJoint = djc;
+
+    std::shared_ptr<TextDrawCommand> dc = std::make_shared<TextDrawCommand>(tx, uids,"test", glm::vec2(0.5,0.5),glm::vec3(1.0f,1.0f,1.0f),1.0f);
+    uids->addCommand(dc);
+    uids->setupUISurface();
+
     float i = 0;
     float deltaTime = 0.0f;
     float lastFrame = 0.0f;
@@ -131,9 +142,11 @@ int main(){
         //tx.RenderText("test", (window->_width/2.5), window->_height/2, i, glm::vec3(1.0f,1.0f,1.0f));
         i+= 0.01f;
         frontFrame->render();
-        ds->updateSurfaceFromWindow(); //virtual pc window
-        cameraMatrixOp(ds->shader);
-        ds->drawSurface(InputSystem::getInstance().getCamera().viewMatrix, InputSystem::getInstance().getCamera().projectionMatrix);
+        //ds->updateSurfaceFromWindow(); //virtual pc window
+        //cameraMatrixOp(ds->shader);
+        //ds->drawSurface(InputSystem::getInstance().getCamera().viewMatrix, InputSystem::getInstance().getCamera().projectionMatrix);
+        uids->runCommands();
+        uids->render();
         glClear(GL_DEPTH_BUFFER_BIT);
 
         ds->localTransform->setEulerAngles(glm::vec3(0.0f,i,0.0f));

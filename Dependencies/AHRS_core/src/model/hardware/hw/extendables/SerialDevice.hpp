@@ -44,7 +44,7 @@ class IdentifiyCommand : public DeviceCommand{
     public:
         IdentifiyCommand(SerialDevice* sd) : _sd(sd){}
 
-        void Execute() const override { 
+        void Execute() override { 
             if(_sd->serialPort->GetState() != mn::CppLinuxSerial::State::OPEN)
                 return;
             _sd->serialPort->Write("$");

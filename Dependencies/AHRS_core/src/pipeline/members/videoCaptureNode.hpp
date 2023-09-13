@@ -22,7 +22,7 @@ protected:
     VideoCaptureNode *_back;
 public:
     VideoCaptureStartCommand(VideoCaptureNode *back) : _back(back) {}
-    void Execute() const override {_back->beginVideoCapture();}
+    void Execute() override {_back->beginVideoCapture();}
 };
 
 class VideoCaptureStopCommand : public Command
@@ -31,7 +31,7 @@ protected:
     VideoCaptureNode *_back;
 public:
     VideoCaptureStopCommand(VideoCaptureNode *back) : _back(back) {}
-    void Execute() const override {_back->stopVideoCapture();}
+    void Execute() override {_back->stopVideoCapture();}
 };
 
 class PictureSnapCommand : public Command
@@ -40,5 +40,5 @@ protected:
     VideoCaptureNode *_back;
 public:
     PictureSnapCommand(VideoCaptureNode *back) : _back(back) {}
-    void Execute() const override {_back->snapPicture();}
+    void Execute() override {_back->snapPicture();}
 };
