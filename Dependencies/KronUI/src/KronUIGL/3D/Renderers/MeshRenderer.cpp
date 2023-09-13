@@ -121,7 +121,7 @@ void MeshRenderer::renderAllWorld() {
 void MeshRenderer::renderChildren(const std::shared_ptr<Entity>& entity){
     if(entity->mesh && entity->transform && entity->mesh->VAO != 0) {
         renderSingle(entity);
-    }else{
+    }else if(!entity->customRenderer){
         Logger::getInstance().error("Entity has no mesh or transform!");
     }
     for(auto& child : entity->children){

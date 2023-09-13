@@ -107,6 +107,6 @@ void X11DrawSurface::drawSurface(glm::mat4 &view, glm::mat4 &projection) {
 
     // Draw the surface
     glBindVertexArray(VAO);
-    glDrawElements(GL_TRIANGLES, mesh->indices.size(), GL_UNSIGNED_INT, 0);
+    glDrawElements(GL_TRIANGLES, mesh->indices.size(), GL_UNSIGNED_INT, nullptr);
     glBindVertexArray(0);
 }

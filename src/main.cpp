@@ -64,9 +64,8 @@ int main(){
     auto surface = ShaderManager::getInstance()->buildShader("./shaders/surface.vs", "./shaders/surface.fs");
     auto background = ShaderManager::getInstance()->buildShader("./shaders/background.vs", "./shaders/background.fs");
 
-    float angle = glm::radians(270.0f);
     std::shared_ptr<X11DrawSurface> ds = std::make_shared<X11DrawSurface>(glm::vec2(2.3f,2.3f),
-    std::make_shared<QuaternionTransform>(glm::vec3(0.0f,1.0f,0.0f),glm::vec3(3.0f,2.0f,1.0f),glm::angleAxis(angle, glm::vec3(0.0f, 1.0f, 0.0f))));
+    std::make_shared<QuaternionTransform>(glm::vec3(0.0f,1.0f,0.0f),glm::vec3(3.0f,2.0f,1.0f),glm::vec3(0.0f, 0.0f, 0.0f)));
 
     std::shared_ptr<VideoFrame> backgroundFrame = std::make_shared<VideoFrame>("./Ressources/Textures/wall.jpg",background, window->getSelf(), true);
     std::shared_ptr<VideoFrame> frontFrame = std::make_shared<VideoFrame>("./Ressources/Textures/hud.png",background, window->getSelf(), false);
@@ -82,7 +81,7 @@ int main(){
         es->localTransform->setEulerAngles(glm::vec3(0.0f,90.0f/RADIAN_TO_DEGREE,0.0f));
         es->mesh = mesh;
         es->mesh->setupMesh(cubed->ID);
-        World::getInstance()->addEntity(es);
+        //World::getInstance()->addEntity(es);
     }
 
     std::shared_ptr<SimpleSkeleton> sk = std::make_shared<SimpleSkeleton>(cubed->ID);
@@ -94,13 +93,15 @@ int main(){
     TrueTypeManager* ttm = new TrueTypeManager("./f2.ttf");
     shared_ptr<TextRenderer> tx = std::make_shared<TextRenderer>(shader,window,ttm);
 
-    std::shared_ptr<UIDrawSurface> uids = std::make_shared<UIDrawSurface>(glm::vec2(2,2), 
-                                            std::make_shared<QuaternionTransform>());
+    std::shared_ptr<UIDrawSurface> uids = std::make_shared<UIDrawSurface>(glm::vec2(2.0f,2.0f), 
+                                            std::make_shared<QuaternionTransform>(glm::vec3(0.0f,0.0f,1.5f)
+                                            ,glm::vec3(1.0f,1.0f,1.0f),glm::vec3(180.0f/RADIAN_TO_DEGREE, 0.0f, -90.0f/RADIAN_TO_DEGREE)));
     uids->shader = surface;
-    uids->parent = sk->rightHand;   //attach to right hand
+    uids->parent = sk->head;   //attach to right hand
     uids->kinematicJoint = djc;
+    sk->head->children.push_back(uids);
 
-    std::shared_ptr<TextDrawCommand> dc = std::make_shared<TextDrawCommand>(tx, uids,"test", glm::vec2(0.5,0.5),glm::vec3(1.0f,1.0f,1.0f),1.0f);
+    std::shared_ptr<TextDrawCommand> dc = std::make_shared<TextDrawCommand>(tx, uids,"  :3", glm::vec2(0.0,0.0),glm::vec3(1.0f,0.0f,0.0f),25.0f);
     uids->addCommand(dc);
     uids->setupUISurface();
 
@@ -142,9 +143,9 @@ int main(){
         //tx.RenderText("test", (window->_width/2.5), window->_height/2, i, glm::vec3(1.0f,1.0f,1.0f));
         i+= 0.01f;
         frontFrame->render();
-        //ds->updateSurfaceFromWindow(); //virtual pc window
-        //cameraMatrixOp(ds->shader);
-        //ds->drawSurface(InputSystem::getInstance().getCamera().viewMatrix, InputSystem::getInstance().getCamera().projectionMatrix);
+        ds->updateSurfaceFromWindow(); //virtual pc window
+        cameraMatrixOp(ds->shader);
+        ds->drawSurface(InputSystem::getInstance().getCamera().viewMatrix, InputSystem::getInstance().getCamera().projectionMatrix);
         uids->runCommands();
         uids->render();
         glClear(GL_DEPTH_BUFFER_BIT);

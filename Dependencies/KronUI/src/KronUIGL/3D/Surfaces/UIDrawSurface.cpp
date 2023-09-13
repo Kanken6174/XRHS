@@ -2,6 +2,7 @@
 
 void UIDrawSurface::setupUISurface(){
     // Generate and bind a framebuffer object (FBO)
+    customRenderer = true;
     glGenFramebuffers(1, &framebufferId);
     glBindFramebuffer(GL_FRAMEBUFFER, framebufferId);
     Logger::getInstance().warn("Framebuffer ID: " + std::to_string(framebufferId));
@@ -95,6 +96,7 @@ void UIDrawSurface::runCommands() {
 
 void UIDrawSurface::render(){
     if(!ready) return;
+    FBOEnd();
     ShaderManager::getInstance()->setShader(shader);
     // Set the shader uniforms for the model, view, and projection matrices.
     glm::mat4 model = transform->getTransformMatrix();
@@ -103,10 +105,8 @@ void UIDrawSurface::render(){
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, textureId);
 
-    // Tell the shader that texture unit 0 (which we activated and bound the texture to) should be used for the "texture1" sampler
-    shader->setInt("texture1", 0);
     // Draw the surface
     glBindVertexArray(VAO);
-    glDrawElements(GL_TRIANGLES, mesh->indices.size(), GL_UNSIGNED_INT, mesh->indices.data());
+    glDrawElements(GL_TRIANGLES, mesh->indices.size(), GL_UNSIGNED_INT, nullptr);
     glBindVertexArray(0);
 }
