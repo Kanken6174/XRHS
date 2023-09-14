@@ -15,25 +15,34 @@ std::vector<Vertex> from3FloatVector(std::vector<float> floats){
     return vertices;
 }
 
-Point::Point(glm::vec3 position) : shapeElement(), _position(position){
+X2DPoint::X2DPoint(const glm::vec3& position) : shapeElement(), _position(position){
     vertices.clear();
     vertices.resize(VERTICES_SIZE);
     verticesAmount = VERTICES_SIZE;
 }
 
-Point::Point() : shapeElement(){
+X2DPoint::X2DPoint(const glm::vec2& position) : shapeElement(), _position(glm::vec3(position.x,position.y,0.0f)){
     vertices.clear();
     vertices.resize(VERTICES_SIZE);
     verticesAmount = VERTICES_SIZE;
 }
 
-Point::Point(const Point& p) : shapeElement(), _position(p._position){
+X2DPoint::X2DPoint(const float& x, const float& y) : X2DPoint(glm::vec2(x,y)){
+}
+
+X2DPoint::X2DPoint() : shapeElement(){
     vertices.clear();
     vertices.resize(VERTICES_SIZE);
     verticesAmount = VERTICES_SIZE;
 }
 
-std::vector<float> Point::generateVertices(){
+X2DPoint::X2DPoint(const X2DPoint& p) : shapeElement(), _position(p._position){
+    vertices.clear();
+    vertices.resize(VERTICES_SIZE);
+    verticesAmount = VERTICES_SIZE;
+}
+
+std::vector<float> X2DPoint::generateVertices(){
     vertices[0] = _position.x;
     vertices[1] = _position.y;
     vertices[2] = _position.z;
@@ -41,7 +50,7 @@ std::vector<float> Point::generateVertices(){
     return vertices;
 }
 
-Line::Line(Point begin, Point end, float thickness) : shapeElement(), _begin(begin), _end(end), _thickness(thickness){
+Line::Line(X2DPoint begin, X2DPoint end, float thickness) : shapeElement(), _begin(begin), _end(end), _thickness(thickness){
     vertices.clear();
     vertices.resize(2*VERTICES_SIZE);
     verticesAmount = 2*VERTICES_SIZE;
@@ -58,23 +67,42 @@ std::vector<float> Line::generateVertices(){
     return vertices;
 }
 
-Triangle::Triangle(Point points[3]) : shapeElement(){
+Triangle::Triangle(X2DPoint points[3]) : DrawableElement(){
     vertices.clear();
     vertices.resize(3*VERTICES_SIZE);
     verticesAmount = 3*VERTICES_SIZE; std::cout << "amnt vert" <<std::endl;
     for(int i  = 0; i < 3; i++){ std::cout << "for point" <<std::endl;
-        _points[i] = Point(points[i].getVector());
+        _points[i] = X2DPoint(points[i].getVector());
     }
+    vertices.resize(verticesAmount);
 }  
 
-Triangle::Triangle() : shapeElement(){
+Triangle::Triangle(const glm::vec2& point1, const glm::vec2& point2, const glm::vec2& point3){
+    vertices.clear();
+    verticesAmount = 3*VERTICES_SIZE;
+    _points[0] = X2DPoint(glm::vec3(point1.x,point1.y,0.0f));
+    _points[1] = X2DPoint(glm::vec3(point2.x,point2.y,0.0f));
+    _points[2] = X2DPoint(glm::vec3(point3.x,point3.y,0.0f));
+    vertices.resize(verticesAmount);
+}
+
+Triangle::Triangle(const X2DPoint& point1, const X2DPoint& point2, const X2DPoint& point3) : DrawableElement(){
+    vertices.clear();
+    verticesAmount = 3*VERTICES_SIZE;
+    _points[0] = X2DPoint(point1);
+    _points[1] = X2DPoint(point2);
+    _points[2] = X2DPoint(point3);
+    vertices.resize(verticesAmount);
+}
+
+Triangle::Triangle() : DrawableElement(){
     std::cout << "Tri constr" <<std::endl;
     vertices.clear();
     verticesAmount = 3*VERTICES_SIZE;
     vertices.resize(verticesAmount);
 }
 
-Triangle::Triangle(const Triangle& t) : shapeElement(){
+Triangle::Triangle(const Triangle& t) : DrawableElement(){
     std::cout << "Tri copy" <<std::endl;
     vertices.clear();
     verticesAmount = 3*VERTICES_SIZE;
@@ -87,57 +115,59 @@ Triangle::Triangle(const Triangle& t) : shapeElement(){
 std::vector<float> Triangle::generateVertices(){
     for(int i  = 0; i < 3; i++){
         std::vector<float> verts = _points[i].generateVertices();
+        Logger::getInstance().warn("verts size: " + std::to_string(verts.size()));
         for(int j = 0; j < VERTICES_SIZE; j++)
-            vertices[i*VERTICES_SIZE+j] = verts[j];
+                vertices[i*VERTICES_SIZE+j] = verts[j];
     }
     return vertices;
 }
 
-Rectangle::Rectangle(Point points[4]) : shapeElement(){
+Rectangle::Rectangle(X2DPoint points[4]) : DrawableElement(){
     vertices.clear();
     verticesAmount = 2*3*VERTICES_SIZE;
     vertices.resize(verticesAmount);
-    for(int i  = 0; i < 4; i++)
-        _points[i] = points[i];
+    Triangle t1 = Triangle(points[0],points[1],points[2]);
+    Triangle t2 = Triangle(points[1],points[2],points[3]);
+    _triangles.push_back(t1);
+    _triangles.push_back(t2);
 }
 
-Rectangle::Rectangle() : shapeElement(){
+Rectangle::Rectangle() : DrawableElement(){
     vertices.clear();
     verticesAmount = 2*3*VERTICES_SIZE;
     vertices.resize(verticesAmount);
 }
 
-Rectangle::Rectangle(const Rectangle& t) : shapeElement(){
+Rectangle::Rectangle(const Rectangle& t) : DrawableElement(){
     vertices.clear();
     verticesAmount = 2*3*VERTICES_SIZE;
     vertices.resize(verticesAmount);
-    for(int i  = 0; i < 4; i++)
-        _points[i] = t._points[i];
+    for(Triangle t : t._triangles)
+        _triangles.push_back(t);
 }
 
-Rectangle::Rectangle(const glm::vec2& size) : shapeElement(), size(size) {
+Rectangle::Rectangle(const glm::vec2& size) : DrawableElement(), size(size) {
     vertices.clear();
     verticesAmount = 2*3*VERTICES_SIZE;
     vertices.resize(verticesAmount);
-    // assuming Point is glm::vec3, if not you might need to adjust accordingly
-    _points[0] = Point(glm::vec3(0.0f, 0.0f, 0.0f));
-    _points[1] = Point(glm::vec3(0.0f, size.y, 0.0f));
-    _points[2] = Point(glm::vec3(size.x, 0.0f, 0.0f));
-    _points[3] = Point(glm::vec3(size.x, size.y, 0.0f));
+    // assuming X2DPoint is glm::vec3, if not you might need to adjust accordingly
+    Triangle t1 = Triangle(glm::vec2(0.0f, 0.0f), glm::vec2(0.0f, size.y), glm::vec2(size.x, 0.0f));
+    Triangle t2 = Triangle(glm::vec2(size.x, 0.0f), glm::vec2(0.0f, size.y), glm::vec2(size.x, size.y));
+    _triangles.push_back(t1);
+    _triangles.push_back(t2);
 }
 
 std::vector<float> Rectangle::generateVertices() {
-    std::vector<float> vertices = {
-        -size.x / 2.0f, -size.y / 2.0f, 0.0f, // 0: Bottom-left vertex
-         size.x / 2.0f, -size.y / 2.0f, 0.0f, // 1: Bottom-right vertex
-         size.x / 2.0f,  size.y / 2.0f, 0.0f, // 2: Top-right vertex
-        -size.x / 2.0f,  size.y / 2.0f, 0.0f  // 3: Top-left vertex
-    };
+    std::vector<float> vertices = std::vector<float>();
+    for(Triangle t : _triangles){
+        std::vector<float> verts = t.generateVertices();
+        vertices.insert(vertices.end(), verts.begin(), verts.end());
+    }
 
     return vertices;
 }
 
-EmptyRectangle::EmptyRectangle(Point points[4], float thickness) : DrawableElement(),_thickness(thickness){
+EmptyRectangle::EmptyRectangle(X2DPoint points[4], float thickness) : DrawableElement(),_thickness(thickness){
     mode = RenderMode::Triangles;
     vertices.clear();
     verticesAmount = 4*2*3*VERTICES_SIZE;   //4 rectangles, * 2 triangles * 3 points * Verticies size
@@ -178,10 +208,10 @@ std::vector<float> EmptyRectangle::generateVertices(){
     //*********
     //* previous
     //*********
-    Point pointsA[4] = {Point(glm::vec3(origin)),                                  //bottom left
-                        Point(glm::vec3(origin+thicknessOffSetX)),                 //bottom right
-                        Point(glm::vec3(origin+YOffset)),                          //top left
-                        Point(glm::vec3(origin+YOffset+thicknessOffSetX))  //top right
+    X2DPoint pointsA[4] = {X2DPoint(glm::vec3(origin)),                                  //bottom left
+                        X2DPoint(glm::vec3(origin+thicknessOffSetX)),                 //bottom right
+                        X2DPoint(glm::vec3(origin+YOffset)),                          //top left
+                        X2DPoint(glm::vec3(origin+YOffset+thicknessOffSetX))  //top right
                         };
     _sides[0] = Rectangle(pointsA);
 
@@ -192,10 +222,10 @@ std::vector<float> EmptyRectangle::generateVertices(){
     //                *    *
     //                *next*
     origin = pointsA[2].getVector();
-    Point pointsB[4] = {Point(glm::vec3(origin)),    //bottom left
-                        Point(glm::vec3(origin+XOffset)),    //bottom right
-                        Point(glm::vec3(origin+thicknessOffSetY)),                //top left
-                        Point(glm::vec3(origin+XOffset+thicknessOffSetY))     //top right
+    X2DPoint pointsB[4] = {X2DPoint(glm::vec3(origin)),    //bottom left
+                        X2DPoint(glm::vec3(origin+XOffset)),    //bottom right
+                        X2DPoint(glm::vec3(origin+thicknessOffSetY)),                //top left
+                        X2DPoint(glm::vec3(origin+XOffset+thicknessOffSetY))     //top right
                         };
     _sides[1] = Rectangle(pointsB);
     //********
@@ -207,10 +237,10 @@ std::vector<float> EmptyRectangle::generateVertices(){
     //***0***1
     
     origin = pointsB[1].getVector()-YOffset-thicknessOffSetX;
-    Point pointsC[4] = {Point(glm::vec3(origin)),                                  //bottom left
-                        Point(glm::vec3(origin+thicknessOffSetX)),                 //bottom right
-                        Point(glm::vec3(origin+YOffset)),                          //top left
-                        Point(glm::vec3(origin+YOffset+thicknessOffSetX))  //top right
+    X2DPoint pointsC[4] = {X2DPoint(glm::vec3(origin)),                                  //bottom left
+                        X2DPoint(glm::vec3(origin+thicknessOffSetX)),                 //bottom right
+                        X2DPoint(glm::vec3(origin+YOffset)),                          //top left
+                        X2DPoint(glm::vec3(origin+YOffset+thicknessOffSetX))  //top right
                         };
     _sides[2] = Rectangle(pointsC);
 
@@ -223,10 +253,10 @@ std::vector<float> EmptyRectangle::generateVertices(){
     //
     
     origin = pointsC[0].getVector()-thicknessOffSetY;
-    Point pointsD[4] = {Point(glm::vec3(origin-XOffset+thicknessOffSetX)),    //bottom left
-                        Point(glm::vec3(origin+thicknessOffSetX)),    //bottom right
-                        Point(glm::vec3(origin+thicknessOffSetY-XOffset+thicknessOffSetX)),                //top left
-                        Point(glm::vec3(origin+thicknessOffSetY+thicknessOffSetX))     //top right
+    X2DPoint pointsD[4] = {X2DPoint(glm::vec3(origin-XOffset+thicknessOffSetX)),    //bottom left
+                        X2DPoint(glm::vec3(origin+thicknessOffSetX)),    //bottom right
+                        X2DPoint(glm::vec3(origin+thicknessOffSetY-XOffset+thicknessOffSetX)),                //top left
+                        X2DPoint(glm::vec3(origin+thicknessOffSetY+thicknessOffSetX))     //top right
                         };
     _sides[3] = Rectangle(pointsD);
     //-------------------------------------

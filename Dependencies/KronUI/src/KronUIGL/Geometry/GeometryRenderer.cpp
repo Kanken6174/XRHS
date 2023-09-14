@@ -9,8 +9,6 @@ void drawGeometry(DrawableElement* toDraw){
     ShaderManager::getInstance()->setShader(toDraw->shader);
     toDraw->shader->setVec4("geomColor", toDraw->geomColor);
     glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(400), 0.0f, static_cast<float>(600));
-    switch(toDraw->mode){
-        case RenderMode::Triangles:
                 glDisable(GL_CULL_FACE);
                 glBindBuffer(GL_ARRAY_BUFFER, toDraw->bufferID);
                 glVertexAttribPointer(
@@ -22,12 +20,8 @@ void drawGeometry(DrawableElement* toDraw){
                 (void*)0             // array buffer offset
                 );
                 glEnableVertexAttribArray(0);
-                glDrawArrays(GL_TRIANGLES, 0, toDraw->verticesAmount); // Starting from vertex 0; 3 vertices total -> 1 triangle
+                glDrawArrays(toDraw->mode == RenderMode::Triangles ? GL_TRIANGLES : GL_TRIANGLE_FAN, 0, toDraw->verticesAmount/VERTICES_SIZE); // Starting from vertex 0; 3 vertices total -> 1 triangle
                 glDisableVertexAttribArray(0);
-        break;
-        default:
-        break;
-    }
 }
 
 void GeometryRenderer::prepareShape(std::shared_ptr<DrawableElement> toRender){

@@ -59,6 +59,7 @@ void UIDrawSurface::FBOEnd()
 void UIDrawSurface::runCommands() {
     FBOBegin();
     shader->use();
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Clear the buffer
     for (auto command : drawCommands) {
         command->Execute();
     }
@@ -97,7 +98,7 @@ void UIDrawSurface::runCommands() {
 void UIDrawSurface::render(){
     if(!ready) return;
     FBOEnd();
-    ShaderManager::getInstance()->setShader(shader);
+    shader->use();
     // Set the shader uniforms for the model, view, and projection matrices.
     glm::mat4 model = transform->getTransformMatrix();
     shader->setMat4("model", model); 

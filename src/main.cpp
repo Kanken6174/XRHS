@@ -65,9 +65,10 @@ int main(){
     auto background = ShaderManager::getInstance()->buildShader("./shaders/background.vs", "./shaders/background.fs");
 
     std::shared_ptr<GeometryRenderer> gr = std::make_shared<GeometryRenderer>();
-    std::shared_ptr<EmptyRectangle> er = std::make_shared<EmptyRectangle>(glm::vec3(0.0f,0.0f,0.0f), 1.0f, 1.0f, 0.1f);
+    std::shared_ptr<Triangle> er = std::make_shared<Triangle>(X2DPoint(0.0f,0.0f),X2DPoint(0.0f,0.667f),X2DPoint(0.668f,0.0f));
     er->geomColor = glm::vec4(1.0f,0.0f,0.0f,0.5f);  //red?
     er->shader = rps;
+    er->mode = RenderMode::Triangles;
     gr->prepareShape(er);
 
     std::shared_ptr<X11DrawSurface> ds = std::make_shared<X11DrawSurface>(glm::vec2(2.3f,2.3f),
@@ -109,8 +110,8 @@ int main(){
 
     std::shared_ptr<TextDrawCommand> dc = std::make_shared<TextDrawCommand>(tx,"  :3", glm::vec2(0.0,0.0),glm::vec3(1.0f,0.0f,0.0f),25.0f);
     std::shared_ptr<ShapeDrawCommand> sdc = std::make_shared<ShapeDrawCommand>(er);
-    uids->addCommand(sdc);
     uids->addCommand(dc);
+    //uids->addCommand(sdc);
     uids->setupUISurface();
 
     float i = 0;
@@ -151,9 +152,9 @@ int main(){
         //tx.RenderText("test", (window->_width/2.5), window->_height/2, i, glm::vec3(1.0f,1.0f,1.0f));
         i+= 0.01f;
         frontFrame->render();
-        ds->updateSurfaceFromWindow(); //virtual pc window
-        cameraMatrixOp(ds->shader);
-        ds->drawSurface(InputSystem::getInstance().getCamera().viewMatrix, InputSystem::getInstance().getCamera().projectionMatrix);
+        //ds->updateSurfaceFromWindow(); //virtual pc window
+        cameraMatrixOp(uids->shader);
+        //ds->drawSurface(InputSystem::getInstance().getCamera().viewMatrix, InputSystem::getInstance().getCamera().projectionMatrix);
         uids->runCommands();
         uids->render();
         glClear(GL_DEPTH_BUFFER_BIT);

@@ -7,7 +7,7 @@
 #include <iostream>
 #include <memory>
 
-enum class RenderMode {Triangles, Lines, Quads};
+enum class RenderMode {Triangles, Lines, Quads,Triangles_fanout};
 
 //Defines a primitive shape made out of computed verticies
 class shapeElement{
@@ -22,7 +22,7 @@ public:
 
 class DrawableElement : public shapeElement{
 public:
-    RenderMode mode = RenderMode::Triangles;
+    RenderMode mode = RenderMode::Triangles_fanout;
     GLuint bufferID;
     std::shared_ptr<Shader> shader;
     glm::vec4 geomColor;
