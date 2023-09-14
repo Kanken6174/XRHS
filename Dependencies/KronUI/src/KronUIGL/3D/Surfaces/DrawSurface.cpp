@@ -31,14 +31,18 @@ DrawSurface::DrawSurface(const glm::vec2& size, std::vector<unsigned int> indice
         Vertex v;
         v.Position = glm::vec3(vertices[i], vertices[i + 1], vertices[i + 2]);
         //Texture coordinates. You'll need to adjust these if your vertices aren't arranged in a simple rectangle.
-        if (i == 0) // bottom-left corner
-                v.TexCoords = glm::vec2(0.0f, 1.0f);
-            else if (i == 3) // bottom-right corner
-                v.TexCoords = glm::vec2(1.0f, 1.0f);
-            else if (i == 6) // top-right corner
-                v.TexCoords = glm::vec2(1.0f, 0.0f);
-            else // top-left corner
+        if (i == 0*VERTICES_SIZE) // bottom-left corner
                 v.TexCoords = glm::vec2(0.0f, 0.0f);
+            else if (i == 1*VERTICES_SIZE) // bottom-right corner
+                v.TexCoords = glm::vec2(1.0f, 0.0f);
+            else if (i == 2*VERTICES_SIZE) // top-right corner
+                v.TexCoords = glm::vec2(0.0f, 1.0f);
+            else if (i == 3*VERTICES_SIZE) // top-left corner
+                v.TexCoords = glm::vec2(0.0f, 1.0f);
+            else if (i == 4*VERTICES_SIZE) // top-right corner
+                v.TexCoords = glm::vec2(1.0f, 0.0f);
+            else if (i == 5*VERTICES_SIZE) // top-left corner
+                v.TexCoords = glm::vec2(1.0f, 1.0f);
         v.Normal = glm::vec3(0.0f, 0.0f, 0.0f);
         mesh->vertices.push_back(v);
         //log all data

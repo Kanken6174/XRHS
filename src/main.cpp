@@ -65,7 +65,7 @@ int main(){
     auto background = ShaderManager::getInstance()->buildShader("./shaders/background.vs", "./shaders/background.fs");
 
     std::shared_ptr<GeometryRenderer> gr = std::make_shared<GeometryRenderer>();
-    std::shared_ptr<Triangle> er = std::make_shared<Triangle>(X2DPoint(0.0f,0.0f),X2DPoint(0.0f,0.667f),X2DPoint(0.668f,0.0f));
+    std::shared_ptr<Rectangle> er = std::make_shared<Rectangle>(glm::vec2(0.5f,0.5f));
     er->geomColor = glm::vec4(1.0f,0.0f,0.0f,0.5f);  //red?
     er->shader = rps;
     er->mode = RenderMode::Triangles;
@@ -101,8 +101,8 @@ int main(){
     shared_ptr<TextRenderer> tx = std::make_shared<TextRenderer>(shader,window,ttm);
 
     std::shared_ptr<UIDrawSurface> uids = std::make_shared<UIDrawSurface>(glm::vec2(2.0f,2.0f), 
-                                            std::make_shared<QuaternionTransform>(glm::vec3(0.0f,0.0f,1.5f)
-                                            ,glm::vec3(1.0f,1.0f,1.0f),glm::vec3(180.0f/RADIAN_TO_DEGREE, 0.0f, -90.0f/RADIAN_TO_DEGREE)));
+                                            std::make_shared<QuaternionTransform>(glm::vec3(-1.0f,1.0f,1.5f)    //position(L/R,up/down/depth), scale, orientation
+                                            ,glm::vec3(1.0f,1.0f,1.0f),glm::vec3(180.0f/RADIAN_TO_DEGREE, 0.0f, /*-90.0f/RADIAN_TO_DEGREE*/0.0f)));
     uids->shader = surface;
     uids->parent = sk->head;   //attach to right hand
     uids->kinematicJoint = djc;
@@ -111,7 +111,7 @@ int main(){
     std::shared_ptr<TextDrawCommand> dc = std::make_shared<TextDrawCommand>(tx,"  :3", glm::vec2(0.0,0.0),glm::vec3(1.0f,0.0f,0.0f),25.0f);
     std::shared_ptr<ShapeDrawCommand> sdc = std::make_shared<ShapeDrawCommand>(er);
     uids->addCommand(dc);
-    //uids->addCommand(sdc);
+    uids->addCommand(sdc);
     uids->setupUISurface();
 
     float i = 0;

@@ -23,7 +23,7 @@ public:
     virtual void setupSurface();
 
     static std::vector<unsigned int> defaultIndicies() {
-        std::vector<unsigned int> indices = {0, 1, 2, 2, 3, 0};
+        std::vector<unsigned int> indices = {0, 1, 2, 3, 4, 5};
         return indices;
     }
 };
