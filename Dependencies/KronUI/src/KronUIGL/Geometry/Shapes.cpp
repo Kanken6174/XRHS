@@ -179,7 +179,7 @@ EmptyRectangle::EmptyRectangle(X2DPoint points[4], float thickness) : DrawableEl
     float height = std::abs(_points[1].getVector().y -_points[2].getVector().y);
 }
 
-EmptyRectangle::EmptyRectangle(glm::vec3 origin,float width, float height, float thickness) : DrawableElement(), _width(width), _height(height), _thickness(thickness){
+EmptyRectangle::EmptyRectangle(glm::vec3 origin,float width, float height, float thickness) : DrawableElement(), origin(origin), _width(width), _height(height), _thickness(thickness){
     mode = RenderMode::Triangles;
 
     vertices.clear();
@@ -196,7 +196,6 @@ std::vector<float> EmptyRectangle::generateVertices(){
     glm::vec3 thicknessOffSetY = glm::vec3(0,_thickness,0);
     glm::vec3 centerPoint = glm::vec3(_width/2,_height/2,0);
     std::cout << "done offsets" <<std::endl;
-    glm::vec3 origin = _points[0].getVector();
     
     //Y 
     //<thickness>

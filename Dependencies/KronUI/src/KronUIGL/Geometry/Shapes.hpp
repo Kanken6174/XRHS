@@ -57,6 +57,7 @@ private:
     float _thickness = 1.0f;
     float _width = 0.0f;
     float _height = 0.0f;
+    glm::vec3 origin;
 public:
     //order of the points should be bottom left, top left, bottom right, top right [4]
     EmptyRectangle(X2DPoint* points, float thickness = 1.0f);

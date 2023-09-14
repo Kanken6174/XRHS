@@ -28,3 +28,15 @@ public:
     ShapeDrawCommand(std::shared_ptr<DrawableElement> element);
     void Execute() override;
 };
+
+class ButtonDrawCommand : public DrawCommand {
+protected:
+    std::shared_ptr<TextDrawCommand> text;
+    std::shared_ptr<ShapeDrawCommand> shape;
+    std::shared_ptr<DrawableElement> element;
+    std::shared_ptr<TextRenderer> renderer;
+    std::shared_ptr<GeometryRenderer> geomRenderer;
+public:
+    ButtonDrawCommand(std::shared_ptr<TextRenderer> renderer, std::shared_ptr<GeometryRenderer> geomRenderer, std::string text, glm::vec2 position);
+    void Execute() override;
+};

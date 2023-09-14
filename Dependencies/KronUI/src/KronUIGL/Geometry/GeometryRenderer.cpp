@@ -27,6 +27,7 @@ void drawGeometry(DrawableElement* toDraw){
 void GeometryRenderer::prepareShape(std::shared_ptr<DrawableElement> toRender){
     std::vector<float> verticies = toRender->generateVertices();
     toRender->verticesAmount = verticies.size();
+    toRender->shader = shader;
     float* arr = new float[toRender->verticesAmount];
 
     std::copy(verticies.begin(), verticies.end(), arr); //transfer data to the heap

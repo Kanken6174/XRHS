@@ -8,6 +8,7 @@
 #include <memory>
 
 class DrawableElement;
+class Shader;
 
 class GeometryRenderer{
 private:
@@ -15,6 +16,8 @@ private:
 public:
     void prepareShape(std::shared_ptr<DrawableElement> toRender);
     void renderAll();
+
+    std::shared_ptr<Shader> shader;
 };
 
 #endif
