@@ -12,6 +12,8 @@ private:
     KronUIWindow* _window;
     TrueTypeManager* _ttfManager;
 public:
+    glm::vec2 _screenSize;
+
     TextRenderer(std::shared_ptr<Shader> shader, KronUIWindow* window, TrueTypeManager* ttfManager);
     void RenderText(std::string text, float x, float y, float scale, glm::vec3 color);
 };

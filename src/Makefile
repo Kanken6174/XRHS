@@ -325,6 +325,19 @@ kinematics/fast:
 .PHONY : kinematics/fast
 
 #=============================================================================
+# Target rules for targets named intersector
+
+# Build rule for target.
+intersector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intersector
+.PHONY : intersector
+
+# fast build rule for target.
+intersector/fast:
+	$(MAKE) $(MAKESILENT) -f KronUIGL/3D/Intersector/CMakeFiles/intersector.dir/build.make KronUIGL/3D/Intersector/CMakeFiles/intersector.dir/build
+.PHONY : intersector/fast
+
+#=============================================================================
 # Target rules for targets named input
 
 # Build rule for target.
@@ -592,6 +605,7 @@ help:
 	@echo "... hw_ext"
 	@echo "... ihidapi"
 	@echo "... input"
+	@echo "... intersector"
 	@echo "... kinematics"
 	@echo "... loaders"
 	@echo "... observers"

@@ -555,6 +555,7 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Shapes.hpp \
   /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Drawing.hpp \
+  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Intersector/Intersector.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/ctime \
@@ -1756,6 +1757,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
 /usr/include/GL/glew.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Intersector/Intersector.hpp:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/KronUIGL.hpp:
 

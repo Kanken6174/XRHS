@@ -456,6 +456,7 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/3D/Surfaces/DrawCommands/../../../../../../AHRS_core/src/model/patterns/commands/commands.hpp \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Geometry/Shapes.hpp \
  /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/Geometry/./Drawing.hpp \
+ /home/kanken/code/XRHS/src/../Dependencies/KronUI/src/./KronUIGL/3D/Intersector/Intersector.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \

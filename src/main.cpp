@@ -108,6 +108,11 @@ int main(){
     uids->addCommand(bdc);
     uids->setupUISurface();
 
+    uids->rect->storedTransform = uids->transform;
+    std::shared_ptr<ButtonColorToggleCommand> bctc = std::make_shared<ButtonColorToggleCommand>(bdc);
+    Intersector::getInstance()->addSurface(uids->rect, bctc);
+    Intersector::getInstance()->addEmitter(InputSystem::getInstance().getCamera().transform, nullopt);
+
     float i = 0;
     float deltaTime = 0.0f;
     float lastFrame = 0.0f;
@@ -129,6 +134,8 @@ int main(){
         sk->head->localTransform->setPosition(InputSystem::getInstance().getCamera().transform->getPosition()*glm::vec3(3.0f,3.0f,-5.0f));
         sk->head->localTransform->setQuaternion(InputSystem::getInstance().getCamera().transform->getQuaternion());
         processWorldTransforms();
+
+        Intersector::getInstance()->runInteresctions();
 
         // Clear the screen
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

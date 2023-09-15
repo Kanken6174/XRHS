@@ -9,6 +9,8 @@
 
 enum class RenderMode {Triangles, Lines, Quads,Triangles_fanout};
 
+class Transform;
+
 //Defines a primitive shape made out of computed verticies
 class shapeElement{
 protected:
@@ -22,6 +24,8 @@ public:
 
 class DrawableElement : public shapeElement{
 public:
+    //usually not the DrawableElement's transform, but the transform of the object that contains it
+    std::shared_ptr<Transform> storedTransform;
     RenderMode mode = RenderMode::Triangles_fanout;
     GLuint bufferID;
     std::shared_ptr<Shader> shader;

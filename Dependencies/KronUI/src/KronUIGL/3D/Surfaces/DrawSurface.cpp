@@ -21,8 +21,8 @@ DrawSurface::DrawSurface(const glm::vec2& size, std::vector<unsigned int> indice
     mesh = std::make_shared<Mesh>();
     mesh->indices = indices;
     localTransform = transform;
-    Rectangle rect = Rectangle(size);
-    std::vector<float> vertices = rect.generateVertices();
+    rect = std::make_shared<Rectangle>(size);
+    std::vector<float> vertices = rect->generateVertices();
     //output all the vertices
     for(int i = 0; i < vertices.size(); i++){
         std::cout << ' ' << vertices[i] << std::endl;

@@ -6,6 +6,7 @@
 
 TextRenderer::TextRenderer(std::shared_ptr<Shader> shader, KronUIWindow* window, TrueTypeManager* ttfManager) : _shader(shader), _window(window), _ttfManager(ttfManager){
     //setup the shader
+    _screenSize = glm::vec2(window->_width, window->_height);
     glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(window->_width), 0.0f, static_cast<float>(window->_height));
     ShaderManager::getInstance()->setShader(_shader);
     glUniformMatrix4fv(glGetUniformLocation(_shader->ID, "projection"), 1, GL_FALSE, glm::value_ptr(projection));

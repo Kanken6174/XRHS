@@ -11,6 +11,7 @@
 #include "./KronUIGL/3D/Kinematics/Skeleton.hpp"
 #include "./KronUIGL/3D/Surfaces/DrawCommands/DrawCommands.hpp"
 #include "./KronUIGL/Geometry/Shapes.hpp"
+#include "./KronUIGL/3D/Intersector/Intersector.hpp"
 
 #include "../include/logger.hpp"
 

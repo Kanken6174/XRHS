@@ -48,6 +48,7 @@ public:
     Rectangle();
     Rectangle(const Rectangle& t);
     std::vector<float> generateVertices() override;
+    glm::vec2 getSize(){return size;}
 };
 
 class EmptyRectangle : public DrawableElement{

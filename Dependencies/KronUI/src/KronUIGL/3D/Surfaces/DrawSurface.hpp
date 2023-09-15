@@ -8,6 +8,8 @@
 #include "./../Elements/entity.hpp"
 #include <memory>
 
+class Rectangle;
+
 class DrawSurface : public Entity{
 protected:
     GLuint textureId;
@@ -17,6 +19,7 @@ protected:
     glm::vec2 _size;
 public:
     std::shared_ptr<Shader> shader;
+    std::shared_ptr<Rectangle> rect;
 
     DrawSurface(const glm::vec2& size, std::vector<unsigned int> indices, std::shared_ptr<Transform> transform);
     DrawSurface(const glm::vec2& size, std::shared_ptr<Transform> transform);

@@ -19,6 +19,7 @@ add_subdirectory(Loaders)
 add_subdirectory(Renderers)
 add_subdirectory(Surfaces)
 add_subdirectory(Kinematics)
+add_subdirectory(Intersector)
 
 set_target_properties(3D PROPERTIES LINKER_LANGUAGE CXX)
 
@@ -33,3 +34,4 @@ target_link_libraries(3D loaders)
 target_link_libraries(3D renderers)
 target_link_libraries(3D surfaces)
 target_link_libraries(3D kinematics)
+target_link_libraries(3D intersector)

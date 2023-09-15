@@ -11,4 +11,12 @@ class Command {
   }
   virtual void Execute() = 0;
 };
+
+class BoolCommand : public Command {
+public:
+    bool value = false;
+    BoolCommand(bool value) : value(value) {}
+    BoolCommand() {}
+    virtual void Execute() {}
+};
 #endif

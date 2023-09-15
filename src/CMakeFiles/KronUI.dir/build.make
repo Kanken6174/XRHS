@@ -124,6 +124,7 @@ KronUI: /usr/lib/x86_64-linux-gnu/libX11.so
 KronUI: /usr/lib/x86_64-linux-gnu/libXext.so
 KronUI: /usr/lib/x86_64-linux-gnu/libXinerama.so
 KronUI: KronUIGL/3D/Kinematics/libkinematics.a
+KronUI: KronUIGL/3D/Intersector/libintersector.a
 KronUI: ARHS/pipeline/libpipelineLib.a
 KronUI: ARHS/pluginManagement/libPluginManager.a
 KronUI: ARHS/pipeline/libpipelineLib.a

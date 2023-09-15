@@ -50,6 +50,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/kanken/code/XRHS/src/KronUIGL/3D/Renderers/cmake_install.cmake")
   include("/home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces/cmake_install.cmake")
   include("/home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics/cmake_install.cmake")
+  include("/home/kanken/code/XRHS/src/KronUIGL/3D/Intersector/cmake_install.cmake")
 
 endif()
 
