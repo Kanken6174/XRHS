@@ -16,7 +16,9 @@ protected:
     static std::shared_ptr<Intersector> _instance;
     std::vector<std::tuple<std::shared_ptr<Rectangle>,std::optional<std::shared_ptr<BoolCommand>>>> surfaces;
     std::vector<std::tuple<std::shared_ptr<Transform>,std::optional<std::shared_ptr<BoolCommand>>>> emitters;
+    bool TriangleRayIntersection(const glm::vec3& rayOrigin, const glm::vec3& rayDirection, const glm::vec3 triangle[3]);
     bool RayRectangleIntersection(const std::shared_ptr<Transform>& rayTransform, const std::shared_ptr<Rectangle>& rectangle);
+    bool ConeToOriginIntersection(const std::shared_ptr<Transform>& rayTransform, const std::shared_ptr<Rectangle>& rectangle);
 public:
     static std::shared_ptr<Intersector> getInstance() {
         if (_instance == nullptr) {

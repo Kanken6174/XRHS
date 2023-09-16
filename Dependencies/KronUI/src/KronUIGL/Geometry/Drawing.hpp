@@ -34,4 +34,10 @@ public:
     void drawSelf();
 };
 
+class DebugDrawer{
+    public:
+    static std::shared_ptr<Shader> shader;
+    static void drawPointVec3(glm::vec3 point, glm::vec4 color);
+};
+
 #endif

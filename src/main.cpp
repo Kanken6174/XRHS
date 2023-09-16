@@ -64,6 +64,8 @@ int main(){
     auto surface = ShaderManager::getInstance()->buildShader("./shaders/surface.vs", "./shaders/surface.fs");
     auto background = ShaderManager::getInstance()->buildShader("./shaders/background.vs", "./shaders/background.fs");
 
+    DebugDrawer::shader = surface;
+
     std::shared_ptr<GeometryRenderer> gr = std::make_shared<GeometryRenderer>();
     gr->shader = rps;
 
@@ -164,6 +166,10 @@ int main(){
 
         glfwSwapBuffers(KronUIWindowManager::getWindow()->getSelf());
         glfwPollEvents();
+        //wait for frame time target
+        while(glfwGetTime() - frameStart < frameTimeTarget){
+            std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        }
     }
     
     glfwTerminate();
