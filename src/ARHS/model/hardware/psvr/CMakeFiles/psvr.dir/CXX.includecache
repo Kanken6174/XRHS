@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/hardware/ihidapi/_hidapi.hpp
+hidapi/hidapi.h
+-
+iostream
+-
+
+/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/hardware/psvr/_psvr.hpp
+../ihidapi/_hidapi.hpp
+/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/hardware/ihidapi/_hidapi.hpp
+../../../model/patterns/commands/commands.hpp
+/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp
+
+/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/hardware/psvr/psvr.cpp
+_psvr.hpp
+/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/hardware/psvr/_psvr.hpp
+
+/home/orangepi/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp
+iostream
+-
+

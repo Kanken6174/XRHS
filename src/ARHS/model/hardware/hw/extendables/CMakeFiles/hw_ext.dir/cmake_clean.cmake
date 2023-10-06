@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw_ext.dir/DeviceTree.cpp.o"
-  "CMakeFiles/hw_ext.dir/DeviceTree.cpp.o.d"
   "libhw_ext.a"
   "libhw_ext.pdb"
 )

@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/loaders.dir/OBJLoader.cpp.o"
-  "CMakeFiles/loaders.dir/OBJLoader.cpp.o.d"
   "libloaders.a"
   "libloaders.pdb"
 )

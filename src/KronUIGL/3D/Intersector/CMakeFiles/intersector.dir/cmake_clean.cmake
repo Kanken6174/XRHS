@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/intersector.dir/Intersector.cpp.o"
-  "CMakeFiles/intersector.dir/Intersector.cpp.o.d"
   "libintersector.a"
   "libintersector.pdb"
 )

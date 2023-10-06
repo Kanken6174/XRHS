@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vision.dir/camera.cpp.o"
-  "CMakeFiles/vision.dir/camera.cpp.o.d"
   "libvision.a"
   "libvision.pdb"
 )

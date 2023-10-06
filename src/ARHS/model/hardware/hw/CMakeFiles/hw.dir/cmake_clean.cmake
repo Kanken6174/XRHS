@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw.dir/inputManager.cpp.o"
-  "CMakeFiles/hw.dir/inputManager.cpp.o.d"
   "libhw.a"
   "libhw.pdb"
 )

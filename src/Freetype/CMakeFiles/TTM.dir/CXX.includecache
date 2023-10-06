@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orangepi/code/XRHS/Dependencies/KronUI/src/Freetype/TrueTypeManager.cpp
+./TrueTypeManager.hpp
+/home/orangepi/code/XRHS/Dependencies/KronUI/src/Freetype/TrueTypeManager.hpp
+iostream
+-
+
+/home/orangepi/code/XRHS/Dependencies/KronUI/src/Freetype/TrueTypeManager.hpp
+GL/glew.h
+-
+glm/glm.hpp
+-
+ft2build.h
+-
+map
+-
+string
+-
+
+/usr/include/freetype2/freetype/config/ftheader.h
+
+/usr/include/freetype2/ft2build.h
+freetype/config/ftheader.h
+-
+

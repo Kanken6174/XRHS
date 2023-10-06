@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/visnode_lib.dir/topLevelManager.cpp.o"
-  "CMakeFiles/visnode_lib.dir/topLevelManager.cpp.o.d"
   "libvisnode_lib.a"
   "libvisnode_lib.pdb"
 )

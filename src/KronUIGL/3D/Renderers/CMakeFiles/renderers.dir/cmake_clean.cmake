@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/renderers.dir/MeshRenderer.cpp.o"
-  "CMakeFiles/renderers.dir/MeshRenderer.cpp.o.d"
   "librenderers.a"
   "librenderers.pdb"
 )
