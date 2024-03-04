@@ -47,6 +47,7 @@ sudo apt-get install -y libgtk2.0-dev libgl1-mesa-dev libglu1-mesa-dev libgtkgle
 
 sudo apt-get install -y libswresample-dev
 
+rm -rf ./ocv/
 mkdir ocv
 cd ocv
 
@@ -62,7 +63,7 @@ sudo ldconfig
 
 mkdir -p build && cd build
 cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-4.x/modules ../opencv-4.x \
- -DWITH_FFMPEG=ON -DWITH_OPENGL=ON -DWITH_OPENCL=ON -DWITH_GTK=ON -DWITH_QT=OFF -DWITHTBB=ON \
+ -DWITH_FFMPEG=ON -DWITH_OPENGL=ON -DWITH_OPENCL=ON -DWITH_GTK=ON -DWITH_GTK_2_X=ON -DWITH_QT=OFF -DWITHTBB=ON \
  -DWITH_CUDA=OFF -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF -DBUILD_PNG=ON
 #-------------------------------------------------build project
 # Get the number of cores
