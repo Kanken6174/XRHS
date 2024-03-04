@@ -38,7 +38,6 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -144,11 +143,8 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -157,8 +153,6 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -424,11 +418,8 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
   /usr/include/freetype2/freetype/config/ftstdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
   /usr/include/freetype2/freetype/config/integer-types.h \
   /usr/include/freetype2/freetype/config/public-macros.h \
   /usr/include/freetype2/freetype/config/mac-support.h \
@@ -524,6 +515,8 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/glm/ext/scalar_constants.inl:
 
+/usr/include/glm/gtc/constants.hpp:
+
 /usr/include/glm/ext/matrix_projection.hpp:
 
 /usr/include/freetype2/freetype/ftsystem.h:
@@ -534,13 +527,7 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/freetype2/freetype/config/integer-types.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp2.h:
-
 /usr/include/setjmp.h:
-
-/usr/include/glm/gtc/constants.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/freetype2/freetype/config/ftstdlib.h:
 
@@ -579,8 +566,6 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/11/memory:
 
@@ -768,15 +753,7 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/glm/ext/vector_uint2.hpp:
 
-/usr/include/glm/ext/vector_int2_sized.hpp:
-
-/usr/include/glm/ext/vector_int2.hpp:
-
-/usr/include/glm/ext/vector_double2_precision.hpp:
-
-/usr/include/glm/ext/vector_relational.hpp:
-
-/usr/include/glm/ext/vector_float2_precision.hpp:
+/usr/include/c++/11/tr1/exp_integral.tcc:
 
 /usr/include/glm/gtc/vec1.hpp:
 
@@ -789,6 +766,10 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 /usr/include/glm/ext/vector_float4_precision.hpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/glm/detail/type_vec3.hpp:
+
+/usr/include/c++/11/backward/binders.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
@@ -816,6 +797,16 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
 /usr/include/c++/11/ext/atomicity.h:
 
 /usr/include/c++/11/bits/stl_pair.h:
@@ -831,6 +822,8 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
 /usr/include/c++/11/bits/ios_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -888,12 +881,6 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/glm/ext/scalar_uint_sized.hpp:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
@@ -918,6 +905,12 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
+/usr/include/glm/ext/scalar_uint_sized.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
 /usr/include/glm/ext/matrix_clip_space.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
@@ -925,14 +918,6 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 /usr/include/glm/ext/vector_uint1_sized.hpp:
 
 /usr/include/glm/ext/vector_float2.hpp:
-
-/usr/include/glm/detail/type_vec3.hpp:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/c++/11/bits/memoryfwd.h:
 
@@ -1018,8 +1003,6 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/glm/matrix.hpp:
@@ -1037,6 +1020,8 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/11/cwchar:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -1068,16 +1053,6 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/assert.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/glm/gtc/matrix_transform.hpp:
-
-/usr/include/glm/simd/platform.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/bits/range_access.h:
@@ -1103,6 +1078,10 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 /usr/include/glm/ext/scalar_constants.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/glm/ext/vector_relational.hpp:
+
+/usr/include/glm/ext/vector_float2_precision.hpp:
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
@@ -1162,17 +1141,15 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/ctype.h:
 
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
 /usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/glm/ext/scalar_int_sized.hpp:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
-/usr/include/c++/11/tr1/exp_integral.tcc:
+/usr/include/glm/ext/scalar_int_sized.hpp:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
@@ -1198,10 +1175,6 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/11/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /usr/include/glm/ext/vector_bool4_precision.hpp:
 
 /usr/include/alloca.h:
@@ -1210,31 +1183,11 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/glm/ext/vector_bool2.hpp:
 
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
-/usr/include/c++/11/cwctype:
-
 /usr/include/glm/ext/matrix_float3x4_precision.hpp:
 
 /usr/include/c++/11/cstdio:
 
 /usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/glm/ext/quaternion_double_precision.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/glm/ext/vector_float1_precision.hpp:
 
@@ -1308,6 +1261,8 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
+/usr/include/c++/11/cwctype:
+
 /usr/include/glm/detail/type_float.hpp:
 
 /usr/include/glm/vector_relational.hpp:
@@ -1321,6 +1276,12 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 /usr/include/glm/detail/type_mat2x4.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/usr/include/glm/ext/quaternion_double_precision.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -1402,6 +1363,12 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/glm/gtc/matrix_transform.hpp:
+
+/usr/include/glm/simd/platform.h:
+
 /usr/include/c++/11/limits:
 
 /usr/include/glm/ext/matrix_float2x4.hpp:
@@ -1421,6 +1388,8 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 /usr/include/glm/ext/vector_float4.hpp:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/glm/ext/vector_double2_precision.hpp:
 
 /usr/include/glm/ext/matrix_clip_space.inl:
 
@@ -1457,3 +1426,7 @@ KronUIGL/Text/CMakeFiles/textrenderer.dir/TextRenderer.cpp.o: /home/kanken/code/
 /usr/include/c++/11/stdlib.h:
 
 /usr/include/glm/ext/vector_bool2_precision.hpp:
+
+/usr/include/glm/ext/vector_int2.hpp:
+
+/usr/include/glm/ext/vector_int2_sized.hpp:

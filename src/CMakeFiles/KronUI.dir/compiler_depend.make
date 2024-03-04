@@ -69,7 +69,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
@@ -142,11 +141,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -155,8 +151,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -429,11 +423,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/freetype2/freetype/config/ftstdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
   /usr/include/freetype2/freetype/config/integer-types.h \
   /usr/include/freetype2/freetype/config/public-macros.h \
   /usr/include/freetype2/freetype/config/mac-support.h \
@@ -570,7 +561,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/future \
@@ -862,8 +852,14 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -968,6 +964,10 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/local/include/opencv4/opencv2/objdetect/face.hpp:
 
+/usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp:
+
+/usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp:
+
 /usr/local/include/opencv4/opencv2/ml.hpp:
 
 /usr/local/include/opencv4/opencv2/videoio.hpp:
@@ -1005,6 +1005,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/local/include/opencv4/opencv2/flann/matrix.h:
 
 /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp:
+
+/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
 
 /usr/include/GL/freeglut_std.h:
 
@@ -1202,6 +1204,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/tbb/blocked_range.h:
 
+/usr/include/c++/11/pstl/parallel_backend_tbb.h:
+
 /usr/include/oneapi/tbb/task_arena.h:
 
 /usr/include/c++/11/pstl/parallel_backend.h:
@@ -1257,6 +1261,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/cameras/_cam.hpp:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.hpp:
+
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/threadweaver/debugging.hpp:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/psvr/_psvr.hpp:
 
@@ -1338,10 +1344,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/home/kanken/code/XRHS/Dependencies/AHRS_core/src/threadweaver/debugging.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
 /usr/include/tbb/task.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
@@ -1362,6 +1364,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/c++/11/thread:
 
+/usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp:
+
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/ctime:
@@ -1370,19 +1374,13 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/c++/11/chrono:
 
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Drawing.hpp:
+/usr/include/glm/detail/setup.hpp:
 
-/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp:
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h:
+/usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp:
 
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/UIDrawSurface.hpp:
-
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawCommands/DrawCommands.hpp:
-
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.hpp:
-
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/Skeleton.hpp:
+/usr/include/freetype2/freetype/freetype.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/enqcmdintrin.h:
 
@@ -1398,6 +1396,14 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/glm/ext/matrix_float2x4.hpp:
 
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/local/include/opencv4/opencv2/objdetect.hpp:
+
+/usr/include/assimp/Compiler/poppack1.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/GLFW/glfw3.h:
@@ -1405,6 +1411,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/11/string_view:
+
+/usr/include/c++/11/cassert:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/texture.hpp:
 
@@ -1422,9 +1430,17 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
+/usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp:
+
 /usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/assimp/aabb.h:
+
+/usr/local/include/opencv4/opencv2/flann/allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/glm/ext/quaternion_double_precision.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
@@ -1441,6 +1457,10 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/local/include/opencv4/opencv2/opencv_modules.hpp:
 
 /usr/include/glm/vector_relational.hpp:
+
+/usr/include/c++/11/cwctype:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
 
 /usr/include/tbb/parallel_reduce.h:
 
@@ -1471,10 +1491,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/glm/mat2x3.hpp:
-
-/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/local/include/opencv4/opencv2/flann.hpp:
 
@@ -1514,10 +1530,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
-/usr/include/c++/11/pstl/parallel_backend_tbb.h:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
 /usr/include/glm/detail/type_float.hpp:
 
 /usr/include/c++/11/bits/erase_if.h:
@@ -1543,10 +1555,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/include/glm/ext/matrix_double2x3.hpp:
 
 /usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
@@ -1602,14 +1610,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/usr/local/include/opencv4/opencv2/flann/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/glm/ext/quaternion_double_precision.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
 /usr/include/stdio.h:
 
 /usr/include/c++/11/pstl/glue_execution_defs.h:
@@ -1618,17 +1618,9 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/c++/11/bits/std_abs.h:
 
-/usr/include/c++/11/cwctype:
-
 /usr/include/c++/11/limits:
 
 /usr/include/glm/ext/vector_bool4_precision.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/fmaintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512erintrin.h:
-
-/usr/include/c++/11/cwchar:
 
 /usr/include/c++/11/iostream:
 
@@ -1666,12 +1658,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/c++/11/ext/string_conversions.h:
 
-/usr/local/include/opencv4/opencv2/imgproc.hpp:
-
-/usr/include/c++/11/bits/string_view.tcc:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/wchar.h:
@@ -1705,6 +1691,10 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/include/glm/ext/matrix_float3x2.hpp:
 
 /usr/include/glm/ext/vector_bool4.hpp:
+
+/usr/include/glm/ext/vector_int3_sized.hpp:
+
+/usr/include/glm/ext/vector_bool2.hpp:
 
 /usr/include/c++/11/bit:
 
@@ -1757,6 +1747,10 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
 /usr/include/GL/glew.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/c++/11/bits/functexcept.h:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Intersector/Intersector.hpp:
 
@@ -1838,6 +1832,14 @@ CMakeFiles/KronUI.dir/main.cpp.o: main.cpp \
 
 /usr/include/c++/11/ext/alloc_traits.h:
 
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/local/include/opencv4/opencv2/core/hal/interface.h:
+
+/usr/include/glm/ext/vector_float4.hpp:
+
+/usr/include/glm/ext/vector_uint2_sized.hpp:
+
 /usr/local/include/opencv4/opencv2/core/check.hpp:
 
 /usr/include/c++/11/pstl/execution_defs.h:
@@ -1912,15 +1914,13 @@ Glue.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h:
+
+/usr/include/glm/ext/vector_bool3.hpp:
+
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Window/KronUIWindow.hpp:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -1928,9 +1928,13 @@ Glue.hpp:
 
 /usr/include/glm/ext/matrix_float3x2_precision.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /usr/include/glm/ext/quaternion_transform.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/fmaintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512erintrin.h:
+
+/usr/include/c++/11/cwchar:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -1978,6 +1982,10 @@ Glue.hpp:
 
 /usr/include/c++/11/bits/allocator.h:
 
+/usr/include/glm/ext/matrix_clip_space.inl:
+
+/usr/include/c++/11/cmath:
+
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Shapes.hpp:
@@ -2010,6 +2018,8 @@ Glue.hpp:
 
 /usr/include/glm/detail/type_mat4x3.inl:
 
+/usr/include/c++/11/bits/hash_bytes.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/glm/detail/_fixes.hpp:
@@ -2038,20 +2048,6 @@ Glue.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/local/include/opencv4/opencv2/objdetect.hpp:
-
-/usr/include/assimp/Compiler/poppack1.h:
-
-/usr/local/include/opencv4/opencv2/core/saturate.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/glm/detail/type_vec3.hpp:
-
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /usr/include/c++/11/bits/localefwd.h:
@@ -2065,6 +2061,14 @@ Glue.hpp:
 /usr/local/include/opencv4/opencv2/flann/composite_index.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/local/include/opencv4/opencv2/core/saturate.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/glm/detail/type_vec3.hpp:
 
 /usr/include/c++/11/set:
 
@@ -2132,6 +2136,10 @@ main.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/windows/window.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
 /usr/include/alloca.h:
 
 /usr/include/glm/ext/matrix_double4x4.hpp:
@@ -2148,31 +2156,9 @@ main.cpp:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
-/usr/include/c++/11/tr1/poly_hermite.tcc:
+/usr/local/include/opencv4/opencv2/imgproc.hpp:
 
-/usr/include/glm/ext/vector_bool2.hpp:
-
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/local/include/opencv4/opencv2/core/hal/interface.h:
-
-/usr/include/glm/ext/vector_uint2_sized.hpp:
-
-/usr/include/glm/ext/vector_float4.hpp:
-
-/usr/include/freetype2/freetype/freetype.h:
-
-/usr/include/glm/detail/setup.hpp:
-
-/usr/include/c++/11/cmath:
-
-/usr/include/glm/ext/matrix_clip_space.inl:
-
-/usr/include/c++/11/cassert:
-
-/usr/include/glm/ext/vector_int3_sized.hpp:
+/usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/glm/detail/type_vec4.hpp:
 
@@ -2215,8 +2201,6 @@ main.cpp:
 /usr/include/glm/fwd.hpp:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/glm/detail/qualifier.hpp:
 
@@ -2289,6 +2273,8 @@ main.cpp:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
 
 /usr/include/glm/ext/vector_double4.hpp:
+
+/usr/local/include/opencv4/opencv2/objdetect/barcode.hpp:
 
 /usr/include/glm/ext/matrix_float4x2_precision.hpp:
 
@@ -2448,10 +2434,6 @@ main.cpp:
 
 /usr/include/glm/detail/func_geometric.inl:
 
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicsProcessor.hpp:
-
-/usr/include/glm/detail/type_vec1.hpp:
-
 /usr/include/glm/detail/type_vec1.inl:
 
 /usr/include/glm/detail/func_vector_relational.inl:
@@ -2516,20 +2498,6 @@ main.cpp:
 
 /usr/include/freetype2/freetype/config/ftstdlib.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h:
-
-/usr/include/glm/ext/vector_bool3.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/oneapi/tbb/detail/_range_common.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/glm/gtc/constants.hpp:
-
 /usr/include/oneapi/tbb/parallel_for.h:
 
 /usr/include/math.h:
@@ -2546,13 +2514,9 @@ main.cpp:
 
 /usr/include/setjmp.h:
 
-/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/windows/window.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp2.h:
-
 /usr/include/freetype2/freetype/config/integer-types.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Geometry/Drawing.hpp:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
 
@@ -2592,6 +2556,16 @@ main.cpp:
 
 /usr/include/glm/ext/matrix_projection.hpp:
 
+/usr/include/oneapi/tbb/detail/_range_common.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/glm/gtc/constants.hpp:
+
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp:
+
 /usr/include/glm/ext/vector_uint3_sized.hpp:
 
 /usr/include/glm/ext/scalar_constants.inl:
@@ -2618,9 +2592,9 @@ main.cpp:
 
 /usr/include/c++/11/codecvt:
 
-/usr/include/c++/11/bits/allocated_ptr.h:
-
 /usr/include/assert.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
 
 /usr/include/glm/ext/quaternion_trigonometric.inl:
 
@@ -2686,6 +2660,10 @@ main.cpp:
 
 /usr/include/assimp/material.inl:
 
+/usr/include/glm/detail/type_vec1.hpp:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicsProcessor.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/freetype2/ft2build.h:
@@ -2719,3 +2697,13 @@ main.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/light.hpp:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/Skeleton.hpp:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics/KinematicJoints.hpp:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/DrawCommands/DrawCommands.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Surfaces/UIDrawSurface.hpp:

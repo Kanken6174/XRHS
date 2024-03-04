@@ -1,4 +1,4 @@
-# Install script for directory: /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Loaders
+# Install script for directory: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Loaders
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

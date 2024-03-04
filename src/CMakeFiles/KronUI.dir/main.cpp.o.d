@@ -55,7 +55,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/11/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
  /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new \
@@ -118,20 +117,16 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/11/bits/std_abs.h /usr/include/c++/11/cstdio \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/11/cerrno \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/c++/11/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
@@ -351,11 +346,8 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /usr/include/freetype2/freetype/config/ftconfig.h \
  /usr/include/freetype2/freetype/config/ftoption.h \
  /usr/include/freetype2/freetype/config/ftstdlib.h /usr/include/string.h \
- /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /usr/include/c++/11/stdlib.h /usr/include/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/strings.h /usr/include/c++/11/stdlib.h \
+ /usr/include/setjmp.h \
  /usr/include/freetype2/freetype/config/integer-types.h \
  /usr/include/freetype2/freetype/config/public-macros.h \
  /usr/include/freetype2/freetype/config/mac-support.h \
@@ -467,7 +459,6 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h /usr/include/c++/11/future \
  /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
@@ -734,8 +725,14 @@ CMakeFiles/KronUI.dir/main.cpp.o: /home/kanken/code/XRHS/src/main.cpp \
  /usr/local/include/opencv4/opencv2/ml.hpp \
  /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
  /usr/local/include/opencv4/opencv2/objdetect.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
  /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
  /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
  /usr/local/include/opencv4/opencv2/photo.hpp \
  /usr/local/include/opencv4/opencv2/stitching.hpp \
  /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \

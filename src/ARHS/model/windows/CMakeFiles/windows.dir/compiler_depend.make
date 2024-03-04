@@ -64,7 +64,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -72,32 +71,8 @@ ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/range_access.h \
   /usr/local/include/opencv4/opencv2/core/base.hpp \
   /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/c++/11/climits \
@@ -112,6 +87,26 @@ ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -125,6 +120,8 @@ ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/c++/11/bits/stl_function.h \
   /usr/include/c++/11/backward/binders.h \
   /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/functional_hash.h \
@@ -156,8 +153,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/11/string \
@@ -172,7 +167,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
@@ -209,8 +203,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -343,7 +335,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/window.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -434,7 +425,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -442,32 +432,8 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/range_access.h \
   /usr/local/include/opencv4/opencv2/core/base.hpp \
   /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/c++/11/climits \
@@ -482,6 +448,26 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -495,6 +481,8 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
   /usr/include/c++/11/bits/stl_function.h \
   /usr/include/c++/11/backward/binders.h \
   /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/functional_hash.h \
@@ -526,8 +514,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/11/string \
@@ -542,7 +528,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
@@ -579,8 +564,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -743,8 +726,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
@@ -829,23 +810,7 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/assert.h:
 
-/usr/local/include/opencv4/opencv2/core/vsx_utils.hpp:
-
-/usr/local/include/opencv4/opencv2/core/opengl.hpp:
-
-/usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
-
-/usr/include/c++/11/pstl/glue_memory_defs.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-/usr/include/c++/11/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/11/bits/nested_exception.h:
+/usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
@@ -858,6 +823,40 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 /usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/ext/type_traits.h:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
+
+/usr/include/unistd.h:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/include/c++/11/cwchar:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/usr/include/c++/11/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/c++/11/bits/char_traits.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/11/bits/hash_bytes.h:
+
+/usr/include/c++/11/bits/move.h:
+
+/usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
@@ -873,41 +872,23 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/c++/11/new:
+
+/usr/include/c++/11/climits:
+
 /usr/local/include/opencv4/opencv2/opencv_modules.hpp:
 
 /usr/include/pthread.h:
 
-/usr/include/c++/11/ext/type_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/unistd.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+/usr/include/c++/11/tuple:
 
 /usr/local/include/opencv4/opencv2/core/base.hpp:
 
-/usr/include/c++/11/tuple:
-
-/usr/include/c++/11/bits/stl_pair.h:
-
-/usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/c++/11/bits/char_traits.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
 /usr/include/alloca.h:
+
+/usr/include/c++/11/bits/refwrap.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -926,16 +907,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/c++/11/new:
-
-/usr/include/c++/11/climits:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
@@ -981,8 +952,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
@@ -1023,9 +992,9 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/linux/errno.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
 /usr/include/c++/11/debug/debug.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/include/features-time64.h:
 
@@ -1062,6 +1031,8 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
@@ -1179,14 +1150,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/locale.h:
 
-/usr/include/c++/11/bits/move.h:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
-/usr/include/c++/11/bits/string_view.tcc:
-
-/usr/include/c++/11/bits/refwrap.h:
-
 /usr/include/c++/11/unordered_map:
 
 /usr/include/c++/11/iomanip:
@@ -1251,6 +1214,8 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
+/usr/include/c++/11/backward/auto_ptr.h:
+
 /usr/include/c++/11/cstddef:
 
 /usr/include/c++/11/bits/stl_vector.h:
@@ -1262,12 +1227,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/c++/11/locale:
 
@@ -1281,13 +1240,13 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/c++/11/bits/specfun.h:
 
 /usr/local/include/opencv4/opencv2/core/traits.hpp:
 
@@ -1317,6 +1276,10 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/c++/11/ext/concurrence.h:
 
+/usr/local/include/opencv4/opencv2/core/opengl.hpp:
+
+/usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
+
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
@@ -1333,8 +1296,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/c++/11/bits/fs_fwd.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
@@ -1350,8 +1311,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/windows/window.hpp:
 
 /usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -1387,9 +1346,9 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+/usr/local/include/opencv4/opencv2/core/vsx_utils.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -1409,6 +1368,8 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
+/usr/include/c++/11/bits/specfun.h:
+
 /usr/local/include/opencv4/opencv2/core/fast_math.hpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
@@ -1416,6 +1377,8 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 /usr/include/c++/11/tr1/gamma.tcc:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/hw/inputManager.hpp:
 
@@ -1433,8 +1396,6 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
 /usr/include/c++/11/memory:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
@@ -1442,3 +1403,7 @@ ARHS/model/windows/CMakeFiles/windows.dir/windowManager.cpp.o: /home/kanken/code
 /usr/include/c++/11/bits/unique_ptr.h:
 
 /usr/include/c++/11/exception:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:

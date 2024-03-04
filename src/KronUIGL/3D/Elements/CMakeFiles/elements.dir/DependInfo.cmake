@@ -1,20 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/entity.cpp" "/home/orangepi/code/XRHS/src/KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o"
-  "/home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.cpp" "/home/orangepi/code/XRHS/src/KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.o"
-  "/home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.cpp" "/home/orangepi/code/XRHS/src/KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o"
-  "/home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.cpp" "/home/orangepi/code/XRHS/src/KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o"
-  "/home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/world.cpp" "/home/orangepi/code/XRHS/src/KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/freetype2"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/entity.cpp" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o" "gcc" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/entity.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.cpp" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.o" "gcc" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/mesh.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/transform.cpp" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o" "gcc" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/transform.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.cpp" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o" "gcc" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/vertex.cpp.o.d"
+  "/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/world.cpp" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o" "gcc" "KronUIGL/3D/Elements/CMakeFiles/elements.dir/world.cpp.o.d"
   )
 
 # Targets to which this target links.

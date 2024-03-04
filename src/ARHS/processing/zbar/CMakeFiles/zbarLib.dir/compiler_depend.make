@@ -72,7 +72,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -143,11 +142,8 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -156,8 +152,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -266,8 +260,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -384,6 +376,8 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
+/usr/include/c++/11/memory:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
 /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
@@ -414,19 +408,11 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/c++/11/memory:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/strings.h:
-
-/usr/local/include/opencv4/opencv2/core/cvstd.hpp:
 
 /usr/include/c++/11/bits/shared_ptr.h:
 
@@ -462,6 +448,14 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/algorithm:
+
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
@@ -483,18 +477,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/11/algorithm:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -553,6 +535,8 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/strings.h:
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
@@ -616,12 +600,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/local/include/opencv4/opencv2/core/version.hpp:
 
-/usr/include/math.h:
-
-/usr/include/c++/11/cstring:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
 /usr/include/c++/11/bits/std_function.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
@@ -629,6 +607,8 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/c++/11/cwchar:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -643,8 +623,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
@@ -706,6 +684,14 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/c++/11/bits/stl_iterator.h:
 
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/c++/11/string_view:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/functexcept.h:
@@ -754,14 +740,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/11/string_view:
-
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/local/include/opencv4/opencv2/core/saturate.hpp:
@@ -782,13 +760,7 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/11/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /usr/include/alloca.h:
-
-/usr/include/c++/11/cwctype:
 
 /usr/include/c++/11/cstdio:
 
@@ -797,14 +769,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 /usr/include/c++/11/chrono:
 
 /usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -874,10 +838,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/c++/11/stdexcept:
 
-/usr/include/string.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
 /usr/include/c++/11/bits/basic_ios.h:
@@ -886,9 +846,15 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/c++/11/bits/locale_facets.h:
 
+/usr/include/c++/11/cwctype:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
@@ -914,8 +880,6 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/c++/11/bits/vector.tcc:
@@ -937,6 +901,12 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 /usr/include/c++/11/climits:
 
 /usr/include/c++/11/ratio:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/11/cstring:
 
 /usr/include/c++/11/limits:
 
@@ -986,6 +956,8 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
+/usr/local/include/opencv4/opencv2/core/cvstd.hpp:
+
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/stdint.h:
@@ -993,3 +965,7 @@ ARHS/processing/zbar/CMakeFiles/zbarLib.dir/zbar.cpp.o: /home/kanken/code/XRHS/D
 /usr/include/endian.h:
 
 /usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/string.h:

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/KronUI.dir/main.cpp.o"
+  "CMakeFiles/KronUI.dir/main.cpp.o.d"
   "KronUI"
   "KronUI.pdb"
 )

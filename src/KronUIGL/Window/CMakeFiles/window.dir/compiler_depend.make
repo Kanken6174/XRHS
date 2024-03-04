@@ -66,7 +66,6 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
@@ -139,11 +138,8 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -152,8 +148,6 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -201,9 +195,13 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
+/usr/include/c++/11/bits/locale_facets.tcc:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/c++/11/cwctype:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
@@ -249,25 +247,13 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
 
 /usr/include/c++/11/cerrno:
 
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
 /usr/include/stdio.h:
 
 /usr/include/c++/11/cstdio:
 
 /usr/include/c++/11/bits/std_abs.h:
 
-/usr/include/c++/11/cwctype:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
@@ -305,10 +291,6 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
 
 /usr/include/stdint.h:
 
-/usr/include/c++/11/cstdlib:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/c++/11/bits/exception_defines.h:
@@ -344,8 +326,6 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Window/KronUIWindow.hpp:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -503,14 +483,6 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/11/backward/binders.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
 /usr/include/c++/11/bits/localefwd.h:
@@ -522,6 +494,12 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/backward/binders.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -558,6 +536,10 @@ KronUIGL/Window/CMakeFiles/window.dir/KronUIWindow.cpp.o: /home/kanken/code/XRHS
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/11/cstdlib:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 

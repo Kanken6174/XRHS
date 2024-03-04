@@ -38,8 +38,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
@@ -56,7 +54,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -90,9 +87,7 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -143,7 +138,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -196,8 +190,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -564,6 +556,8 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/glm/ext/scalar_constants.inl:
 
+/usr/include/glm/gtc/constants.hpp:
+
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
@@ -581,6 +575,8 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 /usr/include/c++/11/bits/align.h:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/11/memory:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -822,23 +818,25 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/glm/detail/_fixes.hpp:
 
-/usr/include/glm/glm.hpp:
+/usr/include/c++/11/bits/stringfwd.h:
 
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.hpp:
+/usr/include/glm/ext/quaternion_double_precision.hpp:
 
-/usr/include/assimp/postprocess.h:
+/usr/include/c++/11/bits/locale_facets.tcc:
 
-/usr/include/assimp/metadata.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/include/assimp/anim.h:
+/usr/include/glm/ext/quaternion_relational.inl:
 
-/usr/include/assimp/material.inl:
+/usr/include/assimp/texture.h:
 
 /usr/include/glm/gtc/matrix_transform.hpp:
 
 /usr/include/glm/simd/platform.h:
 
 /usr/include/assimp/quaternion.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
@@ -874,19 +872,11 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/c++/11/new:
 
-/usr/include/c++/11/memory:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
 /usr/include/c++/11/tuple:
 
 /usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/glm/ext/vector_bool4_precision.hpp:
 
@@ -905,6 +895,8 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 /usr/include/glm/detail/func_integer.inl:
 
 /usr/include/stdlib.h:
+
+/usr/include/glm/glm.hpp:
 
 /usr/include/glm/ext/vector_uint3.hpp:
 
@@ -942,6 +934,8 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Loaders/OBJLoader.hpp:
 
+/usr/include/c++/11/cwchar:
+
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/c++/11/bits/stl_algo.h:
@@ -971,20 +965,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
 /usr/include/assimp/vector2.h:
-
-/usr/include/glm/ext/matrix_double4x4.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/glm/detail/compute_common.hpp:
-
-/usr/include/strings.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/c++/11/bits/stl_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/glm/mat3x3.hpp:
 
@@ -1034,29 +1014,15 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
-/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/linux/limits.h:
 
 /usr/include/c++/11/bits/basic_string.h:
 
-/usr/include/glm/detail/func_packing.inl:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/11/cfloat:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
 /usr/include/glm/ext/quaternion_transform.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
@@ -1087,6 +1053,10 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 /usr/include/assimp/config.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/include/c++/11/bits/exception.h:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Loaders/OBJLoader.cpp:
 
@@ -1120,12 +1090,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
-/usr/include/glm/gtc/constants.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
 /usr/include/glm/ext/vector_bool4.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
@@ -1156,6 +1120,14 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/c++/11/bits/stl_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.hpp:
+
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
@@ -1168,7 +1140,23 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/usr/include/c++/11/cfloat:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/glm/detail/func_packing.inl:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/glm/detail/compute_common.hpp:
+
+/usr/include/strings.h:
+
+/usr/include/glm/ext/matrix_double4x4.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/ext/aligned_buffer.h:
 
@@ -1180,7 +1168,9 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/string.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
@@ -1208,10 +1198,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/c++/11/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/limits.h:
@@ -1226,6 +1212,10 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/c++/11/ext/new_allocator.h:
 
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/11/string:
+
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/c++/11/stdexcept:
@@ -1239,26 +1229,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 /usr/include/glm/detail/type_vec4.hpp:
 
 /usr/include/locale.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/c++/11/string:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/glm/ext/quaternion_double_precision.hpp:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/glm/ext/quaternion_relational.inl:
-
-/usr/include/assimp/texture.h:
 
 /usr/include/c++/11/bits/char_traits.h:
 
@@ -1284,15 +1254,7 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
-/usr/include/c++/11/iostream:
-
-/usr/include/glm/detail/_vectorize.hpp:
-
-/usr/include/assimp/material.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/11/bits/node_handle.h:
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/texture.hpp:
 
@@ -1341,6 +1303,8 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/bits/range_access.h:
+
+/usr/include/assimp/metadata.h:
 
 /usr/include/glm/ext/matrix_float4x3_precision.hpp:
 
@@ -1404,13 +1368,15 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
 /usr/include/c++/11/string_view:
 
 /usr/include/c++/11/bits/functional_hash.h:
+
+/usr/include/assimp/anim.h:
 
 /usr/include/c++/11/bits/move.h:
 
@@ -1429,8 +1395,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 /usr/include/c++/11/cstdio:
 
 /usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -1500,8 +1464,6 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 
 /usr/include/assimp/color4.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
@@ -1539,3 +1501,17 @@ KronUIGL/3D/Loaders/CMakeFiles/loaders.dir/OBJLoader.cpp.o: /home/kanken/code/XR
 /usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/assimp/aabb.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/glm/detail/_vectorize.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/assimp/material.h:
+
+/usr/include/assimp/material.inl:
+
+/usr/include/assimp/postprocess.h:

@@ -133,8 +133,8 @@ int main(){
         lastFrame = currentFrame;
 
         processInput(window->getSelf(), deltaTime);
-        sk->head->localTransform->setPosition(InputSystem::getInstance().getCamera().transform->getPosition()*glm::vec3(3.0f,3.0f,-5.0f));
-        sk->head->localTransform->setQuaternion(InputSystem::getInstance().getCamera().transform->getQuaternion());
+        //sk->head->localTransform->setPosition(InputSystem::getInstance().getCamera().transform->getPosition()*glm::vec3(3.0f,3.0f,-5.0f));
+        //sk->head->localTransform->setQuaternion(InputSystem::getInstance().getCamera().transform->getQuaternion());
         processWorldTransforms();
 
         Intersector::getInstance()->runInteresctions();

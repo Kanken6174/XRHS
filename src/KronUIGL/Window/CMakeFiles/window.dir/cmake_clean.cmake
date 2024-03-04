@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/window.dir/KronUIWindow.cpp.o"
+  "CMakeFiles/window.dir/KronUIWindow.cpp.o.d"
   "libwindow.a"
   "libwindow.pdb"
 )

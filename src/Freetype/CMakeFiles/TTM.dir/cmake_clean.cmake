@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TTM.dir/TrueTypeManager.cpp.o"
+  "CMakeFiles/TTM.dir/TrueTypeManager.cpp.o.d"
   "libTTM.a"
   "libTTM.pdb"
 )

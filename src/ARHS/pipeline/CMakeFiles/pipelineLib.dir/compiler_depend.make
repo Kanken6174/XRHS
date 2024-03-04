@@ -105,7 +105,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.o: /home/kank
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -162,11 +161,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.o: /home/kank
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -175,8 +171,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.o: /home/kank
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -232,8 +226,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.o: /home/kank
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -329,7 +321,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.o: /home/kank
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -584,8 +575,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/abstract/pipelineNode.cpp.o: /home/kank
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -740,7 +737,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -797,11 +793,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -810,8 +803,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -867,8 +858,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.o: /home/k
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -964,7 +953,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -1219,8 +1207,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/cameraPickerNode.cpp.o: /home/k
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -1375,7 +1369,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.o: /home/
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -1432,11 +1425,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.o: /home/
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1445,8 +1435,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.o: /home/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -1502,8 +1490,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.o: /home/
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -1599,7 +1585,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.o: /home/
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -1854,8 +1839,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/displayOutputNode.cpp.o: /home/
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -2015,7 +2006,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.o: /home/kanken/
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -2072,11 +2062,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.o: /home/kanken/
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -2085,8 +2072,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.o: /home/kanken/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -2142,8 +2127,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.o: /home/kanken/
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -2239,7 +2222,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.o: /home/kanken/
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -2494,8 +2476,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/pluginNode.cpp.o: /home/kanken/
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -2650,7 +2638,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -2707,11 +2694,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -2720,8 +2704,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -2777,8 +2759,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.o: /hom
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -2874,7 +2854,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -3129,8 +3108,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/fpsCounter.cpp.o: /hom
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -3300,7 +3285,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.c
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -3357,11 +3341,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.c
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -3370,8 +3351,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.c
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -3427,8 +3406,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.c
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -3524,7 +3501,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.c
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -3779,8 +3755,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/staticImageOverlayer.c
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -3899,7 +3881,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -3980,11 +3961,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -3993,8 +3971,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -4079,8 +4055,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.o: /hom
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -4176,7 +4150,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -4431,8 +4404,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/uiMenuItem.cpp.o: /hom
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -4587,7 +4566,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.o: /
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -4644,11 +4622,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.o: /
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -4657,8 +4632,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.o: /
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -4714,8 +4687,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.o: /
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -4811,7 +4782,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.o: /
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -5066,8 +5036,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/subNodes/zbarOverlayer.cpp.o: /
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -5239,7 +5215,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.o: /home/kanke
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -5296,11 +5271,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.o: /home/kanke
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -5309,8 +5281,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.o: /home/kanke
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -5366,8 +5336,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.o: /home/kanke
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -5463,7 +5431,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.o: /home/kanke
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -5718,8 +5685,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiDrawerNode.cpp.o: /home/kanke
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -5874,7 +5847,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.o: /home/kanke
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -5931,11 +5903,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.o: /home/kanke
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -5944,8 +5913,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.o: /home/kanke
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -6001,8 +5968,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.o: /home/kanke
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -6098,7 +6063,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.o: /home/kanke
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -6353,8 +6317,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/uiMergerNode.cpp.o: /home/kanke
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -6511,7 +6481,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -6568,11 +6537,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -6581,8 +6547,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -6638,8 +6602,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.o: /home/k
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -6735,7 +6697,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -6990,8 +6951,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/videoCaptureNode.cpp.o: /home/k
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -7146,7 +7113,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -7203,11 +7169,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -7216,8 +7179,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -7273,8 +7234,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.o: /home/k
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -7370,7 +7329,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.o: /home/k
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -7625,8 +7583,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/members/zbarAnalysisNode.cpp.o: /home/k
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -7795,7 +7759,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -7852,11 +7815,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -7865,8 +7825,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -7922,8 +7880,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -8019,7 +7975,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -8274,8 +8229,14 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
   /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
@@ -8507,9 +8468,17 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/local/include/opencv4/opencv2/photo.hpp:
 
+/usr/local/include/opencv4/opencv2/objdetect/barcode.hpp:
+
 /usr/include/x86_64-linux-gnu/asm/ioctl.h:
 
 /usr/local/include/opencv4/opencv2/objdetect/face.hpp:
+
+/usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp:
+
+/usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp:
+
+/usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp:
 
 /usr/local/include/opencv4/opencv2/objdetect.hpp:
 
@@ -8533,15 +8502,15 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/local/include/opencv4/opencv2/flann/linear_index.h:
 
-/usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
+/usr/local/include/CppLinuxSerial/Exception.hpp:
 
-/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
+/usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/local/include/opencv4/opencv2/flann/random.h:
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
-/usr/local/include/opencv4/opencv2/flann/heap.h:
+/usr/include/c++/11/memory:
 
-/usr/local/include/opencv4/opencv2/flann/all_indices.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
@@ -8561,11 +8530,9 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/local/include/opencv4/opencv2/core/fast_math.hpp:
 
-/usr/include/GL/gl.h:
+/usr/include/c++/11/bits/specfun.h:
 
-/usr/local/include/opencv4/opencv2/flann/dist.h:
-
-/usr/include/c++/11/bits/postypes.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/11/bits/node_handle.h:
 
@@ -8583,13 +8550,11 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/c++/11/cstring:
 
+/usr/include/c++/11/pstl/memory_impl.h:
+
 /usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
@@ -8603,7 +8568,13 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/local/include/opencv4/opencv2/core/operations.hpp:
 
+/usr/include/c++/11/bits/align.h:
+
+/usr/local/include/opencv4/opencv2/flann/any.h:
+
 /usr/include/c++/11/vector:
+
+/usr/local/include/opencv4/opencv2/flann/all_indices.h:
 
 /usr/include/c++/11/bits/erase_if.h:
 
@@ -8611,9 +8582,13 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h:
+
 /usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -8637,6 +8612,10 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/c++/11/bits/stl_algo.h:
 
+/usr/include/string.h:
+
+/usr/include/tbb/parallel_invoke.h:
+
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/pipeline.cpp:
@@ -8656,6 +8635,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /usr/include/oneapi/tbb/detail/_namespace_injection.h:
 
 /usr/include/c++/11/stdlib.h:
+
+/usr/include/c++/11/pstl/parallel_backend_tbb.h:
 
 /usr/include/c++/11/list:
 
@@ -8683,16 +8664,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/tbb/parallel_invoke.h:
-
-/usr/include/string.h:
-
-/usr/include/c++/11/pstl/memory_impl.h:
-
-/usr/include/c++/11/bits/regex_constants.h:
-
 /usr/include/stdio.h:
 
 /usr/include/oneapi/tbb/detail/_export.h:
@@ -8701,11 +8672,15 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /usr/include/c++/11/iostream:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
@@ -8716,12 +8691,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
-
-/usr/include/c++/11/bits/shared_ptr.h:
 
 /usr/include/stdc-predef.h:
 
@@ -8734,6 +8703,10 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/time.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/c++/11/bits/basic_string.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -8754,12 +8727,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/ext/alloc_traits.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/cetintrin.h:
-
-/usr/include/sched.h:
-
-/usr/include/wctype.h:
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
@@ -8847,10 +8814,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/linux/limits.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/11/ext/string_conversions.h:
@@ -8876,6 +8839,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /usr/include/c++/11/ext/new_allocator.h:
 
 /usr/include/c++/11/locale:
+
+/usr/include/c++/11/bit:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
@@ -8932,6 +8897,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
 /usr/include/features.h:
+
+/usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
 
 /usr/include/c++/11/mutex:
 
@@ -8999,6 +8966,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/cetintrin.h:
+
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h:
@@ -9018,12 +8987,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/windows/window.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/11/pstl/parallel_backend_tbb.h:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
-/usr/include/c++/11/memory:
 
 /usr/include/c++/11/tuple:
 
@@ -9105,13 +9068,15 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/hw/extendables/DeviceCommand.hpp:
 
-/usr/include/c++/11/system_error:
-
 /usr/include/features-time64.h:
+
+/usr/include/c++/11/system_error:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp:
 
 /usr/include/c++/11/bits/parse_numbers.h:
 
@@ -9171,12 +9136,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/usr/local/include/opencv4/opencv2/flann/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
 /usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
@@ -9189,21 +9148,13 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/oneapi/tbb/detail/_template_helpers.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/uintrintrin.h:
 
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/c++/11/algorithm:
-
-/usr/include/c++/11/backward/binders.h:
-
 /usr/include/asm-generic/errno-base.h:
+
+/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
@@ -9227,6 +9178,10 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/fxsrintrin.h:
 
+/usr/include/c++/11/algorithm:
+
+/usr/include/c++/11/backward/binders.h:
+
 /usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
@@ -9243,19 +9198,9 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/pthread.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+/usr/include/sched.h:
 
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/local/include/opencv4/opencv2/flann/any.h:
-
-/usr/include/c++/11/bit:
-
-/usr/local/include/CppLinuxSerial/Exception.hpp:
-
-/usr/include/c++/11/bits/unique_ptr.h:
+/usr/include/wctype.h:
 
 /usr/include/c++/11/ext/concurrence.h:
 
@@ -9306,10 +9251,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /usr/include/c++/11/sstream:
 
 /usr/include/c++/11/istream:
-
-/usr/local/include/opencv4/opencv2/flann/kdtree_index.h:
-
-/usr/include/c++/11/bits/ios_base.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
@@ -9377,8 +9318,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/c++/11/bits/functexcept.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
@@ -9425,13 +9364,17 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/include/c++/11/pstl/glue_memory_impl.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/threadweaver/debugging.hpp:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/controllers/ui/uiController.hpp:
 
 /usr/include/c++/11/bitset:
+
+/usr/include/GL/gl.h:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/local/include/opencv4/opencv2/flann/dist.h:
 
 /usr/include/c++/11/stack:
 
@@ -9454,6 +9397,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/pluginManagement/PluginManager.hpp:
 
 /usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/include/c++/11/bits/regex_constants.h:
 
 /usr/include/c++/11/atomic:
 
@@ -9601,12 +9546,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124fmapsintrin.h:
 
-/home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/members/displayOutputNode.hpp:
-
-/usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h:
-
 /usr/include/math.h:
 
 /usr/include/c++/11/bits/charconv.h:
@@ -9717,8 +9656,6 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 
 /usr/local/include/opencv4/opencv2/dnn/dict.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
 /usr/local/include/opencv4/opencv2/dnn/layer.hpp:
 
 /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp:
@@ -9728,6 +9665,8 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /usr/include/GL/glew.h:
 
 /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
+
+/usr/local/include/opencv4/opencv2/flann/random.h:
 
 /usr/local/include/opencv4/opencv2/flann.hpp:
 
@@ -9746,3 +9685,19 @@ ARHS/pipeline/CMakeFiles/pipelineLib.dir/pipeline.cpp.o: /home/kanken/code/XRHS/
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/c++/11/set:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/usr/local/include/opencv4/opencv2/flann/kdtree_index.h:
+
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/pipeline/members/displayOutputNode.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h:
+
+/usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h:
+
+/usr/local/include/opencv4/opencv2/flann/heap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/local/include/opencv4/opencv2/flann/allocator.h:

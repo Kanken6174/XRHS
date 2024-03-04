@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/textrenderer.dir/TextRenderer.cpp.o"
+  "CMakeFiles/textrenderer.dir/TextRenderer.cpp.o.d"
   "libtextrenderer.a"
   "libtextrenderer.pdb"
 )

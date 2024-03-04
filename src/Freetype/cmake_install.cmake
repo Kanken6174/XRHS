@@ -1,4 +1,4 @@
-# Install script for directory: /home/orangepi/code/XRHS/Dependencies/KronUI/src/Freetype
+# Install script for directory: /home/kanken/code/XRHS/Dependencies/KronUI/src/Freetype
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

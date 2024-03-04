@@ -1,4 +1,4 @@
-# Install script for directory: /home/orangepi/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D
+# Install script for directory: /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,13 +44,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/orangepi/code/XRHS/src/KronUIGL/3D/Vision/cmake_install.cmake")
-  include("/home/orangepi/code/XRHS/src/KronUIGL/3D/Elements/cmake_install.cmake")
-  include("/home/orangepi/code/XRHS/src/KronUIGL/3D/Loaders/cmake_install.cmake")
-  include("/home/orangepi/code/XRHS/src/KronUIGL/3D/Renderers/cmake_install.cmake")
-  include("/home/orangepi/code/XRHS/src/KronUIGL/3D/Surfaces/cmake_install.cmake")
-  include("/home/orangepi/code/XRHS/src/KronUIGL/3D/Kinematics/cmake_install.cmake")
-  include("/home/orangepi/code/XRHS/src/KronUIGL/3D/Intersector/cmake_install.cmake")
+  include("/home/kanken/code/XRHS/src/KronUIGL/3D/Vision/cmake_install.cmake")
+  include("/home/kanken/code/XRHS/src/KronUIGL/3D/Elements/cmake_install.cmake")
+  include("/home/kanken/code/XRHS/src/KronUIGL/3D/Loaders/cmake_install.cmake")
+  include("/home/kanken/code/XRHS/src/KronUIGL/3D/Renderers/cmake_install.cmake")
+  include("/home/kanken/code/XRHS/src/KronUIGL/3D/Surfaces/cmake_install.cmake")
+  include("/home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics/cmake_install.cmake")
+  include("/home/kanken/code/XRHS/src/KronUIGL/3D/Intersector/cmake_install.cmake")
 
 endif()
 

@@ -70,7 +70,6 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -78,9 +77,7 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -266,8 +263,6 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
   /usr/include/freetype2/freetype/config/ftstdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -278,14 +273,11 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
   /usr/include/freetype2/freetype/config/integer-types.h \
   /usr/include/freetype2/freetype/config/public-macros.h \
   /usr/include/freetype2/freetype/config/mac-support.h \
@@ -329,7 +321,6 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
   /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
@@ -491,6 +482,8 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
+/usr/include/c++/11/cwchar:
+
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
@@ -537,17 +530,11 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 
 /usr/include/freetype2/freetype/config/integer-types.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp2.h:
-
 /usr/include/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -571,21 +558,11 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 
 /usr/include/stdio.h:
 
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/string.h:
 
 /usr/include/freetype2/freetype/config/ftstdlib.h:
-
-/usr/include/freetype2/freetype/config/ftoption.h:
-
-/usr/include/c++/11/system_error:
-
-/usr/include/freetype2/freetype/config/ftconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
@@ -600,6 +577,16 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 /usr/include/c++/11/cassert:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/c++/11/new:
+
+/usr/include/c++/11/climits:
+
+/usr/include/glm/detail/setup.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
+/usr/include/glm/vec2.hpp:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
@@ -649,24 +636,6 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 
 /usr/include/limits.h:
 
-/usr/include/c++/11/new:
-
-/usr/include/c++/11/climits:
-
-/usr/include/glm/detail/setup.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
-
-/usr/include/glm/vec2.hpp:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
-/usr/include/glm/mat2x2.hpp:
-
-/usr/include/glm/detail/type_mat2x2.inl:
-
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
@@ -690,10 +659,6 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/glm/fwd.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/11/cfloat:
 
@@ -799,6 +764,10 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 
 /usr/include/endian.h:
 
+/usr/include/glm/detail/qualifier.hpp:
+
+/usr/include/glm/detail/type_mat2x3.hpp:
+
 /usr/include/glm/ext/matrix_float3x4.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
@@ -823,8 +792,6 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 
 /usr/include/glm/mat4x3.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/strings.h:
@@ -848,6 +815,12 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 /usr/include/c++/11/backward/binders.h:
 
 /usr/include/glm/detail/type_vec3.hpp:
+
+/usr/include/c++/11/system_error:
+
+/usr/include/freetype2/freetype/config/ftconfig.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -880,8 +853,6 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -940,10 +911,6 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/glm/detail/type_mat2x3.hpp:
-
-/usr/include/glm/detail/qualifier.hpp:
 
 /usr/include/glm/detail/compute_vector_relational.hpp:
 
@@ -1047,6 +1014,10 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 
 /usr/include/glm/ext/vector_uint4.hpp:
 
+/usr/include/glm/mat2x2.hpp:
+
+/usr/include/glm/detail/type_mat2x2.inl:
+
 /usr/include/freetype2/freetype/fttypes.h:
 
 /usr/include/glm/detail/type_mat2x2.hpp:
@@ -1104,6 +1075,8 @@ Freetype/CMakeFiles/TTM.dir/TrueTypeManager.cpp.o: /home/kanken/code/XRHS/Depend
 /usr/include/glm/ext/matrix_double3x3.hpp:
 
 /usr/include/glm/detail/type_mat3x3.hpp:
+
+/usr/include/freetype2/freetype/config/ftoption.h:
 
 /usr/include/glm/ext/vector_uint4_sized.hpp:
 

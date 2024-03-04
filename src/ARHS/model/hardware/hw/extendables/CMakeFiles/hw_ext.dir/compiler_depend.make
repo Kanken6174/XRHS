@@ -105,7 +105,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -162,11 +161,8 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -175,8 +171,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -219,8 +213,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
   /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/hw/inputManager.hpp \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/refwrap.h \
@@ -238,7 +230,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/filesystem \
@@ -365,20 +356,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/c++/11/bits/list.tcc:
 
-/usr/include/c++/11/bits/stl_list.h:
-
-/usr/include/c++/11/list:
-
-/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.hpp:
-
-/home/kanken/code/XRHS/Dependencies/AHRS_core/src/threadweaver/debugging.hpp:
-
-/usr/include/c++/11/bits/fs_ops.h:
-
-/usr/include/c++/11/bits/fs_dir.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
 /usr/include/pthread.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
@@ -388,6 +365,10 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/c++/11/backward/binders.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
@@ -404,14 +385,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/asm-generic/errno-base.h:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
-/usr/include/c++/11/filesystem:
 
 /usr/include/c++/11/iostream:
 
@@ -431,13 +404,17 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/sched.h:
+
+/usr/include/wctype.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
 /usr/include/errno.h:
+
+/usr/include/c++/11/cwchar:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -473,6 +450,8 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
+/usr/include/c++/11/bits/fs_dir.h:
+
 /usr/include/c++/11/atomic:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
@@ -490,8 +469,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 /usr/include/c++/11/tuple:
 
 /usr/include/c++/11/bits/stl_tree.h:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/11/string:
 
@@ -633,11 +610,15 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/c++/11/ext/string_conversions.h:
 
+/usr/include/c++/11/list:
+
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/11/bits/concept_check.h:
+
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/observer/observable.hpp:
 
 /usr/include/c++/11/clocale:
 
@@ -695,10 +676,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
-
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
@@ -712,6 +689,8 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
 
@@ -733,10 +712,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
-
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/stdlib.h:
@@ -751,19 +726,17 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/c++/11/bits/fs_path.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/11/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /usr/include/alloca.h:
-
-/usr/include/c++/11/cwctype:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
@@ -774,16 +747,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 /usr/include/c++/11/ratio:
 
 /usr/include/c++/11/thread:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/charconv.h:
 
@@ -807,13 +770,11 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/c++/11/bits/erase_if.h:
 
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
 /usr/include/c++/11/bits/basic_string.h:
 
-/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/hw/extendables/SerialDevice.hpp:
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/hw/extendables/SerialDevice.hpp:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp:
 
@@ -827,12 +788,6 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/c++/11/bits/locale_classes.tcc:
 
-/usr/include/c++/11/codecvt:
-
-/usr/include/string.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
@@ -843,9 +798,19 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/c++/11/bits/locale_facets.h:
 
+/usr/include/c++/11/cwctype:
+
+/home/kanken/code/XRHS/Dependencies/AHRS_core/src/threadweaver/debugging.hpp:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
@@ -862,6 +827,12 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 /usr/include/c++/11/array:
 
 /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/hardware/hw/inputManager.hpp:
+
+/usr/include/c++/11/codecvt:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/string.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
@@ -895,17 +866,15 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
+/usr/include/c++/11/filesystem:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
@@ -920,3 +889,7 @@ ARHS/model/hardware/hw/extendables/CMakeFiles/hw_ext.dir/DeviceTree.cpp.o: /home
 /usr/include/c++/11/bits/quoted_string.h:
 
 /usr/include/c++/11/sstream:
+
+/usr/include/c++/11/bits/fs_ops.h:
+
+/usr/include/c++/11/bits/stl_list.h:
