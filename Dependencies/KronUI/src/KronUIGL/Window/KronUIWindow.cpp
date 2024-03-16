@@ -13,7 +13,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
     KronUIWindowManager::getWindow()->_width = width;
 }
 
-KronUIWindow::KronUIWindow(std::string name, int width = 800, int height = 600) : _name(name), _width(width), _height(height){
+KronUIWindow::KronUIWindow(std::string name, int width = 0, int height = 0) : _name(name), _width(width), _height(height){
     // glfw: initialize and configure
     // ------------------------------
     std::cout << "GLfw init" << glfwInit() << std::endl;
@@ -23,6 +23,15 @@ KronUIWindow::KronUIWindow(std::string name, int width = 800, int height = 600) 
    // glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
    // glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     std::cout << "GLfw init done" << std::endl;
+
+
+    if(_width == 0 || _height == 0){
+        const GLFWvidmode* mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
+        _width = mode->width;
+        _height = mode->height;
+    }
+
+
     // glfw window creation
     // --------------------
     _self = glfwCreateWindow(_width, _height, name.c_str(), NULL, NULL);

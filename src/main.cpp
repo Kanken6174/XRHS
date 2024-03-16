@@ -39,7 +39,7 @@ int main(){
     std::srand(std::time(nullptr));
     Logger::getInstance().info("KronUI started");
 
-    KronUIWindow* window = new KronUIWindow("test", 1920, 1080); 
+    KronUIWindow* window = new KronUIWindow("KronUI V1.2", 0, 0); 
     Logger::getInstance().info("KronUIWindow created");
 
     KronUIWindowManager::setWindow(window);
