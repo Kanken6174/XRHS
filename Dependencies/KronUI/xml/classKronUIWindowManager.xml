@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classKronUIWindowManager" kind="class" language="C++" prot="public">
+    <compoundname>KronUIWindowManager</compoundname>
+    <includes refid="KronUIWindow_8hpp" local="no">KronUIWindow.hpp</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classKronUIWindowManager_1a193605345ae6c92e31bc7780e160f402" prot="private" static="yes" mutable="no">
+        <type><ref refid="classKronUIWindow" kindref="compound">KronUIWindow</ref> *</type>
+        <definition>KronUIWindow * KronUIWindowManager::_window</definition>
+        <argsstring></argsstring>
+        <name>_window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Window/KronUIWindow.hpp" line="26" column="25" bodyfile="src/KronUIGL/Window/KronUIWindow.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classKronUIWindowManager_1acd09e751baa7298405144d4c6383d90d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classKronUIWindow" kindref="compound">KronUIWindow</ref> *</type>
+        <definition>static KronUIWindow* KronUIWindowManager::getWindow</definition>
+        <argsstring>()</argsstring>
+        <name>getWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Window/KronUIWindow.hpp" line="28" column="25" bodyfile="src/KronUIGL/Window/KronUIWindow.hpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classKronUIWindowManager_1a73511465c8ae2dec27377c70bb17dd17" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void KronUIWindowManager::setWindow</definition>
+        <argsstring>(KronUIWindow *window)</argsstring>
+        <name>setWindow</name>
+        <param>
+          <type><ref refid="classKronUIWindow" kindref="compound">KronUIWindow</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Window/KronUIWindow.hpp" line="29" column="17" bodyfile="src/KronUIGL/Window/KronUIWindow.hpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/Window/KronUIWindow.hpp" line="24" column="1" bodyfile="src/KronUIGL/Window/KronUIWindow.hpp" bodystart="24" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classKronUIWindowManager_1a193605345ae6c92e31bc7780e160f402" prot="private" virt="non-virtual"><scope>KronUIWindowManager</scope><name>_window</name></member>
+      <member refid="classKronUIWindowManager_1acd09e751baa7298405144d4c6383d90d" prot="public" virt="non-virtual"><scope>KronUIWindowManager</scope><name>getWindow</name></member>
+      <member refid="classKronUIWindowManager_1a73511465c8ae2dec27377c70bb17dd17" prot="public" virt="non-virtual"><scope>KronUIWindowManager</scope><name>setWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

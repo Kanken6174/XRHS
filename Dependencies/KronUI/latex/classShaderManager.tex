@@ -1,0 +1,99 @@
+\hypertarget{classShaderManager}{}\doxysection{Shader\+Manager Class Reference}
+\label{classShaderManager}\index{ShaderManager@{ShaderManager}}
+
+
+Manages shaders.  
+
+
+
+
+{\ttfamily \#include $<$Shader\+Manager.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classShaderManager_a3174fd362b96f5a956d1077bc6e33651}{set\+Shader}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classShader}{Shader}} $>$ s)
+\begin{DoxyCompactList}\small\item\em set the currently used shader by opengl if it\textquotesingle{}s not already used and is within the shader collection \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classShaderManager_ab2888d11e1eab202a669e4b5753a68d2}{add\+Shader}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classShader}{Shader}} $>$ s)
+\begin{DoxyCompactList}\small\item\em check if shader is present in the shader collection and if not add it \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classShaderManager_aba2a567fecc0fc1fd0b82cc6a0407221}{rem\+Shader}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classShader}{Shader}} $>$ s)
+\begin{DoxyCompactList}\small\item\em check if shader is present in the shader collection and remove it \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classShader}{Shader}} $>$ $>$ \mbox{\hyperlink{classShaderManager_a4c708de9ef4af4c062026b216cf27fb1}{shaders}}
+\item 
+std\+::optional$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classShader}{Shader}} $>$ $>$ \mbox{\hyperlink{classShaderManager_ac9a9bfc3cfec32a105ed40f1851942c9}{current}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages shaders. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classShaderManager_ab2888d11e1eab202a669e4b5753a68d2}\label{classShaderManager_ab2888d11e1eab202a669e4b5753a68d2}} 
+\index{ShaderManager@{ShaderManager}!addShader@{addShader}}
+\index{addShader@{addShader}!ShaderManager@{ShaderManager}}
+\doxysubsubsection{\texorpdfstring{addShader()}{addShader()}}
+{\footnotesize\ttfamily void Shader\+Manager\+::add\+Shader (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classShader}{Shader}} $>$}]{s }\end{DoxyParamCaption})}
+
+
+
+check if shader is present in the shader collection and if not add it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & shader to be added \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classShaderManager_aba2a567fecc0fc1fd0b82cc6a0407221}\label{classShaderManager_aba2a567fecc0fc1fd0b82cc6a0407221}} 
+\index{ShaderManager@{ShaderManager}!remShader@{remShader}}
+\index{remShader@{remShader}!ShaderManager@{ShaderManager}}
+\doxysubsubsection{\texorpdfstring{remShader()}{remShader()}}
+{\footnotesize\ttfamily void Shader\+Manager\+::rem\+Shader (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classShader}{Shader}} $>$}]{s }\end{DoxyParamCaption})}
+
+
+
+check if shader is present in the shader collection and remove it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & shader to be removed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classShaderManager_a3174fd362b96f5a956d1077bc6e33651}\label{classShaderManager_a3174fd362b96f5a956d1077bc6e33651}} 
+\index{ShaderManager@{ShaderManager}!setShader@{setShader}}
+\index{setShader@{setShader}!ShaderManager@{ShaderManager}}
+\doxysubsubsection{\texorpdfstring{setShader()}{setShader()}}
+{\footnotesize\ttfamily void Shader\+Manager\+::set\+Shader (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classShader}{Shader}} $>$}]{s }\end{DoxyParamCaption})}
+
+
+
+set the currently used shader by opengl if it\textquotesingle{}s not already used and is within the shader collection 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & shader to be used \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classShaderManager_ac9a9bfc3cfec32a105ed40f1851942c9}\label{classShaderManager_ac9a9bfc3cfec32a105ed40f1851942c9}} 
+\index{ShaderManager@{ShaderManager}!current@{current}}
+\index{current@{current}!ShaderManager@{ShaderManager}}
+\doxysubsubsection{\texorpdfstring{current}{current}}
+{\footnotesize\ttfamily std\+::optional$<$std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classShader}{Shader}}$>$ $>$ Shader\+Manager\+::current\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classShaderManager_a4c708de9ef4af4c062026b216cf27fb1}\label{classShaderManager_a4c708de9ef4af4c062026b216cf27fb1}} 
+\index{ShaderManager@{ShaderManager}!shaders@{shaders}}
+\index{shaders@{shaders}!ShaderManager@{ShaderManager}}
+\doxysubsubsection{\texorpdfstring{shaders}{shaders}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classShader}{Shader}}$>$ $>$ Shader\+Manager\+::shaders\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Kron\+UIGL/\+Shaders/\mbox{\hyperlink{ShaderManager_8hpp}{Shader\+Manager.\+hpp}}\item 
+src/\+Kron\+UIGL/\+Shaders/\mbox{\hyperlink{ShaderManager_8cpp}{Shader\+Manager.\+cpp}}\end{DoxyCompactItemize}

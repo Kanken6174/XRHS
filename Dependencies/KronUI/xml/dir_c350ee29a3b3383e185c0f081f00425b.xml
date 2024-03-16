@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_c350ee29a3b3383e185c0f081f00425b" kind="dir">
+    <compoundname>src/KronUIGL/Geometry</compoundname>
+    <innerdir refid="dir_f4931641371711e74ea996fd2ac3b8b8">src/KronUIGL/Geometry/CMakeFiles</innerdir>
+    <innerfile refid="Drawing_8hpp">Drawing.hpp</innerfile>
+    <innerfile refid="GeometryRenderer_8cpp">GeometryRenderer.cpp</innerfile>
+    <innerfile refid="GeometryRenderer_8hpp">GeometryRenderer.hpp</innerfile>
+    <innerfile refid="Shapes_8cpp">Shapes.cpp</innerfile>
+    <innerfile refid="Shapes_8hpp">Shapes.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/Geometry/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classEmptyRectangle" kind="class" language="C++" prot="public">
+    <compoundname>EmptyRectangle</compoundname>
+    <basecompoundref refid="classDrawable" prot="public" virt="non-virtual">Drawable</basecompoundref>
+    <includes refid="Shapes_8hpp" local="no">Shapes.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEmptyRectangle_1a06ab9dbea6532464db65bd6812ceeec6" prot="private" static="no" mutable="no">
+        <type><ref refid="classRectangle" kindref="compound">Rectangle</ref></type>
+        <definition>Rectangle EmptyRectangle::_sides[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>_sides</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="51" column="15" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmptyRectangle_1abec7853e545d8bd2de5223467b637ad8" prot="private" static="no" mutable="no">
+        <type><ref refid="classPoint" kindref="compound">Point</ref></type>
+        <definition>Point EmptyRectangle::_points[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>_points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="52" column="11" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmptyRectangle_1aa7f43337c495035304c2e2e5a2da2ef0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmptyRectangle::_thickness</definition>
+        <argsstring></argsstring>
+        <name>_thickness</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="53" column="11" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmptyRectangle_1ae0dea2b13d4c6ddf0f20d2ae508820b6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmptyRectangle::_width</definition>
+        <argsstring></argsstring>
+        <name>_width</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="54" column="11" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmptyRectangle_1a08f9f398a0973b36551d3a6a48cfcd63" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmptyRectangle::_height</definition>
+        <argsstring></argsstring>
+        <name>_height</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="55" column="11" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEmptyRectangle_1a6f0aded2866e07ad17aa3f4fd58dc6e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EmptyRectangle::EmptyRectangle</definition>
+        <argsstring>(Point *points, float thickness=1.0f)</argsstring>
+        <name>EmptyRectangle</name>
+        <param>
+          <type><ref refid="classPoint" kindref="compound">Point</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>thickness</declname>
+          <defval>1.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="58" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmptyRectangle_1a2fe9364ae7f70af2404d350f74ce5f8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EmptyRectangle::EmptyRectangle</definition>
+        <argsstring>(glm::vec3 origin, float width, float height, float thickness=1.0f)</argsstring>
+        <name>EmptyRectangle</name>
+        <param>
+          <type>glm::vec3</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>thickness</declname>
+          <defval>1.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="59" column="5" bodyfile="src/KronUIGL/Geometry/Shapes.cpp" bodystart="138" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmptyRectangle_1af1386bf5f9e1853911e40e8a30aedc88" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt; float &gt; EmptyRectangle::generateVertices</definition>
+        <argsstring>() override</argsstring>
+        <name>generateVertices</name>
+        <reimplements refid="classshapeElement_1a7a794c9647200504b783c0f1830add18">generateVertices</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="60" column="17" bodyfile="src/KronUIGL/Geometry/Shapes.cpp" bodystart="147" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EmptyRectangle</label>
+        <link refid="classEmptyRectangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Drawable</label>
+        <link refid="classDrawable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>shapeElement</label>
+        <link refid="classshapeElement"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EmptyRectangle</label>
+        <link refid="classEmptyRectangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Drawable</label>
+        <link refid="classDrawable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>shapeElement</label>
+        <link refid="classshapeElement"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/KronUIGL/Geometry/Shapes.hpp" line="49" column="1" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="49" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classEmptyRectangle_1a08f9f398a0973b36551d3a6a48cfcd63" prot="private" virt="non-virtual"><scope>EmptyRectangle</scope><name>_height</name></member>
+      <member refid="classEmptyRectangle_1abec7853e545d8bd2de5223467b637ad8" prot="private" virt="non-virtual"><scope>EmptyRectangle</scope><name>_points</name></member>
+      <member refid="classEmptyRectangle_1a06ab9dbea6532464db65bd6812ceeec6" prot="private" virt="non-virtual"><scope>EmptyRectangle</scope><name>_sides</name></member>
+      <member refid="classEmptyRectangle_1aa7f43337c495035304c2e2e5a2da2ef0" prot="private" virt="non-virtual"><scope>EmptyRectangle</scope><name>_thickness</name></member>
+      <member refid="classEmptyRectangle_1ae0dea2b13d4c6ddf0f20d2ae508820b6" prot="private" virt="non-virtual"><scope>EmptyRectangle</scope><name>_width</name></member>
+      <member refid="classDrawable_1ad66b72e5c70f154ba14f736779702edf" prot="public" virt="non-virtual"><scope>EmptyRectangle</scope><name>bufferID</name></member>
+      <member refid="classDrawable_1ac2a22ca4c60f3725209dfe5da30b91e6" prot="public" virt="non-virtual"><scope>EmptyRectangle</scope><name>drawerFunction</name></member>
+      <member refid="classDrawable_1a40520e875b6b2caa68aa234217da8ef1" prot="public" virt="non-virtual"><scope>EmptyRectangle</scope><name>drawSelf</name></member>
+      <member refid="classEmptyRectangle_1a6f0aded2866e07ad17aa3f4fd58dc6e7" prot="public" virt="non-virtual"><scope>EmptyRectangle</scope><name>EmptyRectangle</name></member>
+      <member refid="classEmptyRectangle_1a2fe9364ae7f70af2404d350f74ce5f8a" prot="public" virt="non-virtual"><scope>EmptyRectangle</scope><name>EmptyRectangle</name></member>
+      <member refid="classEmptyRectangle_1af1386bf5f9e1853911e40e8a30aedc88" prot="public" virt="virtual"><scope>EmptyRectangle</scope><name>generateVertices</name></member>
+      <member refid="classDrawable_1a6ef0a45864cdb86a2f7ee86df33cf1c3" prot="public" virt="non-virtual"><scope>EmptyRectangle</scope><name>mode</name></member>
+      <member refid="classDrawable_1a5d88a6da5c2d7aa468c7b347ea2189b7" prot="public" virt="non-virtual"><scope>EmptyRectangle</scope><name>shader</name></member>
+      <member refid="classshapeElement_1a5bed7938c8f925300b2ca1c3e071fb4b" prot="protected" virt="non-virtual"><scope>EmptyRectangle</scope><name>vertices</name></member>
+      <member refid="classshapeElement_1ab6a75c0933f15914e0723e1f77a3e675" prot="public" virt="non-virtual"><scope>EmptyRectangle</scope><name>verticesAmount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

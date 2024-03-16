@@ -1,0 +1,119 @@
+\hypertarget{classDevice}{}\doxysection{Device Class Reference}
+\label{classDevice}\index{Device@{Device}}
+
+
+{\ttfamily \#include $<$Device.\+hpp$>$}
+
+
+
+Inheritance diagram for Device\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classDevice__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDevice_a778752fe29fc8a3858e478a6bcabe74f}{Device}} (const std\+::string \&tagidentifier)
+\item 
+const std\+::string \mbox{\hyperlink{classDevice_a1e4893b68277a9997b48296d54cd9165}{get\+Device\+ID}} () const
+\item 
+const std\+::string \mbox{\hyperlink{classDevice_a689fb31d6f4e6b51c71f8be489351027}{get\+Device\+Name}} () const
+\item 
+const std\+::map$<$ std\+::string, \mbox{\hyperlink{classDeviceCommand}{Device\+Command}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classDevice_a73d53be85a86ee1f87cc36a5dba5db00}{get\+Commands}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classDevice_a5e8bfe30be34075913e4d93c90073e43}{enabled}} = false
+\item 
+std\+::atomic\+\_\+bool \mbox{\hyperlink{classDevice_a9a40b1b3efa973852aee337977de113d}{working}} = false
+\item 
+std\+::atomic\+\_\+int \mbox{\hyperlink{classDevice_aa6e60cf5ee0af447cbb9add97cac46f3}{work\+Delay\+Ms}} = 60
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classDevice_a9a06915a39957d4f8f1a5e6e0ecc1b34}{\+\_\+tagidentifier}}
+\item 
+std\+::string \mbox{\hyperlink{classDevice_af208b0facbdfd0a4bf2833beaa000a97}{\+\_\+display\+Name}}
+\item 
+std\+::map$<$ std\+::string, \mbox{\hyperlink{classDeviceCommand}{Device\+Command}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classDevice_ac04940418aa5c5e5e6dfd3028903dc43}{\+\_\+commands}} = new std\+::map$<$std\+::string, \mbox{\hyperlink{classDeviceCommand}{Device\+Command}}$\ast$$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDevice_a778752fe29fc8a3858e478a6bcabe74f}\label{classDevice_a778752fe29fc8a3858e478a6bcabe74f}} 
+\index{Device@{Device}!Device@{Device}}
+\index{Device@{Device}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{Device()}{Device()}}
+{\footnotesize\ttfamily Device\+::\+Device (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{tagidentifier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDevice_a73d53be85a86ee1f87cc36a5dba5db00}\label{classDevice_a73d53be85a86ee1f87cc36a5dba5db00}} 
+\index{Device@{Device}!getCommands@{getCommands}}
+\index{getCommands@{getCommands}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{getCommands()}{getCommands()}}
+{\footnotesize\ttfamily const std\+::map$<$std\+::string, \mbox{\hyperlink{classDeviceCommand}{Device\+Command}}$\ast$$>$$\ast$ Device\+::get\+Commands (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classDevice_a1e4893b68277a9997b48296d54cd9165}\label{classDevice_a1e4893b68277a9997b48296d54cd9165}} 
+\index{Device@{Device}!getDeviceID@{getDeviceID}}
+\index{getDeviceID@{getDeviceID}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{getDeviceID()}{getDeviceID()}}
+{\footnotesize\ttfamily const std\+::string Device\+::get\+Device\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classDevice_a689fb31d6f4e6b51c71f8be489351027}\label{classDevice_a689fb31d6f4e6b51c71f8be489351027}} 
+\index{Device@{Device}!getDeviceName@{getDeviceName}}
+\index{getDeviceName@{getDeviceName}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{getDeviceName()}{getDeviceName()}}
+{\footnotesize\ttfamily const std\+::string Device\+::get\+Device\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classDevice_ac04940418aa5c5e5e6dfd3028903dc43}\label{classDevice_ac04940418aa5c5e5e6dfd3028903dc43}} 
+\index{Device@{Device}!\_commands@{\_commands}}
+\index{\_commands@{\_commands}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{\_commands}{\_commands}}
+{\footnotesize\ttfamily std\+::map$<$std\+::string, \mbox{\hyperlink{classDeviceCommand}{Device\+Command}}$\ast$$>$$\ast$ Device\+::\+\_\+commands = new std\+::map$<$std\+::string, \mbox{\hyperlink{classDeviceCommand}{Device\+Command}}$\ast$$>$()\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classDevice_af208b0facbdfd0a4bf2833beaa000a97}\label{classDevice_af208b0facbdfd0a4bf2833beaa000a97}} 
+\index{Device@{Device}!\_displayName@{\_displayName}}
+\index{\_displayName@{\_displayName}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{\_displayName}{\_displayName}}
+{\footnotesize\ttfamily std\+::string Device\+::\+\_\+display\+Name\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classDevice_a9a06915a39957d4f8f1a5e6e0ecc1b34}\label{classDevice_a9a06915a39957d4f8f1a5e6e0ecc1b34}} 
+\index{Device@{Device}!\_tagidentifier@{\_tagidentifier}}
+\index{\_tagidentifier@{\_tagidentifier}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{\_tagidentifier}{\_tagidentifier}}
+{\footnotesize\ttfamily std\+::string Device\+::\+\_\+tagidentifier\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classDevice_a5e8bfe30be34075913e4d93c90073e43}\label{classDevice_a5e8bfe30be34075913e4d93c90073e43}} 
+\index{Device@{Device}!enabled@{enabled}}
+\index{enabled@{enabled}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{enabled}{enabled}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Device\+::enabled = false}
+
+\mbox{\Hypertarget{classDevice_aa6e60cf5ee0af447cbb9add97cac46f3}\label{classDevice_aa6e60cf5ee0af447cbb9add97cac46f3}} 
+\index{Device@{Device}!workDelayMs@{workDelayMs}}
+\index{workDelayMs@{workDelayMs}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{workDelayMs}{workDelayMs}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+int Device\+::work\+Delay\+Ms = 60}
+
+\mbox{\Hypertarget{classDevice_a9a40b1b3efa973852aee337977de113d}\label{classDevice_a9a40b1b3efa973852aee337977de113d}} 
+\index{Device@{Device}!working@{working}}
+\index{working@{working}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{working}{working}}
+{\footnotesize\ttfamily std\+::atomic\+\_\+bool Device\+::working = false}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/model/hardware/hw/extendables/\mbox{\hyperlink{Device_8hpp}{Device.\+hpp}}\end{DoxyCompactItemize}

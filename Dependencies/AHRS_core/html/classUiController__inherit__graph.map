@@ -1,0 +1,4 @@
+<map id="UiController" name="UiController">
+<area shape="rect" id="node1" title="this class is used to process view logic and interaction [model]" alt="" coords="10,80,101,107"/>
+<area shape="rect" id="node2" href="$classMapObserver.html" title=" " alt="" coords="5,5,105,32"/>
+</map>

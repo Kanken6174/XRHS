@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classLine" kind="class" language="C++" prot="public">
+    <compoundname>Line</compoundname>
+    <basecompoundref refid="classshapeElement" prot="public" virt="non-virtual">shapeElement</basecompoundref>
+    <includes refid="Shapes_8hpp" local="no">Shapes.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLine_1a5b99891786413b86c86065d7e3cd7d6a" prot="private" static="no" mutable="no">
+        <type><ref refid="classPoint" kindref="compound">Point</ref></type>
+        <definition>Point Line::_begin</definition>
+        <argsstring></argsstring>
+        <name>_begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="20" column="11" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLine_1a2a9f014fadd09f2a89c54507cb6cc0da" prot="private" static="no" mutable="no">
+        <type><ref refid="classPoint" kindref="compound">Point</ref></type>
+        <definition>Point Line::_end</definition>
+        <argsstring></argsstring>
+        <name>_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="20" column="17" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLine_1a9a6d288919fed15ad17be5bca592965f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Line::_thickness</definition>
+        <argsstring></argsstring>
+        <name>_thickness</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="21" column="11" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLine_1a87e8ec896581b0e6b8c80d8dc4050da9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Line::Line</definition>
+        <argsstring>(Point begin, Point end, float thickness=1.0f)</argsstring>
+        <name>Line</name>
+        <param>
+          <type><ref refid="classPoint" kindref="compound">Point</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="classPoint" kindref="compound">Point</ref></type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>thickness</declname>
+          <defval>1.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="23" column="5" bodyfile="src/KronUIGL/Geometry/Shapes.cpp" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1a5841e69c7633a8b94f155761c30c8657" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt; float &gt; Line::generateVertices</definition>
+        <argsstring>() override</argsstring>
+        <name>generateVertices</name>
+        <reimplements refid="classshapeElement_1a7a794c9647200504b783c0f1830add18">generateVertices</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Geometry/Shapes.hpp" line="24" column="17" bodyfile="src/KronUIGL/Geometry/Shapes.cpp" bodystart="38" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Line</label>
+        <link refid="classLine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>shapeElement</label>
+        <link refid="classshapeElement"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Line</label>
+        <link refid="classLine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>shapeElement</label>
+        <link refid="classshapeElement"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/KronUIGL/Geometry/Shapes.hpp" line="18" column="1" bodyfile="src/KronUIGL/Geometry/Shapes.hpp" bodystart="18" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classLine_1a5b99891786413b86c86065d7e3cd7d6a" prot="private" virt="non-virtual"><scope>Line</scope><name>_begin</name></member>
+      <member refid="classLine_1a2a9f014fadd09f2a89c54507cb6cc0da" prot="private" virt="non-virtual"><scope>Line</scope><name>_end</name></member>
+      <member refid="classLine_1a9a6d288919fed15ad17be5bca592965f" prot="private" virt="non-virtual"><scope>Line</scope><name>_thickness</name></member>
+      <member refid="classLine_1a5841e69c7633a8b94f155761c30c8657" prot="public" virt="virtual"><scope>Line</scope><name>generateVertices</name></member>
+      <member refid="classLine_1a87e8ec896581b0e6b8c80d8dc4050da9" prot="public" virt="non-virtual"><scope>Line</scope><name>Line</name></member>
+      <member refid="classshapeElement_1a5bed7938c8f925300b2ca1c3e071fb4b" prot="protected" virt="non-virtual"><scope>Line</scope><name>vertices</name></member>
+      <member refid="classshapeElement_1ab6a75c0933f15914e0723e1f77a3e675" prot="public" virt="non-virtual"><scope>Line</scope><name>verticesAmount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_3373ff66d2b4e1620c365f0efa901ba8" kind="dir">
+    <compoundname>src/KronUIGL/Text/CMakeFiles</compoundname>
+    <innerdir refid="dir_8d0d8424bbfe659a62478cb4bc20c471">src/KronUIGL/Text/CMakeFiles/textrenderer.dir</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/Text/CMakeFiles/"/>
+  </compounddef>
+</doxygen>

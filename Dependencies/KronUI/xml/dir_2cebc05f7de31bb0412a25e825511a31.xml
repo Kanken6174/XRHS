@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_2cebc05f7de31bb0412a25e825511a31" kind="dir">
+    <compoundname>src/KronUIGL/3D/CMakeFiles/3D.dir</compoundname>
+    <innerfile refid="CMakeFiles_23D_8dir_2camera_8cpp_8o_8d">camera.cpp.o.d</innerfile>
+    <innerfile refid="modelEntity_8cpp_8o_8d">modelEntity.cpp.o.d</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/3D/CMakeFiles/3D.dir/"/>
+  </compounddef>
+</doxygen>

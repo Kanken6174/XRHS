@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_8c6b0d6ef4c3c3ec8a34560658597bcd" kind="dir">
+    <compoundname>src/KronUIGL/3D/Elements</compoundname>
+    <innerdir refid="dir_9f8b20ea499ad36ac0c38875331fe98d">src/KronUIGL/3D/Elements/CMakeFiles</innerdir>
+    <innerfile refid="entity_8cpp">entity.cpp</innerfile>
+    <innerfile refid="entity_8hpp">entity.hpp</innerfile>
+    <innerfile refid="mesh_8cpp">mesh.cpp</innerfile>
+    <innerfile refid="mesh_8hpp">mesh.hpp</innerfile>
+    <innerfile refid="texture_8hpp">texture.hpp</innerfile>
+    <innerfile refid="transform_8hpp">transform.hpp</innerfile>
+    <innerfile refid="vertex_8hpp">vertex.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/3D/Elements/"/>
+  </compounddef>
+</doxygen>

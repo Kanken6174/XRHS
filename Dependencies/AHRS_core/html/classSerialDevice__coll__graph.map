@@ -1,0 +1,6 @@
+<map id="SerialDevice" name="SerialDevice">
+<area shape="rect" id="node1" title=" " alt="" coords="10,171,106,197"/>
+<area shape="rect" id="node2" href="$classDevice.html" title=" " alt="" coords="5,81,68,108"/>
+<area shape="rect" id="node3" href="$classDeviceCommand.html" title=" " alt="" coords="93,81,215,108"/>
+<area shape="rect" id="node4" href="$classCommand.html" title=" " alt="" coords="113,5,195,32"/>
+</map>

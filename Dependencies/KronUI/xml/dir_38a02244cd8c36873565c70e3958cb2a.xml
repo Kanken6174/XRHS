@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_38a02244cd8c36873565c70e3958cb2a" kind="dir">
+    <compoundname>src/KronUIGL/Shaders</compoundname>
+    <innerdir refid="dir_f8d6aefb304ed5b7ff6983e64cea01e5">src/KronUIGL/Shaders/CMakeFiles</innerdir>
+    <innerfile refid="Shader_8hpp">Shader.hpp</innerfile>
+    <innerfile refid="ShaderManager_8cpp">ShaderManager.cpp</innerfile>
+    <innerfile refid="ShaderManager_8hpp">ShaderManager.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/KronUIGL/Shaders/"/>
+  </compounddef>
+</doxygen>

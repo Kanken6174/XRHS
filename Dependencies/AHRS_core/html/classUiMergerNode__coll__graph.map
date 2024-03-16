@@ -1,0 +1,7 @@
+<map id="UiMergerNode" name="UiMergerNode">
+<area shape="rect" id="node1" title="this class is used to merge the camera&#39;s frame and the UI mat" alt="" coords="129,184,235,211"/>
+<area shape="rect" id="node2" href="$classPipelineNode.html" title="this class represents a threaded node of the graphics pipeline" alt="" coords="138,95,237,121"/>
+<area shape="rect" id="node3" href="$classMapObserver.html" title=" " alt="" coords="5,5,105,32"/>
+<area shape="rect" id="node5" href="$classUiController.html" title="this class is used to process view logic and interaction [model]" alt="" coords="10,95,101,121"/>
+<area shape="rect" id="node4" href="$classframerateChecker.html" title=" " alt="" coords="129,5,256,32"/>
+</map>

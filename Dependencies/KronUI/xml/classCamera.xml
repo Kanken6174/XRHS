@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classCamera" kind="class" language="C++" prot="public">
+    <compoundname>Camera</compoundname>
+    <basecompoundref refid="classEntity" prot="public" virt="non-virtual">Entity</basecompoundref>
+    <includes refid="camera_8hpp" local="no">camera.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCamera_1af080757da494dd1e4a347f527df4af9c" prot="public" static="no" mutable="no">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 Camera::projectionMatrix</definition>
+        <argsstring></argsstring>
+        <name>projectionMatrix</name>
+        <initializer>= glm::mat4(0.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="13" column="15" bodyfile="src/KronUIGL/3D/Vision/camera.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamera_1a6e088a154066ed6f2bfca373163f21d2" prot="public" static="no" mutable="no">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 Camera::viewMatrix</definition>
+        <argsstring></argsstring>
+        <name>viewMatrix</name>
+        <initializer>= glm::mat4(0.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="14" column="15" bodyfile="src/KronUIGL/3D/Vision/camera.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamera_1ad4be81e1c8f5933ac9776ee64fc187c0" prot="public" static="no" mutable="no">
+        <type>glm::quat</type>
+        <definition>glm::quat Camera::rotationQuat</definition>
+        <argsstring></argsstring>
+        <name>rotationQuat</name>
+        <initializer>= glm::quat(glm::vec3(0.0f, 0.0f, 0.0f))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="15" column="15" bodyfile="src/KronUIGL/3D/Vision/camera.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCamera_1adfbea0b198457bc22880fde1592188e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera::Camera</definition>
+        <argsstring>(float width, float height, float nearPlane=0.1f, float farPlane=100.0f)</argsstring>
+        <name>Camera</name>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nearPlane</declname>
+          <defval>0.1f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farPlane</declname>
+          <defval>100.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="17" column="5" bodyfile="src/KronUIGL/3D/Vision/camera.cpp" bodystart="3" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a8fe5c71a390571a861ad8afd99dfdea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::updateViewMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>updateViewMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="19" column="10" bodyfile="src/KronUIGL/3D/Vision/camera.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a811c7766d0c8c961b682b70833b2ba1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::translate</definition>
+        <argsstring>(glm::vec3 translation)</argsstring>
+        <name>translate</name>
+        <param>
+          <type>glm::vec3</type>
+          <declname>translation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="21" column="10" bodyfile="src/KronUIGL/3D/Vision/camera.hpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a03ce20e3509f06e513fe1efb161fdc85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::rotate</definition>
+        <argsstring>(glm::vec3 rotation)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>glm::vec3</type>
+          <declname>rotation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="26" column="10" bodyfile="src/KronUIGL/3D/Vision/camera.hpp" bodystart="26" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1aec34fc33b8a3f1317bebc3488f019231" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Camera::getRotation</definition>
+        <argsstring>() const</argsstring>
+        <name>getRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="36" column="15" bodyfile="src/KronUIGL/3D/Vision/camera.hpp" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1ae44d552243a7b430e94ed9e70adcf07b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Camera::getForward</definition>
+        <argsstring>() const</argsstring>
+        <name>getForward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="40" column="15" bodyfile="src/KronUIGL/3D/Vision/camera.cpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1aaca7b5755187dbe1920ae8aeeed1a29a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Camera::getUp</definition>
+        <argsstring>() const</argsstring>
+        <name>getUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="41" column="15" bodyfile="src/KronUIGL/3D/Vision/camera.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1aa21e94d4bfd57c15897a8a2948d6356c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Camera::getRight</definition>
+        <argsstring>() const</argsstring>
+        <name>getRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="42" column="15" bodyfile="src/KronUIGL/3D/Vision/camera.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a01f94c3543f56ede7af49dc778f19331" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Camera::Camera</definition>
+        <argsstring>()</argsstring>
+        <name>Camera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Vision/camera.hpp" line="44" column="5" bodyfile="src/KronUIGL/3D/Vision/camera.hpp" bodystart="44" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Camera</label>
+        <link refid="classCamera"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Entity</label>
+        <link refid="classEntity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Transform</label>
+        <link refid="structTransform"/>
+      </node>
+      <node id="1">
+        <label>Camera</label>
+        <link refid="classCamera"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Entity</label>
+        <link refid="classEntity"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>transform</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/KronUIGL/3D/Vision/camera.hpp" line="11" column="1" bodyfile="src/KronUIGL/3D/Vision/camera.hpp" bodystart="11" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classCamera_1adfbea0b198457bc22880fde1592188e8" prot="public" virt="non-virtual"><scope>Camera</scope><name>Camera</name></member>
+      <member refid="classCamera_1a01f94c3543f56ede7af49dc778f19331" prot="public" virt="non-virtual"><scope>Camera</scope><name>Camera</name></member>
+      <member refid="classEntity_1a662031d9dcbb291677450c75dfaa2f00" prot="public" virt="non-virtual"><scope>Camera</scope><name>children</name></member>
+      <member refid="classEntity_1a980f368aa07ce358583982821533a54a" prot="public" virt="non-virtual"><scope>Camera</scope><name>Entity</name></member>
+      <member refid="classEntity_1a5796d93d58631510893c9df5e5b8c6cc" prot="public" virt="non-virtual"><scope>Camera</scope><name>Entity</name></member>
+      <member refid="classEntity_1a1bd378fb770244307e7abc96dac3d6a6" prot="public" virt="non-virtual"><scope>Camera</scope><name>Entity</name></member>
+      <member refid="classCamera_1ae44d552243a7b430e94ed9e70adcf07b" prot="public" virt="non-virtual"><scope>Camera</scope><name>getForward</name></member>
+      <member refid="classCamera_1aa21e94d4bfd57c15897a8a2948d6356c" prot="public" virt="non-virtual"><scope>Camera</scope><name>getRight</name></member>
+      <member refid="classCamera_1aec34fc33b8a3f1317bebc3488f019231" prot="public" virt="non-virtual"><scope>Camera</scope><name>getRotation</name></member>
+      <member refid="classEntity_1a863b2318e49fdca5bd1b3ff44b08fcb5" prot="public" virt="virtual"><scope>Camera</scope><name>getTransformMatrix</name></member>
+      <member refid="classCamera_1aaca7b5755187dbe1920ae8aeeed1a29a" prot="public" virt="non-virtual"><scope>Camera</scope><name>getUp</name></member>
+      <member refid="classEntity_1aecee6f5e02ee3d3531a7ac05e0272cf4" prot="public" virt="non-virtual"><scope>Camera</scope><name>mesh</name></member>
+      <member refid="classEntity_1a4e9d192ca16cb130ce5046537b51e686" prot="public" virt="non-virtual"><scope>Camera</scope><name>parent</name></member>
+      <member refid="classCamera_1af080757da494dd1e4a347f527df4af9c" prot="public" virt="non-virtual"><scope>Camera</scope><name>projectionMatrix</name></member>
+      <member refid="classCamera_1a03ce20e3509f06e513fe1efb161fdc85" prot="public" virt="non-virtual"><scope>Camera</scope><name>rotate</name></member>
+      <member refid="classCamera_1ad4be81e1c8f5933ac9776ee64fc187c0" prot="public" virt="non-virtual"><scope>Camera</scope><name>rotationQuat</name></member>
+      <member refid="classEntity_1a7766644984b868ccecf24b3aede7279f" prot="public" virt="non-virtual"><scope>Camera</scope><name>transform</name></member>
+      <member refid="classCamera_1a811c7766d0c8c961b682b70833b2ba1d" prot="public" virt="non-virtual"><scope>Camera</scope><name>translate</name></member>
+      <member refid="classCamera_1a8fe5c71a390571a861ad8afd99dfdea3" prot="public" virt="non-virtual"><scope>Camera</scope><name>updateViewMatrix</name></member>
+      <member refid="classCamera_1a6e088a154066ed6f2bfca373163f21d2" prot="public" virt="non-virtual"><scope>Camera</scope><name>viewMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

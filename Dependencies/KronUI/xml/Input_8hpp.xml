@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="Input_8hpp" kind="file" language="C++">
+    <compoundname>Input.hpp</compoundname>
+    <includes local="no">GL/glew.h</includes>
+    <includes local="no">GLFW/glfw3.h</includes>
+    <includes local="no">glm/glm.hpp</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">optional</includes>
+    <includes local="no">map</includes>
+    <includes local="no">functional</includes>
+    <includes refid="camera_8hpp" local="yes">../3D/Vision/camera.hpp</includes>
+    <includedby refid="Input_8cpp" local="yes">src/KronUIGL/Input/Input.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">src/main.cpp</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>functional</label>
+      </node>
+      <node id="19">
+        <label>vertex.hpp</label>
+        <link refid="vertex_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>transform.hpp</label>
+        <link refid="transform_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>../3D/Vision/camera.hpp</label>
+        <link refid="camera_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="7">
+        <label>map</label>
+      </node>
+      <node id="3">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="11">
+        <label>glm/gtc/quaternion.hpp</label>
+      </node>
+      <node id="18">
+        <label>mesh.hpp</label>
+        <link refid="mesh_8hpp"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/Input/Input.hpp</label>
+        <link refid="Input_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>optional</label>
+      </node>
+      <node id="14">
+        <label>vector</label>
+      </node>
+      <node id="17">
+        <label>assimp/scene.h</label>
+      </node>
+      <node id="5">
+        <label>iostream</label>
+      </node>
+      <node id="10">
+        <label>glm/gtc/matrix_transform.hpp</label>
+      </node>
+      <node id="13">
+        <label>../Elements/entity.hpp</label>
+        <link refid="entity_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>glm/gtx/quaternion.hpp</label>
+      </node>
+      <node id="16">
+        <label>texture.hpp</label>
+        <link refid="texture_8hpp"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>src/KronUIGL/Input/Input.hpp</label>
+        <link refid="Input_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/KronUIGL/Input/Input.cpp</label>
+        <link refid="Input_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classInputSystem" prot="public">InputSystem</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="Input_8hpp_1af4ca2891044ac10a664b8d83ce590f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mouse_callback</definition>
+        <argsstring>(GLFWwindow *window, double xpos, double ypos)</argsstring>
+        <name>mouse_callback</name>
+        <param>
+          <type>GLFWwindow *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xpos</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ypos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Input/Input.hpp" line="54" column="6" bodyfile="src/KronUIGL/Input/Input.cpp" bodystart="5" bodyend="22" declfile="src/KronUIGL/Input/Input.hpp" declline="54" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="Input_8hpp_1ac9fe5113088cde8cc9efb199e5b839f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processInput</definition>
+        <argsstring>(GLFWwindow *window, float deltaTime)</argsstring>
+        <name>processInput</name>
+        <param>
+          <type>GLFWwindow *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/Input/Input.hpp" line="55" column="6" bodyfile="src/KronUIGL/Input/Input.cpp" bodystart="24" bodyend="31" declfile="src/KronUIGL/Input/Input.hpp" declline="55" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;GL/glew.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;GLFW/glfw3.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glm/glm.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../3D/Vision/camera.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classInputSystem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classInputSystem" kindref="compound">InputSystem</ref>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classCamera" kindref="compound">Camera</ref><sp/>camera<sp/>=<sp/><ref refid="classCamera" kindref="compound">Camera</ref>(800,<sp/>600,<sp/>0.1f,<sp/>100.0f);<sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classInputSystem" kindref="compound">InputSystem</ref><sp/>instance;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17" refid="classInputSystem_1ae0ab3951fece5c8749a36c6cdcf6bf00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::map&lt;int,<sp/>std::function&lt;void()&gt;&gt;<sp/><ref refid="classInputSystem_1ae0ab3951fece5c8749a36c6cdcf6bf00" kindref="member">keyActions</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_W,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glm::vec3<sp/>moveDirection<sp/>=<sp/>this-&gt;camera.<ref refid="classCamera_1ae44d552243a7b430e94ed9e70adcf07b" kindref="member">getForward</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveDirection.y<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>prevent<sp/>vertical<sp/>movement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;camera.<ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref><sp/>+=<sp/>glm::normalize(moveDirection)<sp/>*<sp/>0.15f;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_S,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glm::vec3<sp/>moveDirection<sp/>=<sp/>this-&gt;camera.<ref refid="classCamera_1ae44d552243a7b430e94ed9e70adcf07b" kindref="member">getForward</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveDirection.y<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>prevent<sp/>vertical<sp/>movement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;camera.<ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref><sp/>-=<sp/>glm::normalize(moveDirection)<sp/>*<sp/>0.15f;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_A,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glm::vec3<sp/>moveDirection<sp/>=<sp/>glm::normalize(glm::cross(this-&gt;camera.<ref refid="classCamera_1ae44d552243a7b430e94ed9e70adcf07b" kindref="member">getForward</ref>(),<sp/>glm::vec3(0.0f,<sp/>1.0f,<sp/>0.0f)));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveDirection.y<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>prevent<sp/>vertical<sp/>movement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;camera.<ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref><sp/>-=<sp/>moveDirection<sp/>*<sp/>0.1f;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_D,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glm::vec3<sp/>moveDirection<sp/>=<sp/>glm::normalize(glm::cross(this-&gt;camera.<ref refid="classCamera_1ae44d552243a7b430e94ed9e70adcf07b" kindref="member">getForward</ref>(),<sp/>glm::vec3(0.0f,<sp/>1.0f,<sp/>0.0f)));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveDirection.y<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>prevent<sp/>vertical<sp/>movement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;camera.<ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref><sp/>+=<sp/>moveDirection<sp/>*<sp/>0.1f;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_UP,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){<sp/>this-&gt;camera.<ref refid="classCamera_1a03ce20e3509f06e513fe1efb161fdc85" kindref="member">rotate</ref>(glm::vec3(-0.5f,<sp/>0.0f,<sp/>0.0f));<sp/>}},</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_DOWN,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){<sp/>this-&gt;camera.<ref refid="classCamera_1a03ce20e3509f06e513fe1efb161fdc85" kindref="member">rotate</ref>(glm::vec3(0.5f,<sp/>0.0f,<sp/>0.0f));<sp/>}},</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_LEFT,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){<sp/>this-&gt;camera.<ref refid="classCamera_1a03ce20e3509f06e513fe1efb161fdc85" kindref="member">rotate</ref>(glm::vec3(0.0f,<sp/>-0.5f,<sp/>0.0f));<sp/>}},</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_RIGHT,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){<sp/>this-&gt;camera.<ref refid="classCamera_1a03ce20e3509f06e513fe1efb161fdc85" kindref="member">rotate</ref>(glm::vec3(0.0f,<sp/>0.5f,<sp/>0.0f));<sp/>}},</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_SPACE,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){<sp/>this-&gt;camera.<ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref><sp/>+=<sp/>this-&gt;camera.<ref refid="classCamera_1aaca7b5755187dbe1920ae8aeeed1a29a" kindref="member">getUp</ref>()<sp/>*<sp/>0.1f;<sp/>}},</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_LEFT_CONTROL,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){<sp/>this-&gt;camera.<ref refid="classEntity_1a7766644984b868ccecf24b3aede7279f" kindref="member">transform</ref>.<ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref><sp/>-=<sp/>this-&gt;camera.<ref refid="classCamera_1aaca7b5755187dbe1920ae8aeeed1a29a" kindref="member">getUp</ref>()<sp/>*<sp/>0.1f;<sp/>}},</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_E,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){<sp/>this-&gt;camera.<ref refid="classCamera_1a03ce20e3509f06e513fe1efb161fdc85" kindref="member">rotate</ref>(glm::vec3(0.0f,<sp/>0.0f,<sp/>-0.5f));<sp/>}},</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{GLFW_KEY_Q,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">](){<sp/>this-&gt;camera.<ref refid="classCamera_1a03ce20e3509f06e513fe1efb161fdc85" kindref="member">rotate</ref>(glm::vec3(0.0f,<sp/>0.0f,<sp/>0.5f));<sp/>}}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classInputSystem_1a4e54cb10f3c668e30382023454fd4790" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classCamera" kindref="compound">Camera</ref>&amp;<sp/><ref refid="classInputSystem_1a4e54cb10f3c668e30382023454fd4790" kindref="member">getCamera</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>camera;}</highlight></codeline>
+<codeline lineno="50" refid="classInputSystem_1a7259383b613f661128029641f251b629" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classInputSystem" kindref="compound">InputSystem</ref>&amp;<sp/><ref refid="classInputSystem_1a7259383b613f661128029641f251b629" kindref="member">getInstance</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>instance;}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="Input_8hpp_1af4ca2891044ac10a664b8d83ce590f1f" kindref="member">mouse_callback</ref>(GLFWwindow*<sp/>window,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xpos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ypos);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="Input_8hpp_1ac9fe5113088cde8cc9efb199e5b839f3" kindref="member">processInput</ref>(GLFWwindow*<sp/>window,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaTime);</highlight></codeline>
+    </programlisting>
+    <location file="src/KronUIGL/Input/Input.hpp"/>
+  </compounddef>
+</doxygen>

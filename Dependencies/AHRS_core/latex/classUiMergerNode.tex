@@ -1,0 +1,107 @@
+\hypertarget{classUiMergerNode}{}\doxysection{Ui\+Merger\+Node Class Reference}
+\label{classUiMergerNode}\index{UiMergerNode@{UiMergerNode}}
+
+
+this class is used to merge the camera\textquotesingle{}s frame and the UI mat  
+
+
+
+
+{\ttfamily \#include $<$ui\+Merger\+Node.\+hpp$>$}
+
+
+
+Inheritance diagram for Ui\+Merger\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{classUiMergerNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Ui\+Merger\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{classUiMergerNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUiMergerNode_a04f0610bdf3f1be9bfcde47191aca8bf}{Ui\+Merger\+Node}} (\mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$\mbox{\hyperlink{classPipelineNode_abfbf207beb663300ef17cdfd61ad0c78}{previous}}, \mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$menu\+Drawer, \mbox{\hyperlink{classUiController}{Ui\+Controller}} $\ast$back\+Controller)
+\item 
+std\+::string \mbox{\hyperlink{classUiMergerNode_ae86940b67c1a9415ced4520162c2e33e}{get\+Name}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classUiMergerNode_a55cd538de31ef62a16f5a9aeac612a4c}{process\+Frame}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$ \mbox{\hyperlink{classUiMergerNode_a8d0772992ee0f85427682534b9fc5530}{\+\_\+menu\+Drawer}}
+\item 
+\mbox{\hyperlink{classUiController}{Ui\+Controller}} $\ast$ \mbox{\hyperlink{classUiMergerNode_a25a98296e30b5b3f5976fc7101617fb2}{\+\_\+back\+Controller}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+this class is used to merge the camera\textquotesingle{}s frame and the UI mat 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUiMergerNode_a04f0610bdf3f1be9bfcde47191aca8bf}\label{classUiMergerNode_a04f0610bdf3f1be9bfcde47191aca8bf}} 
+\index{UiMergerNode@{UiMergerNode}!UiMergerNode@{UiMergerNode}}
+\index{UiMergerNode@{UiMergerNode}!UiMergerNode@{UiMergerNode}}
+\doxysubsubsection{\texorpdfstring{UiMergerNode()}{UiMergerNode()}}
+{\footnotesize\ttfamily Ui\+Merger\+Node\+::\+Ui\+Merger\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$}]{previous,  }\item[{\mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}} $\ast$}]{menu\+Drawer,  }\item[{\mbox{\hyperlink{classUiController}{Ui\+Controller}} $\ast$}]{back\+Controller }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUiMergerNode_ae86940b67c1a9415ced4520162c2e33e}\label{classUiMergerNode_ae86940b67c1a9415ced4520162c2e33e}} 
+\index{UiMergerNode@{UiMergerNode}!getName@{getName}}
+\index{getName@{getName}!UiMergerNode@{UiMergerNode}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Ui\+Merger\+Node\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classPipelineNode_a49b56283610fe540953730035478642d}{Pipeline\+Node}}.
+
+\mbox{\Hypertarget{classUiMergerNode_a55cd538de31ef62a16f5a9aeac612a4c}\label{classUiMergerNode_a55cd538de31ef62a16f5a9aeac612a4c}} 
+\index{UiMergerNode@{UiMergerNode}!processFrame@{processFrame}}
+\index{processFrame@{processFrame}!UiMergerNode@{UiMergerNode}}
+\doxysubsubsection{\texorpdfstring{processFrame()}{processFrame()}}
+{\footnotesize\ttfamily void Ui\+Merger\+Node\+::process\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classPipelineNode_a3d7558cbccb39d64bdb3d837d658d34e}{Pipeline\+Node}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classUiMergerNode_a25a98296e30b5b3f5976fc7101617fb2}\label{classUiMergerNode_a25a98296e30b5b3f5976fc7101617fb2}} 
+\index{UiMergerNode@{UiMergerNode}!\_backController@{\_backController}}
+\index{\_backController@{\_backController}!UiMergerNode@{UiMergerNode}}
+\doxysubsubsection{\texorpdfstring{\_backController}{\_backController}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classUiController}{Ui\+Controller}}$\ast$ Ui\+Merger\+Node\+::\+\_\+back\+Controller\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classUiMergerNode_a8d0772992ee0f85427682534b9fc5530}\label{classUiMergerNode_a8d0772992ee0f85427682534b9fc5530}} 
+\index{UiMergerNode@{UiMergerNode}!\_menuDrawer@{\_menuDrawer}}
+\index{\_menuDrawer@{\_menuDrawer}!UiMergerNode@{UiMergerNode}}
+\doxysubsubsection{\texorpdfstring{\_menuDrawer}{\_menuDrawer}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPipelineNode}{Pipeline\+Node}}$\ast$ Ui\+Merger\+Node\+::\+\_\+menu\+Drawer\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/pipeline/members/\mbox{\hyperlink{uiMergerNode_8hpp}{ui\+Merger\+Node.\+hpp}}\item 
+src/pipeline/members/\mbox{\hyperlink{uiMergerNode_8cpp}{ui\+Merger\+Node.\+cpp}}\end{DoxyCompactItemize}

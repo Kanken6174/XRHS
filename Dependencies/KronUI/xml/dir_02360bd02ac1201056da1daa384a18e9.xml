@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_02360bd02ac1201056da1daa384a18e9" kind="dir">
+    <compoundname>src/CMakeFiles</compoundname>
+    <innerdir refid="dir_cec8e168f1e0bdf00e3d8b7b7e67c75b">src/CMakeFiles/3.22.1</innerdir>
+    <innerdir refid="dir_48051e9ae471f326e26a15a6ef56402f">src/CMakeFiles/KronUI.dir</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/CMakeFiles/"/>
+  </compounddef>
+</doxygen>

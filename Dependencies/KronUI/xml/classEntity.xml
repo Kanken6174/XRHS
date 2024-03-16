@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classEntity" kind="class" language="C++" prot="public">
+    <compoundname>Entity</compoundname>
+    <derivedcompoundref refid="classCamera" prot="public" virt="non-virtual">Camera</derivedcompoundref>
+    <includes refid="entity_8hpp" local="no">entity.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEntity_1a7766644984b868ccecf24b3aede7279f" prot="public" static="no" mutable="no">
+        <type><ref refid="structTransform" kindref="compound">Transform</ref></type>
+        <definition>Transform Entity::transform</definition>
+        <argsstring></argsstring>
+        <name>transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Elements/entity.hpp" line="16" column="15" bodyfile="src/KronUIGL/3D/Elements/entity.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEntity_1a662031d9dcbb291677450c75dfaa2f00" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classEntity" kindref="compound">Entity</ref> &gt;</type>
+        <definition>std::vector&lt;Entity&gt; Entity::children</definition>
+        <argsstring></argsstring>
+        <name>children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Elements/entity.hpp" line="19" column="17" bodyfile="src/KronUIGL/3D/Elements/entity.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEntity_1a4e9d192ca16cb130ce5046537b51e686" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="classEntity" kindref="compound">Entity</ref> * &gt;</type>
+        <definition>std::optional&lt;Entity*&gt; Entity::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <initializer>= std::nullopt</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Elements/entity.hpp" line="20" column="19" bodyfile="src/KronUIGL/3D/Elements/entity.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEntity_1aecee6f5e02ee3d3531a7ac05e0272cf4" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="classMesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>std::optional&lt;Mesh&gt; Entity::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <initializer>= std::nullopt</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Elements/entity.hpp" line="23" column="19" bodyfile="src/KronUIGL/3D/Elements/entity.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEntity_1a980f368aa07ce358583982821533a54a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Entity::Entity</definition>
+        <argsstring>()</argsstring>
+        <name>Entity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Elements/entity.hpp" line="25" column="5" bodyfile="src/KronUIGL/3D/Elements/entity.hpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classEntity_1a5796d93d58631510893c9df5e5b8c6cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Entity::Entity</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>Entity</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Elements/entity.hpp" line="26" column="5" bodyfile="src/KronUIGL/3D/Elements/entity.hpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classEntity_1a1bd378fb770244307e7abc96dac3d6a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Entity::Entity</definition>
+        <argsstring>(float x, float y, float z, float rx, float ry, float rz)</argsstring>
+        <name>Entity</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ry</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Elements/entity.hpp" line="27" column="5" bodyfile="src/KronUIGL/3D/Elements/entity.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classEntity_1a863b2318e49fdca5bd1b3ff44b08fcb5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 Entity::getTransformMatrix</definition>
+        <argsstring>() const</argsstring>
+        <name>getTransformMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/KronUIGL/3D/Elements/entity.hpp" line="29" column="23" bodyfile="src/KronUIGL/3D/Elements/entity.cpp" bodystart="4" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Camera</label>
+        <link refid="classCamera"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Entity</label>
+        <link refid="classEntity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Transform</label>
+        <link refid="structTransform"/>
+      </node>
+      <node id="1">
+        <label>Entity</label>
+        <link refid="classEntity"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>transform</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/KronUIGL/3D/Elements/entity.hpp" line="13" column="1" bodyfile="src/KronUIGL/3D/Elements/entity.hpp" bodystart="13" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classEntity_1a662031d9dcbb291677450c75dfaa2f00" prot="public" virt="non-virtual"><scope>Entity</scope><name>children</name></member>
+      <member refid="classEntity_1a980f368aa07ce358583982821533a54a" prot="public" virt="non-virtual"><scope>Entity</scope><name>Entity</name></member>
+      <member refid="classEntity_1a5796d93d58631510893c9df5e5b8c6cc" prot="public" virt="non-virtual"><scope>Entity</scope><name>Entity</name></member>
+      <member refid="classEntity_1a1bd378fb770244307e7abc96dac3d6a6" prot="public" virt="non-virtual"><scope>Entity</scope><name>Entity</name></member>
+      <member refid="classEntity_1a863b2318e49fdca5bd1b3ff44b08fcb5" prot="public" virt="virtual"><scope>Entity</scope><name>getTransformMatrix</name></member>
+      <member refid="classEntity_1aecee6f5e02ee3d3531a7ac05e0272cf4" prot="public" virt="non-virtual"><scope>Entity</scope><name>mesh</name></member>
+      <member refid="classEntity_1a4e9d192ca16cb130ce5046537b51e686" prot="public" virt="non-virtual"><scope>Entity</scope><name>parent</name></member>
+      <member refid="classEntity_1a7766644984b868ccecf24b3aede7279f" prot="public" virt="non-virtual"><scope>Entity</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

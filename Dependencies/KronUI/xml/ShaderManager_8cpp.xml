@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ShaderManager_8cpp" kind="file" language="C++">
+    <compoundname>ShaderManager.cpp</compoundname>
+    <includes refid="ShaderManager_8hpp" local="yes">ShaderManager.hpp</includes>
+    <includes local="no">algorithm</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>ShaderManager.hpp</label>
+        <link refid="ShaderManager_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="12">
+        <label>fstream</label>
+      </node>
+      <node id="6">
+        <label>Shader.hpp</label>
+        <link refid="Shader_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>optional</label>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+      <node id="11">
+        <label>sstream</label>
+      </node>
+      <node id="9">
+        <label>../../Bases/ReflectiveItem.hpp</label>
+        <link refid="ReflectiveItem_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/Shaders/ShaderManager.cpp</label>
+        <link refid="ShaderManager_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>algorithm</label>
+      </node>
+      <node id="4">
+        <label>memory</label>
+      </node>
+      <node id="8">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ShaderManager_8hpp" kindref="compound">ShaderManager.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classShaderManager_1a3174fd362b96f5a956d1077bc6e33651" kindref="member">ShaderManager::setShader</ref>(std::shared_ptr&lt;Shader&gt;<sp/>s)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(std::any_of(<ref refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kindref="member">shaders</ref>.begin(),<sp/><ref refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kindref="member">shaders</ref>.end(),<sp/>[&amp;s](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>shader)<sp/>{<sp/>return<sp/>shader-&gt;ID<sp/>==<sp/>s-&gt;ID;<sp/>}))</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!this-&gt;<ref refid="classShaderManager_1ac9a9bfc3cfec32a105ed40f1851942c9" kindref="member">current</ref>.has_value()<sp/>||<sp/>this-&gt;current.value()-&gt;ID<sp/>!=<sp/>s-&gt;ID){</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classShaderManager_1ac9a9bfc3cfec32a105ed40f1851942c9" kindref="member">current</ref><sp/>=<sp/>s;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classShaderManager_1ab2888d11e1eab202a669e4b5753a68d2" kindref="member">ShaderManager::addShader</ref>(std::shared_ptr&lt;Shader&gt;<sp/>s)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(std::none_of(<ref refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kindref="member">shaders</ref>.begin(),<sp/><ref refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kindref="member">shaders</ref>.end(),<sp/>[&amp;s](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>shader)<sp/>{<sp/>return<sp/>shader-&gt;ID<sp/>==<sp/>s-&gt;ID;<sp/>}))</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kindref="member">shaders</ref>.push_back(s);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classShaderManager_1aba2a567fecc0fc1fd0b82cc6a0407221" kindref="member">ShaderManager::remShader</ref>(std::shared_ptr&lt;Shader&gt;<sp/>s)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/>std::find_if(<ref refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kindref="member">shaders</ref>.begin(),<sp/><ref refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kindref="member">shaders</ref>.end(),<sp/>[&amp;s](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>shader)<sp/>{<sp/>return<sp/>shader-&gt;ID<sp/>==<sp/>s-&gt;ID;<sp/>});</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it<sp/>!=<sp/><ref refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kindref="member">shaders</ref>.end())</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classShaderManager_1ac9a9bfc3cfec32a105ed40f1851942c9" kindref="member">current</ref>.has_value()<sp/>&amp;&amp;<sp/><ref refid="classShaderManager_1ac9a9bfc3cfec32a105ed40f1851942c9" kindref="member">current</ref>.value()<sp/>==<sp/>*it)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classShaderManager_1ac9a9bfc3cfec32a105ed40f1851942c9" kindref="member">current</ref>.reset();<sp/><sp/></highlight><highlight class="comment">//<sp/>reset<sp/>the<sp/>current<sp/>shader<sp/>if<sp/>it&apos;s<sp/>the<sp/>one<sp/>being<sp/>removed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classShaderManager_1a4c708de9ef4af4c062026b216cf27fb1" kindref="member">shaders</ref>.erase(it);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/KronUIGL/Shaders/ShaderManager.cpp"/>
+  </compounddef>
+</doxygen>

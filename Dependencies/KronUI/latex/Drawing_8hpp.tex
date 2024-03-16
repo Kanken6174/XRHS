@@ -1,0 +1,75 @@
+\hypertarget{Drawing_8hpp}{}\doxysection{src/\+Kron\+UIGL/\+Geometry/\+Drawing.hpp File Reference}
+\label{Drawing_8hpp}\index{src/KronUIGL/Geometry/Drawing.hpp@{src/KronUIGL/Geometry/Drawing.hpp}}
+{\ttfamily \#include $<$GL/glew.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../\+Shaders/\+Shader.\+hpp\char`\"{}}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+Include dependency graph for Drawing.\+hpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Drawing_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Drawing_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classshapeElement}{shape\+Element}}
+\item 
+class \mbox{\hyperlink{classDrawable}{Drawable}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{Drawing_8hpp_a1b332b1d1277bcf787fe5d740b7a45d7}{VERTICES\+\_\+\+SIZE}}~3
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum class \mbox{\hyperlink{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88}{Render\+Mode}} \{ \mbox{\hyperlink{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88a7ca66fdfaad3eb33fc65d7490178f856}{Triangles}}
+, \mbox{\hyperlink{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88aa0b0293a2db49f5f93c15a62e095c819}{Lines}}
+, \mbox{\hyperlink{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88a456de28f607f812b42743dfdd8d89314}{Quads}}
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{Drawing_8hpp_a1b332b1d1277bcf787fe5d740b7a45d7}\label{Drawing_8hpp_a1b332b1d1277bcf787fe5d740b7a45d7}} 
+\index{Drawing.hpp@{Drawing.hpp}!VERTICES\_SIZE@{VERTICES\_SIZE}}
+\index{VERTICES\_SIZE@{VERTICES\_SIZE}!Drawing.hpp@{Drawing.hpp}}
+\doxysubsubsection{\texorpdfstring{VERTICES\_SIZE}{VERTICES\_SIZE}}
+{\footnotesize\ttfamily \#define VERTICES\+\_\+\+SIZE~3}
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88}\label{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88}} 
+\index{Drawing.hpp@{Drawing.hpp}!RenderMode@{RenderMode}}
+\index{RenderMode@{RenderMode}!Drawing.hpp@{Drawing.hpp}}
+\doxysubsubsection{\texorpdfstring{RenderMode}{RenderMode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88}{Render\+Mode}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Triangles@{Triangles}!Drawing.hpp@{Drawing.hpp}}\index{Drawing.hpp@{Drawing.hpp}!Triangles@{Triangles}}}\mbox{\Hypertarget{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88a7ca66fdfaad3eb33fc65d7490178f856}\label{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88a7ca66fdfaad3eb33fc65d7490178f856}} 
+Triangles&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Lines@{Lines}!Drawing.hpp@{Drawing.hpp}}\index{Drawing.hpp@{Drawing.hpp}!Lines@{Lines}}}\mbox{\Hypertarget{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88aa0b0293a2db49f5f93c15a62e095c819}\label{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88aa0b0293a2db49f5f93c15a62e095c819}} 
+Lines&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Quads@{Quads}!Drawing.hpp@{Drawing.hpp}}\index{Drawing.hpp@{Drawing.hpp}!Quads@{Quads}}}\mbox{\Hypertarget{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88a456de28f607f812b42743dfdd8d89314}\label{Drawing_8hpp_ac9e546db27bb4f76f47d7e25f24abb88a456de28f607f812b42743dfdd8d89314}} 
+Quads&\\
+\hline
+
+\end{DoxyEnumFields}

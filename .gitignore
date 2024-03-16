@@ -60,9 +60,6 @@ Bin/
 lib/
 Lib/
 
-# Dependency directories
-Dependencies/
-
 # Benchmark & Performance testing
 *.gcda
 *.gcno

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="Shapes_8hpp" kind="file" language="C++">
+    <compoundname>Shapes.hpp</compoundname>
+    <includes local="no">glm/glm.hpp</includes>
+    <includes refid="Drawing_8hpp" local="yes">./Drawing.hpp</includes>
+    <includedby refid="GeometryRenderer_8hpp" local="yes">src/KronUIGL/Geometry/GeometryRenderer.hpp</includedby>
+    <includedby refid="Shapes_8cpp" local="yes">src/KronUIGL/Geometry/Shapes.cpp</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="4">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/Geometry/Shapes.hpp</label>
+        <link refid="Shapes_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>fstream</label>
+      </node>
+      <node id="5">
+        <label>../Shaders/Shader.hpp</label>
+        <link refid="Shader_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>vector</label>
+      </node>
+      <node id="8">
+        <label>sstream</label>
+      </node>
+      <node id="6">
+        <label>../../Bases/ReflectiveItem.hpp</label>
+        <link refid="ReflectiveItem_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>iostream</label>
+      </node>
+      <node id="3">
+        <label>./Drawing.hpp</label>
+        <link refid="Drawing_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>memory</label>
+      </node>
+      <node id="2">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>src/KronUIGL/KronUIGL.hpp</label>
+        <link refid="KronUIGL_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/Geometry/Shapes.hpp</label>
+        <link refid="Shapes_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/KronUIGL/Geometry/Shapes.cpp</label>
+        <link refid="Shapes_8cpp"/>
+      </node>
+      <node id="2">
+        <label>src/KronUIGL/Geometry/GeometryRenderer.hpp</label>
+        <link refid="GeometryRenderer_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/KronUIGL/Geometry/GeometryRenderer.cpp</label>
+        <link refid="GeometryRenderer_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPoint" prot="public">Point</innerclass>
+    <innerclass refid="classLine" prot="public">Line</innerclass>
+    <innerclass refid="classTriangle" prot="public">Triangle</innerclass>
+    <innerclass refid="classRectangle" prot="public">Rectangle</innerclass>
+    <innerclass refid="classEmptyRectangle" prot="public">EmptyRectangle</innerclass>
+    <innerclass refid="classDefaultCube" prot="public">DefaultCube</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>guard_shapes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>guard_shapes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glm/glm.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Drawing_8hpp" kindref="compound">./Drawing.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classPoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPoint" kindref="compound">Point</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classshapeElement" kindref="compound">shapeElement</ref>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>glm::vec3<sp/>_position<sp/>=<sp/>glm::vec3(0,0,0);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint_1ad92f2337b839a94ce97dcdb439b4325a" kindref="member">Point</ref>(glm::vec3<sp/>position);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint_1ad92f2337b839a94ce97dcdb439b4325a" kindref="member">Point</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint_1ad92f2337b839a94ce97dcdb439b4325a" kindref="member">Point</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPoint" kindref="compound">Point</ref>&amp;<sp/>p);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/><ref refid="classPoint_1a63977324f06d762ce224554ae693e6c7" kindref="member">generateVertices</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="classPoint_1a0f5fd4682dd29392e395d5483bad40b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>glm::vec3<sp/><ref refid="classPoint_1a0f5fd4682dd29392e395d5483bad40b1" kindref="member">getVector</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_position;}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classLine" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classLine" kindref="compound">Line</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classshapeElement" kindref="compound">shapeElement</ref>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>_begin,_end;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_thickness<sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classLine_1a87e8ec896581b0e6b8c80d8dc4050da9" kindref="member">Line</ref>(<ref refid="classPoint" kindref="compound">Point</ref><sp/>begin,<sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>end,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>thickness<sp/>=<sp/>1.0f);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/><ref refid="classLine_1a5841e69c7633a8b94f155761c30c8657" kindref="member">generateVertices</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classTriangle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classTriangle" kindref="compound">Triangle</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classshapeElement" kindref="compound">shapeElement</ref>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>_points[3];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31" refid="classTriangle_1a9c7726918e249569bdadf26a70d2fa71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classTriangle_1a9c7726918e249569bdadf26a70d2fa71" kindref="member">Triangle</ref>(<ref refid="classPoint" kindref="compound">Point</ref>*<sp/>points);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classTriangle_1aaefe4ed500c07918d30c6f0e286332c5" kindref="member">Triangle</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classTriangle_1aaefe4ed500c07918d30c6f0e286332c5" kindref="member">Triangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classTriangle" kindref="compound">Triangle</ref>&amp;<sp/>t);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/><ref refid="classTriangle_1a10ad7915f83b13cfebddea20e6336894" kindref="member">generateVertices</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classRectangle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classRectangle" kindref="compound">Rectangle</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classshapeElement" kindref="compound">shapeElement</ref>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classTriangle" kindref="compound">Triangle</ref>*<sp/>_triangles[2];<sp/></highlight><highlight class="comment">//the<sp/>2<sp/>triangles<sp/>that<sp/>make<sp/>a<sp/>filled<sp/>rectangle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>_points[4];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//order<sp/>of<sp/>the<sp/>points<sp/>should<sp/>be<sp/>bottom<sp/>left,<sp/>top<sp/>left,<sp/>bottom<sp/>right,<sp/>top<sp/>right<sp/>[4]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classRectangle_1a8a933e0ebd9e80ce91e61ffe87fd577e" kindref="member">Rectangle</ref>(<ref refid="classPoint" kindref="compound">Point</ref><sp/>points[4]);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classRectangle_1a8a933e0ebd9e80ce91e61ffe87fd577e" kindref="member">Rectangle</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classRectangle_1a8a933e0ebd9e80ce91e61ffe87fd577e" kindref="member">Rectangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classRectangle" kindref="compound">Rectangle</ref>&amp;<sp/>t);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/><ref refid="classRectangle_1a04bc59d135e90047dbb780fb52788e02" kindref="member">generateVertices</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classEmptyRectangle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEmptyRectangle" kindref="compound">EmptyRectangle</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classDrawable" kindref="compound">Drawable</ref>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classRectangle" kindref="compound">Rectangle</ref><sp/>_sides[4];<sp/></highlight><highlight class="comment">//an<sp/>empty<sp/>rectangle<sp/>has<sp/>4<sp/>sides<sp/>which<sp/>are<sp/>all<sp/>filled<sp/>rectangles<sp/>of<sp/>a<sp/>specific<sp/>width</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>_points[4];<sp/><sp/><sp/></highlight><highlight class="comment">//points<sp/>for<sp/>the<sp/>4<sp/>sides</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_thickness<sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_width<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_height<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//order<sp/>of<sp/>the<sp/>points<sp/>should<sp/>be<sp/>bottom<sp/>left,<sp/>top<sp/>left,<sp/>bottom<sp/>right,<sp/>top<sp/>right<sp/>[4]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classEmptyRectangle_1a6f0aded2866e07ad17aa3f4fd58dc6e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEmptyRectangle_1a6f0aded2866e07ad17aa3f4fd58dc6e7" kindref="member">EmptyRectangle</ref>(<ref refid="classPoint" kindref="compound">Point</ref>*<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>thickness<sp/>=<sp/>1.0f);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEmptyRectangle_1a6f0aded2866e07ad17aa3f4fd58dc6e7" kindref="member">EmptyRectangle</ref>(glm::vec3<sp/>origin,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>thickness<sp/>=<sp/>1.0f);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/><ref refid="classEmptyRectangle_1af1386bf5f9e1853911e40e8a30aedc88" kindref="member">generateVertices</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classDefaultCube" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classDefaultCube" kindref="compound">DefaultCube</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classDrawable" kindref="compound">Drawable</ref>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDefaultCube_1ab09d41e2e1315cfff955f202ff5b3a0e" kindref="member">DefaultCube</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>thickness,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetX<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetY<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetZ<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/><ref refid="classDefaultCube_1a72b21fa2d0a30474184f296f3ee7bb1c" kindref="member">generateVertices</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/>height,<sp/>thickness;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetX,<sp/>offsetY,<sp/>offsetZ;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="src/KronUIGL/Geometry/Shapes.hpp"/>
+  </compounddef>
+</doxygen>

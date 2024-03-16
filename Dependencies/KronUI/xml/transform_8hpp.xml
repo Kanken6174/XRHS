@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="transform_8hpp" kind="file" language="C++">
+    <compoundname>transform.hpp</compoundname>
+    <includes local="no">glm/glm.hpp</includes>
+    <includedby refid="entity_8hpp" local="yes">src/KronUIGL/3D/Elements/entity.hpp</includedby>
+    <includedby refid="mesh_8hpp" local="yes">src/KronUIGL/3D/Elements/mesh.hpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>src/KronUIGL/3D/Elements/transform.hpp</label>
+        <link refid="transform_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="12">
+        <label>src/KronUIGL/3D/Loaders/OBJLoader.cpp</label>
+        <link refid="OBJLoader_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/KronUIGL/3D/Elements/entity.cpp</label>
+        <link refid="entity_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/KronUIGL/3D/Elements/transform.hpp</label>
+        <link refid="transform_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/KronUIGL/3D/Vision/camera.hpp</label>
+        <link refid="camera_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>src/KronUIGL/3D/Loaders/OBJLoader.hpp</label>
+        <link refid="OBJLoader_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>src/KronUIGL/3D/Elements/mesh.hpp</label>
+        <link refid="mesh_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/KronUIGL/Input/Input.hpp</label>
+        <link refid="Input_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>src/KronUIGL/3D/Renderers/MeshRenderer.hpp</label>
+        <link refid="MeshRenderer_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>src/KronUIGL/3D/Elements/mesh.cpp</label>
+        <link refid="mesh_8cpp"/>
+      </node>
+      <node id="7">
+        <label>src/KronUIGL/Input/Input.cpp</label>
+        <link refid="Input_8cpp"/>
+      </node>
+      <node id="2">
+        <label>src/KronUIGL/3D/Elements/entity.hpp</label>
+        <link refid="entity_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>src/KronUIGL/3D/Renderers/MeshRenderer.cpp</label>
+        <link refid="MeshRenderer_8cpp"/>
+      </node>
+      <node id="8">
+        <label>src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/KronUIGL/3D/Vision/camera.cpp</label>
+        <link refid="camera_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structTransform" prot="public">Transform</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glm/glm.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="structTransform" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structTransform" kindref="compound">Transform</ref><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="structTransform_1a1ee81ac62c423e027d979454a373b991" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>glm::vec3<sp/><ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref><sp/>=<sp/>{<sp/>0.0f,<sp/>0.0f,<sp/>0.0f<sp/>};</highlight></codeline>
+<codeline lineno="6" refid="structTransform_1a0b39a3cad853ab427a91b761d82440d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>glm::vec3<sp/><ref refid="structTransform_1a0b39a3cad853ab427a91b761d82440d2" kindref="member">Rotation</ref><sp/><sp/>=<sp/>{<sp/>0.0f,<sp/>0.0f,<sp/>0.0f<sp/>};</highlight></codeline>
+<codeline lineno="7" refid="structTransform_1a337690a3de8862de2f930e9ee1323365" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>glm::vec3<sp/><ref refid="structTransform_1a337690a3de8862de2f930e9ee1323365" kindref="member">Scale</ref><sp/>=<sp/>{<sp/>1.0f,<sp/>1.0f,<sp/>1.0f<sp/>};</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structTransform_1a04baa07a15f7c86c9b0355afc33a1da2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>glm::mat4<sp/><ref refid="structTransform_1a04baa07a15f7c86c9b0355afc33a1da2" kindref="member">modelMatrix</ref><sp/>=<sp/>glm::mat4(1.0f);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="structTransform_1aa08ca4266efabc768973cdeea51945ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structTransform_1aa08ca4266efabc768973cdeea51945ab" kindref="member">Transform</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="12" refid="structTransform_1adacad9adbcfc5cee971c71809ff93a75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structTransform_1adacad9adbcfc5cee971c71809ff93a75" kindref="member">Transform</ref>(glm::vec3<sp/>position,<sp/>glm::vec3<sp/>rotation,<sp/>glm::vec3<sp/>scale)<sp/>:<sp/><ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref>(position),<sp/><ref refid="structTransform_1a0b39a3cad853ab427a91b761d82440d2" kindref="member">Rotation</ref>(rotation),<sp/><ref refid="structTransform_1a337690a3de8862de2f930e9ee1323365" kindref="member">Scale</ref>(scale)<sp/>{}</highlight></codeline>
+<codeline lineno="13" refid="structTransform_1a52419fabf2513dbd10020e65b835a1f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structTransform_1a52419fabf2513dbd10020e65b835a1f0" kindref="member">Transform</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z)<sp/>:<sp/><ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref>(x,<sp/>y,<sp/>z),<sp/><ref refid="structTransform_1a0b39a3cad853ab427a91b761d82440d2" kindref="member">Rotation</ref>(0.0f,<sp/>0.0f,<sp/>0.0f),<sp/><ref refid="structTransform_1a337690a3de8862de2f930e9ee1323365" kindref="member">Scale</ref>(1.0f,<sp/>1.0f,<sp/>1.0f)<sp/>{}</highlight></codeline>
+<codeline lineno="14" refid="structTransform_1af7b04bd65e9e9735734ff625da6abe81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structTransform_1af7b04bd65e9e9735734ff625da6abe81" kindref="member">Transform</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rx,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ry,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rz)<sp/>:<sp/><ref refid="structTransform_1a1ee81ac62c423e027d979454a373b991" kindref="member">Position</ref>(x,<sp/>y,<sp/>z),<sp/><ref refid="structTransform_1a0b39a3cad853ab427a91b761d82440d2" kindref="member">Rotation</ref>(rx,<sp/>ry,<sp/>rz),<sp/><ref refid="structTransform_1a337690a3de8862de2f930e9ee1323365" kindref="member">Scale</ref>(1.0f,<sp/>1.0f,<sp/>1.0f)<sp/>{}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/KronUIGL/3D/Elements/transform.hpp"/>
+  </compounddef>
+</doxygen>
