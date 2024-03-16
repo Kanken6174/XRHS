@@ -1,2 +1,0 @@
-/usr/bin/ar qc libelements.a CMakeFiles/elements.dir/mesh.cpp.o CMakeFiles/elements.dir/vertex.cpp.o CMakeFiles/elements.dir/transform.cpp.o CMakeFiles/elements.dir/entity.cpp.o CMakeFiles/elements.dir/world.cpp.o
-/usr/bin/ranlib libelements.a

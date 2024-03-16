@@ -130,6 +130,19 @@ KronUI/fast:
 .PHONY : KronUI/fast
 
 #=============================================================================
+# Target rules for targets named zip_bin
+
+# Build rule for target.
+zip_bin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zip_bin
+.PHONY : zip_bin
+
+# fast build rule for target.
+zip_bin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zip_bin.dir/build.make CMakeFiles/zip_bin.dir/build
+.PHONY : zip_bin/fast
+
+#=============================================================================
 # Target rules for targets named bases
 
 # Build rule for target.
@@ -590,6 +603,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... zip_bin"
 	@echo "... 3D"
 	@echo "... KronUI"
 	@echo "... KronUIGL"

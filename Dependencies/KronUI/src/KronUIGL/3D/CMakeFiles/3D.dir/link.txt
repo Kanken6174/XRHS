@@ -1,2 +1,0 @@
-/usr/bin/ar qc lib3D.a 
-/usr/bin/ranlib lib3D.a

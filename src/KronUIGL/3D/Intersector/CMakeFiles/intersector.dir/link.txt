@@ -1,2 +1,0 @@
-/usr/bin/ar qc libintersector.a CMakeFiles/intersector.dir/Intersector.cpp.o
-/usr/bin/ranlib libintersector.a

@@ -1,5 +1,0 @@
-<map id="DisplayOutputNode" name="DisplayOutputNode">
-<area shape="rect" id="node1" title="this node will pick the right camera UMat from the ones available in its _sourceManager" alt="" coords="5,155,141,181"/>
-<area shape="rect" id="node2" href="$classPipelineNode.html" title="this class represents a threaded node of the graphics pipeline" alt="" coords="24,80,123,107"/>
-<area shape="rect" id="node3" href="$classMapObserver.html" title=" " alt="" coords="23,5,123,32"/>
-</map>

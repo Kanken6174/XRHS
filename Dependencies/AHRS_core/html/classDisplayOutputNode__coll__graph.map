@@ -1,7 +1,0 @@
-<map id="DisplayOutputNode" name="DisplayOutputNode">
-<area shape="rect" id="node1" title="this node will pick the right camera UMat from the ones available in its _sourceManager" alt="" coords="194,184,330,211"/>
-<area shape="rect" id="node2" href="$classPipelineNode.html" title="this class represents a threaded node of the graphics pipeline" alt="" coords="74,95,173,121"/>
-<area shape="rect" id="node3" href="$classMapObserver.html" title=" " alt="" coords="5,5,105,32"/>
-<area shape="rect" id="node4" href="$classframerateChecker.html" title=" " alt="" coords="129,5,256,32"/>
-<area shape="rect" id="node5" href="$classWindow.html" title="this class represents a single window, there should only ever be one if the app is in opengl mode." alt="" coords="274,95,343,121"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="uiMenuItem" name="uiMenuItem">
-<area shape="rect" id="node1" title=" " alt="" coords="87,80,177,107"/>
-<area shape="rect" id="node4" href="$classuiCheckerItem.html" title=" " alt="" coords="5,155,112,181"/>
-<area shape="rect" id="node5" href="$classuiNumberPickerItem.html" title=" " alt="" coords="136,155,277,181"/>
-<area shape="rect" id="node2" href="$classMapObserver.html" title=" " alt="" coords="26,5,126,32"/>
-<area shape="rect" id="node3" href="$classSubNode.html" title="this class represents an unthreaded sub&#45;node of a given node of the graphcis pipeline" alt="" coords="150,5,226,32"/>
-</map>

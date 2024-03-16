@@ -1,8 +1,0 @@
-<map id="PictureSnapCommand" name="PictureSnapCommand">
-<area shape="rect" id="node1" title=" " alt="" coords="5,260,159,287"/>
-<area shape="rect" id="node2" href="$classCommand.html" title=" " alt="" coords="19,171,102,197"/>
-<area shape="rect" id="node3" href="$classVideoCaptureNode.html" title=" " alt="" coords="127,171,259,197"/>
-<area shape="rect" id="node4" href="$classPipelineNode.html" title="this class represents a threaded node of the graphics pipeline" alt="" coords="143,95,242,121"/>
-<area shape="rect" id="node5" href="$classMapObserver.html" title=" " alt="" coords="75,5,175,32"/>
-<area shape="rect" id="node6" href="$classframerateChecker.html" title=" " alt="" coords="199,5,325,32"/>
-</map>

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libvisnode_lib.a CMakeFiles/visnode_lib.dir/topLevelManager.cpp.o
-/usr/bin/ranlib libvisnode_lib.a

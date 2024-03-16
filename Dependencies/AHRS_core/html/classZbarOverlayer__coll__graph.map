@@ -1,5 +1,0 @@
-<map id="ZbarOverlayer" name="ZbarOverlayer">
-<area shape="rect" id="node1" title=" " alt="" coords="46,95,150,121"/>
-<area shape="rect" id="node2" href="$classSubNode.html" title="this class represents an unthreaded sub&#45;node of a given node of the graphcis pipeline" alt="" coords="5,5,81,32"/>
-<area shape="rect" id="node3" href="$classzbarScanner.html" title=" " alt="" coords="105,5,200,32"/>
-</map>

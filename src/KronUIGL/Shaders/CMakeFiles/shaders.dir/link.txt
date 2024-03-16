@@ -1,2 +1,0 @@
-/usr/bin/ar qc libshaders.a CMakeFiles/shaders.dir/Shader.cpp.o CMakeFiles/shaders.dir/ShaderManager.cpp.o
-/usr/bin/ranlib libshaders.a

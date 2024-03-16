@@ -1,9 +1,0 @@
-<map id="src/model/hardware/psvr" name="src/model/hardware/psvr">
-<area shape="rect" id="node1" href="dir_1c78fa6552b283bae30a9cf1b2c489f3.html" title="ihidapi" alt="" coords="155,159,227,207"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000047_000013.html" title="1" alt="" coords="195,133,203,148"/>
-<area shape="rect" id="node4" href="dir_4fb75fa5a12aee9e0d2bc4ca39c9ce20.html" title="patterns" alt="" coords="259,159,331,207"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000047_000050.html" title="1" alt="" coords="257,133,265,147"/>
-<area shape="rect" id="node3" href="dir_4ded38d99c02dbc80f6ab1b9a3957b18.html" title="CMakeFiles" alt="" coords="38,63,130,111"/>
-<area shape="rect" id="clust2" href="dir_bfcc154440ceff61d49650f4072b66ab.html" alt="" coords="27,52,237,121"/>
-<area shape="rect" id="clust1" href="dir_5109d7aa33d79db6c431a73172bde627.html" title="hardware" alt="" coords="16,16,248,217"/>
-</map>

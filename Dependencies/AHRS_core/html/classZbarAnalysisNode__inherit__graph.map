@@ -1,5 +1,0 @@
-<map id="ZbarAnalysisNode" name="ZbarAnalysisNode">
-<area shape="rect" id="node1" title="this class is used to check a mat for any bar codes" alt="" coords="5,155,135,181"/>
-<area shape="rect" id="node2" href="$classPipelineNode.html" title="this class represents a threaded node of the graphics pipeline" alt="" coords="21,80,119,107"/>
-<area shape="rect" id="node3" href="$classMapObserver.html" title=" " alt="" coords="20,5,120,32"/>
-</map>

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsurfaces.a CMakeFiles/surfaces.dir/DrawCommands/DrawCommands.cpp.o CMakeFiles/surfaces.dir/UIDrawSurface.cpp.o CMakeFiles/surfaces.dir/X11DrawSurface.cpp.o CMakeFiles/surfaces.dir/DrawSurface.cpp.o
-/usr/bin/ranlib libsurfaces.a
