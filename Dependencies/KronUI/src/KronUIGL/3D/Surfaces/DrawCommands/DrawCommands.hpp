@@ -1,4 +1,5 @@
 #include "../UIDrawSurface.hpp"
+#include "../../Intersector/Intersector.hpp"
 
 #pragma region forward_declarations
 class TextRenderer;
@@ -18,6 +19,7 @@ public:
     TextDrawCommand(std::shared_ptr<TextRenderer> renderer, std::string text, glm::vec2 position, glm::vec3 color, float scale) 
     : renderer(renderer),text(text), position(position), color(color), scale(scale) {}
     void Execute() override;
+    void setText(std::string text) {this->text = text;}
 };
 
 class ShapeDrawCommand : public DrawCommand {
@@ -40,9 +42,10 @@ protected:
     glm::vec4 colorB = glm::vec4(1.0f,1.0f,1.0f,0.5f);
     bool secondary = false;
 public:
-    ButtonDrawCommand(std::shared_ptr<TextRenderer> renderer, std::shared_ptr<GeometryRenderer> geomRenderer, std::string text, glm::vec2 position);
+    ButtonDrawCommand(std::shared_ptr<TextRenderer> renderer, std::shared_ptr<GeometryRenderer> geomRenderer, std::string text, glm::vec2 position, glm::vec2 scale = glm::vec2(1.0f,1.0f));
     void Execute() override;
     void setColorB(bool secondary) {this->secondary = secondary;}
+    void setText(std::string text) {this->text->setText(text);}
 };
 
 class ButtonColorToggleCommand : public BoolCommand {
@@ -50,5 +53,11 @@ protected:
     std::shared_ptr<ButtonDrawCommand> button;
 public:
     ButtonColorToggleCommand(std::shared_ptr<ButtonDrawCommand> button);
-    void Execute() override {button->setColorB(value);}
+    void Execute() override {
+        glm::vec2 vec = Intersector::getInstance()->getLastEvent().getFaceXY();
+        bool value = vec.x > 0.0f && vec.y > 0.0f;
+        button->setColorB(value);
+        //display x and y values on the button
+        button->setText(std::to_string(vec.x) + " " + std::to_string(vec.y));
+    }
 };

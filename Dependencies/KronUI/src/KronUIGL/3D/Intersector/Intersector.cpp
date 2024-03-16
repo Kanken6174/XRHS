@@ -56,7 +56,7 @@ bool Intersector::ConeToOriginIntersection(const std::shared_ptr<Transform>& ray
     return angleRadians >= coneAngleRadians;
 }
 
-bool Intersector::TriangleRayIntersection(const glm::vec3& rayOrigin, const glm::vec3& rayVector, const glm::vec3 triangle[3]) {
+bool Intersector::TriangleRayIntersection(const glm::vec3& rayOrigin, const glm::vec3& rayVector, const glm::vec3 triangle[3], glm::vec3& intersectionPoint) {
     const float EPSILON = 0.0000001; // A small value used for numerical stability
 
     glm::vec3 edge1, edge2, h, s, q;
@@ -111,10 +111,10 @@ bool Intersector::TriangleRayIntersection(const glm::vec3& rayOrigin, const glm:
     // Check if t is positive (ray intersection) and greater than EPSILON for numerical stability
     if (t < EPSILON) {
         // Compute the intersection point using the ray's origin and direction
-        glm::vec3 outIntersectionPoint = rayOrigin + rayVector * t;
-        Logger::getInstance().warn("intersection at: " + std::to_string(outIntersectionPoint.x) + " " + std::to_string(outIntersectionPoint.y) + " " + std::to_string(outIntersectionPoint.z));
-        DebugDrawer::drawPointVec3(outIntersectionPoint, glm::vec4(1.0f, 0.0f, 0.0f, 1.0f));
-        return true; // The ray intersects the triangle, and outIntersectionPoint contains the intersection point.
+        intersectionPoint = rayOrigin + rayVector * t;
+        Logger::getInstance().warn("intersection at: " + std::to_string(intersectionPoint.x) + " " + std::to_string(intersectionPoint.y) + " " + std::to_string(intersectionPoint.z));
+        DebugDrawer::drawPointVec3(intersectionPoint, glm::vec4(1.0f, 0.0f, 0.0f, 1.0f));
+        return true; // The ray intersects the triangle, and intersectionPoint contains the intersection point.
     }
     else {
         // There is a line intersection, but not a ray intersection.
@@ -125,28 +125,43 @@ bool Intersector::TriangleRayIntersection(const glm::vec3& rayOrigin, const glm:
 
 
 bool Intersector::RayRectangleIntersection(const std::shared_ptr<Transform>& rayTransform, const std::shared_ptr<Rectangle>& rectangle) {
-    // Get the 4 points of the rectangle
-    glm::vec3 p1 = rectangle->storedTransform->getPosition() + rectangle->storedTransform->getQuaternion() * glm::vec3(-rectangle->getSize().x / 2.0f, -rectangle->getSize().y / 2.0f, 0.0f);
-    glm::vec3 p2 = rectangle->storedTransform->getPosition() + rectangle->storedTransform->getQuaternion() * glm::vec3(-rectangle->getSize().x / 2.0f, rectangle->getSize().y / 2.0f, 0.0f);
-    glm::vec3 p3 = rectangle->storedTransform->getPosition() + rectangle->storedTransform->getQuaternion() * glm::vec3(rectangle->getSize().x / 2.0f, -rectangle->getSize().y / 2.0f, 0.0f);
-    glm::vec3 p4 = rectangle->storedTransform->getPosition() + rectangle->storedTransform->getQuaternion() * glm::vec3(rectangle->getSize().x / 2.0f, rectangle->getSize().y / 2.0f, 0.0f);
+    // Get the center of the rectangle
+    glm::vec3 center = rectangle->storedTransform->getPosition();
 
-        //log all the points to a single line
-    Logger::getInstance().warn(" p1: " + std::to_string(p1.x) + " " + std::to_string(p1.y) + " " + std::to_string(p1.z) +
-                                " p2: " + std::to_string(p2.x) + " " + std::to_string(p2.y) + " " + std::to_string(p2.z) +
-                                " p3: " + std::to_string(p3.x) + " " + std::to_string(p3.y) + " " + std::to_string(p3.z) +
-                                " p4: " + std::to_string(p4.x) + " " + std::to_string(p4.y) + " " + std::to_string(p4.z));
+    // Calculate half of the rectangle's width and height
+    float halfWidth = rectangle->getSize().x / 2.0f;
+    float halfHeight = rectangle->getSize().y / 2.0f;
+
+    // Calculate the bottom left corner of the rectangle
+    glm::vec3 bottomLeft = center - rectangle->storedTransform->getQuaternion() * glm::vec3(halfWidth, halfHeight, 0.0f);
+
+    // Calculate the other corners of the rectangle
+    glm::vec3 p1 = bottomLeft;
+    glm::vec3 p2 = bottomLeft + rectangle->storedTransform->getQuaternion() * glm::vec3(rectangle->getSize().x, 0.0f, 0.0f);
+    glm::vec3 p3 = bottomLeft + rectangle->storedTransform->getQuaternion() * glm::vec3(0.0f, rectangle->getSize().y, 0.0f);
+    glm::vec3 p4 = center + rectangle->storedTransform->getQuaternion() * glm::vec3(halfWidth, halfHeight, 0.0f);
 
     // Define two triangles from the rectangle's points
     glm::vec3 triangle1[3] = { p1, p2, p3 };
     glm::vec3 triangle2[3] = { p2, p3, p4 };
 
+    // Initialize intersection point
+    glm::vec3 intersectionPoint;
+
     // Check for intersection with each triangle
-    if (TriangleRayIntersection(rayTransform->getPosition(), rayTransform->getQuaternion() * glm::vec3(0.0f, 0.0f, 1.0f), triangle1) ||
-        TriangleRayIntersection(rayTransform->getPosition(), rayTransform->getQuaternion() * glm::vec3(0.0f, 0.0f, 1.0f), triangle2)) {
-        Logger::getInstance().warn("intersection");
+    if (TriangleRayIntersection(rayTransform->getPosition(), rayTransform->getQuaternion() * glm::vec3(0.0f, 0.0f, 1.0f), triangle1, intersectionPoint) ||
+        TriangleRayIntersection(rayTransform->getPosition(), rayTransform->getQuaternion() * glm::vec3(0.0f, 0.0f, 1.0f), triangle2, intersectionPoint)) {
+        // Calculate intersection coordinates relative to the rectangle
+        glm::vec3 localIntersectionPoint = intersectionPoint - center;
+        float intersectionX = glm::dot(localIntersectionPoint, glm::normalize(p2 - p1));
+        float intersectionY = glm::dot(localIntersectionPoint, glm::normalize(p3 - p1));
+
+        _lastEvent.setIntersectionPoint(intersectionPoint);
+        _lastEvent.setFaceXY(glm::vec2(intersectionX, intersectionY));
+
         return true;
     }
 
     return false;
 }
+

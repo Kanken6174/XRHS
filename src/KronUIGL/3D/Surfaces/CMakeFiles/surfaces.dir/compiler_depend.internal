@@ -494,6 +494,7 @@ KronUIGL/3D/Surfaces/CMakeFiles/surfaces.dir/DrawCommands/DrawCommands.cpp.o
  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/mesh.hpp
  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Elements/vertex.hpp
  /home/kanken/code/XRHS/Dependencies/AHRS_core/src/model/patterns/commands/commands.hpp
+ /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Intersector/Intersector.hpp
  /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/Text/TextRenderer.hpp
  /usr/include/c++/11/map
  /usr/include/c++/11/bits/stl_tree.h

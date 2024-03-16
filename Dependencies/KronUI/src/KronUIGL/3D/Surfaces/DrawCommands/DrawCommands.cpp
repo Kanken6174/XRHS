@@ -18,11 +18,11 @@ void ShapeDrawCommand::Execute()
     element->drawSelf();
 }
 
-ButtonDrawCommand::ButtonDrawCommand(std::shared_ptr<TextRenderer> renderer, std::shared_ptr<GeometryRenderer> geomRenderer, std::string text, glm::vec2 position) 
+ButtonDrawCommand::ButtonDrawCommand(std::shared_ptr<TextRenderer> renderer, std::shared_ptr<GeometryRenderer> geomRenderer, std::string text, glm::vec2 position, glm::vec2 scale) 
 : renderer(renderer),  geomRenderer(geomRenderer)
 {
-    this->text = std::make_shared<TextDrawCommand>(renderer,text,glm::vec2((position.x*renderer->_screenSize.x)/2+20.0f,(position.y*renderer->_screenSize.y)/2+200.0f),glm::vec3(1.0f,0.0f,0.0f),10.0f);
-    this->element = std::make_shared<EmptyRectangle>(glm::vec3(position.x-1.0f,position.y-0.9f,0.0f),2.0f,1.0f,0.05f);
+    this->text = std::make_shared<TextDrawCommand>(renderer,text,glm::vec2((position.x*renderer->_screenSize.x)/2+20.0f* scale.x,(position.y*renderer->_screenSize.y)/2+200.0f* scale.x),glm::vec3(1.0f,0.0f,0.0f),9.0f * scale.x);
+    this->element = std::make_shared<EmptyRectangle>(glm::vec3(position.x-1.0f,position.y-0.9f,0.0f),2.0f*scale.x,1.0f*scale.y,0.05f);
     this->element->geomColor = color;
     this->element->mode = RenderMode::Triangles;
     geomRenderer->prepareShape(element);

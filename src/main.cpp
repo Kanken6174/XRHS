@@ -98,7 +98,7 @@ int main(){
     TrueTypeManager* ttm = new TrueTypeManager("./f2.ttf");
     shared_ptr<TextRenderer> tx = std::make_shared<TextRenderer>(shader,window,ttm);
 
-    std::shared_ptr<UIDrawSurface> uids = std::make_shared<UIDrawSurface>(glm::vec2(2.0f,2.0f), 
+    std::shared_ptr<UIDrawSurface> uids = std::make_shared<UIDrawSurface>(glm::vec2(4.0f,4.0f), 
                                             std::make_shared<QuaternionTransform>(glm::vec3(-1.0f,1.0f,1.5f)    //position(L/R,up/down/depth), scale, orientation
                                             ,glm::vec3(1.0f,1.0f,1.0f),glm::vec3(180.0f/RADIAN_TO_DEGREE, 0.0f, 90.0f/RADIAN_TO_DEGREE)));
     uids->shader = surface;
@@ -106,7 +106,7 @@ int main(){
     uids->kinematicJoint = djc;
     sk->head->children.push_back(uids);
 
-    std::shared_ptr<ButtonDrawCommand> bdc = std::make_shared<ButtonDrawCommand>(tx,gr,"test button", glm::vec2(0.0,0.3));
+    std::shared_ptr<ButtonDrawCommand> bdc = std::make_shared<ButtonDrawCommand>(tx,gr,"test button", glm::vec2(0.0,0.3), glm::vec2(0.5f,0.5f));
     uids->addCommand(bdc);
     uids->setupUISurface();
 
