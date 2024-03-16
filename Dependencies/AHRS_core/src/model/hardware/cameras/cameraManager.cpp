@@ -47,6 +47,16 @@ void cameraManager::runCaptureForCamera(camera* c, uint index){
     }
 }
 
+bool isCameraWorking(cv::VideoCapture& cap) {
+    if (!cap.isOpened()) {
+        return false;
+    }
+
+    cv::Mat frame;
+    cap >> frame;
+    return !frame.empty();
+}
+
 cameraManager::cameraManager() {
     std::cout << "init camera manager" << std::endl;
     std::vector<std::string> cameras = listCameras();
@@ -62,31 +72,31 @@ cameraManager::cameraManager() {
 
     std::cout << "found " << cameras.size() << " cameras" << std::endl;
 
-    for(std::string camIdx : cameras) {
+    for (std::string camIdx : cameras) {
         std::string index_str = camIdx.substr(camIdx.find_last_of("o") + 1);
         int camID = std::stoi(index_str);
-        // If the camera index is invalid, skip it
-        if(invalid_cameras.count(camID)) continue;
+        if (invalid_cameras.count(camID)) continue;
 
         try {
-            
-            if(camID == 0) {
-                camera* cam = new camera();
-                cam->source = new cv::VideoCapture(camID);
-                bool success = cam->source->set(CV_CAP_PROP_FOURCC, CV_FOURCC('M', 'J', 'P', 'G'));
-                if (!success) {
-                    std::cerr << "Failed to set MJPEG FOURCC" << std::endl;
-                }
-                cam->source->set(CV_CAP_PROP_FPS , 60);
-                cam->source->set(cv::CAP_PROP_FRAME_WIDTH, 1920);
-                cam->source->set(cv::CAP_PROP_FRAME_HEIGHT, 1080);
-                cam->path = camID;
-                videoSources.push_back(cam);    //valid camera added
-                std::cout << "\033[32m" << "added camera with path /dev/video" << cam->path << "\033[0m" << std::endl;
+            camera* cam = new camera();
+            cam->source = new cv::VideoCapture(camID);
+            cam->source->set(cv::CAP_PROP_FOURCC, cv::VideoWriter::fourcc('M', 'J', 'P', 'G'));
+            cam->source->set(cv::CAP_PROP_FPS, 60);
+            cam->source->set(cv::CAP_PROP_FRAME_WIDTH, 1920);
+            cam->source->set(cv::CAP_PROP_FRAME_HEIGHT, 1080);
+            cam->path = camID;
+
+            if (isCameraWorking(*cam->source)) {
+                videoSources.push_back(cam);
+                std::cout << "\033[32madded camera with path /dev/video" << cam->path << "\033[0m" << std::endl;
                 cv::UMat m;
                 captures.push_back(std::move(m));
+            } else {
+                std::cerr << "Camera /dev/video" << cam->path << " is not working" << std::endl;
+                delete cam->source;
+                delete cam;
             }
-        } catch(std::exception& e) {
+        } catch (std::exception& e) {
             std::cout << e.what() << std::endl;
         }
     }
