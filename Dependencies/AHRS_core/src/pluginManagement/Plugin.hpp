@@ -1,6 +1,7 @@
 #include <string>
 #include <filesystem>
 #include <vector>
+#include <functional>
 #include "../model/hardware/hw/extendables/SerialDevice.hpp"
 namespace fs = std::filesystem;
 

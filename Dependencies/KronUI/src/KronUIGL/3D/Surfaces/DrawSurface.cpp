@@ -1,6 +1,7 @@
 #include "DrawSurface.hpp"
 #include <GL/glew.h>
 #include "../../../../include/logger.hpp"
+#define GLM_ENABLE_EXPERIMENTAL 1
 #include <glm/gtc/quaternion.hpp>
 #include <glm/gtx/quaternion.hpp>
 #include <glm/gtc/matrix_transform.hpp>

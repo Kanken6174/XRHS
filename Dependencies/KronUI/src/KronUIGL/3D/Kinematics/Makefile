@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/src
+CMAKE_SOURCE_DIR = /home/kanken/code/XRHS/Dependencies/KronUI/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanken/code/XRHS/src
+CMAKE_BINARY_DIR = /home/kanken/code/XRHS/Dependencies/KronUI/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles /home/kanken/code/XRHS/src/KronUIGL/3D/Kinematics//CMakeFiles/progress.marks
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/src/CMakeFiles 0
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/Dependencies/KronUI/src/CMakeFiles /home/kanken/code/XRHS/Dependencies/KronUI/src/KronUIGL/3D/Kinematics//CMakeFiles/progress.marks
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanken/code/XRHS/Dependencies/KronUI/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/clean
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/preinstall
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/preinstall
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/rule:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/rule
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/rule
 .PHONY : KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ kinematics: KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/rule
 
 # fast build rule for target.
 kinematics/fast:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build
 .PHONY : kinematics/fast
 
 KinematicJoints.o: KinematicJoints.cpp.o
@@ -135,7 +135,7 @@ KinematicJoints.o: KinematicJoints.cpp.o
 
 # target to build an object file
 KinematicJoints.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.o
 .PHONY : KinematicJoints.cpp.o
 
 KinematicJoints.i: KinematicJoints.cpp.i
@@ -143,7 +143,7 @@ KinematicJoints.i: KinematicJoints.cpp.i
 
 # target to preprocess a source file
 KinematicJoints.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.i
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.i
 .PHONY : KinematicJoints.cpp.i
 
 KinematicJoints.s: KinematicJoints.cpp.s
@@ -151,7 +151,7 @@ KinematicJoints.s: KinematicJoints.cpp.s
 
 # target to generate assembly for a file
 KinematicJoints.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.s
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicJoints.cpp.s
 .PHONY : KinematicJoints.cpp.s
 
 KinematicsProcessor.o: KinematicsProcessor.cpp.o
@@ -159,7 +159,7 @@ KinematicsProcessor.o: KinematicsProcessor.cpp.o
 
 # target to build an object file
 KinematicsProcessor.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.o
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.o
 .PHONY : KinematicsProcessor.cpp.o
 
 KinematicsProcessor.i: KinematicsProcessor.cpp.i
@@ -167,7 +167,7 @@ KinematicsProcessor.i: KinematicsProcessor.cpp.i
 
 # target to preprocess a source file
 KinematicsProcessor.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.i
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.i
 .PHONY : KinematicsProcessor.cpp.i
 
 KinematicsProcessor.s: KinematicsProcessor.cpp.s
@@ -175,7 +175,7 @@ KinematicsProcessor.s: KinematicsProcessor.cpp.s
 
 # target to generate assembly for a file
 KinematicsProcessor.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.s
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/KinematicsProcessor.cpp.s
 .PHONY : KinematicsProcessor.cpp.s
 
 Skeleton.o: Skeleton.cpp.o
@@ -183,7 +183,7 @@ Skeleton.o: Skeleton.cpp.o
 
 # target to build an object file
 Skeleton.cpp.o:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.o
 .PHONY : Skeleton.cpp.o
 
 Skeleton.i: Skeleton.cpp.i
@@ -191,7 +191,7 @@ Skeleton.i: Skeleton.cpp.i
 
 # target to preprocess a source file
 Skeleton.cpp.i:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.i
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.i
 .PHONY : Skeleton.cpp.i
 
 Skeleton.s: Skeleton.cpp.s
@@ -199,7 +199,7 @@ Skeleton.s: Skeleton.cpp.s
 
 # target to generate assembly for a file
 Skeleton.cpp.s:
-	cd /home/kanken/code/XRHS/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.s
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(MAKE) $(MAKESILENT) -f KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/build.make KronUIGL/3D/Kinematics/CMakeFiles/kinematics.dir/Skeleton.cpp.s
 .PHONY : Skeleton.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kanken/code/XRHS/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kanken/code/XRHS/Dependencies/KronUI/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

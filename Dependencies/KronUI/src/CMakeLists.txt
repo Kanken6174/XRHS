@@ -19,7 +19,7 @@ link_libraries(${GLEW_LIBRARIES})
 add_subdirectory(Bases)
 add_subdirectory(Freetype)
 add_subdirectory(KronUIGL)
-add_subdirectory(Intersector)
+#add_subdirectory(Intersector)
 
 set(main_source_files main.cpp)
 
